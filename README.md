@@ -24,10 +24,8 @@ Router mapping via PlanetLab
 ### Rough example for deploying on slaves
 
 ```
-MQ_SLICE=brown_map
-export MQ_SLICE
-MQ_NODES=/home/adf/RouterPeek/pl-mapping/nodes.brown_map.txt
-export MQ_NODES
+export MQ_SLICE=brown_map
+export MQ_NODES=/home/adf/RouterPeek/pl-mapping/support/nodes.brown_map.txt
 ssh-agent
 SSH_AUTH_SOCK=/tmp/ssh-LWqws24865/agent.24865; export SSH_AUTH_SOCK;   [for example]
 SSH_AGENT_PID=24866; export SSH_AGENT_PID;    [for example]
