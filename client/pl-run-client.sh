@@ -19,7 +19,7 @@ echo "Scheduling client to run..."
 
 # Run via cron so that it detaches easily
 
-sudo /sbin/chkconfig crond on
+sudo /etc/init.d/crond start
 
 cron_time=`date --date="+2min" +"%M %H %d %m *"`
 echo "$cron_time $client_script" | crontab
