@@ -8,9 +8,10 @@ if [ ! -f "$client_script" ]; then
 fi
 
 script_name=`basename $client_script`
-running=`ps ax | pgrep $script_name`
+running=`pgrep -fl $script_name | grep -v $0`
 
 if [ "$running" != "" ]; then
+    echo "Client is already running."
     exit
 fi
 
@@ -20,5 +21,5 @@ echo "Scheduling client to run..."
 
 sudo /sbin/chkconfig crond on
 
-cron_time=`date -v+2M +"%M %H %d %m *"`
+cron_time=`date --date="+2min" +"%M %H %d %m *"`
 echo "$cron_time $client_script" | crontab
