@@ -78,7 +78,7 @@ for ($i = 0; $i < $num; $i++) {
 
 	for ($j = 0; $j < pow(2, ($max_mask - $mask)); $j++) {
 		// compute the /19's and add them
-		$new_sa = "$quads[0].$quads[1].".($quads[2] + ($j * pow(2,(24-$max_mask)))).".$quads[3]";
+		$new_sa = "$quads[0].$quads[1]." . ($quads[2] + ($j * pow(2,(24-$max_mask))))." . $quads[3]";
 
 		$query = "INSERT INTO $db_table VALUES('$new_sa', '$max_mask', NULL, False, NULL, NULL, NULL)";
 		mysql_query($query);
