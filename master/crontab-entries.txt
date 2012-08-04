@@ -1,0 +1,6 @@
+# m h  dom mon dow   command
+
+# 0 12 * * Sun sudo /home/adf/pl_bin/pl-post-process.sh
+# above replaced with an entry in root's crontab
+
+0 12 * * Tue /home/adf/pl_bin/pl-copy-from-quanto.sh
