@@ -20,3 +20,23 @@ Router mapping via PlanetLab
    allow from all
   </Directory>
 ``` 
+
+### Rough example for deploying on slaves
+
+```
+MQ_SLICE=brown_map
+export MQ_SLICE
+MQ_NODES=/home/adf/RouterPeek/pl-mapping/nodes.brown_map.txt
+export MQ_NODES
+ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-LWqws24865/agent.24865; export SSH_AUTH_SOCK;   [for example]
+SSH_AGENT_PID=24866; export SSH_AGENT_PID;    [for example]
+ssh-add ~/.ssh/pl_key
+multicopy client/pl-client.sh @:pl-client.sh
+multicopy client/pl-run-client.sh @:pl-run-client.sh
+multiquery "/home/brown_map/pl-run-client.sh /home/brown_map/pl-client.sh"
+```
+
+Get `multicopy` and `multiquery` from [CoDeploy](http://codeen.cs.princeton.edu/codeploy/)
+
+`nodes.brown_map.txt` and the script to generate it are in the `support` directory
