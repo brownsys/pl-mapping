@@ -38,3 +38,13 @@ multiquery "/home/brown_map/pl-run-client.sh /home/brown_map/pl-client.sh"
 Get `multicopy` and `multiquery` from [CoDeploy](http://codeen.cs.princeton.edu/codeploy/)
 
 `nodes.brown_map.txt` and the script to generate it are in the `support` directory
+
+### Running iffinder on quanto
+
+We use quanto to run `iffinder` since it has a direct connection to the internet
+and we have root access. The master drops lists of IP addresses on quanto for it
+to run iffinder on periodically.
+
+To setup, install the crontab entry which is in the `quanto` dir, as well as the
+`run-iffinder.sh` script. It is also necessary to create a directory called
+`results` and install iffinder.
