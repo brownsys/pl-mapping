@@ -45,6 +45,6 @@ We use quanto to run `iffinder` since it has a direct connection to the internet
 and we have root access. The master drops lists of IP addresses on quanto for it
 to run iffinder on periodically.
 
-To setup, install the crontab entry which is in the `quanto` dir, as well as the
-`run-iffinder.sh` script. It is also necessary to create a directory called
-`results` and install iffinder.
+To setup, install the crontab entry which is in the `quanto-iffinder` dir, as
+well as the `run-iffinder.sh` script. It is also necessary to create a directory
+called `results` and install `iffinder`.
