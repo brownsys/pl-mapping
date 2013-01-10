@@ -6,4 +6,4 @@ iffinder_src=/home/adf/results
 
 last_archive=`ls -1 $archive_dir | sort -n | tail -1`
 
-scp -p -q "quanto:$iffinder_src/$last_archive*" $iffinder_dst
+scp -p -q "quanto:$iffinder_src/$last_archive-*" $iffinder_dst
