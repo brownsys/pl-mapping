@@ -1,0 +1,7417 @@
+GKA Goroka
+MAG Madang
+HGU Mount Hagen
+LAE Nadzab
+POM Port Moresby Jacksons Intl
+WWK Wewak Intl
+UAK Narsarsuaq
+GOH Nuuk
+SFJ Sondre Stromfjord
+THU Thule Air Base
+AEY Akureyri
+EGS Egilsstadir
+HFN Hornafjordur
+HZK Husavik
+IFJ Isafjordur
+KEF Keflavik International Airport
+PFJ Patreksfjordur
+RKV Reykjavik
+SIJ Siglufjordur
+VEY Vestmannaeyjar
+YAM Sault Ste Marie
+YAV Winnipeg St Andrews
+YAW Shearwater
+YAY St Anthony
+YAZ Tofino
+YBB Kugaaruk
+YBC Baie Comeau
+YBG Bagotville
+YBK Baker Lake
+YBL Campbell River
+YBR Brandon Muni
+YCB Cambridge Bay
+YCD Nanaimo
+YCG Castlegar
+YCH Miramichi
+YCL Charlo
+YCO Kugluktuk
+YCT Coronation
+YCW Chilliwack
+YCY Clyde River
+YZS Fairmont Hot Springs
+YDA Dawson City
+YDB Burwash
+YDC Princeton
+YDF Deer Lake
+YDL Dease Lake
+YDN Dauphin Barker
+YDQ Dawson Creek
+YEG Edmonton Intl
+YEK Arviat
+YEN Estevan
+YET Edson
+YEU Eureka
+YEV Inuvik Mike Zubko
+YFB Iqaluit
+YFC Fredericton
+CYFE Forestville
+YFO Flin Flon
+YFR Fort Resolution
+YFS Fort Simpson
+YGK Kingston
+YGL La Grande Riviere
+YGP Gaspe
+YGQ Geraldton Greenstone Regional
+YGR Iles De La Madeleine
+YHB Hudson Bay
+YHD Dryden Rgnl
+YHI Ulukhaktok Holman
+YHK Gjoa Haven
+YHM Hamilton
+YHU St Hubert
+YHY Hay River
+YHZ Halifax Intl
+YIB Atikokan Muni
+YIO Pond Inlet
+YJN St Jean
+YJT Stephenville
+YKA Kamloops
+YKF Waterloo
+YKL Schefferville
+YKY Kindersley
+YKZ Buttonville Muni
+YLD Chapleau
+YLJ Meadow Lake
+YLL Lloydminster
+YLT Alert
+YLW Kelowna
+YMA Mayo
+YMJ Moose Jaw Air Vice Marshal C M Mcewen
+YMM Fort Mcmurray
+YMO Moosonee
+YMW Maniwaki
+YMX Montreal Intl Mirabel
+YNA Natashquan
+YND Gatineau
+YNM Matagami
+YOC Old Crow
+YOD Cold Lake
+YOJ High Level
+YOW Ottawa Macdonald Cartier Intl
+YPA Prince Albert Glass Field
+YPE Peace River
+YPG Southport
+CYPK Pitt Meadows
+YPL Pickle Lake
+YPN Port Menier
+YPQ Peterborough
+YPR Prince Rupert
+YPY Fort Chipewyan
+YQA Muskoka
+YQB Quebec Jean Lesage Intl
+YQF Red Deer Regional
+YQG Windsor
+YQH Watson Lake
+YQK Kenora
+YQL Lethbridge
+YQM Greater Moncton Intl
+YQQ Comox
+YQR Regina Intl
+YQT Thunder Bay
+YQU Grande Prairie
+YQV Yorkton Muni
+YQW North Battleford
+YQX Gander Intl
+YQY Sydney
+YQZ Quesnel
+YRB Resolute Bay
+YRI Riviere Du Loup
+YRJ Roberval
+YRM Rocky Mountain House
+YRT Rankin Inlet
+YSB Sudbury
+YSC Sherbrooke
+YSJ Saint John
+YSM Fort Smith
+YSR Nanisivik
+YSU Summerside
+YSY Sachs Harbour
+YTE Cape Dorset
+YTH Thompson
+YTR Trenton
+YTS Timmins
+YTZ City Centre
+YUB Tuktoyaktuk
+YUL Pierre Elliott Trudeau Intl
+YUT Repulse Bay
+YUX Hall Beach
+YUY Rouyn Noranda
+YVC La Ronge
+YVG Vermilion
+YVM Qikiqtarjuaq
+YVO Val D Or
+YVP Kuujjuaq
+YVQ Norman Wells
+YVR Vancouver Intl
+YVT Buffalo Narrows
+YVV Wiarton
+YWA Petawawa
+YWG Winnipeg Intl
+YWK Wabush
+YWL Williams Lake
+YWY Wrigley
+YXC Canadian Rockies Intl
+YXD Edmonton City Centre
+YXE Saskatoon J G Diefenbaker Intl
+YXH Medicine Hat
+YXJ Fort St John
+YXL Sioux Lookout
+YXP Pangnirtung
+YXR Timiskaming Rgnl
+YXS Prince George
+YXT Terrace
+YXU London
+YXX Abbotsford
+YXY Whitehorse Intl
+YYB North Bay
+YYC Calgary Intl
+YYD Smithers
+YYE Fort Nelson
+YYF Penticton
+YYG Charlottetown
+YYH Taloyoak
+YYJ Victoria Intl
+YYL Lynn Lake
+YYN Swift Current
+YYQ Churchill
+YYR Goose Bay
+YYT St Johns Intl
+YYU Kapuskasing
+YYW Armstrong
+YYY Mont Joli
+YYZ Lester B Pearson Intl
+YZD Downsview
+YZE Gore Bay Manitoulin
+YZF Yellowknife
+YZH Slave Lake
+YZP Sandspit
+YZR Chris Hadfield
+YZT Port Hardy
+YZU Whitecourt
+YZV Sept Iles
+YZW Teslin
+YZX Greenwood
+ZFA Faro
+ZFM Fort Mcpherson
+DAAB Blida
+DAAD Bou Saada
+BJA Soummam
+ALG Houari Boumediene
+DJG Tiska
+QFD Boufarik
+DAAN Reggane
+VVZ Illizi Takhamalt
+DAAQ Ain Oussera
+TMR Tamanrasset
+GJL Jijel
+DAAY Mecheria
+DAAZ Relizane
+AAE Annaba
+CZL Mohamed Boudiaf Intl
+TEE Cheikh Larbi Tebessi
+HRM Hassi R Mel
+TID Bou Chekif
+DAOE Bou Sfer
+TIN Tindouf
+QAS Ech Cheliff
+TAF Tafaraoui
+TLM Zenata
+ORN Es Senia
+DAOS Sidi Bel Abbes
+MUW Ghriss
+AZR Touat Cheikh Sidi Mohamed Belkebir
+BSK Biskra
+ELG El Golea
+GHA Noumerat
+HME Oued Irara
+INZ In Salah
+TGR Sidi Mahdi
+LOO Laghouat
+TMX Timimoun
+OGX Ouargla
+IAM In Amenas
+COO Cadjehoun
+OUA Ouagadougou
+BOY Bobo Dioulasso
+ACC Kotoka Intl
+TML Tamale
+DGLW Wa
+NYI Sunyani
+TKD Takoradi
+ABJ Abidjan Felix Houphouet Boigny Intl
+BYK Bouake
+DJO Daloa
+HGO Korhogo
+MJC Man
+SPY San Pedro
+ASK Yamoussoukro
+ABV Nnamdi Azikiwe Intl
+AKR Akure
+BNI Benin
+CBQ Calabar
+ENU Enugu
+QUS Gusau
+IBA Ibadan
+ILR Ilorin
+JOS Yakubu Gowon
+KAD Kaduna
+KAN Mallam Aminu Intl
+MIU Maiduguri
+MDI Makurdi
+LOS Murtala Muhammed
+MXJ Minna New
+PHC Port Harcourt Intl
+SKO Sadiq Abubakar Iii Intl
+YOL Yola
+ZAR Zaria
+MFQ Maradi
+NIM Diori Hamani
+THZ Tahoua
+AJY Manu Dayak
+DRZD Dirkou
+DRZF Diffa
+ZND Zinder
+MIR Habib Bourguiba Intl
+TUN Carthage
+DTTB Sidi Ahmed Air Base
+DTTD Remada
+GAF Gafsa
+GAE Gabes
+DTTI Borj El Amri
+DJE Zarzis
+EBM El Borma
+SFA Thyna
+TOE Nefta
+LRL Niamtougou International
+LFW Gnassingbe Eyadema Intl
+ANR Deurne
+EBBE Beauvechain
+EBBL Kleine Brogel
+BRU Brussels Natl
+EBBX Bertrix
+CRL Brussels South
+EBCV Chievres Ab
+EBFN Koksijde
+EBFS Florennes
+QKT Wevelgem
+LGG Liege
+OST Oostende
+EBSL Zutendaal
+EBST Sint Truiden
+EBSU Saint Hubert Mil
+EBUL Ursel
+EBWE Weelde
+EBZR Zoersel
+BBJ Bautzen
+AOC Altenburg Nobitz
+EDAD Dessau
+EDAE Eisenhuttenstadt
+4I7 Putnam County Airport
+EDAK Grossenhain
+EDAM Merseburg
+EDAQ Halle Oppin
+EDAU Riesa Gohlis
+EDAX Rechlin Larz
+EDAY Strausberg
+EDAZ Schonhagen
+BBH Barth
+EDBJ Jena Schongleina
+EDBK Kyritz
+EDBM Magdeburg
+EDBR Rothenburg Gorlitz
+EDCA Anklam
+EDCD Cottbus Drewitz
+EDCM Kamenz
+SXF Schonefeld
+DRS Dresden
+ERF Erfurt
+FRA Frankfurt Main
+FMO Munster Osnabruck
+HAM Hamburg
+THF Tempelhof
+CGN Koln Bonn
+DUS Dusseldorf
+MUC Franz Josef Strauss
+NUE Nurnberg
+LEJ Leipzig Halle
+SCN Saarbrucken
+STR Stuttgart
+TXL Tegel
+HAJ Hannover
+BRE Neuenland
+EDFE Egelsbach
+HHN Frankfurt Hahn
+MHG Mannheim City
+EDFQ Allendorf Eder
+EDFV Worms
+EDFZ Mainz Finthen
+EDGE Eisenach Kindel
+EDGS Siegerland
+XFW Hamburg Finkenwerder
+KEL Kiel Holtenau
+LBC Lubeck Blankensee
+EDKV Dahlemer Binz
+EDKZ Meinerzhagen
+ZCA Arnsberg Menden
+ESS Essen Mulheim
+EDLI Bielefeld
+MGL Monchengladbach
+PAD Paderborn Lippstadt
+EDLS Stadtlohn Vreden
+DTM Dortmund
+AGB Augsburg
+EDMB Biberach An Der Riss
+EDME Eggenfelden
+EDMN Mindelheim Mattsies
+OBF Oberpfaffenhofen
+EDMS Straubing
+EDMV Vilshofen
+EDNL Leutkirch Unterzeil
+FDH Friedrichshafen
+SZW Schwerin Parchim
+ZSN Stendal Borstel
+EDPA Aalen Heidenheim Elchingen
+BYU Bayreuth
+EDQE Burg Feuerstein
+HOQ Hof Plauen
+EDQT Hassfurt Schweinfurt
+ZNV Koblenz Winningen
+ZQF Trier Fohren
+ZQC Speyer
+EDRZ Zweibrucken
+ZQL Donaueschingen Villingen
+EDTF Freiburg
+EDTM Mengen Hohentengen
+EDTY Schwabisch Hall
+EDUS Finsterwalde Schacksdorf
+BWE Braunschweig Wolfsburg
+KSF Kassel Calden
+EDVM Hildesheim
+BRV Bremerhaven
+EME Emden
+EDWF Leer Papenburg
+WVN Wilhelmshaven Mariensiel
+BMK Borkum
+NRD Norderney
+FLF Flensburg Schaferhaus
+EDXR Rendsburg Schachtholm
+GWT Westerland Sylt
+EEEI Amari
+KDL Kardla
+URE Kuressaare
+EPU Parnu
+TLL Tallinn
+TAY Tartu
+ENF Enontekio
+EFEU Eura
+KEV Halli
+HEM Helsinki Malmi
+HEL Helsinki Vantaa
+EFHM Hameenkyro
+EFHN Hanko
+HYV Hyvinkaa
+EFIK Kiikala
+EFIM Immola
+EFIT Kitee
+IVL Ivalo
+JOE Joensuu
+JYV Jyvaskyla
+KAU Kauhava
+KEM Kemi Tornio
+KAJ Kajaani
+EFKJ Kauhajoki
+KOK Kruunupyy
+EFKM Kemijarvi
+KAO Kuusamo
+KTT Kittila
+KUO Kuopio
+EFLA Lahti Vesivehmaa
+LPP Lappeenranta
+MHQ Mariehamn
+EFME Menkijarvi
+MIK Mikkeli
+EFNU Nummela
+OUL Oulu
+EFPI Piikajarvi
+POR Pori
+EFPU Pudasjarvi
+EFPY Pyhasalmi
+EFRH Raahe Pattijoki
+EFRN Rantasalmi
+RVN Rovaniemi
+EFRY Rayskala
+SVL Savonlinna
+EFSE Selanpaa
+SOT Sodankyla
+TMP Tampere Pirkkala
+EFTS Teisko
+TKU Turku
+QVY Utti
+VAA Vaasa
+VRK Varkaus
+EFYL Ylivieska
+BFS Belfast Intl
+ENK St Angelo
+BHD Belfast City
+LDY City of Derry
+BHX Birmingham
+CVT Coventry
+EGBG Leicester
+GLO Gloucestershire
+EGBO Wolverhampton
+EGBP Kemble
+EGBT Turweston
+EGBW Wellesbourne Mountford
+MAN Manchester
+EGCD Manchester Woodford
+EGDC Chivenor
+NQY St Mawgan
+LYE Lyneham
+EGDM Boscombe Down
+EGDR Culdrose
+EGDX St Athan
+YEO Yeovilton
+EGFE Haverfordwest
+CWL Cardiff
+SWS Swansea
+BRS Bristol
+LPL Liverpool
+LTN Luton
+PLH Plymouth
+BOH Bournemouth
+SOU Southampton
+QLA Lasham
+ACI Alderney
+GCI Guernsey
+JER Jersey
+ESH Shoreham
+BQH Biggin Hill
+LGW Gatwick
+LCY City
+FAB Farnborough
+EGLJ Chalgrove
+BBS Blackbushe
+LHR Heathrow
+SEN Southend
+LYX Lydd
+MSE Manston
+EGNB Brough
+CAX Carlisle
+EGNE Gamston
+BLK Blackpool
+HUY Humberside
+BWF Walney Island
+LBA Leeds Bradford
+EGNO Warton
+CEG Hawarden
+IOM Isle Of Man
+NCL Newcastle
+MME Durham Tees Valley Airport
+EMA Nottingham East Midlands
+EGOD Llanbedr
+EGOE Ternhill
+EGOS Shawbury
+EGOW Woodvale
+KOI Kirkwall
+LSI Sumburgh
+WIC Wick
+ABZ Dyce
+INV Inverness
+GLA Glasgow
+EDI Edinburgh
+ILY Islay
+PIK Prestwick
+BEB Benbecula
+SDZ Scatsta
+DND Dundee
+SYY Stornoway
+TRE Tiree
+ADX Leuchars
+LMO Lossiemouth
+CBG Cambridge
+EGSF Conington
+NWI Norwich
+STN Stansted
+EGSX North Weald
+EGSY Sheffield City
+EGTC Cranfield
+EXT Exeter
+FZO Bristol Filton
+OXF Kidlington
+EGUB Benson
+EGUL Lakenheath
+MHZ Mildenhall
+EGUW Wattisham
+EGUY Wyton
+FFD Fairford
+BZZ Brize Norton
+ODH Odiham
+EGWC Cosford
+NHT Northolt
+QCY Coningsby
+EGXD Dishforth
+EGXE Leeming
+EGXG Church Fenton
+BEQ Honington
+EGXJ Cottesmore
+EGXP Scampton
+EGXT Wittering
+EGXU Linton On Ouse
+WTN Waddington
+EGXZ Topcliffe
+EGYD Cranwell
+EGYE Barkston Heath
+KNF Marham
+MPN Mount Pleasant
+AMS Schiphol
+EHBD Budel
+MST Maastricht
+EHDL Deelen
+EHDR Drachten
+EIN Eindhoven
+GRQ Eelde
+EHGR Gilze Rijen
+DHR De Kooy
+EHLE Lelystad
+LWR Leeuwarden
+RTM Rotterdam
+UTC Soesterberg
+ENS Twenthe
+LID Valkenburg
+WOE Woensdrecht
+ORK Cork
+GWY Galway
+DUB Dublin
+NOC Ireland West Knock
+KIR Kerry
+EIME Casement
+SNN Shannon
+SXL Sligo
+WAT Waterford
+AAR Aarhus
+BLL Billund
+CPH Kastrup
+EBJ Esbjerg
+EKGH Gronholt Hillerod
+KRP Karup
+EKLS Laeso
+EKMB Lolland Falster Maribo
+ODE Odense
+EKPB Krusa Padborg
+RKE Roskilde
+RNN Bornholm Ronne
+SGD Sonderborg
+SKS Skrydstrup
+EKSV Skive
+TED Thisted
+EKVD Kolding Vamdrup
+FAE Vagar
+EKVH Aars
+STA Stauning
+AAL Aalborg
+LUX Luxembourg
+AES Vigra
+ANX Andenes
+ALF Alta
+ENBM Bomoen
+BNN Bronnoy
+BOO Bodo
+BGO Flesland
+BJF Batsfjord
+KRS Kjevik
+ENDI Dagali
+BDU Bardufoss
+EVE Evenes
+VDB Leirin
+FRO Floro
+OSL Gardermoen
+HAU Karmoy
+HAA Hasvik
+KSU Kvernberget
+ENKJ Kjeller
+KKN Hoybuktmoen
+FAN Lista
+MOL Aro
+MJF Kjaerstad
+LKL Banak
+NTB Notodden
+OLA Orland
+RRS Roros
+RYG Moss
+LYR Longyear
+SKE Geiteryggen
+SRP Sorstokken
+SSJ Stokka
+TOS Langnes
+TRF Torp
+TRD Vaernes
+SVG Sola
+EPBC Babice
+GDN Lech Walesa
+KRK Balice
+EPKM Muchowiec
+KTW Pyrzowice
+EPML Mielec
+POZ Lawica
+RZE Jasionka
+SZZ Goleniow
+OSP Redzikowo
+EPSN Swidwin
+WAW Okecie
+WRO Strachowice
+IEG Babimost
+ESCF Malmen
+ESCK Bravalla
+ESCM Uppsala
+RNB Ronneby
+ESFR Rada
+GOT Landvetter
+JKG Jonkoping
+ESGK Falkoping
+LDK Lidkoping
+GSE Save
+KVB Skovde
+THN Trollhattan Vanersborg
+ESIA Karlsborg
+ESIB Satenas
+ESKB Barkarby
+KSK Karlskoga
+MXX Mora
+NYO Skavsta
+ESKV Arvika
+ESMA Emmaboda
+ESMG Feringe
+KID Kristianstad
+JLD Landskrona
+OSK Oskarshamn
+ESMP Anderstorp
+KLR Kalmar
+MMX Sturup
+HAD Halmstad
+ESMV Hagshult
+VXO Kronoberg
+ESNA Hallviken
+ESNC Hedlanda
+EVG Sveg
+GEV Gallivare
+HUV Hudiksvall
+ESNJ Jokkmokk
+KRF Kramfors Solleftea
+LYC Lycksele
+ESNM Optand
+SDL Sundsvall Harnosand
+OER Ornskoldsvik
+ESNP Pitea
+KRN Kiruna
+ESNR Orsa
+SFT Skelleftea
+ESNT Sattna
+UME Umea
+VHM Vilhelmina
+AJR Arvidsjaur
+ORB Orebro
+VST Vasteras
+LLA Kallax
+ESPE Vidsel
+ESQO Arboga
+ARN Arlanda
+BMA Bromma
+BLE Borlange
+HLF Hultsfred
+GVX Gavle
+LPI Saab
+NRK Kungsangen
+ESSU Eskilstuna
+VBY Visby
+ESUK Kalixfors
+SPM Spangdahlem Ab
+RMS Ramstein Ab
+ETEJ Bamberg Aaf
+GHF Giebelstadt Aaf
+ETHB Buckeburg
+ZCN Celle
+ETHE Rheine Bentlage
+ETHF Fritzlar
+ETHL Laupheim
+ETHM Mendig
+ETHN Niederstetten
+ETHR Roth
+ETHS Fassberg
+ETIC Grafenwohr Aaf
+ZNF Hanau Aaf
+ETIH Hohenfels Aaf
+ETIN Kitzingen Aaf
+ETMN Nordholz
+ETND Diepholz
+GKE Geilenkirchen
+ETNH Hohn
+ETNJ Jever
+RLG Laage
+ETNN Norvenich
+ETNS Schleswig
+ETNT Wittmundhafen
+ETNU Neubrandenburg
+ETNW Wunstorf
+ETOI Vilseck Aaf
+ETOR Coleman Aaf
+ETOU Wiesbaden Aaf
+ETSA Landsberg Lech
+ETSB Buchel
+ETSE Erding
+FEL Furstenfeldbruck
+ETSH Holzdorf
+ETSI Ingolstadt Manching
+ETSL Lechfeld
+ETSN Neuburg
+GUT Gutersloh
+ALJ Alexander Bay
+AGZ Aggeneys
+FABB Brakpan
+BIY Bhisho
+BFN Bloemfontein Intl
+FABM Bethlehem
+FABO Bothaville
+CPT Cape Town Intl
+FACV Calvinia
+DUR Durban Intl
+ELS East London
+FAEO Ermelo
+FAFB Ficksburg Sentraoes
+GCJ Grand Central
+GRJ George
+FAGR Graaff Reinet
+FAGT Grahamstown
+FAGY Greytown
+FAHA Harmony
+FAHR Harrismith
+HDS Hoedspruit Afb
+FAHV Gariep Dam
+JNB Johannesburg Intl
+FAKD P C Pelser
+KIM Kimberley
+FAKR Krugersdorp
+FAKS Kroonstad
+FAKU Johan Pienaar
+KLZ Kleinsee
+HLA Lanseria
+FALI Lichtenburg
+FALM Makhado Afb
+FALW Langebaanweg
+LAY Ladysmith
+FAMB Middelburg
+MGH Margate
+FAMI Marble Hall
+FAMJ Majuba Power Station
+--- Susse
+FAMN Malelane
+MEZ Messina
+FAMU Mkuzi
+NCS Newcastle
+FANY Nylstroom
+FAOB Overberg
+DUH Oudtshoorn
+PLZ Port Elizabeth Intl
+FAPG Plettenberg Bay
+PHW Phalaborwa
+PTG Polokwane International
+FAPJ Port St Johns
+PZB Pietermaritzburg
+NTY Pilanesberg Intl
+FAPP Polokwane Intl
+FAPS Potchefstroom
+FAPY Parys
+UTW Queenstown
+RCB Richards Bay
+FARG Rustenburg
+FARS Robertson
+SBU Springbok
+FASC Secunda
+FASD Saldanha Vredenburg
+FASI Springs
+FASK Swartkop
+SIS Sishen
+FASX Hendrik Swellengrebel
+SZK Skukuza
+FATF Tommys Fld
+FATP New Tempe
+FATT Tutuka Power Station
+LTA Tzaneen
+ULD Prince Mangosuthu Buthelezi
+UTN Upington
+UTT Mthatha
+VRU Vryburg
+VIR Virginia
+FAVR Vredendal
+FAVV Vereeniging
+PRY Wonderboom
+FAWI Witbank
+FAWK Waterkloof Afb
+WEL Welkom
+FAYP Ysterplaat
+FAZR Zeerust
+FRW Francistown
+JWA Jwaneng
+BBK Kasane
+MUB Maun
+GBE Sir Seretse Khama Intl
+PKW Selebi Phikwe
+BZV Maya Maya
+FTX Owando
+OUE Ouesso
+PNR Pointe Noire
+MTS Matsapha
+BGF Bangui M Poko
+BBT Berberati
+BSG Bata
+SSG Malabo
+FHAW Ascension Aux Af
+MRU Sir Seewoosagur Ramgoolam Intl
+RRG Plaine Corail
+FJDG Diego Garcia Nsf
+TKC Tiko
+DLA Douala
+MVR Salak
+FOM Foumban Nkounja
+NGE Ngaoundere
+GOU Garoua
+BFX Bafoussam
+BPC Bamenda
+YAO Yaounde Ville
+FLKE Kasompe
+LVI Livingstone
+LUN Lusaka Intl
+MFU Mfuwe
+FLMG Mongu
+NLA Ndola
+KIW Southdowns
+HAH Prince Said Ibrahim
+NWA Bandaressalam
+AJN Ouani
+DZA Dzaoudzi Pamandzi
+RUN St Denis Gillot
+ZSE St Pierre Pierrefonds
+TNR Ivato
+ZVA Miandrivazo
+SMS Sainte Marie
+TMM Toamasina
+MOQ Morondava
+DIE Arrachart
+WMR Avaratra
+ZWA Andapa
+AMB Ambilobe
+ANM Antsirabato
+HVA Analalava
+MJN Philibert Tsiranana
+NOS Fascene
+BPY Besalampy
+WMN Maroantsetra
+SVB Sambava
+VOH Vohimarina
+WAI Ambalabe
+FMNZ Ampampamena
+FTU Tolagnaro
+WFI Fianarantsoa
+RVA Farafangana
+WVK Manakara
+MNJ Mananjary
+MXM Morombe
+TLE Toliara
+SSY Mbanza Congo
+BUG Benguela
+CAB Cabinda
+CPX Culebra Airport
+NOV Huambo
+SVP Kuito
+FNLB Lobito
+LAD Luanda 4 De Fevereiro
+MEG Malanje
+SPP Menongue
+GXG Negage
+PBN Porto Amboim
+VHC Saurimo
+SZA Soyo
+SDD Lubango
+LUO Luena
+UGO Uige
+XGN Xangongo
+OYE Oyem
+OKN Okondja
+LBQ Lambarene
+BMM Bitam
+POG Port Gentil
+OMB Omboue Hopital
+MKU Makokou
+LBV Leon M Ba
+MVB Mvengue
+PCP Principe
+TMS Sao Tome Intl
+BEW Beira
+INH Inhambane
+VXC Lichinga
+FQLU Lumbo
+MPM Maputo
+FQMD Mueda
+MZB Mocimboa Da Praia
+FQMR Marrupa
+MNC Nacala
+APL Nampula
+POL Pemba
+UEL Quelimane
+FQSG Songo
+TET Tete Chingodzi
+FQUG Ulongwe
+VNX Vilankulo
+FSAL Alphonse
+DES Desroches
+FSFA Farquhar
+SEZ Seychelles Intl
+PRI Praslin
+FSSC Coetivy
+AEH Abeche
+MQQ Moundou
+NDJ Ndjamena Hassan Djamous
+FYT Faya Largeau
+BUQ J M Nkomo Intl
+FVCP Charles Prince
+BFO Buffalo Range
+VFA Victoria Falls Intl
+HRE Harare Intl
+KAB Kariba Intl
+FVMT Mutoko
+FVMU Mutare
+MVZ Masvingo Intl
+FVSH Zvishavane
+GWE Gweru Thornhill
+WKM Hwange National Park
+BLZ Chileka Intl
+KGJ Karonga
+FWKG Kasungu
+LLW Kamuzu Intl
+ZZU Mzuzu
+MSU Moshoeshoe I Intl
+FXMU Mejametalana
+FIH Ndjili Intl
+NLO Ndolo
+MNB Muanda
+FZAI Kitona Base
+FDU Bandundu
+KKW Kikwit
+MDK Mbandaka
+BDT Gbadolite
+GMA Gemena
+FZFP Kotakoli
+LIQ Lisala
+FKI Kisangani Simisini
+IRP Matari
+BUX Bunia
+FZKJ Buta Zega
+BKY Bukavu Kavumu
+GOM Goma
+KND Kindu
+FBM Lubumbashi Intl
+KWZ Kolwezi
+FMI Kalemie
+KMN Kamina Base
+KGA Kananga
+MJM Mbuji Mayi
+BKO Senou
+GAQ Gao
+KYS Kayes Dag Dag
+MZI Ambodedjo
+TOM Tombouctou
+GATS Tessalit
+BJL Banjul Intl
+FUE Fuerteventura
+VDE Hierro
+SPC La Palma
+LPA Gran Canaria
+ACE Lanzarote
+TFS Tenerife Sur
+TFN Tenerife Norte
+MLN Melilla
+FNA Freetown Lungi
+GGCF Cufar
+MLW Monrovia Spriggs Payne
+ROB Monrovia Roberts Intl
+AGA Inezgane
+TTA Plage Blanche
+FEZ Saiss
+GMFI Ifrane
+ERH Moulay Ali Cherif
+MEK Bassatine
+OUD Angads
+GMMB Ben Slimane
+RBA Sale
+CMN Mohammed V Intl
+RAK Menara
+NNA Kenitra
+OZZ Ouarzazate
+AHU Cherif El Idrissi
+TTU Saniat Rmel
+TNG Ibn Batouta
+ZIG Ziguinchor
+CSK Cap Skiring
+KLC Kaolack
+DKR Leopold Sedar Senghor Intl
+XLS Saint Louis
+BXE Bakel
+KGG Kedougou
+TUD Tambacounda
+IEO Aioun El Atrouss
+TIY Tidjikja
+KFA Kiffa
+EMN Nema
+KED Kaedi
+NKC Nouakchott
+SEY Selibady
+ATR Atar
+NDB Nouadhibou
+GQPT Bir Moghrein
+FIG Fria
+FAA Faranah
+LEK Labe
+SID Amilcar Cabral Intl
+BVC Rabil
+MMO Maio
+SNE Preguica
+VXE Sao Pedro
+ADD Bole Intl
+HAAL Lideta
+AMH Arba Minch
+AXU Axum
+BJR Bahir Dar
+DIR Dire Dawa Intl
+GMB Gambella
+GDQ Gondar
+ARIA South Ari Atoll
+JIM Jimma
+LLI Lalibella
+MQX Makale
+ASO Asosa
+BJM Bujumbura Intl
+HGA Egal Intl
+BBO Berbera
+KMU Kisimayu
+C91 Dowagiac Municipal Airport
+ALY Alexandria Intl
+ABS Abu Simbel
+CAI Cairo Intl
+HECW Cairo West
+HRG Hurghada Intl
+EGR El Gora
+LXR Luxor Intl
+MUH Mersa Matruh
+PSD Port Said
+SKV St Catherine Intl
+ASW Aswan Intl
+ELT El Tor
+EDL Eldoret Intl
+HKKG Kakamega
+KIS Kisumu
+KTL Kitale
+CDI Cambridge Municipal Airport
+LOK Lodwar
+LAU Lamu Manda
+MBA Mombasa Moi Intl
+HKNV Naivasha
+WIL Nairobi Wilson
+HKRE Eastleigh
+WJR Wajir
+HLFL Bu Attifel
+HLGL Warehouse 59e
+GHT Ghat
+AKF Kufra
+BEN Benina
+SEB Sebha
+TIP Tripoli Intl
+HLMB Marsa Brega
+HLNF Ras Lanuf Oil
+HLON Hon
+HLRA Dahra
+LTD Ghadames East
+HLZA Zella 74
+GYI Gisenyi
+KGL Kigali Intl
+KME Kamembe
+DOG Dongola
+HSDZ Damazin
+ELF El Fashir
+KSL Kassala
+HSLI Kadugli
+EBD El Obeid
+JUB Juba
+MAK Malakal
+KRT Khartoum
+ARK Arusha
+DAR Mwalimu Julius K Nyerere Intl
+DOD Dodoma
+IRI Iringa
+JRO Kilimanjaro Intl
+LKY Lake Manyara
+MYW Mtwara
+MWZ Mwanza
+PMA Pemba
+TGT Tanga
+ZNZ Zanzibar
+EBB Entebbe Intl
+QDU Dusseldorf Hauptbahnhof
+SRT Soroti
+TIA Tirana Rinas
+BOJ Burgas
+GOZ Gorna Oryahovitsa
+PDV Plovdiv
+SOF Sofia
+LBSZ Stara Zagora
+VAR Varna
+LCA Larnaca
+PFO Pafos Intl
+AKT Akrotiri
+DBV Dubrovnik
+LDOC Cepin
+OSI Osijek
+PUY Pula
+LDRG Grobnicko Polje
+RJK Rijeka
+SPU Split
+LDVA Varazdin
+ZAG Zagreb
+ZAD Zadar
+LDZU Udbina
+LEAB Albacete
+ALC Alicante
+LEI Almeria
+OVD Asturias
+ODB Cordoba
+BIO Bilbao
+BCN Barcelona
+BJZ Talavera La Real
+LCG A Coruna
+LEGA Armilla
+GRO Girona
+GRX Granada
+LEGT Getafe
+IBZ Ibiza
+XRY Jerez
+MJV Murcia San Javier
+PKH Alexion
+MAD Barajas
+AGP Malaga
+MAH Menorca
+OZP Moron Ab
+LEOC Ocana
+PNA Pamplona
+LERI Alcantarilla
+REU Reus
+LERT Rota Ns
+SLM Salamanca
+LESB Son Bonet
+LESJ Palma De Mallorca
+LESL San Luis
+EAS San Sebastian
+SCQ Santiago
+LEU Seo De Urgel
+TOJ Torrejon
+VLC Valencia
+VLL Valladolid
+LEVS Cuatro Vientos
+VIT Vitoria
+VGO Vigo
+SDR Santander
+ZAZ Zaragoza Ab
+SVQ Sevilla
+CQF Calais Dunkerque
+LFAG Peronne St Quentin
+LFAI Les Loges
+LFAO Couterne
+LFAQ Bray
+LTQ Le Touquet Paris Plage
+LFAV Denain
+LFAY Glisy
+AGF La Garenne
+LFBC Cazaux
+BOD Merignac
+EGC Roumaniere
+LFBF Francazal
+CNG Chateaubernard
+PIS Biard
+LFBK Montlucon Gueret
+LIG Bellegarde
+LFBM Mont De Marsan
+NIT Souche
+TLS Blagnac
+PUF Pau Pyrenees
+LFBR Lherm
+LDE Lourdes
+ANG Brie Champniers
+BVE La Roche
+PGX Bassillac
+BIQ Anglet
+LFCC Lalbenque
+LFCG Antichan
+XAC La Teste De Buch
+LBI Le Sequestre
+DCM Mazamet
+LFCL Lasbordes
+LFCM Larzac
+LFCQ Montdragon
+RDZ Marcillac
+LFCU Thalamy
+LFCW Villeneuve Sur Lot
+RYN Medis
+LFCZ Mimizan
+LFDA Aire Sur L Adour
+LFDB Montauban
+LFDH Lamothe
+LFDI Artigues De Lussac
+LFDJ Les Pujols
+LFDM Virazeil
+RCO St Agnant
+LFED Pontivy
+LFEH Aubigny Sur Nere
+LFES Scaer
+LFFI Ancenis
+LFFN Brienne Le Chateau
+CMR Houssen
+LFGF Challanges
+DLE Tavaux
+LFGK Joigny
+LFGW Le Rozelier
+OBS Ardeche Meridionale
+LPY Loudes
+LFHQ Coltines
+XBK Ceyzeriat
+XVF Tarare
+XMU Montbeugny
+LFIF Belmont
+LFIG Cassagnes Begonhes
+ETZ Metz Nancy Lorraine
+BIA Poretta
+CLY Saint Catherine
+FSC Sud Corse
+AJA Campo Dell Oro
+LFKO Propriano
+SOZ Solenzara
+LFKT Corte
+AUF Branches
+CMF Aix Les Bains
+CFE Auvergne
+BOU Bourges
+LFLE Challes Les Eaux
+XCD Champforgeuil
+QNJ Annemasse
+LYS Saint Exupery
+QNX Charnay
+LFLN Saint Yan
+RNE Renaison
+NCY Meythet
+GNB Saint Geoirs
+MCU Domerat
+VAF Chabeuil
+VHY Charmeil
+AUR Aurillac
+CHR Deols
+LYN Bron
+QXB Aix Les Milles
+LFMC Le Cannet
+CEQ Mandelieu
+EBU Boutheon
+LFMI Le Tube
+CCF Salvaza
+MRS Provence
+NCE Cote D\\'Azur
+LFMO Caritat
+PGF Rivesaltes
+CTT Le Castellet
+LFMS Deaux
+MPL Mediterranee
+BZR Vias
+AVN Caumont
+LFMY Salon
+LFMZ Lezignan Corbieres
+MEN Brenoux
+LFNH Carpentras
+LFOA Avord
+BVA Tille
+LFOC Chateaudun
+LFOD St Florent
+LFOE Fauville
+LEH Octeville
+LFOI Abbeville
+ORE Bricy
+XCR Vatry
+URO Vallee De Seine
+TUF Val De Loire
+CET Le Pontreau
+LVA Entrammes
+LFOZ St Denis De L Hotel
+LBG Le Bourget
+CSF Creil
+CDG Charles De Gaulle
+LFPK Voisins
+LFPM Villaroche
+TNF Toussus Le Noble
+ORY Orly
+POX Cormeilles En Vexin
+LFPV Velizy
+LFQA Prunay
+QYR Barberey
+LFQC Croismare
+LFQE Rouvres
+LFQF Bellevue
+NVS Fourchambault
+LFQI Epinoy
+LFQJ Elesmes
+LFQM La Veze
+LFQP Bourscheid
+LIL Lesquin
+LFQT Calonne
+LFQV Charleville Mezieres
+LFQW Frotey
+BES Guipavas
+CER Maupertus
+DNR Pleurtuit
+LFRE Escoublac
+GFR Granville
+DOL St Gatien
+LRT Lann Bihoue
+EDM Les Ajoncs
+LFRJ Landivisiau
+CFR Carpiquet
+LFRL Poulmic
+LME Arnage
+RNS St Jacques
+LAI Lannion
+UIP Pluguffan
+NTE Nantes Atlantique
+SBK Armor
+MXN Ploujean
+VNE Meucon
+SNR Montoir
+MLH Bale Mulhouse
+LFSC Meyenheim
+DIJ Longvic
+MZM Frescaty
+EPL Mirecourt
+LFSH Haguenau
+LFSI Robinson
+LFSM Courcelles
+ENC Essey
+LFSO Ochey
+LFSP Pontarlier
+RHE Champagne
+SXB Entzheim
+LFSX Saint Sauveur
+LFTF Pierrefeu
+TLN Le Palyvestre
+FNI Garons
+MQC Miquelon
+FSP St Pierre
+LFXA Amberieu
+LFYD Damblain
+PYR Andravida
+AGQ Agrinion
+AXD Dimokritos
+LGAX Alexandria
+VOL Nea Anchialos
+LGEL Elefsis
+JKH Chios
+IOA Ioannina
+HER Nikos Kazantzakis
+KSO Aristotelis
+KIT Kithira
+EFL Kefallinia
+KLX Kalamata
+LGKM Amigdhaleon
+KGS Kos
+AOK Karpathos
+CFU Ioannis Kapodistrias Intl
+KSJ Kasos
+KVA Megas Alexandros Intl
+KZI Filippos
+LRS Leros
+LXS Limnos
+LRA Larisa
+LGMG Megara
+JMK Mikonos
+MJT Mitilini
+PVK Aktio
+LGRD Maritsa
+RHO Rhodes Diagoras
+GPA Araxos
+CHQ Souda
+JSI Alexandros Papadiamantis
+SMI Samos
+LYM Ashford
+LGSP Sparti
+JTR Santorini
+JSH Sitia
+LGSV Stefanovikion
+SKU Skiros
+LGTG Tanagra
+LGTL Kasteli
+LGTP Tripolis
+SKG Makedonia
+LGTT Tatoi
+ZTH Dionysios Solomos
+BUD Ferihegy
+DEB Debrecen
+LHKE Kecskemet
+LHNY Nyiregyhaza
+LHOY Ocseny
+SUE Door County Cherryland Airport
+LHSA Szentkiralyszabadja
+LHSN Szolnok
+LIBA Amendola
+CRV Crotone
+BRI Bari
+FOG Gino Lisa
+TAR Grottaglie
+LCC Lecce
+PSR Pescara
+BDS Casale
+LIBV Gioia Del Colle
+SUF Lamezia Terme
+CTA Catania Fontanarossa
+LMP Lampedusa
+PNL Pantelleria
+PMO Palermo
+LICP Boccadifalco
+REG Reggio Calabria
+TPS Trapani Birgi
+NSY Sigonella
+AHO Alghero
+DCI Decimomannu
+CAG Elmas
+OLB Olbia Costa Smeralda
+TTB Tortoli
+LIMA Aeritalia
+LIMB Bresso
+MXP Malpensa
+BGY Bergamo Orio Al Serio
+TRN Torino
+ALL Albenga
+GOA Genova Sestri
+LIN Linate
+LIMN Cameri
+PMF Parma
+QPZ Piacenza
+0P2 Shoestring Aviation Airfield
+CUF Levaldigi
+AVB Aviano Ab
+BZO Bolzano
+LIPC Cervia
+BLQ Bologna
+TSF Treviso
+LIPI Rivolto
+FRL Forli
+LIPL Ghedi
+LIPN Verona Boscomantico
+VBS Montichiari
+TRS Ronchi Dei Legionari
+RMI Rimini
+LIPS Istrana
+VIC Vicenza
+QPA Padova
+VRN Villafranca
+VCE Venezia Tessera
+SAY Ampugnano
+CIA Ciampino
+LIRE Pratica Di Mare
+FCO Fiumicino
+LIRG Guidonia
+EBA Marina Di Campo
+QLT Latina
+LIRM Grazzanise
+NAP Capodichino
+PSA Pisa
+FLR Firenze
+GRS Grosseto
+LIRU Urbe
+LIRV Viterbo
+PEG Perugia
+LJCE Cerklje
+LJU Ljubljana
+MBX Maribor
+POW Portoroz
+LJSG Slovenj Gradec
+LKCS Ceske Budejovice
+LKCV Caslav
+LKHK Hradec Kralove
+LKHV Horovice
+LKKB Kbely
+LKKU Kunovice
+KLV Karlovy Vary
+LKLN Plzen Line
+LKMH Mnichovo Hradiste
+OSR Mosnov
+LKNA Namest
+PED Pardubice
+LKPM Pribram
+PRV Prerov
+PRG Ruzyne
+BRQ Turany
+LKVO Vodochody
+TLV Ben Gurion
+BEV Teyman
+LLEK Tel Nov
+LLES Eyn Shemer
+ETH Eilat
+LLEY En Yahav
+HFA Haifa
+LLHS Hatzor
+RPN Mahanaim I Ben Yaakov
+LLMG Megiddo
+LLMZ I Bar Yehuda
+LLNV Nevatim Ab
+VDA Ovda
+LLRD Ramat David
+LLRM Ramon
+SDV Sde Dov
+MLA Luqa
+LOAN Wiener Neustadt East
+LOLW Wels
+GRZ Graz
+INN Innsbruck
+LNZ Linz
+SZG Salzburg
+VIE Schwechat
+LOXK Klagenfurt
+LOXZ Zeltweg
+LPAR Alverca
+SMA Santa Maria
+BGC Braganca
+LPBJ Beja
+LPBR Braga
+LPCO Coimbra
+LPCS Cascais
+LPCV Covilha
+LPEV Evora
+FLW Flores
+FAO Faro
+GRW Graciosa
+HOR Horta
+TER Lajes
+LPMR Monte Real
+LPMT Montijo
+LPOV Ovar
+PDL Ponta Delgada
+PIX Pico
+LPPM Portimao
+OPO Porto
+PXO Porto Santo
+LIS Lisboa
+SJZ Sao Jorge
+LPST Sintra
+LPTN Tancos
+VRL Vila Real
+LPVZ Viseu
+PDT Eastern Oregon Regional Airport
+OMO Mostar
+SJJ Sarajevo
+ARW Arad
+BCM Bacau
+BAY Tautii Magheraus
+BBU Aurel Vlaicu
+CND Mihail Kogalniceanu
+CLJ Cluj Napoca
+CSB Caransebes
+CRA Craiova
+IAS Iasi
+OMR Oradea
+OTP Henri Coanda
+SBZ Sibiu
+SUJ Satu Mare
+SCV Stefan Cel Mare
+TCE Cataloi
+TGM Transilvania Targu Mures
+TSR Traian Vuia
+LSGC Les Eplatures
+GVA Geneve Cointrin
+LSGK Saanen
+SIR Sion
+LSMA Alpnach
+LSMD Dubendorf
+LSME Emmen
+LSMF Mollis
+LSMM Meiringen
+LSMP Payerne
+LSMU Buochs
+LUG Lugano
+BRN Bern Belp
+LSZG Grenchen
+ZRH Zurich
+ACH St Gallen Altenrhein
+SMV Samedan
+LTAB Guvercinlik
+ESB Esenboga
+ANK Etimesgut
+LTAE Akinci
+ADA Adana
+LTAG Incirlik Ab
+AFY Afyon
+AYT Antalya
+GZT Oguzeli
+LTAK Iskenderun
+KYA Konya
+LTAO Tulga
+MZH Merzifon
+VAS Sivas
+MLX Erhac
+ASR Erkilet
+LTAV Sivrihisar
+LTAW Tokat
+DNZ Cardak
+IST Ataturk
+BZI Balikesir
+BDM Bandirma
+TYE Tyonek Airport
+ESK Eskisehir
+ADB Adnan Menderes
+LTBK Gaziemir
+IGL Cigli
+LTBM Isparta
+LTBN Kutahya
+LTBP Yalova
+LTBQ Topel
+DLM Dalaman
+LTBT Akhisar
+RIW Riverton Regional
+BXN Imsik
+LTBX Samandira
+EZS Elazig
+DIY Diyarbakir
+ERC Erzincan
+ERZ Erzurum
+TZX Trabzon
+MTJ Montrose Regional Airport
+VAN Van
+BAL Batman
+LTCL Siirt
+LTFA Kaklic
+LTFB Efes
+LUBL Balti Intl
+KIV Chisinau Intl
+OHD Ohrid
+SKP Skopje
+GIB Gibraltar
+BEG Beograd
+INI Nis
+TGD Podgorica
+PRN Pristina
+TIV Tivat
+LYVR Vrsac
+BTS M R Stefanik
+KSC Kosice
+LZMC Malacky
+PZY Piestany
+SLD Sliac
+LZTN Trencin
+TAT Tatry
+1CS Clow International Airport
+NCA North Caicos
+PLS Providenciales
+XSC South Caicos
+EPS Arroyo Barril Intl
+BRX Maria Montez Intl
+MDCR Cabo Rojo
+LRM Casa De Campo Intl
+PUJ Punta Cana Intl
+POP Gregorio Luperon Intl
+SDQ Las Americas Intl
+MDSI San Isidro Ab
+STI Cibao Intl
+MGBN Bananera
+CBV Coban
+GUA La Aurora
+MGRT Retalhuleu
+MGSJ San Jose
+LCE Goloson Intl
+SAP La Mesa Intl
+GJA Guanaja
+RTB Juan Manuel Galvez Intl
+TEA Tela
+TGU Toncontin Intl
+MHTJ Trujillo
+OCJ Boscobel
+KIN Norman Manley Intl
+MBJ Sangster Intl
+POT Ken Jones
+KTP Tinson Pen
+ACA General Juan N Alvarez Intl
+NTR Del Norte Intl
+AGU Jesus Teran Intl
+HUX Bahias De Huatulco Intl
+CVJ General Mariano Matamoros
+MMCC Ciudad Acuna Intl New
+CME Ciudad Del Carmen Intl
+MMCG Nuevo Casas Grandes
+MMCH Chilpancingo
+CUL Culiacan Intl
+CTM Chetumal Intl
+CEN Ciudad Obregon Intl
+CPE Ingeniero Alberto Acuna Ongay Intl
+CJS Abraham Gonzalez Intl
+CUU General R Fierro Villalobos Intl
+CVM General Pedro Jose Mendez Intl
+ENW Kenosha Regional Airport
+CZM Cozumel Intl
+DGO Durango Intl
+TPQ Tepic
+ESE Ensenada
+GDL Don Miguel Hidalgo Y Costilla Intl
+GYM General Jose Maria Yanez Intl
+TCN Tehuacan
+HMO General Ignacio P Garcia Intl
+CLQ Colima
+ISJ Isla Mujeres
+SLW Plan De Guadalupe Intl
+MMIT Ixtepec
+LZC Lazaro Cardenas
+LMM Valle Del Fuerte Intl
+BJX Guanajuato Intl
+LAP General Manuel Marquez De Leon Intl
+LTO Loreto Intl
+MAM General Servando Canales Intl
+MID Licenciado Manuel Crescencio Rejon Int
+MXL General Rodolfo Sanchez Taboada Intl
+MLM General Francisco J Mujica Intl
+MTT Minatitlan
+LOV Monclova Intl
+MEX Licenciado Benito Juarez Intl
+MTY General Mariano Escobedo Intl
+MZT General Rafael Buelna Intl
+NOG Nogales Intl
+NLD Quetzalcoatl Intl
+OAX Xoxocotlan Intl
+PAZ Tajin
+PBC Hermanos Serdan Intl
+PCA Ingeniero Juan Guillermo Villasana
+PPE Puerto Penasco
+PDS Piedras Negras Intl
+UPN Licenciado Y Gen Ignacio Lopez Rayon
+PVR Licenciado Gustavo Diaz Ordaz Intl
+PXM Puerto Escondido Intl
+QRO Queretaro Intercontinental
+REX General Lucio Blanco Intl
+SJD Los Cabos Intl
+MMSF San Felipe Intl
+SLP Ponciano Arriaga Intl
+TXA Tlaxcala
+MMTB General Div P A Angel H Corzo Molina
+TRC Torreon Intl
+TGZ Angel Albino Corzo
+TIJ General Abelardo L Rodriguez Intl
+TAM General Francisco Javier Mina Intl
+TSL Tamuin
+TLC Licenciado Adolfo Lopez Mateos Intl
+TAP Tapachula Intl
+CUN Cancun Intl
+VSA C P A Carlos Rovirosa Intl
+VER General Heriberto Jara Intl
+ZCL General Leobardo C Ruiz Intl
+ZIH Ixtapa Zihuatanejo Intl
+ZMM Zamora
+ZLO Playa De Oro Intl
+MMZP Zapopan
+BEF Bluefields
+MNBR Los Brasiles
+MNLN Leon
+MGA Managua Intl
+PUZ Puerto Cabezas
+BOC Bocas Del Toro Intl
+CHX Cap Manuel Nino Intl
+DAV Enrique Malek Intl
+HOW Howard
+PAC Marcos A Gelabert Intl
+MPSA Ruben Cantu
+PTY Tocumen Intl
+MRBA Buenos Aires
+VGT North Las Vegas Airport
+OTR Coto 47
+MRCH Chacarita
+KGEO Brown County Airport
+MREC El Carmen De Siquirres
+MRFI Nuevo Palmar Sur
+GLF Golfito
+MRGP Guapiles
+LIR Daniel Oduber Quiros Intl
+MRLC Los Chiles
+LIO Limon Intl
+NOB Nosara
+SJO Juan Santamaria Intl
+MRPD Pandora
+PMZ Palmar Sur
+XQP La Managua
+MRSG Santa Clara De Guapiles
+MRSV San Vito De Java
+SAL El Salvador Intl
+MSSS Ilopango Intl
+MTCA Cayes
+CAP Cap Haitien Intl
+MTJA Jacmel
+PAP Toussaint Louverture Intl
+BCA Gustavo Rizo
+BYM Carlos Manuel De Cespedes
+AVI Maximo Gomez
+MUCC Jardines Del Rey
+CFG Jaime Gonzalez
+CYO Vilo Acuna Intl
+CMW Ignacio Agramonte Intl
+SCU Antonio Maceo Intl
+MUFL Florida
+MUGM Guantanamo Bay Ns
+GAO Mariana Grajales
+HAV Jose Marti Intl
+HOG Frank Pais Intl
+LCL La Coloma
+MOA Orestes Acosta
+MZO Sierra Maestra
+GER Rafael Cabrera
+MUPB Playa Baracoa
+MUPR Pinar Del Rio
+MUSA San Antonio De Los Banos
+SNU Abel Santamaria
+MUSL Santa Lucia
+MUSN Siguanea
+MUSS Sancti Spiritus
+C02 Grand Geneva Resort Airport
+VRA Juan Gualberto Gomez Intl
+VTU Hermanos Ameijeiras
+CYB Gerrard Smith Intl
+GCM Owen Roberts Intl
+MYAB Clarence A Bain
+ASD Fresh Creek
+MHH Marsh Harbour
+SAQ San Andros
+AXP Spring Point
+MYAS Sandy Point
+TCB Treasure Cay
+CCZ Chub Cay
+MYBG Great Harbour Cay
+BIM South Bimini
+DKB De Kalb Taylor Municipal Airport
+GGT Exuma Intl
+MYEG George Town
+ELH North Eleuthera
+GHB Governors Harbour
+MYEN Normans Cay
+RSD Rock Sound
+MYES Staniel Cay
+FPO Grand Bahama Intl
+IGA Matthew Town
+LGI Deadmans Cay
+SML Stella Maris
+MYG Mayaguana
+NAS Lynden Pindling Intl
+MYRD Duncan Town
+MYRP New Port Nelson
+ZSA San Salvador
+BZE Philip S W Goldson Intl
+AIT Aitutaki
+RAR Rarotonga Intl
+NAN Nadi Intl
+SUV Nausori Intl
+TBU Fua Amotu Intl
+VAV Vavau Intl
+TRW Bonriki Intl
+TBF Tabiteuea North
+MTL Maitland Airport
+WLS Wallis
+APW Faleolo Intl
+PPG Pago Pago Intl
+RUR Rurutu
+TUB Tubuai
+AAA Anaa
+NTGB Fangatau
+TIH Tikehau
+REA Reao
+FAV Fakarava
+XMH Manihi
+GMR Totegegie
+KKR Kaukura
+MKP Makemo
+PKP Puka Puka
+TKP Takapoto
+AXR Arutua
+MVT Mataiva
+TKX Takaroa
+NHV Nuku Hiva
+LAF Purude University Airport
+BOB Bora Bora
+RGI Rangiroa
+HUH Huahine
+MOZ Moorea
+HOI Hao
+MAU Maupiti
+RFP Raiatea
+VLI Port Vila Bauerfield
+KNQ Kone
+KOC Koumac
+LIF Lifou
+GEA Magenta
+MEE Mare
+TOU Touho
+UVE Ouvea
+NOU La Tontouta
+AKL Auckland Intl
+TUO Taupo
+AMZ Ardmore
+CHC Christchurch Intl
+CHT Chatham Islands
+DUD Dunedin
+GIS Gisborne
+MON Glentanner
+HKK Hokitika
+HLZ Hamilton
+NZHS Hastings
+KKE Kerikeri
+KAT Kaitaia
+ALR Alexandra
+GTN Mount Cook
+TEU Manapouri
+MRO Masterton
+NPL New Plymouth
+NSN Nelson
+IVC Invercargill
+NZOH Ohakea
+OAM Oamaru
+PMR Palmerston North
+PPQ Paraparaumu
+ZQN Queenstown
+ROT Rotorua
+NZRU Waiouru
+NZSP South Pole Station
+TRG Tauranga
+TIU Timaru
+NZUK Pukaki
+BHE Woodbourne
+NZWD Mcmurdo Station
+WKA Wanaka
+NZWG Wigram
+WHK Whakatane
+WLG Wellington Intl
+NZWO Wairoa
+NZWP Whenuapai
+WRE Whangarei
+WSZ Westport
+WAG Wanganui
+HEA Herat
+JAA Jalalabad
+KBL Kabul Intl
+KDH Kandahar
+MMZ Maimana
+MZR Mazar I Sharif
+OASD Shindand
+OASG Sheberghan
+UND Konduz
+BAH Bahrain Intl
+OBBS Shaikh Isa
+AHB Abha
+HOF Al Ahsa
+ABT Al Baha
+BHH Bisha
+OEBQ Abqaiq
+DMM King Fahd Intl
+DHA King Abdulaziz Ab
+GIZ King Abdullah Bin Abdulaziz
+ELQ Gassim
+URY Guriat
+HAS Hail
+OEJB Jubail
+OEJF King Faisal Naval Base
+JED King Abdulaziz Intl
+HBT King Khaled Military City
+MED Prince Mohammad Bin Abdulaziz
+EAM Nejran
+AQI Qaisumah
+OEPC Pump Station 3
+OEPF Pump Station 6
+OEPJ Pump Station 10
+OERB Rabigh
+RAH Rafha
+RUH King Khaled Intl
+OERM Ras Mishab
+RAE Arar
+OERT Ras Tanura
+SHW Sharurah
+DGE Mudgee Airport
+SLF Sulayel
+TUU Tabuk
+TIF Taif
+OETH Thumamah
+OETN Ras Tanajib
+TUI Turaif
+OXD Miami University Airport
+EJH Wejh
+YNB Yenbo
+ABD Abadan
+OIAD Dezful
+OIAG Aghajari
+OIAH Gachsaran
+QMJ Shahid Asyaee
+OIAJ Omidiyeh
+MRX Mahshahr
+AWZ Ahwaz
+OIBA Abumusa Island
+BUZ Bushehr
+OIBH Bastak
+OIBI Asaloyeh
+KIH Kish Island
+BDH Bandar Lengeh
+OIBQ Khark Island
+OIBS Sirri Island
+OIBV Lavan Island
+KSH Shahid Ashrafi Esfahani
+SDG Sanandaj
+OIFE Hesa
+OIFH Shahid Vatan Pour Air Base
+OIFK Kashan
+OIFM Esfahan Shahid Beheshti Intl
+OIFP Badr Air Base
+RAS Rasht
+MIE Delaware County Airport
+OIHR Arak
+OIIA Ghazvin Azadi
+OIIC Kushke Nosrat
+OIID Doshan Tappeh
+OIIE Imam Khomeini Intl
+OIIG Ghale Morghi
+THR Mehrabad Intl
+OIIK Ghazvin
+OIIM Naja
+BND Bandar Abbass Intl
+OIKJ Jiroft
+KER Kerman
+OIKP Havadarya
+OIKQ Dayrestan
+OIKY Sirjan
+XBJ Birjand
+OIMC Sarakhs
+OIMJ Shahroud
+WSY Whitsunday Airstrip
+OIMT Tabas
+OINE Kalaleh
+RZR Ramsar
+RAF Aeropuerto de Rafaela
+OISF Fasa
+OISJ Jahrom
+OISR Lamerd
+SYZ Shiraz Shahid Dastghaib Intl
+OITK Khoy
+QSA Sabadell Airport
+TBZ Tabriz Intl
+OITZ Zanjan
+AZD Yazd Shahid Sadooghi
+OIZB Zabol
+ZBR Chah Bahar
+ZAH Zahedan Intl
+OIZI Iran Shahr
+OIZS Saravan
+AMM Queen Alia Intl
+ADJ Marka Intl
+AQJ Aqaba King Hussein Intl
+OJHF Prince Hasan
+OJJR Jerusalem
+OMF King Hussein
+KWI Kuwait Intl
+BEY Rafic Hariri Intl
+OLKA Rene Mouawad
+AUH Abu Dhabi Intl
+AZI Bateen
+OMAH Al Hamra Aux
+OMAJ Jebel Dhana
+MVA Reykjahlid Airport
+OMAM Al Dhafra
+OMAR Arzanah
+OMAS Das Island
+OMAZ Zirku
+DXB Dubai Intl
+FJR Fujairah Intl
+RKT Ras Al Khaimah Intl
+SHJ Sharjah Intl
+KHS Khasab
+MSH Masirah
+MCT Seeb Intl
+SLL Salalah
+TTH Thumrait
+OPBG Bhagatanwala
+FVSV Spray View Airport
+XYD Lyon Part-Dieu Railway
+LYP Faisalabad Intl
+GWD Gwadar
+GIL Gilgit
+OPJA Shahbaz Ab
+KHI Jinnah Intl
+LHE Allama Iqbal Intl
+OPLH Walton
+OPMA Mangla
+MFG Muzaffarabad
+OPMI Mianwali
+MJD Moenjodaro
+OPMR Masroor
+MUX Multan Intl
+WNS Nawabshah
+OPOK Okara
+PJG Panjgur
+PSI Pasni
+PEW Peshawar Intl
+OPQS Qasim
+UET Quetta
+RYK Sheikh Zayed
+ISB Chaklala
+OPRS Risalpur
+RAZ Rawalakot
+1RL Point Roberts Airpark
+SKZ Sukkur
+SDT Saidu Sharif
+SUL Sui
+BDN Talhar
+OPWN Wana
+PZH Zhob
+BSR Basrah Intl
+ALP Aleppo Intl
+DAM Damascus Intl
+DEZ Deir Zzor
+LTK Bassel Al Assad Intl
+PMS Palmyra
+DOH Doha Intl
+CIS Canton
+ROP Rota Intl
+SPN Francisco C Ada Saipan Intl
+UAM Andersen Afb
+GUM Guam Intl
+TIQ Tinian Intl
+NSO Scone Airport
+MAJ Marshall Islands Intl
+PKRO Dyess Aaf
+KWA Bucholz Aaf
+CXI Cassidy Intl
+MDY Midway Atoll
+TKK Chuuk Intl
+PNI Pohnpei Intl
+ROR Babelthuap
+KSA Kosrae
+YAP Yap Intl
+KNH Shang Yi
+PIF Pingtung South
+RCDI Longtan
+TTT Fengnin
+GNI Lyudao
+KHH Kaohsiung Intl
+CYI Chiayi
+KYD Lanyu
+RMQ Ching Chuang Kang
+CES Cessnock Airport
+TNN Tainan
+RCPO Hsinchu
+MZG Magong
+RCQS Jhihhang
+RCSQ Pingtung North
+TSA Sungshan
+TPE Taoyuan Intl
+WOT Wang An
+HUN Hualien
+NRT Narita Intl
+MMJ Matsumoto
+IBR Hyakuri
+RJAM Minami Torishima
+IWO Iwo Jima
+SHM Nanki Shirahama
+RJBK Kohnan
+OBO Obihiro
+CTS New Chitose
+HKD Hakodate
+SPK Chitose
+MMB Memanbetsu
+SHB Nakashibetsu
+RJCT Tokachi
+WKJ Wakkanai
+IKI Iki
+UBJ Yamaguchi Ube
+TSJ Tsushima
+MBE Monbetsu
+AKJ Asahikawa
+OIR Okushiri
+RIS Rishiri
+RJFA Ashiya
+KUM Yakushima
+FUJ Fukue
+FUK Fukuoka
+TNE New Tanegashima
+KOJ Kagoshima
+KMI Miyazaki
+RJFN Nyutabaru
+OIT Oita
+KKJ New Kitakyushu
+KMJ Kumamoto
+NGS Nagasaki
+RJFY Kanoya
+RJFZ Tsuiki
+ASJ Amami
+RJKB Okierabu
+TKN Tokunoshima
+RJNF Fukui
+RJNG Gifu
+RJNH Hamamatsu
+KMQ Komatsu
+OKI Oki
+TOY Toyama
+RJNY Shizuhama
+HIJ Hiroshima
+OKJ Okayama
+IZO Izumo
+RJOF Hofu
+YGJ Yonago Kitaro
+RJOI Iwakuni Mcas
+KCZ Kochi
+MYJ Matsuyama
+ITM Osaka Intl
+TTJ Tottori
+TKS Tokushima
+TAK Takamatsu
+RJOY Yao
+RJOZ Ozuki
+AOJ Aomori
+GAJ Yamagata
+RJSD Sado
+RJSH Hachinohe
+HNA Hanamaki
+AXT Akita
+MSJ Misawa Ab
+SDJ Sendai
+RJST Matsushima
+LKS Sazena
+RJTA Atsugi Naf
+RJTE Tateyama
+HAC Hachijojima
+RJTJ Iruma
+RJTK Kisarazu
+RJTL Shimofusa
+OIM Oshima
+RJTR Kastner Aaf
+HND Tokyo Intl
+OKO Yokota Ab
+KWJ Gwangju
+RKJU Jeon Ju
+RSU Yeosu
+SHO Sokcho
+KAG Gangneung
+MQB Macomb Municipal Airport
+CJU Jeju Intl
+RKPE Jinhae
+PUS Gimhae Intl
+YBUU Bungle Bungle Airport
+USN Ulsan
+RKSG A 511
+SSN Seoul Ab
+OSN Osan Ab
+GMP Gimpo
+RKSW Suwon
+KPO Pohang
+TAE Daegu Ab
+YEC Yecheon
+OKA Naha
+RODE Ie Shima Aux Ab
+DNA Kadena Ab
+ISG Ishigaki
+UEO Kumejima
+MMD Minami Daito
+MMY Miyako
+KTD Kitadaito
+SHI Shimojishima
+RORT Tarama
+RNJ Yoron
+ROTM Futenma Mcas
+OGN Yonaguni
+MNL Ninoy Aquino Intl
+MYP Mary Airport
+CBO Cotabato
+CGY Cagayan De Oro
+PAG Pagadian
+RPMR Tambler
+--- Crocodile Camp
+ZAM Zamboanga Intl
+BAG Baguio
+RPUD Daet
+RPUF Basa Ab
+RPUG Lingayen
+RPUH San Jose
+RPUL Fernando Ab
+RPUM Mamburao
+RPUQ Vigan
+RPUR Baler
+--- Kimana
+--- Solio Ranch Airport
+EKKL Kalundborg Flyveplads
+RPUZ Bagabag
+TAC Daniel Z Romualdez
+BCD Bacolod
+GEN Gardermoen Airport
+DGT Dumaguete
+RPVE Caticlan
+RPVG Guiuan
+ILO Iloilo
+KLO Kalibo
+RPVM Mactan Cebu Intl
+AUW Wausau Downtown Airport
+PPS Puerto Princesa
+SJI Antique
+COC Comodoro Pierrestegui
+GHU Gualeguaychu
+SAAJ Junin
+PRA General Urquiza
+ROS Rosario
+SFN Sauce Viejo
+AEP Aeroparque Jorge Newbery
+COR Ambrosio L V Taravella
+SACT Chamical
+SADF San Fernando
+SADJ Mariano Moreno
+LPG La Plata
+SADM Moron
+SADP El Palomar
+SAHC Chos Malal
+SAHR General Roca
+MDZ El Plumerillo
+LGS Malargue
+AFA San Rafael
+CTC Catamarca
+SDE Santiago Del Estero
+SANI Tinogasta
+IRJ La Rioja
+SANO Chilecito
+TUC Teniente Benjamin Matienzo
+UAQ San Juan
+RCU Rio Cuarto Area De Material
+VDR Villa Dolores
+SAOL Laboulaye
+SAOM Marcos Juarez
+SAOR Villa Reynolds
+LUQ San Luis
+CNQ Corrientes
+RES Resistencia
+FMA Formosa
+IGR Cataratas Del Iguazu
+AOL Paso De Los Libres
+SARM Monte Caseros
+PSS Posadas
+SARS Termal
+SLA Salta
+JUJ Jujuy
+ORA Oran
+SASQ La Quiaca
+C47 Portage Municipal Airport
+SATD Eldorado
+SATG Goya
+SATO Obera
+SATR Reconquista
+SATU Curuzu Cuatia
+EHL El Bolson
+CRD Comodoro Rivadavia
+EQS Esquel
+REL Almirante Zar
+VDM Gobernador Castello
+PMY El Tehuelche
+SAWB Base Marambio
+PUD Puerto Deseado
+RGA Rio Grande
+RGL Rio Gallegos
+USH Ushuaia Malvinas Argentinas
+ULA San Julian
+PMQ Perito Moreno
+RZA Santa Cruz
+BHI Comandante Espora
+SAZC Coronel Suarez
+SAZF Olavarria
+SAZG General Pico
+SAZH Tres Arroyos
+SAZI Bolivar
+IWD Gogebic Iron County Airport
+MDQ Mar Del Plata
+NQN Presidente Peron
+MCD Mackinac Island Airport
+SAZP Comodoro P Zanni
+RSA Santa Rosa
+BRC San Carlos De Bariloche
+TDL Tandil
+VLG Villa Gesell
+SAZW Cutralco
+CPC Aviador C Campos
+CDJ Conceicao Do Araguaia
+SBAF Campo Delio Jardim De Mattos
+SBAM Amapa
+AQA Araraquara
+AJU Santa Maria
+SBAS Assis
+AFL Alta Floresta
+ARU Aracatuba
+BEL Val De Cans Intl
+BGX Comandante Gustavo Kraemer
+PLU Pampulha Carlos Drummond De Andrade
+BFH Bacacheri
+SBBQ Major Brigadeiro Doorgal Borges
+BSB Presidente Juscelino Kubitschek
+BAU Bauru
+BVB Boa Vista
+SBBW Barra Do Garcas
+CAC Cascavel
+SBCC Cachimbo
+CNF Tancredo Neves Intl
+CGR Campo Grande
+XAP Chapeco
+CLN Carolina
+CCM Forquilhinha
+SBCO Canoas
+CAW Bartolomeu Lisandro
+CMG Corumba Intl
+CWB Afonso Pena
+CRQ Caravelas
+CXJ Campo Dos Bugres
+CGB Marechal Rondon
+CZS Cruzeiro do Sul
+PPB Presidente Prudente
+MAO Eduardo Gomes Intl
+SBEK Jacareacanga
+SBES Sao Pedro Da Aldeia
+IGU Cataratas Intl
+FLN Hercilio Luz
+FEN Fernando De Noronha
+SBFT Fronteira
+SBFU Furnas
+FOR Pinto Martins Intl
+GIG Galeao Antonio Carlos Jobim
+SBGM Guajara Mirim
+GYN Santa Genoveva
+SBGP Embraer Unidade Gaviao Peixoto
+GRU Guarulhos Gov Andre Franco Montouro
+SBGW Guaratingueta
+ATM Altamira
+SBIC Itacoatiara
+SBIH Itaituba
+IOS Ilheus
+IPN Usiminas
+SBIT Hidroeletrica
+IMP Prefeito Renato Moreira
+SBJC Julio Cesar
+JDF Francisco De Assis
+JPA Presidente Castro Pinto
+JOI Lauro Carneiro De Loyola
+CPV Presidente Joao Suassuna
+VCP Viracopos
+SBLJ Lages
+LIP Lins
+LDB Londrina
+LAZ Bom Jesus Da Lapa
+SBLS Lagoa Santa
+MAB Maraba
+SBMD Monte Dourado
+MGF Regional De Maringa Silvio Name Junior
+MOC Mario Ribeiro
+GRM Grand Marais Cook County Airport
+SBMN Ponta Pelada
+MCZ Zumbi Dos Palmares
+MCP Macapa
+SBMS Dix Sept Rosado
+SBMT Marte
+MNX Manicore
+NVT Ministro Victor Konder Intl
+GEL Santo Angelo
+NAT Augusto Severo
+SBOI Oiapoque
+POA Salgado Filho
+SBPB Prefeito Doutor Joao Silva Filho
+POO Pocos De Caldas
+PFB Lauro Kurtz
+PET Pelotas
+PNZ Senador Nilo Coelho
+PNB Porto Nacional
+PMG Ponta Pora
+PVH Governador Jorge Teixeira De Oliveira
+NPZ Porter County Municipal Airport
+RBR PlÃ¡cido de Castro
+REC Guararapes Gilberto Freyre Intl
+RIG Rio Grande
+SDU Santos Dumont
+RAO Leite Lopes
+STU Santa Cruz
+SJK Professor Urbano Ernesto Stumpf
+SLZ Marechal Cunha Machado Intl
+CGH Congonhas
+SJP Sao Jose Do Rio Preto
+SSZ Base Aerea De Santos
+SSA Deputado Luis Eduardo Magalhaes
+TMT Trombetas
+THE Senador Petronio Portella
+TFF Tefe
+SBTK Tarauaca
+SBTL Telemaco Borba
+SBTS Tirios
+TBT Tabatinga
+TUR Tucurui
+SBUA Sao Gabriel Da Cachoeira
+PAV Paulo Afonso
+URG Rubem Berta
+UDI Ten Cel Av Cesar Bombonato
+SBUP Urubupunga
+UBA Uberaba
+VAG Major Brigadeiro Trompowsky
+BVH Vilhena
+VIX Goiabeiras
+SBYA Iauarete
+QPS Campo Fontenelle
+ARI Chacalluta
+BBA Balmaceda
+SCBQ El Bosque
+CCH Chile Chico
+CJC El Loa
+SCCH General Bernardo O Higgins
+PUQ Carlos Ibanez Del Campo Intl
+GXQ Teniente Vidal
+IQQ Diego Aracena Intl
+SCL Arturo Merino Benitez Intl
+ANF Cerro Moreno Intl
+SCFM Capitan Fuentes Martinez
+SCFT Futaleufu
+LSQ Maria Dolores
+SCGZ Guardiamarina Zanartu
+CCP Carriel Sur Intl
+IPC Mataveri Intl
+ZOS Canal Bajo Carlos Hott Siebert
+SCLL Vallenar
+SCRG De La Independencia
+SCRM Teniente Rodolfo Marsh Martin
+LSC La Florida
+SCTB Eulogio Sanchez
+ZCO Maquehue
+PMC El Tepual Intl
+WCH Chaiten
+ZAL Pichoy
+ATF Chachoan
+SECM Hacienda Clementina
+OCC Francisco De Orellana
+CUE Mariscal Lamar
+GPS Seymour
+GYE Jose Joaquin De Olmedo Intl
+SEGZ Gualaquiza
+SEIB Atahualpa
+SEKK Km 192
+SELJ Hacienda La Julia
+SELT Cotopaxi Intl
+SEMA Jose Maria Velasco Ibarra
+XMS Coronel E Carvajal
+MCH General Manuel Serrano
+SEMO Montalvo
+MEC Eloy Alfaro Intl
+SEMX Maragrosa
+SEPS Amable Calle Gutierrez
+PVO Reales Tamarindos
+SEQE Quevedo
+UIO Mariscal Sucre Intl
+SERB Chimborazo
+SERO Coronel Artilleria Victor Larrea
+SNC General Ulpiano Paez
+SESD Santo Domingo Los Colorados
+SETA Taura
+SETE Mayor Galo Torres
+TPC Tarapoa
+TUA Teniente Coronel Luis A Mantilla
+--- Silverton
+ASU Silvio Pettirossi Intl
+SGAY Juan De Ayolas
+SGCO Teniente Col Carmelo Peralta
+SGIB Itaipu
+SGME Dr Luis Maria Argana Intl
+SGPI Carlos Miguel Gimenez
+AXM El Eden
+PUU Tres De Mayo
+SKBC Las Flores
+BGA Palonegro
+BOG Eldorado Intl
+BAQ Ernesto Cortissoz
+BSC Jose Celestino Mutis
+BUN Gerardo Tobar Lopez
+CUC Camilo Daza
+CTG Rafael Nunez
+CLO Alfonso Bonilla Aragon Intl
+TCO La Florida
+CZU Las Brujas
+EJA Yariguies
+FLA Gustavo Artunduaga Paredes
+SKGI Santiago Vila
+MXY McCarthy Airport
+GPI Juan Casiano
+SKGY Guaymaral
+IBE Perales
+IPI San Luis
+SKLC Antonio Roldan Betancourt
+SKLM La Mina
+LET Alfredo Vasquez Cobo
+EOH Olaya Herrera
+MGN Baracoa
+MTR Los Garzones
+MVP Fabio Alberto Leon Bentley
+MZL La Nubia
+NVA Benito Salas
+OCV Aguas Claras
+OTU Otu
+SKPB Puerto Bolivar
+PCR Puerto Carreno
+PEI Matecana
+SKPI Pitalito
+PPN Guillermo Leon Valencia
+PSO Antonio Narino
+PVA El Embrujo
+SKQU Mariquita
+MDE Jose Maria Cordova
+RCH Almirante Padilla
+SJE Jorge E Gonzalez Torres
+SMR Simon Bolivar
+ADZ Gustavo Rojas Pinilla
+SVI Eduardo Falla Solano
+TME Tame
+AUC Santiago Perez
+UIB El Carano
+ULQ Farfan
+VUP Alfonso Lopez Pumarejo
+VVC Vanguardia
+BJO Bermejo
+CBB Jorge Wilsterman
+SLCH Chimore
+CIJ Heroes Del Acre
+LPB El Alto Intl
+SLOR Juan Mendoza
+POI Capitan Nicolas Rojas
+PSZ Tte De Av Salvador Ogaya G
+SLSA Santa Ana Del Yacuma
+SRE Juana Azurduy De Padilla
+TJA Capitan Oriel Lea Plaza
+TDD Tte Av Jorge Henrich Arauz
+SLVM Tcnl Rafael Pabon
+VVI Viru Viru Intl
+BYC Yacuiba
+PBM Johan A Pengel Intl
+CAY Rochambeau
+SOOG St Georges De L Oyapock
+SPAB Huancabamba
+SPAS Alferez Vladimir Sara Bauer
+SPAY Atalaya
+SWD Seward Airport
+SPBR Iberia
+PCL Cap Fap David Abenzur Rengifo Intl
+CHM Teniente Jaime A De Montreuil Morales
+SPEP Puerto Esperanza
+SPEQ Cesar Torke Podesta
+CIX Capt Jose A Quinones Gonzales Intl
+AYP Coronel Fap Alfredo Mendivil Duarte
+ANS Andahuaylas
+ATA Comandante Fap German Arias Graziani
+LIM Jorge Chavez Intl
+JJI Juanjui
+SPJJ Francisco Carle
+JUL Juliaca
+MGC Michigan City Municipal Airport
+SPLO Ilo
+SPLP Las Palmas
+TBP Pedro Canga
+YMS Moises Benzaquen Rengifo
+SPOL Collique
+CHH Chachapoyas
+IQT Coronel Francisco Secada Vignetta Intl
+AQP Rodriguez Ballon
+SPRM San Ramon
+TRU Capitan Carlos Martinez De Pinillos
+PIO Pisco Intl
+TPP Cadete Guillermo Del Castillo Paredes
+TCQ Coronel Carlos Ciriani Santa Rosa Intl
+PEM Padre Aldamiz
+PIU Capitan Fap Guillermo Concha Iberico
+TYL Capitan Montes
+RJAN Niijima Airport
+CUZ Teniente Alejandro Velasco Astete Intl
+SUAA Angel S Adami
+SUDU Santa Bernardina Intl
+--- East Glacier Park Amtrak Station
+MVD Carrasco Intl
+STY Nueva Hesperides Intl
+AGV Oswaldo Guevara Mujica
+AAO Anaco
+SVAT San Fernando De Atabapo
+BLA General Jose Antonio Anzoategui Intl
+BNS Barinas
+SVBL El Libertador Ab
+BRM Barquisimeto Intl
+CBL Ciudad Bolivar
+SVCD Caicara Del Orinoco
+SVCJ San Carlos
+SVCL Calabozo
+CAJ Canaima
+SVCO Carora
+CUP General Jose Francisco Bermudez
+CZE Jose Leonardo Chirinos
+SVCS Oscar Machado Zuloaga
+CUM Antonio Jose De Sucre
+SVCZ Capitan Manuel Rios Guarico Airbase
+SVED El Dorado
+SVEZ Elorza
+SVGD Guasdualito
+GUI Guiria
+GUQ Guanare
+SVHG Higuerote
+SVIE Andres Miguel Salazar Marcano
+LSP Josefa Camejo
+SVJM San Juan De Los Morros
+LFR La Fria
+SVLO La Orchila
+MAR La Chinita Intl
+MRD Alberto Carnevalli
+PMV Del Caribe Intl Gen Santiago Marino
+CCS Simon Bolivar Intl
+MUN Maturin
+PYH Casique Aramare
+PBL General Bartolome Salom Intl
+SVPM Paramillo
+PZO General Manuel Carlos Piar
+SVPT Palmarito
+SVZ San Antonio Del Tachira
+SVSB Santa Barbara De Barinas
+SVSE Santa Elena De Uairen
+STD Mayor Buenaventura Vivas
+SFH Sub Teniente Nestor Arias
+SFD San Fernando De Apure
+SOM San Tome
+STB Santa Barbara Del Zulia
+TUV Tucupita
+SVTM Tumeremo
+VLN Arturo Michelena Intl
+EDVI Flugplatz Hoexter Holzminden
+VLV Dr Antonio Nicolas Briceno
+VDP Valle De La Pascua
+SYLD Linden
+LTM Lethem
+ANU V C Bird Intl
+BGI Grantley Adams Intl
+DCF Canefield
+DOM Melville Hall
+FDF Le Lamentin
+SFG Grand Case
+PTP Le Raizet
+GND Point Salines Intl
+STT Cyril E King
+STX Henry E Rohlsen
+BQN Rafael Hernandez
+FAJ Diego Jimenez Torres
+SIG Fernando Luis Ribas Dominicci
+MAZ Eugenio Maria De Hostos
+PSE Mercedita
+SJU Luis Munoz Marin Intl
+SKB Robert L Bradshaw
+EDLD Dinslaken Schwarze-Heide
+SLU George F L Charles
+UVF Hewanorra Intl
+AUA Reina Beatrix Intl
+BON Flamingo
+CUR Hato
+EUX F D Roosevelt
+SXM Princess Juliana Intl
+AXA Wallblake
+TAB Crown Point
+POS Piarco
+EIS Terrance B Lettsome Intl
+AET Allakaket Airport
+CIW Canouan
+MQS Mustique
+SVD E T Joshua
+ALA Almaty
+UAAH Balkhash
+TSE Astana Intl
+DMB Taraz
+FRU Manas
+OSS Osh
+CIT Shymkent
+YAK Yakutat
+URA Uralsk
+PWQ Pavlodar
+PLX Semipalatinsk
+UATE Aktau
+AKX Aktyubinsk
+GYD Heydar Aliyev
+YKS Yakutsk
+MJZ Mirny
+BQS Ignatyevo
+KHV Novy
+MQT Sawyer International Airport
+PVS Provideniya Bay
+GDX Sokol
+PWE Pevek
+PKC Yelizovo
+UUS Khomutovo
+VVO Knevichi
+HTA Kadala
+BTK Bratsk
+IKT Irkutsk
+UUD Mukhino
+KBP Boryspil Intl
+DOK Donetsk Intl
+DNK Dnipropetrovsk Intl
+SIP Simferopol Intl
+IEV Zhuliany Intl
+LWO Lviv Intl
+IMT Ford Airport
+ODS Odesa Intl
+LED Pulkovo
+MMK Murmansk
+GME Gomel
+VTB Vitebsk
+KGD Khrabrovo
+MHP Minsk 1
+MSQ Minsk 2
+ABA Abakan
+BAX Barnaul
+KEJ Kemerovo
+OMS Omsk
+KRR Pashkovskiy
+MCX Uytash
+MRV Mineralnyye Vody
+STW Shpakovskoye
+ROV Rostov Na Donu
+AER Sochi
+ASF Astrakhan
+VOG Gumrak
+CEK Balandino
+MQF Magnitogorsk
+GBZ Great Barrier Island
+NJC Nizhnevartovsk
+PEE Bolshoye Savino
+SGC Surgut
+SVX Koltsovo
+ASB Ashgabat
+KRW Turkmenbashi
+UTAV Turkmenabat
+DYU Dushanbe
+BHK Bukhara
+SKD Samarkand
+IUD Al Udeid AB
+TAS Yuzhny
+BZK Bryansk
+SVO Sheremetyevo
+KLD Migalovo
+VOZ Chertovitskoye
+VKO Vnukovo
+SCW Syktyvkar
+KZN Kazan
+REN Orenburg
+UFA Ufa
+KBY Kurumoch
+AMD Ahmedabad
+AKD Akola
+IXU Aurangabad
+BOM Chhatrapati Shivaji Intl
+PAB Bilaspur
+BHJ Bhuj
+IXG Belgaum
+BDQ Vadodara
+BHO Bhopal
+BHU Bhavnagar
+NMB Daman
+VADS Deesa
+VAGN Guna
+GOI Goa
+IDR Devi Ahilyabai Holkar
+JLR Jabalpur
+JGA Jamnagar
+IXY Kandla
+HJR Khajuraho
+KLH Kolhapur
+IXK Keshod
+NAG Dr Ambedkar Intl
+ISK Nasik Road
+PNQ Pune
+PBD Porbandar
+RAJ Rajkot
+RPR Raipur
+SSE Sholapur
+STV Surat
+UDR Udaipur
+CMB Bandaranaike Intl Colombo
+VCCA Anuradhapura
+VCCB Batticaloa
+RML Colombo Ratmalana
+GOY Amparai
+JAF Kankesanturai
+TRR China Bay
+KIK Kirkuk AB
+VDKH Kampong Chhnang
+PNH Phnom Penh Intl
+REP Siem Reap
+VDST Stung Treng
+VEAN Along
+IXA Agartala
+AJL Aizawl
+IXB Bagdogra
+VEBK Bokaro
+BBI Bhubaneshwar
+CCU Netaji Subhash Chandra Bose Intl
+COH Cooch Behar
+DBD Dhanbad
+ESC Delta County Airport
+--- Lauf-Lillinghof
+GAY Gaya
+VEHK Hirakud
+IMF Imphal
+VEJH Jharsuguda
+IXW Jamshedpur
+JRH Jorhat
+IXH Kailashahar
+IXS Silchar
+IXI Lilabari
+MOH Dibrugarh
+VEMZ Muzaffarpur
+VENP Nawapara
+VEPH Panagarh
+PAT Patna
+VEPU Purnea
+IXR Birsa Munda
+RRK Rourkela
+VEUK Utkela
+VTZ Vishakhapatnam
+VEZO Zero
+CXB Coxs Bazar
+CGP Shah Amanat Intl
+IRD Ishurdi
+JSR Jessore
+RJH Shah Mokhdum
+SPD Saidpur
+ZYL Osmany Intl
+VGTJ Tejgaon
+DAC Zia Intl
+HKG Hong Kong Intl
+VHSK Sek Kong
+AGR Agra
+IXD Allahabad
+ATQ Amritsar
+VIBK Nal
+VIBL Bakshi Ka Talab
+VNS Varanasi
+KUU Kullu Manali
+VIBT Bhatinda
+VIBW Bhiwani
+VIBY Bareilly
+IXC Chandigarh
+VICX Kanpur Chakeri
+VIDD Safdarjung
+DED Dehradun
+DEL Indira Gandhi Intl
+GWL Gwalior
+VIHR Hissar
+VIJN Jhansi
+JDH Jodhpur
+JAI Jaipur
+JSA Jaisalmer
+IXJ Jammu
+KNU Kanpur
+KTU Kota
+LUH Ludhiana
+IXL Leh
+LKO Lucknow
+IXP Pathankot
+VIPL Patiala
+PGH Pantnagar
+VIRB Fursatganj
+VISP Sarsawa
+SXR Srinagar
+TNI Satna
+BXH Balkhash Airport
+LPQ Luang Phabang Intl
+PKZ Pakse
+VLPV Phonesavanh
+ZVK Savannakhet
+VLSN Sam Neua
+VTE Wattay Intl
+MFM Macau Intl
+BWA Bhairahawa
+--- Nastaetten
+VNJP Janakpur
+KTM Tribhuvan Intl
+PKR Pokhara
+SIF Simara
+BIR Biratnagar
+AGX Agatti
+BLR Bangalore
+BEP Bellary
+VOBR Bidar
+VGA Vijayawada
+CJB Coimbatore
+COK Cochin
+CCJ Calicut
+CDP Cuddapah
+VOCX Carnicobar
+VODG Dundigul
+HYD Hyderabad
+IXM Madurai
+IXE Mangalore
+MAA Chennai Intl
+VONS Nagarjuna Sagar
+IXZ Port Blair
+VOPC Pondicherry
+RJA Rajahmundry
+VOSM Salem
+VOTJ Tanjore
+TIR Tirupati
+TRZ Trichy
+TRV Thiruvananthapuram Intl
+VOTX Tambaram
+PBH Paro
+MLE Male Intl
+DMK Don Muang Intl
+VTBK Kamphaeng Saen
+VTBL Khok Kathiam
+NAH Naha
+UTP U Taphao Intl
+VTBW Watthana Nakhon
+LPT Lampang
+PRH Phrae
+HHQ Hua Hin
+VTPI Takhli
+VTPL Sak Long
+VTPN Nakhon Sawan
+PHS Phitsanulok
+VTPY Khunan Phumipol
+VTSA Khoun Khan
+NAW Narathiwat
+KBV Krabi
+VTSH Songkhla
+PAN Pattani
+USM Samui
+VTSN Cha Ian
+HKT Phuket Intl
+VTSR Ranong
+HDY Hat Yai Intl
+TST Trang
+UTH Udon Thani
+SNO Sakon Nakhon
+VTUJ Surin
+LOE Loei
+VTUN Khorat
+VTUR Rob Muang
+EDAS Finsterwalde-Heinrichsruh
+OKB Orchid Beach
+--- Mara Lodges
+DAD Danang Intl
+VVGL Hanoi Gia Lam
+VVKP Kep
+HAN Noibai Intl
+NHA Nhatrang
+VVPB Phubai
+--- Namanga
+VVPQ Phu Quoc
+SGN Tansonnhat Intl
+VYAN Ann
+VYAS Anisakan
+VYBG Bagan
+BMQ Bamburi
+VYCI Coco Island
+HEH Heho
+VYHL Hommalinn
+KET Kengtung
+MWA Williamson Country Regional Airport
+KYP Kyaukpyu
+LSZT Lommis Airport
+LSH Lashio
+VYLY Lanywa
+MDL Mandalay Intl
+MGZ Myeik
+MYT Myitkyina
+VYMO Momeik
+MOG Mong Hsat
+VYNP Nampong
+VYNS Namsang
+VYPA Hpa An
+LSPA Amlikon Glider Airport
+PBU Putao
+VYPY Pyay
+VYST Shante
+AKY Sittwe
+SNW Thandwe
+THL Tachileik
+VYTO Taungoo
+RGN Yangon Intl
+UPG Hasanuddin
+BIK Frans Kaisiepo
+NBX Nabire
+TIM Moses Kilangin
+DJJ Sentani
+WMX Wamena
+MKQ Mopah
+GTO Jalaluddin
+ICN Incheon Intl
+PLW Mutiara
+MDC Sam Ratulangi
+PSJ Kasiguncu
+OTI Pitu
+TTE Sultan Babullah
+LUW Bubung
+--- Mukachevo Air Base
+AMQ Pattimura
+FKQ Fak Fak
+KNG Kaimana
+BXB Babo
+MKW Rendani
+SOQ Jefman
+BTU Bintulu
+KCH Kuching Intl
+LMN Limbang
+MUR Marudi
+MYY Miri
+SBW Sibu
+LDU Lahad Datu
+BKI Kota Kinabalu Intl
+LBU Labuan
+TWU Tawau
+BWN Brunei Intl
+PKU Sultan Syarif Kasim Ii
+DUM Pinang Kampai
+CGK Soekarno Hatta Intl
+GNS Binaka
+WIME Aek Godang
+PDG Minangkabau
+MES Polonia
+WIMS Dr Ferdinand Lumban Tobing
+WIOG Nanga Pinoh I
+KTG Rahadi Usman
+--- Mukachevo
+PNK Supadio
+UMMB Borovaya Airfield
+EDWM Weser-Wuemme
+DJB Sultan Thaha
+BKS Fatmawati Soekarno
+PLM Sultan Mahmud Badaruddin Ii
+RGT Japura
+WITL Lhok Sukon
+BZY Balti International Airport
+BTJ Sultan Iskandarmuda
+WMAP Kluang
+AOR Sultan Abdul Halim
+WMKB Butterworth
+KBR Sultan Ismail Petra
+KUA Kuantan
+KTE Kerteh
+WMKF Simpang
+IPH Sultan Azlan Shah
+JHB Sultan Ismail
+KUL Kuala Lumpur Intl
+LGK Langkawi Intl
+MKZ Malacca
+TGG Sultan Mahmud
+PEN Penang Intl
+WPDB Suai
+DIL Presidente Nicolau Lobato Intl
+WPEC Cakung
+WSAG Sembawang
+QPG Paya Lebar
+WSAT Tengah
+XSP Seletar
+SIN Changi Intl
+YBAF Brisbane Archerfield
+ABM Bamaga Injinoo
+ASP Alice Springs
+BNE Brisbane Intl
+OOL Gold Coast
+CNS Cairns Intl
+CTL Charleville
+ISA Mount Isa
+MCY Sunshine Coast
+MKY Mackay
+PPP Proserpine Whitsunday Coast
+ROK Rockhampton
+TSV Townsville
+WEI Weipa
+AVV Avalon
+ABX Albury
+MEB Melbourne Essendon
+YMES East Sale
+HBA Hobart
+LST Launceston
+MBW Melbourne Moorabbin
+MEL Melbourne Intl
+YMPC Point Cook
+ADL Adelaide Intl
+YPED Edinburgh
+JAD Perth Jandakot
+KTA Karratha
+KGI Kalgoorlie Boulder
+KNX Kununurra
+LEA Learmonth
+PHE Port Hedland Intl
+YPPF Adelaide Parafield
+PER Perth Intl
+UMR Woomera
+XCH Christmas Island
+BWU Sydney Bankstown
+CBR Canberra
+CFS Coffs Harbour
+CDU Camden
+DBO Dubbo
+NLK Norfolk Island Intl
+RCM Richmond
+SYD Sydney Intl
+TMW Tamworth
+WGA Wagga Wagga
+PEK Capital Intl
+--- Hongyuan Airfield
+HLD Dongshan
+TSN Binhai
+TYN Wusu
+CAN Baiyun Intl
+CSX Huanghua
+KWL Liangjiang
+NNG Wuxu
+SZX Baoan Intl
+CGO Xinzheng
+WUH Tianhe
+FNJ Pyongyang Intl
+ZGC Zhongchuan
+XIY Xianyang
+ULN Chinggis Khaan Intl
+ZPJH Gasa
+KMG Wujiaba
+XMN Gaoqi
+KHN Changbei Intl
+FOC Changle
+HGH Xiaoshan
+NGB Lishe
+NKG Lukou
+HFE Luogang
+TAO Liuting
+SHA Hongqiao Intl
+YNT Laishan
+CKG Jiangbei
+KWE Longdongbao
+CTU Shuangliu
+XIC Qingshan
+KHG Kashi
+HTN Hotan
+URC Diwopu
+HRB Taiping
+HOJ Hohenems
+ZYMD Hailang
+DLC Zhoushuizi
+PVG Pudong
+TOD Pulau Tioman
+SZB Subang-Sultan Abdul Aziz Shah Intl
+NTQ Noto
+HBE Borg El Arab Intl
+BTI Barter Island Lrrs
+K03 Wainwright As
+LUR Cape Lisburne Lrrs
+PIZ Point Lay Lrrs
+ITO Hilo Intl
+ORL Executive
+BTT Bettles
+Z84 Clear
+UTO Indian Mountain Lrrs
+FYU Fort Yukon
+SVW Sparrevohn Lrrs
+FRN Bryant Ahp
+TLJ Tatalina Lrrs
+CZF Cape Romanzof Lrrs
+BED Laurence G Hanscom Fld
+SNP St Paul Island
+EHM Cape Newenham Lrrs
+PBV St George
+ILI Iliamna
+PTU Platinum
+BMX Big Mountain Afs
+OSC Oscoda Wurtsmith
+OAR Marina Muni
+MHR Sacramento Mather
+BYS Bicycle Lake Aaf
+NXP Twentynine Palms Eaf
+FSM Fort Smith Rgnl
+MRI Merrill Fld
+GNT Grants Milan Muni
+PNC Ponca City Rgnl
+SVN Hunter Aaf
+GFK Grand Forks Intl
+PBF Grider Fld
+NSE Whiting Fld Nas North
+HNM Hana
+PRC Ernest A Love Fld
+TTN Trenton Mercer
+BOS General Edward Lawrence Logan Intl
+SUU Travis Afb
+RME Griffiss Afld
+ENV Wendover
+BFM Mobile Downtown
+OAK Metropolitan Oakland Intl
+OMA Eppley Afld
+NOW Port Angeles Cgas
+OGG Kahului
+ICT Wichita Mid Continent
+MCI Kansas City Intl
+MSN Dane Co Rgnl Truax Fld
+DLG Dillingham
+HRO Boone Co
+PHX Phoenix Sky Harbor Intl
+BGR Bangor Intl
+FXE Fort Lauderdale Executive
+GGG East Texas Rgnl
+AND Anderson Rgnl
+GEG Spokane Intl
+HWO North Perry
+SFO San Francisco Intl
+CTB Cut Bank Muni
+ARA Acadiana Rgnl
+GNV Gainesville Rgnl
+MEM Memphis Intl
+DUG Bisbee Douglas Intl
+BIG Allen Aaf
+CNW Tstc Waco
+ANN Annette Island
+CAR Caribou Muni
+LRF Little Rock Afb
+HUA Redstone Aaf
+POB Pope Field
+DHT Dalhart Muni
+DLF Laughlin Afb
+LAX Los Angeles Intl
+ANB Anniston Metro
+CLE Cleveland Hopkins Intl
+DOV Dover Afb
+CVG Cincinnati Northern Kentucky Intl
+FME Tipton
+NID China Lake Naws
+HON Huron Rgnl
+JNU Juneau Intl
+LFT Lafayette Rgnl
+EWR Newark Liberty Intl
+BOI Boise Air Terminal
+INS Creech Afb
+GCK Garden City Rgnl
+MOT Minot Intl
+HHI Wheeler Aaf
+MXF Maxwell Afb
+RBM Robinson Aaf
+DAL Dallas Love Fld
+FCS Butts Aaf
+HLN Helena Rgnl
+NKX Miramar Mcas
+LUF Luke Afb
+HRT Hurlburt Fld
+HHR Jack Northrop Fld Hawthorne Muni
+HUL Houlton Intl
+END Vance Afb
+NTD Point Mugu Nas
+EDW Edwards Afb
+LCH Lake Charles Rgnl
+KOA Kona Intl At Keahole
+MYR Myrtle Beach Intl
+NLC Lemoore Nas
+ACK Nantucket Mem
+FAF Felker Aaf
+HOP Campbell Aaf
+DCA Ronald Reagan Washington Natl
+NHK Patuxent River Nas
+PSX Palacios Muni
+BYH Arkansas Intl
+ACY Atlantic City Intl
+TIK Tinker Afb
+ECG Elizabeth City Cgas Rgnl
+PUB Pueblo Memorial
+PQI Northern Maine Rgnl At Presque Isle
+IKR Kirtland Air Force Base
+GRF Gray Aaf
+ADQ Kodiak
+UPP Upolu
+FLL Fort Lauderdale Hollywood Intl
+MKO Davis Fld
+INL Falls Intl
+SLC Salt Lake City Intl
+CDS Childress Muni
+BIX Keesler Afb
+LSF Lawson Aaf
+NQI Kingsville Nas
+FRI Marshall Aaf
+MDT Harrisburg Intl
+LNK Lincoln
+LAN Capital City
+MUE Waimea Kohala
+MSS Massena Intl Richards Fld
+HKY Hickory Rgnl
+SPG Albert Whitted
+FMY Page Fld
+IAH George Bush Intercontinental
+MLT Millinocket Muni
+ADW Andrews Afb
+INT Smith Reynolds
+VCV Southern California Logistics
+CEW Bob Sikes
+GTB Wheeler Sack Aaf
+PHN St Clair Co Intl
+BFL Meadows Fld
+ELP El Paso Intl
+HRL Valley Intl
+CAE Columbia Metropolitan
+DMA Davis Monthan Afb
+NPA Pensacola Nas
+PNS Pensacola Rgnl
+RDR Grand Forks Afb
+HOU William P Hobby
+BKF Buckley Afb
+ORT Northway
+PAQ Palmer Muni
+PIT Pittsburgh Intl
+BRW Wiley Post Will Rogers Mem
+EFD Ellington Fld
+NUW Whidbey Island Nas
+ALI Alice Intl
+VAD Moody Afb
+MIA Miami Intl
+SEA Seattle Tacoma Intl
+CHA Lovell Fld
+BDR Igor I Sikorsky Mem
+JAN Jackson Evers Intl
+GLS Scholes Intl At Galveston
+LGB Long Beach
+HDH Dillingham
+IPT Williamsport Rgnl
+IND Indianapolis Intl
+SZL Whiteman Afb
+AKC Akron Fulton Intl
+GWO Greenwood Leflore
+HPN Westchester Co
+FOK Francis S Gabreski
+JBR Jonesboro Muni
+TNX Tonopah Test Range
+LNA Palm Beach Co Park
+NZY North Island Nas
+BIF Biggs Aaf
+YUM Yuma Mcas Yuma Intl
+CNM Cavern City Air Terminal
+DLH Duluth Intl
+BET Bethel
+LOU Bowman Fld
+FHU Sierra Vista Muni Libby Aaf
+LIH Lihue
+HUF Terre Haute Intl Hulman Fld
+HVR Havre City Co
+MWH Grant Co Intl
+MPV Edward F Knapp State
+KNSI San Nicolas Island Nolf
+RIC Richmond Intl
+SHV Shreveport Rgnl
+CDV Merle K Mudhole Smith
+ORF Norfolk Intl
+BPT Southeast Texas Rgnl
+SAV Savannah Hilton Head Intl
+HIF Hill Afb
+OME Nome
+SPB Scappoose Industrial Airpark
+PIE St Petersburg Clearwater Intl
+MNM Menominee Marinette Twin Co
+CXO Lone Star Executive
+SCC Deadhorse
+SAT San Antonio Intl
+ROC Greater Rochester Intl
+COF Patrick Afb
+TEB Teterboro
+RCA Ellsworth Afb
+RDU Raleigh Durham Intl
+DAY James M Cox Dayton Intl
+ENA Kenai Muni
+MLC Mc Alester Rgnl
+IAG Niagara Falls Intl
+CFD Coulter Fld
+KLHW Wright Aaf
+PHF Newport News Williamsburg Intl
+ESF Esler Rgnl
+LTS Altus Afb
+TUS Tucson Intl
+MIB Minot Afb
+BAB Beale Afb
+IKK Greater Kankakee
+GSB Seymour Johnson Afb
+PVD Theodore Francis Green State
+SBY Salisbury Ocean City Wicomico Rgnl
+RIU Rancho Murieta
+BUR Bob Hope
+DTW Detroit Metro Wayne Co
+TPA Tampa Intl
+PMB Pembina Muni
+POE Polk Aaf
+EIL Eielson Afb
+HIB Chisholm Hibbing
+LFK Angelina Co
+MAF Midland Intl
+GRB Austin Straubel Intl
+ADM Ardmore Muni
+WRI Mc Guire Afb
+NKT Cherry Point Mcas
+SBO Emanuel Co
+AGS Augusta Rgnl At Bush Fld
+ISN Sloulin Fld Intl
+LIT Adams Fld
+SWF Stewart Intl
+BDE Baudette Intl
+SAC Sacramento Executive
+HOM Homer
+TBN Waynesville Rgnl Arpt At Forney Fld
+MGE Dobbins Arb
+SKA Fairchild Afb
+HTL Roscommon Co
+PAM Tyndall Afb
+DFW Dallas Fort Worth Intl
+MLB Melbourne Intl
+TCM Mc Chord Afb
+AUS Austin Bergstrom Intl
+LCK Rickenbacker Intl
+KSAW Sawyer Intl
+TYS Mc Ghee Tyson
+HLR Hood Aaf
+STL Lambert St Louis Intl
+MIV Millville Muni
+SPS Sheppard Afb Wichita Falls Muni
+LUK Cincinnati Muni Lunken Fld
+ATL Hartsfield Jackson Atlanta Intl
+MER Castle
+MCC Mc Clellan Afld
+GRR Gerald R Ford Intl
+INK Winkler Co
+FAT Fresno Yosemite Intl
+VRB Vero Beach Muni
+IPL Imperial Co
+BNA Nashville Intl
+LRD Laredo Intl
+EDF Elmendorf Afb
+OTZ Ralph Wien Mem
+AOO Altoona Blair Co
+DYS Dyess Afb
+ELD South Arkansas Rgnl At Goodwin Fld
+LGA La Guardia
+TLH Tallahassee Rgnl
+DPA Dupage
+ACT Waco Rgnl
+AUG Augusta State
+INJ Hillsboro Muni
+NIP Jacksonville Nas
+MKL Mc Kellar Sipes Rgnl
+MKK Molokai
+FTK Godman Aaf
+KNCA New River Mcas
+SJT San Angelo Rgnl Mathis Fld
+CXL Calexico Intl
+CIC Chico Muni
+BTV Burlington Intl
+JAX Jacksonville Intl
+DRO Durango La Plata Co
+IAD Washington Dulles Intl
+CLL Easterwood Fld
+SFF Felts Fld
+MKE General Mitchell Intl
+ABI Abilene Rgnl
+COU Columbia Rgnl
+PDX Portland Intl
+TNT Dade Collier Training And Transition
+PBI Palm Beach Intl
+FTW Fort Worth Meacham Intl
+OGS Ogdensburg Intl
+FMH Otis Angb
+BFI Boeing Fld King Co Intl
+SKF Lackland Afb Kelly Fld Annex
+HNL Honolulu Intl
+DSM Des Moines Intl
+EWN Craven Co Rgnl
+SAN San Diego Intl
+MLU Monroe Rgnl
+SSC Shaw Afb
+ONT Ontario Intl
+GVT Majors
+ROW Roswell Intl Air Center
+DET Coleman A Young Muni
+BRO Brownsville South Padre Island Intl
+DHN Dothan Rgnl
+WWD Cape May Co
+NFL Fallon Nas
+MTC Selfridge Angb
+FMN Four Corners Rgnl
+CRP Corpus Christi Intl
+SYR Syracuse Hancock Intl
+NQX Key West Nas
+MDW Chicago Midway Intl
+SJC Norman Y Mineta San Jose Intl
+HOB Lea Co Rgnl
+PNE Northeast Philadelphia
+DEN Denver Intl
+PHL Philadelphia Intl
+SUX Sioux Gateway Col Bud Day Fld
+MCN Middle Georgia Rgnl
+TCS Truth Or Consequences Muni
+PMD Palmdale Rgnl Usaf Plt 42
+RND Randolph Afb
+NJK El Centro Naf
+CMH Port Columbus Intl
+FYV Drake Fld
+FSI Henry Post Aaf
+PNM Princeton Muni
+FFO Wright Patterson Afb
+GAL Edward G Pitka Sr
+KCHD Chandler Muni
+MWL Mineral Wells
+IAB Mc Connell Afb
+NBG New Orleans Nas Jrb
+BFT Beaufort
+TXK Texarkana Rgnl Webb Fld
+PBG Plattsburgh Intl
+APG Phillips Aaf
+TCC Tucumcari Muni
+ANC Ted Stevens Anchorage Intl
+GRK Robert Gray Aaf
+ZUN Black Rock
+BLI Bellingham Intl
+NQA Millington Rgnl Jetport
+EKN Elkins Randolph Co Jennings Randolph
+HFD Hartford Brainard
+SFZ North Central State
+MOB Mobile Rgnl
+NUQ Moffett Federal Afld
+SAF Santa Fe Muni
+BKH Barking Sands Pmrf
+DRI Beauregard Rgnl
+BSF Bradshaw Aaf
+OLS Nogales Intl
+MCF Macdill Afb
+BLV Scott Afb Midamerica
+OPF Opa Locka
+DRT Del Rio Intl
+RSW Southwest Florida Intl
+AKN King Salmon
+MUI Muir Aaf
+JHM Kapalua
+JFK John F Kennedy Intl
+HST Homestead Arb
+RAL Riverside Muni
+FLV Sherman Aaf
+WAL Wallops Flight Facility
+HMN Holloman Afb
+NXX Willow Grove Nas Jrb
+CYS Cheyenne Rgnl Jerry Olson Fld
+SCK Stockton Metropolitan
+CHS Charleston Afb Intl
+RNO Reno Tahoe Intl
+KTN Ketchikan Intl
+YIP Willow Run
+VBG Vandenberg Afb
+BHM Birmingham Intl
+NEL Lakehurst Naes
+SYA Eareckson As
+LSV Nellis Afb
+RIV March Arb
+MOD Modesto City Co Harry Sham
+SMF Sacramento Intl
+UGN Waukegan Rgnl
+COS City Of Colorado Springs Muni
+BUF Buffalo Niagara Intl
+SKY Griffing Sandusky
+PAE Snohomish Co
+MUO Mountain Home Afb
+CDC Cedar City Rgnl
+BDL Bradley Intl
+MFE Mc Allen Miller Intl
+NGU Norfolk Ns
+CEF Westover Arb Metropolitan
+LBB Lubbock Preston Smith Intl
+ORD Chicago Ohare Intl
+BCT Boca Raton
+FAI Fairbanks Intl
+NYG Quantico Mcaf
+CVS Cannon Afb
+NGF Kaneohe Bay Mcaf
+OFF Offutt Afb
+GKN Gulkana
+ART Watertown Intl
+PSP Palm Springs Intl
+AMA Rick Husband Amarillo Intl
+FOD Fort Dodge Rgnl
+BAD Barksdale Afb
+FOE Forbes Fld
+COT Cotulla Lasalle Co
+ILM Wilmington Intl
+BTR Baton Rouge Metro Ryan Fld
+NMM Meridian Nas
+TYR Tyler Pounds Rgnl
+BWI Baltimore Washington Intl
+HBR Hobart Muni
+LNY Lanai
+AEX Alexandria Intl
+WSD Condron Aaf
+CDB Cold Bay
+TUL Tulsa Intl
+SIT Sitka Rocky Gutierrez
+ISP Long Island Mac Arthur
+MSP Minneapolis St Paul Intl
+ILG New Castle
+DUT Unalaska
+MSY Louis Armstrong New Orleans Intl
+PWM Portland Intl Jetport
+OKC Will Rogers World
+ALB Albany Intl
+VDZ Valdez Pioneer Fld
+LFI Langley Afb
+SNA John Wayne Arpt Orange Co
+CBM Columbus Afb
+TMB Kendall Tamiami Executive
+NTU Oceana Nas
+GUS Grissom Arb
+CPR Natrona Co Intl
+VPS Eglin Afb
+SEM Craig Fld
+EYW Key West Intl
+CLT Charlotte Douglas Intl
+LAS Mc Carran Intl
+MCO Orlando Intl
+FLO Florence Rgnl
+GTF Great Falls Intl
+YNG Youngstown Warren Rgnl
+FBK Ladd Aaf
+MMV Mc Minnville Muni
+WRB Robins Afb
+BKK Suvarnabhumi Intl
+WAWM Andi Jemma
+WAWS Soroako
+WAWT Pongtiku
+KDI Wolter Monginsidi
+SBG Maimun Saleh
+WICM Cibeureum
+WARI Iswahyudi
+MLG Abdul Rachman Saleh
+WICB Budiarto
+BDO Husein Sastranegara
+CBN Penggung
+JOG Adi Sutjipto
+CXP Tunggul Wulung
+PCB Pondok Cabe
+SRG Achmad Yani
+BTH Hang Nadim
+TJQ H As Hanandjoeddin
+PGK Depati Amir
+TNJ Kijang
+SIQ Dabo
+BDJ Syamsudin Noor
+WAOC Batu Licin
+PKN Iskandar
+PKY Tjilik Riwut
+--- Militaerlager
+MOF Wai Oti
+ENE H Hasan Aroeboesman
+RTG Satar Tacik
+KOE El Tari
+LBJ Mutiara Ii
+BPN Sepinggan
+TRK Juwata
+SRI Temindung
+WALT Tanjung Santan
+AMI Selaparang
+BMU Muhammad Salahuddin
+LOAG Krems Langenlois
+WGP Mau Hau
+SUB Juanda
+SOC Adi Sumarmo Wiryokusumo
+CNX Chiang Mai Intl
+CEI Chiang Rai Intl
+NST Nakhon Si Thammarat
+DPS Bali Ngurah Rai
+NAK Nakhon Ratchasima
+KOP Nakhon Phanom
+UBP Ubon Ratchathani
+KKC Khon Kaen
+THS Sukhothai
+ATH Eleftherios Venizelos Intl
+NGO Chubu Centrair Intl
+UKB Kobe
+PUW Pullman-Moscow Rgnl
+LWS Lewiston Nez Perce Co
+ELM Elmira Corning Rgnl
+ITH Ithaca Tompkins Rgnl
+MRY Monterey Peninsula
+SBA Santa Barbara Muni
+DAB Daytona Beach Intl
+--- Taoyuan Station
+LPX Liepaja Intl
+RIX Riga Intl
+SQQ Siauliai Intl
+HLJ Barysiai
+KUN Kaunas Intl
+EYKS S. Darius
+PLQ Palanga Intl
+VNO Vilnius Intl
+PNV Pajuostis
+UDYE Erebuni
+UDLS Stepanavan
+EVN Zvartnots
+LWN Gyumri
+ASA Assab Intl
+ASM Asmara Intl
+MSW Massawa Intl
+GZA Yasser Arafat Intl
+RIY Riyan
+BUS Batumi
+KUT Kopitnari
+TBS Tbilisi
+TAI Taiz Intl
+HOD Hodeidah Intl
+ADE Aden Intl
+AXK Ataq
+AAY Al Ghaidah Intl
+SAH Sanaa Intl
+FMM Allgau
+BHN Beihan
+--- RK Heliplex
+SCT Socotra Intl
+OYBA Al Badie
+NAV Kapadokya
+EZE Ministro Pistarini
+EBL Erbil Intl
+EMD Emerald
+LGAT Ellinikon International Airport
+KIX Kansai
+JRB Wall Street Heliport
+TAG Tagbilaran
+JAV Ilulissat
+JCH Qasigiannguit
+JEG Aasiaat
+PMI Son Sant Joan
+DRW Darwin Intl
+URT Surat Thani
+NYU Bagan Intl
+MPH Godofredo P
+NSB Bimini North Seaplane Base
+TKA Talkeetna
+GZM Xewkija Heliport
+HVN Tweed-New Haven Airport
+AVL Asheville Regional Airport
+GSO Piedmont Triad
+FSD Sioux Falls
+AYQ Ayers Rock
+MHT Manchester Regional Airport
+APF Naples Muni
+RDN Redang
+SDF Louisville International Airport
+CHO Charlottesville-Albemarle
+ROA Roanoke Regional
+LEX Blue Grass
+EVV Evansville Regional
+ABQ Albuquerque International Sunport
+BZN Gallatin Field
+BIL Billings Logan International Airport
+BTM Bert Mooney Airport
+TVC Cherry Capital Airport
+FRS Mundo Maya International
+BHB Hancock County - Bar Harbor
+RKD Knox County Regional Airport
+JAC Jackson Hole Airport
+RFD Chicago Rockford International Airport
+DME Domododevo
+SYX Phoenix International
+MFN Milford Sound Airport
+TSS East 34th Street Heliport
+LJG Lijiang Airport
+GSP Greenville-Spartanburg International
+QKL Cologne Railway
+ZWS Stuttgart Railway Station
+BMI Central Illinois Rgnl
+GPT Gulfport-Biloxi
+AZO Kalamazoo
+TOL Toledo
+FWA Fort Wayne
+DEC Decatur
+CID Cedar Rapids
+LSE La Crosse Municipal
+CWA Central Wisconsin
+PIA Peoria Regional
+ATW Appleton
+RST Rochester
+CMI Champaign
+MHK Manhattan Reigonal
+KGC Kingscote Airport
+HVB Hervey Bay Airport
+BSL EuroAirport Basel-Mulhouse-Freiburg
+DLU Dali
+JHG Jinghong
+MZV Mulu
+SSH Sharm El Sheikh Intl
+FKL Franklin
+NBO Jomo Kenyatta International
+SEU Seronera
+FTE El Calafate
+ARM Armidale
+GJT Grand Junction Regional
+SGU St George Muni
+DWH David Wayne Hooks Field
+S46 Port O\\'Connor Airfield
+SRQ Sarasota Bradenton Intl
+VNY Van Nuys
+BDA Bermuda Intl
+X21 Arthur Dunn Airpark
+MLI Quad City Intl
+PFN Panama City Bay Co Intl
+HIR Honiara International
+PPT Faa\\'a International
+INU Nauru Intl
+FUN Funafuti International
+OVB Tolmachevo
+DWS Orlando
+EKSS Stavns
+XKH Xieng Khouang
+HUI Phu Bai
+BIS Bismarck Municipal Airport
+TEX Telluride
+INC Yinchuan
+HGN Mae Hong Son
+RAP Rapid City Regional Airport
+CLD McClellan-Palomar Airport
+FNT Bishop International
+DVO Francisco Bangoy International
+FNC Madeira
+STM Santarem
+KOS Sihanoukville
+YOA Ekati
+NPE Napier
+LEV Levuka Airfield
+LXA Lhasa-Gonggar
+RDD Redding Muni
+EUG Mahlon Sweet Fld
+IDA Idaho Falls Rgnl
+MFR Rogue Valley Intl Medford
+KBZ Kaikoura
+RDM Roberts Fld
+PCN Koromiko
+WDH Windhoek Hosea Kutako International Airport
+YWH Victoria Inner Harbour Airport
+CXH Vancouver Coal Harbour
+TNA Jinan
+CZX Changzhou
+YBP Yibin
+TJM Roschino
+CAK Akron Canton Regional Airport
+HSV Huntsville International Airport-Carl T Jones Field
+PKB Mid-Ohio Valley Regional Airport
+MGM Montgomery Regional Airport
+TRI Tri-Cities Regional Airport
+PAH Barkley Regional Airport
+KUF Kurumoch
+JIB Ambouli International Airport
+HAK Meilan
+MFA Mafia
+FCA Glacier Park Intl
+--- Mtemere Airstrip
+PGA Page Municipal Airport
+UII Utila Airport
+SNV Santa Elena Airport
+MBS Mbs Intl
+BGM Greater Binghamton Edwin A Link Fld
+BGW Baghdad International Airport
+NNT Nan
+ROI Roi Et
+BFV Buri Ram
+UNN Ranong
+TDX Trat
+BLH Blythe Airport
+ORAA Al Asad Airbase
+ORAT Al Taqaddum Airbase
+ORBD Balad Southeast Airport
+CRK Diosdado Macapagal International
+SDK Sandakan
+LXG Luang Namtha
+ODY Oudomxay
+SHE Shenyang Taoxian International Airport
+DOY Dongying Airport
+MNI John A. Osborne Airport
+PSG Petersburg James A. Johnson
+LYA Luoyang Airport
+XUZ Xuzhou Guanyin Airport
+IFN Esfahan Shahid Beheshti Intl
+MWQ Magwe
+KHM Khamti
+DLI Dalat
+VDH Dong Hoi
+VKG Rach Gia
+CAH Ca Mau
+VCL Chu Lai
+TBB Dong Tac
+PYY Pai
+BWK Brac
+NSI Yaounde Nsimalen
+CKY Conakry
+--- Bergrestaurant
+--- Uetliberg
+AAH Flugplatz Merzbrueck
+FKB Baden Airpark
+SFB Orlando Sanford Intl
+PQC Duong Dong Airport
+JST John Murtha Johnstown-Cambria County Airport
+LUA Lukla
+BHP Bhojpur
+LDN Lamidanda
+JMO Jomsom
+NGX Manang
+PPL Phaplu
+TMK Thamkharka
+RUM Rumjatar
+DNP Tulsipur
+RUK Rukumkot
+JUM Jumla
+HRJ Chaurjhari
+TPJ Taplejung
+TMI Tumling Tar
+SKH Surkhet
+IMK Simikot
+DOP Dolpa
+BJH Bajhang
+DHI Dhangarhi
+MWX Muan
+JTY Astypalaia
+JIK Ikaria
+JKL Kalymnos Island
+MLO Milos
+JNX Naxos
+PAS Paros
+KZS Kastelorizo
+RMF Marsa Alam Intl
+NRN Niederrhein
+USU Busuanga
+BXU Butuan
+DPL Dipolog
+LAO Laoag Intl
+LGP Legazpi
+OZC Ozamis
+ZQW Zweibruecken
+CEB Mactan Cebu Intl
+NOE Sonderlandeplatz Norden-Norddeich
+JUI Verkehrslandeplatz Juist
+BPS Aeroporto de Porto Seguro
+GDA Gounda Airport
+--- Heliport Hotel das Cataratas
+SNIG Iguatu
+PMW Palmas
+CLV Caldas Novas
+MSO Missoula Intl
+BKQ Blackall
+BDB Bundaberg
+GCN Grand Canyon National Park Airport
+SGR Sugar Land Regional Airport
+HIS Hayman Island Airport
+APA Centennial
+CVN Clovis Muni
+FST Fort Stockton Pecos Co
+LVS Las Vegas Muni
+IWS West Houston
+LHX La Junta Muni
+LRU Las Cruces Intl
+BKD Stephens Co
+TPL Draughon Miller Central Texas Rgnl
+OZA Ozona Muni
+VHXX Hong Kong Kai Tak
+HEW Athen Helenikon Airport
+WKL Waikoloa Heliport
+KDM Kaadedhdhoo
+LAK Aklavik
+YWJ Deline
+ZFN Tulita
+YGH Fort Good Hope
+--- Inuvik Town
+--- INAWR
+TAH Tanna island
+--- Sun Island
+YPC Paulatuk
+YUCX Nicholson Peninsula
+SRZ Santa Cruz
+KUS Kulusuk
+SAB Juancho E. Yrausquin
+EGE Eagle Co Rgnl
+--- Stapleton
+SKN Skagen
+CGF Cuyahoga County
+MFD Mansfield Lahm Regional
+CSG Columbus Metropolitan Airport
+LAW Lawton-Fort Sill Regional Airport
+FNL Fort Collins Loveland Muni
+--- Gouvia Marina
+--- Paxos Marina
+FLG Flagstaff Pulliam Airport
+TVL Lake Tahoe Airport
+TWF Magic Valley Regional Airport
+MCM Monaco
+MVY Martha\\'s Vineyard
+UUU Newport State
+VSF Hartness State
+CON Concord Municipal
+SFM Sanford Regional
+GON Groton New London
+STC Saint Cloud Regional Airport
+BPE Bagan
+GTR Golden Triangle Regional Airport
+GOJ Nizhny Novgorod
+HQM Bowerman Field
+ERI Erie Intl Tom Ridge Fld
+--- Conrad Maldives Resort
+HYA Barnstable Muni Boardman Polando Fld
+SPR San Pedro
+SDX Sedona
+--- Dry Tortugas
+--- Dry Tortugas
+--- Dry Tortugas
+MGW Morgantown Muni Walter L Bill Hart Fld
+CRW Yeager
+AVP Wilkes Barre Scranton Intl
+BJI Bemidji Regional Airport
+BAK Heydar Aliyev
+THG Thangool
+FGI Fagali\\'i
+BNK Ballina Byron Gateway
+FAR Hector International Airport
+MKC Downtown
+AZA Phoenix-Mesa Gateway
+RBE Ratanakiri
+GCC Gillette-Campbell County Airport
+TOF Tomsk Bogashevo Airport
+NZJ El Toro
+PHY Phetchabun
+CJM Chumphon
+JZH Jiuzhaigou Huanglong
+SWA Wai Sha Airport
+LFFE Les Ailerons
+GEO Cheddi Jagan Intl
+AGT Ciudad del Este
+OGL Ogle
+KAI Kaieteur
+DNH Dunhuang Airport
+AOI Falconara
+ZZ04 Samjiyon
+ECA Iosco County
+CPO Copiapo
+TCP Taba Intl
+LYB Edward Bodden Airfield
+BJV Bodrum - Milas
+TBJ 7 Novembre
+SAW Sabiha Gokcen
+SCE University Park Airport
+BME Broome
+NTL Newcastle Airport
+BIBA Bakki Airport
+KLU Woerthersee International Airport
+CGU General Manuel Carlos Piar
+--- Flugplatz Hoepen
+HFT Hammerfest Airport
+HVG Valan
+MEH Mehamn
+VDS Airport
+MUCX Riem
+IKA Imam Khomeini
+MHD Mashhad
+QEF Egelsbach
+UIK Ust-Ilimsk
+MDG Mudanjiang
+MEI Key Field
+SPI Abraham Lincoln Capital
+HKV Uzundzhovo
+CEZ Cortez Muni
+HDN Yampa Valley
+GUP Gallup Muni
+LBL Liberal Muni
+LAA Lamar Muni
+GLD Renner Fld
+COD Yellowstone Rgnl
+HOV Hovden
+EGYR RNAS WATTON
+ISC ISLES OF SCILLY
+SGF Springfield Branson Natl
+NVK Framnes
+BVG Berlevag
+FBU Fornebu
+NSK Alykel
+AAQ Vityazevo
+JLN Joplin Rgnl
+ABE Lehigh Valley Intl
+XNA NW Arkansas Regional
+GUW Atyrau
+KZO Kzyl-Orda
+SBN South Bend Rgnl
+BKA Bykovo
+FWCC Chintheche
+ARH Talagi
+RTW Central
+NUX Novyi Urengoy
+NOJ Noyabrsk
+ZWU Washington Union Station
+SCO Aktau
+UCT Ukhta
+USK Usinsk
+PEX Pechora
+NNM Naryan-Mar
+PKV Kresty
+KGP Kogalym International
+KJA Emelyanovo
+KGF Sary-Arka
+UNCC Severny
+URJ Uraj
+CRZ Turkmenabat
+IWA Yuzhny
+CGQ Changchun
+KIJ Niigata
+JON Johnston Atoll
+SMD Smith Fld
+ACV Arcata
+ATT Camp Mabry Austin City
+OAJ Albert J Ellis
+TCL Tuscaloosa Rgnl
+DBQ Dubuque Rgnl
+FDE Forde Bringeland
+VHST Shun Tak Heliport
+PYJ Poliarny Airport
+NAJ Nakhchivan Airport
+KVD Ganja Airport
+--- Torp
+UKK Ust Kamenogorsk Airport
+PPK Petropavlosk South Airport
+GBJ Les Bases Airport
+SFC St-François Airport
+BBQ Codrington Airport
+JPR Ji-Paraná Airport
+MYC Escuela Mariscal Sucre Airport
+NZA Maria Reiche Neuman Airport
+CJA Mayor General FAP Armando Revoredo Iglesias Airport
+GTA Gatokae Airport
+BXX Boorama Airport
+MVS Mucuri Airport
+ORG Zorg en Hoop Airport
+REY Reyes Airport
+PUR Puerto Rico Airport
+EYP El Alcaraván Airport
+ESM General Rivadeneira Airport
+ZPC Pucón Airport
+TOW Toledo Airport
+RIA Santa Maria Airport
+LEC Chapada Diamantina Airport
+GUL Goulburn Airport
+JDO Orlando Bezerra de Menezes Airport
+SST Santa Teresita Airport
+GGS Gobernador Gregores Airport
+OES Antoine De St Exupery Airport
+LHS Las Heras Airport
+TTG General Enrique Mosconi Airport
+MBT Masbate Airport
+CRM Catarman National Airport
+JOL Jolo Airport
+CGM Camiguin Airport
+CYU Cuyo Airport
+CJJ Cheongju International Airport
+HIN Sacheon Air Base
+WJU Wonju Airport
+MPK Mokpo Airport
+KUV Kunsan Air Base
+MYE Miyakejima Airport
+SYO Shonai Airport
+ONJ Odate Noshiro Airport
+FKS Fukushima Airport
+IWJ Iwami Airport
+NKM Nagoya Airport
+HSG Saga Airport
+OKD Okadama Airport
+KUH Kushiro Airport
+MFK Matsu Beigan Airport
+HCN Hengchun Airport
+LZN Matsu Nangan Airport
+ENT Eniwetok Airport
+LUP Kalaupapa Airport
+ENI El Nido Airport
+WPM Wipim Airport
+VMU Baimuru Airport
+UKU Nuku Airport
+TFI Tufi Airport
+SKC Suki Airport
+OPU Balimo Airport
+OBX Obo Airport
+LSA Losuia Airport
+LNV Londolovit Airport
+LMY Lake Murray Airport
+KUY Kamusi Airport
+KKD Kokoda Airport
+KDR Kandrian Airport
+JAQ Jacquinot Bay Airport
+IIS Nissan Island Airport
+IHU Ihu Airport
+GMI Gasmata Island Airport
+ATP Tadji Airport
+WRG Wrangell Airport
+VAK Chevak Airport
+ANI Aniak Airport
+MOU Mountain Village Airport
+MCG McGrath Airport
+KLG Kalskag Airport
+HNS Haines Airport
+HCR Holy Cross Airport
+SGY Skagway Airport
+GST Gustavus Airport
+ADK Adak Airport
+SAX Sambu Airport
+OTD Contadora Airport
+ELE EL Real Airport
+BFQ Bahia Piña Airport
+GXF Sayun International Airport
+KAC Kamishly Airport
+ISU Sulaymaniyah International Airport
+TUK Turbat International Airport
+SYW Sehwan Sharif Airport
+KDU Skardu Airport
+PAJ Parachinar Airport
+ORW Ormara Airport
+KDD Khuzdar Airport
+HDD Hyderabad Airport
+JIW Jiwani Airport
+DSK Dera Ismael Khan Airport
+DEA Dera Ghazi Khan Airport
+DBA Dalbandin Airport
+CJL Chitral Airport
+BHV Bahawalpur Airport
+BNP Bannu Airport
+AAN Al Ain International Airport
+OMH Uromiyeh Airport
+ADU Ardabil Airport
+LRR Lar Airport
+SRY Sari Dasht E Naz Airport
+NSH Noshahr Airport
+AFZ Sabzevar National Airport
+BJB Bojnourd Airport
+RJN Rafsanjan Airport
+BXR Bam Airport
+KHD Khoram Abad Airport
+EWD Wadi Al Dawasir Airport
+AJF Al-Jawf Domestic Airport
+DWD Dawadmi Domestic Airport
+XAU Saul Airport
+FBD Faizabad Airport
+ILP Île des Pins Airport
+BMY Belep Islands Airport
+TGJ Tiga Airport
+IPA Ipota Airport
+FTA Futuna Airport
+DLY Dillon's Bay Airport
+AWD Aniwa Airport
+AUY Anelghowhat Airport
+OLZ North West Santo Airport
+SWJ Southwest Bay Airport
+VLS Valesdir Airport
+ULB Uléi Airport
+TGH Tongoa Island Airport
+SON Santo Pekoa International Airport
+RCL Redcliffe Airport
+ZGU Gaua Island Airport
+NUS Norsup Airport
+LNE Lonorore Airport
+MWF Naone Airport
+LNB Lamen Bay Airport
+LPM Lamap Airport
+PBJ Tavie Airport
+SSR Sara Airport
+LOD Longana Airport
+CCV Craig Cove Airport
+EAE Sangafa Airport
+TOH Torres Airstrip
+SLH Sola Airport
+MTV Mota Lava Airport
+UAH Ua Huka Airport
+UAP Ua Pou Airport
+AUQ Hiva Oa-Atuona Airport
+AHE Ahe Airport
+APK Apataki Airport
+MXS Maota Airport
+MWP Mountain Airport
+FUT Pointe Vele Airport
+IUE Niue International Airport
+VBV Vanua Balavu Airport
+NTT Kuini Lavenia Airport
+NFO Mata'aho Airport
+HPA Lifuka Island Airport
+EUA Kaufana Airport
+SVU Savusavu Airport
+RTA Rotuma Airport
+KXF Koro Island Airport
+TVU Matei Airport
+LBS Labasa Airport
+LKB Lakeba Island Airport
+NGI Ngau Airport
+MFJ Moala Airport
+MNF Mana Island Airport
+KDV Vunisea Airport
+PTF Malolo Lailai Island Airport
+ICI Cicia Airport
+PYE Penrhyn Island Airport
+MOI Mitiaro Island Airport
+MUK Mauke Airport
+MHX Manihiki Island Airport
+MGS Mangaia Island Airport
+AIU Atiu Island Airport
+PID Nassau Paradise Island Airport
+CRI Colonel Hill Airport
+CAT New Bight Airport
+ATC Arthurs Town Airport
+COX Congo Town Airport
+LBP Long Banga Airport
+SCX Salina Cruz Naval Air Station
+TND Alberto Delgado Airport
+CCC Cayo Coco Airport
+PAX Port-de-Paix Airport
+JEE Jeremie Airport
+PLD Playa Samara Airport
+SYQ Tobias Bolanos International Airport
+PJM Puerto Jimenez Airport
+PBP Islita Airport
+TNO Cabo Velas Airport
+BCL Barra del Colorado Airport
+TTQ Aerotortuguero Airport
+PLP Captain Ramon Xatruch Airport
+JQE Jaqué Airport
+ONX Enrique Adolfo Jimenez Airport
+CTD Alonso Valderrama Airport
+JAL Lencero Airport
+GUB Guerrero Negro Airport
+CUA Ciudad Constitución Airport
+CYW Captain Rogelio Castillo National Airport
+MIJ Mili Island Airport
+PEU Puerto Lempira Airport
+AHS Ahuas Airport
+WTO Wotho Island Airport
+WTE Wotje Atoll Airport
+WJA Woja Airport
+UIT Jaluit Airport
+RNP Rongelap Island Airport
+NDK Namorik Atoll Airport
+MJE Majkin Airport
+MJB Mejit Atoll Airport
+MAV Maloelap Island Airport
+LIK Likiep Airport
+KBT Kaben Airport
+JEJ Jeh Airport
+JAT Jabot Airport
+BII Enyu Airfield
+AUL Aur Island Airport
+AIM Ailuk Airport
+UTK Utirik Airport
+AAZ Quezaltenango Airport
+PBR Puerto Barrios Airport
+JBQ Dr Joaquin Balaguer International Airport
+AZS Samaná El Catey International Airport
+SLX Salt Cay Airport
+MDS Middle Caicos Airport
+GDT JAGS McCartney International Airport
+ILZ Žilina Airport
+QUB Ubari Airport
+MRA Misratah Airport
+SZF Samsun-Çarşamba Airport
+EDO Balikesir Korfez Airport
+ISE Isparta Süleyman Demirel Airport
+ADF Adiyaman Airport
+AJI Agri Airport
+KCM Kahramanmaras Airport
+SFQ Sanliurfa Airport
+KSY Kars Airport
+USQ Usak Airport
+BNX Banja Luka International Airport
+CVU Corvo Airport
+QSR Salerno Pontecagnano Airport
+AOT Aosta Airport
+SOB Sármellék International Airport
+QGY Győr-Pér International Airport
+PEV Pécs-Pogány Airport
+JSY Syros Airport
+LTT La Môle Airport
+EAP EuroAirport
+NZTL Tekapo
+ANE Angers-Loire Airport
+IDY Île d'Yeu Airport
+RJL Logroño-Agoncillo Airport
+ECN Ercan International Airport
+YKM Yakima Air Terminal McAllister Field
+KWY Kiwayu (Mkononi) Airport
+WRL Worland Municipal Airport
+VLD Valdosta Regional Airport
+VCT Victoria Regional Airport
+UIN Quincy Regional Baldwin Field
+TUP Tupelo Regional Airport
+SMX Santa Maria Pub Cpt G Allan Hancock Airport
+SLN Salina Municipal Airport
+SLK Adirondack Regional Airport
+SHR Sheridan County Airport
+SBP San Luis County Regional Airport
+RUT Rutland State Airport
+RKS Rock Springs Sweetwater County Airport
+RHI Rhinelander Oneida County Airport
+RDG Reading Regional Carl A Spaatz Field
+PSM Pease International Tradeport
+PLN Pellston Regional Airport of Emmet County Airport
+PIR Pierre Regional Airport
+PIH Pocatello Regional Airport
+PIB Hattiesburg Laurel Regional Airport
+OWB Owensboro Daviess County Airport
+OTH Southwest Oregon Regional Airport
+MSL Northwest Alabama Regional Airport
+MLS Frank Wiley Field
+MKG Muskegon County Airport
+LYH Lynchburg Regional Preston Glenn Field
+LWT Lewistown Municipal Airport
+LNS Lancaster Airport
+LMT Klamath Falls Airport
+LEB Lebanon Municipal Airport
+LBF North Platte Regional Airport Lee Bird Field
+LBE Arnold Palmer Regional Airport
+LAR Laramie Regional Airport
+JMS Jamestown Regional Airport
+IRK Kirksville Regional Airport
+KIO Kili Airport
+HTS Tri State Milton J Ferguson Field
+HOT Memorial Field
+GRI Central Nebraska Regional Airport
+GGW Wokal Field Glasgow International Airport
+FAY Fayetteville Regional Grannis Field
+EWB New Bedford Regional Airport
+EKO Elko Regional Airport
+EAU Chippewa Valley Regional Airport
+DUJ DuBois Regional Airport
+DDC Dodge City Regional Airport
+CMX Houghton County Memorial Airport
+CLM William R Fairchild International Airport
+CKB Harrison Marion Regional Airport
+CIU Chippewa County International Airport
+CGI Cape Girardeau Regional Airport
+CEC Del Norte County Airport
+BRL Southeast Iowa Regional Airport
+BQK Brunswick Golden Isles Airport
+BKW Raleigh County Memorial Airport
+BFF Western Nebraska Regional Airport
+BFD Bradford Regional Airport
+ATY Watertown Regional Airport
+APN Alpena County Regional Airport
+ALW Walla Walla Regional Airport
+ALO Waterloo Regional Airport
+ALM Alamogordo White Sands Regional Airport
+AHN Athens Ben Epps Airport
+ABY Southwest Georgia Regional Airport
+ABR Aberdeen Regional Airport
+TQR San Domino Island Heliport
+GSM Gheshm Airport
+DIU Diu Airport
+ULU Gulu Airport
+RUA Arua Airport
+TBO Tabora Airport
+SHY Shinyanga Airport
+MUZ Musoma Airport
+LDI Kikwetu Airport
+TKQ Kigoma Airport
+BKZ Bukoba Airport
+PZU Port Sudan New International Airport
+UYL Nyala Airport
+ATB Atbara Airport
+LAQ La Abraq Airport
+MJI Mitiga Airport
+TOB Gamal Abdel Nasser Airport
+SRX Gardabya Airport
+NYK Nanyuki Civil Airport
+MYD Malindi Airport
+LKG Lokichoggio Airport
+ASV Amboseli Airport
+ATZ Asyut International Airport
+AAC El Arish International Airport
+BUO Burao Airport
+GLK Galcaio Airport
+MGQ Aden Adde International Airport
+BSA Bosaso Airport
+ALU Alula Airport
+TIE Tippi Airport
+MTF Mizan Teferi Airport
+ABK Kabri Dehar Airport
+GOR Gore Airport
+GDE Gode Airport
+DEM Dembidollo Airport
+DSE Combolcha Airport
+BEI Beica Airport
+BCO Baco Airport
+SFL Sao Filipe Airport
+RAI Praia International Airport
+NDR El Aroui Airport
+EUN Hassan I Airport
+ESU Mogador Airport
+VIL Dakhla Airport
+SMW Smara Airport
+QFI Iginniarfik Heliport
+QCU Akunnaaq Heliport
+JGR Groennedal Heliport
+OXB Osvaldo Vieira International Airport
+KEN Kenema Airport
+KBS Bo Airport
+BTE Sherbro International Airport
+JCU Ceuta Heliport
+CRU Lauriston Airport
+GMZ La Gomera Airport
+PSV Papa Stour Airport
+OUK Outer Skerries Airport
+FOA Foula Airport
+GAX Gamba
+PFR Ilebo Airport
+LJA Lodja Airport
+TSH Tshikapa Airport
+BSU Basankusu Airport
+KRZ Basango Mboliasa Airport
+NIO Nioki Airport
+INO Inongo Airport
+MAT Tshimpi Airport
+BOA Boma Airport
+ERS Eros Airport
+SWP Swakopmund Airport
+OMD Oranjemund Airport
+OND Ondangwa Airport
+LUD Luderitz Airport
+CMK Club Makokola Airport
+SRH Sarh Airport
+JCA Croisette Heliport
+VPY Chimoio Airport
+TCH Tchibanga Airport
+MJL Mouilla Ville Airport
+KOU Koulamoutou Airport
+MSZ Namibe Airport
+VPE Ondjiva Pereira Airport
+DUE Dundo Airport
+CBT Catumbela Airport
+MJA Manja Airport
+WMA Mandritsara Airport
+TTS Tsaratanana Airport
+WMP Mampikony Airport
+DWB Soalala Airport
+IVA Ambanja Airport
+WPB Port Bergé Airport
+WAM Ambatondrazaka Airport
+WTS Tsiroanomandidy Airport
+WTA Tambohorano Airport
+TVA Morafenobe Airport
+MXT Maintirano Airport
+BMD Belo sur Tsiribihina Airport
+JVA Ankavandra Airport
+WAQ Antsalova Airport
+YVA Iconi Airport
+SLI Solwesi Airport
+CIP Chipata Airport
+DIS Loubomo Airport
+TLD Limpopo Valley Airport
+SWX Shakawe Airport
+ORP Orapa Airport
+GNZ Ghanzi Airport
+MBD Mmabatho International Airport
+AAM Malamala Airport
+MQP Kruger Mpumalanga International Airport
+QRA Rand Airport
+VTS Ventspils International Airport
+SHC Shire Inda Selassie Airport
+HIL Shilavo Airport
+HMV Hemavan Airport
+SQO Storuman Airport
+AGH Ängelholm-Helsingborg Airport
+TYF Torsby Airport
+KSD Karlstad Airport
+HFS Hagfors Airport
+OSD Östersund Airport
+LCJ Łódź Władysław Reymont Airport
+BZG Bydgoszcz Ignacy Jan Paderewski Airport
+VRY Værøy Heliport
+VAW Svartnes Airport
+SOJ Sorkjosen Airport
+SVJ Svolvær Helle Airport
+SOG Sogndal Airport
+SDN Anda Airport
+RET Røst Airport
+RVK Ryum Airport
+MQN Røssvoll Airport
+OSY Namsos Høknesøra Airport
+LKN Leknes Airport
+CNL Sindal Airport
+EIWT Weston Airport
+CFN Donegal Airport
+LSTA Raron Airport
+BRR Barra Airport
+HLY Anglesey Airport
+PZE Penzance Heliport
+LEQ Land's End / St. Just Airport
+WRY Westray Airport
+LWK Lerwick / Tingwall Airport
+NDY Sanday Airport
+SOY Stronsay Airport
+PPW Papa Westray Airport
+NRL North Ronaldsay Airport
+FIE Fair Isle Airport
+EOI Eday Airport
+CAL Campbeltown Airport
+DSA Robin Hood Doncaster Sheffield Airport
+NQT Nottingham Airport
+SJY Seinäjoki Airport
+HGL Helgoland-Düne Airport
+HEI Heide-Büsum Airport
+HDF Heringsdorf Airport
+KMS Kumasi Airport
+ELU Guemar Airport
+BMW Bordj Badji Mokhtar Airport
+CBH Béchar Boudghene Ben Ali Lotfi Airport
+BLJ Batna Airport
+ZWL Wollaston Lake Airport
+ZUM Churchill Falls Airport
+ZTM Shamattawa Airport
+ZSJ Sandy Lake Airport
+ZRJ Round Lake (Weagamow Lake) Airport
+ZPB Sachigo Lake Airport
+ZMT Masset Airport
+MSA Muskrat Dam Airport
+ZKE Kashechewan Airport
+ZJN Swan River Airport
+ZGI Gods River Airport
+ZFD Fond-Du-Lac Airport
+ZEM Eastmain River Airport
+ZBF Bathurst Airport
+ILF Ilford Airport
+ZAC York Landing Airport
+YZG Salluit Airport
+YXN Whale Cove Airport
+YWP Webequie Airport
+YVZ Deer Lake Airport
+YTL Big Trout Lake Airport
+YST St. Theresa Point Airport
+YSK Sanikiluaq Airport
+YSF Stony Rapids Airport
+YRL Red Lake Airport
+YRA Rae Lakes Airport
+YQN Nakina Airport
+YQD The Pas Airport
+YPW Powell River Airport
+YPO Peawanuck Airport
+YPM Pikangikum Airport
+YPH Inukjuak Airport
+YOH Oxford House Airport
+YNL Points North Landing Airport
+YNE Norway House Airport
+YNC Wemindji Airport
+YUD Umiujaq Airport
+YMT Chapais Airport
+YMH Mary's Harbour Airport
+XGR Kangiqsualujjuaq (Georges River) Airport
+YSG Lutselk'e Airport
+YLH Lansdowne House Airport
+YLC Kimmirut Airport
+YPJ Aupaluk Airport
+YKQ Waskaganish Airport
+AKV Akulivik Airport
+YIV Island Lake Airport
+YIK Ivujivik Airport
+YHR Chevery Airport
+YHO Hopedale Airport
+YNS Nemiscau Airport
+YHC Vancouver Harbour Water Airport
+YQC Quaqtaq Airport
+YGZ Grise Fiord Airport
+YGX Gillam Airport
+YGW Kuujjuarapik Airport
+YGT Igloolik Airport
+YGO Gods Lake Narrows Airport
+YGB Texada Gillies Bay Airport
+YMN Makkovik Airport
+YFH Fort Hope Airport
+YFA Fort Albany Airport
+YER Fort Severn Airport
+YDP Nain Airport
+YCS Chesterfield Inlet Airport
+YRF Cartwright Airport
+YBX Lourdes De Blanc Sablon Airport
+YBE Uranium City Airport
+CYAX Lac Du Bonnet Airport
+YAT Attawapiskat Airport
+YKG Kangirsuk Airport
+XKS Kasabonika Airport
+YAG Fort Frances Municipal Airport
+YAC Cat Lake Airport
+TCD Tarapacá Airport
+APO Apartadó Airport
+NTG Nantong Airport
+ZLT La Tabatière Airport
+ZTB Tête-à-la-Baleine Airport
+YKU Chisasibi Airport
+YHP Poplar Hill Airport
+YOG Ogoki Post Airport
+KIF Kingfisher Lake Airport
+XBE Bearskin Lake Airport
+YNO North Spirit Lake Airport
+WNN Wunnumin Lake Airport
+YAX Wapekeka Airport
+SUR Summer Beaver Airport
+YLE Whatì Airport
+YCK Colville Lake Airport
+YRG Rigolet Airport
+YHA Port Hope Simpson Airport
+YFX St. Lewis (Fox Harbour) Airport
+YWM Williams Harbour Airport
+YAA Anahim Lake Airport
+YWS Whistler/Green Lake Water Aerodrome
+PND Punta Gorda Airport
+CUK Caye Caulker Airport
+VPN Vopnafjörður Airport
+THO Thorshofn Airport
+DRK Drake Bay Airport
+GRY Grímsey Airport
+JQA Qaarsut Airport
+JUV Upernavik Airport
+JHS Sisimiut Airport
+NAQ Qaanaaq Airport
+JNS Narsaq Heliport
+JNN Nanortalik Heliport
+JSU Maniitsoq Airport
+JJU Qaqortoq Heliport
+JGO Qeqertarsuaq Heliport
+JFR Paamiut Heliport
+CNP Neerlerit Inaat Airport
+LLU Alluitsup Paa Heliport
+WBM Wapenamanda Airport
+VAI Vanimo Airport
+RAB Tokua Airport
+TBG Tabubil Airport
+TIZ Tari Airport
+MIS Misima Island Airport
+MXH Moro Airport
+MAS Momote Airport
+MDU Mendi Airport
+KVG Kavieng Airport
+KMA Kerema Airport
+KRI Kikori Airport
+UNG Kiunga Airport
+HKN Kimbe Airport
+PNP Girua Airport
+GUR Gurney Airport
+DAU Daru Airport
+CMU Chimbu Airport
+BUA Buka Airport
+RBV Ramata Airport
+KGE Kagau Island Airport
+VAO Suavanao Airport
+RUS Marau Airport
+RNL Rennell/Tingoa Airport
+MNY Mono Airport
+GZO Nusatupe Airport
+MUA Munda Airport
+SCZ Santa Cruz/Graciosa Bay/Luova Airport
+IRA Ngorangora Airport
+MBU Babanakira Airport
+FRE Fera/Maringe Airport
+BAS Ballalae Airport
+AKS Auki Airport
+ATD Uru Harbour Airport
+KXK Komsomolsk-on-Amur Airport
+OYG Moyo Airport
+IKS Tiksi Airport
+CYX Cherskiy Airport
+CKH Chokurdakh Airport
+CNN Chulman
+KSN Kostanay West Airport
+DZN Zhezkazgan Airport
+KOV Kokshetau Airport
+UNI Union Island International Airport
+BQU J F Mitchell Airport
+VIJ Virgin Gorda Airport
+NEV Vance Winkworth Amory International Airport
+BBR Baillif Airport
+DSD La Désirade Airport
+VIG Juan Pablo Pérez Alfonso Airport
+MDO El Jaguel / Punta del Este Airport
+SRA Santa Rosa Airport
+HUU Alferez Fap David Figueroa Fernandini Airport
+LHC Caballococha Airport
+SRJ Capitán Av. German Quiroga G. Airport
+RIB Capitán Av. Selin Zeitun Lopez Airport
+GYA Capitán de Av. Emilio Beltrán Airport
+PDA Obando Airport
+NQU Reyes Murillo Airport
+LPD La Pedrera Airport
+LQM Caucaya Airport
+GLJ La Jagua Airport
+CRC Santa Ana Airport
+PSY Stanley Airport
+LOH Camilo Ponce Enriquez Airport
+SCY San Cristóbal Airport
+SOD Sorocaba Airport
+ESR Ricardo García Posada Airport
+VDC Vitória da Conquista Airport
+MII Marília Airport
+MEA Macaé Airport
+NEC Necochea Airport
+ING Lago Argentino Airport
+RXS Roxas Airport
+CYP Calbayog Airport
+VRC Virac Airport
+TUG Tuguegarao Airport
+SFE San Fernando Airport
+BSO Basco Airport
+WNP Naga Airport
+TDG Tandag Airport
+SUG Surigao Airport
+--- Fremont Airport
+SGS Sanga Sanga Airport
+GES General Santos International Airport
+SFS Subic Bay International Airport
+YNY Yangyang International Airport
+DYR Ugolny Airport
+OHO Okhotsk Airport
+UJE Ujae Atoll Airport
+MPW Mariupol International Airport
+VSG Luhansk International Airport
+OZH Zaporizhzhia International Airport
+KWG Lozuvatka International Airport
+HRK Osnova International Airport
+IFO Ivano Frankivsk International Airport
+CWC Chernivtsi International Airport
+RWN Rivne International Airport
+UDJ Uzhhorod International Airport
+CSH Solovki Airport
+CEE Cherepovets Airport
+AMV Amderma Airport
+KSZ Kotlas Airport
+PES Petrozavodsk Airport
+GNA Hrodno Airport
+MVQ Mogilev Airport
+EIE Yeniseysk Airport
+KYZ Kyzyl Airport
+NOZ Spichenkovo Airport
+HTG Khatanga Airport
+IAA Igarka Airport
+GRV Grozny Airport
+NAL Nalchik Airport
+OGZ Beslan Airport
+ESL Elista Airport
+WKK Aleknagik Airport
+BKX Brookings Regional Airport
+BLF Mercer County Airport
+EAR Kearney Municipal Airport
+GLH Mid Delta Regional Airport
+IFP Laughlin-Bullhead Intl
+IGM Kingman Airport
+PSC Tri Cities Airport
+KQA Akutan Seaplane Base
+SVC Grant County Airport
+LPS Lopez Island Airport
+SLY Salekhard Airport
+HMA Khanty Mansiysk Airport
+NYA Nyagan Airport
+OVS Sovetsky Tyumenskaya Airport
+IJK Izhevsk Airport
+KVX Pobedilovo Airport
+NYM Nadym Airport
+RAT Raduzhny Airport
+NFG Nefteyugansk Airport
+KRO Kurgan Airport
+LBD Khudzhand Airport
+AZN Andizhan Airport
+FEG Fergana Airport
+NMA Namangan Airport
+NCU Nukus Airport
+UGC Urgench Airport
+KSQ Karshi Khanabad Airport
+TMJ Termez Airport
+RYB Staroselye Airport
+EGO Belgorod International Airport
+URS Kursk East Airport
+LPK Lipetsk Airport
+VKT Vorkuta Airport
+UUA Bugulma Airport
+JOK Yoshkar-Ola Airport
+CSY Cheboksary Airport
+ULY Ulyanovsk East Airport
+OSW Orsk Airport
+PEZ Penza Airport
+SKX Saransk Airport
+BWO Balakovo Airport
+HBX Hubli Airport
+KCT Koggala Airport
+WRZ Wirawila Airport
+BBM Battambang Airport
+SHL Shillong Airport
+GAU Lokpriya Gopinath Bordoloi International Airport
+DMU Dimapur Airport
+TEZ Tezpur Airport
+BZL Barisal Airport
+OUI Ban Huoeisay Airport
+KON Kontum Airport
+BHR Bharatpur Airport
+BDP Chandragadhi Airport
+MEY Meghauli Airport
+KEP Nepalgunj Airport
+GAN Gan Island Airport
+HAQ Hanimaadhoo Airport
+KDO Kadhdhoo Airport
+MAQ Mae Sot Airport
+BMV Buon Ma Thuot Airport
+HPH Cat Bi International Airport
+CXR Cam Ranh Airport
+VCS Co Ong Airport
+VCA Trà Nóc Airport
+DIN Dien Bien Phu Airport
+UIH Phu Cat Airport
+PXU Pleiku Airport
+VII Vinh Airport
+BMO Banmaw Airport
+TVY Dawei Airport
+KAW Kawthoung Airport
+LIW Loikaw Airport
+MNU Mawlamyine Airport
+BSX Pathein Airport
+PKK Pakhokku Airport
+SWQ Sumbawa Besar Airport
+TMC Tambolaka Airport
+BUI Bokondini Airport
+SEH Senggeh Airport
+TJS Tanjung Harapan Airport
+DTD Datadawai Airport
+BEJ Barau(Kalimaru) Airport
+TJG Warukin Airport
+SMQ Sampit(Hasan) Airport
+LUV Dumatubun Airport
+ARD Mali Airport
+BLG Belaga Airport
+LGL Long Lellang Airport
+ODN Long Seridan Airport
+MKM Mukah Airport
+BKM Bakalalan Airport
+LWY Lawas Airport
+BBN Bario Airport
+TMG Tomanggong Airport
+KUD Kudat Airport
+TKG Radin Inten II (Branti) Airport
+HLP Halim Perdanakusuma International Airport
+NTX Ranai Airport
+PSU Pangsuma Airport
+SQG Susilo Airport
+PDO Pendopo Airport
+LSW Malikus Saleh Airport
+PKG Pulau Pangkor Airport
+KBU Stagen Airport
+LBW Long Bawan Airport
+NNX Nunukan Airport
+LPU Long Apung Airport
+ALH Albany Airport
+GYL Argyle Airport
+AUU Aurukun Airport
+BCI Barcaldine Airport
+BDD Badu Island Airport
+BVI Birdsville Airport
+BHQ Broken Hill Airport
+HTI Hamilton Island Airport
+BEU Bedourie Airport
+BRK Bourke Airport
+BUC Burketown Airport
+GIC Boigu Airport
+OKY Oakey Airport
+BQL Boulia Airport
+BHS Bathurst Airport
+BLT Blackwater Airport
+CVQ Carnarvon Airport
+CAZ Cobar Airport
+CPD Coober Pedy Airport
+CNC Coconut Island Airport
+CNJ Cloncurry Airport
+CED Ceduna Airport
+CTN Cooktown Airport
+CMA Cunnamulla Airport
+CNB Coonamble Airport
+CUQ Coen Airport
+OOM Cooma Snowy Mountains Airport
+DMD Doomadgee Airport
+NLF Darnley Island Airport
+DPO Devonport Airport
+ELC Elcho Island Airport
+EPR Esperance Airport
+FLS Flinders Island Airport
+GET Geraldton Airport
+GLT Gladstone Airport
+GTE Groote Eylandt Airport
+GFF Griffith Airport
+HID Horn Island Airport
+HOK Hooker Creek Airport
+MHU Mount Hotham Airport
+HGD Hughenden Airport
+JCK Julia Creek Airport
+KAX Kalbarri Airport
+KNS King Island Airport
+KFG Kalkgurung Airport
+KRB Karumba Airport
+KWM Kowanyama Airport
+KUG Kubin Airport
+LNO Leonora Airport
+LEL Lake Evella Airport
+LDH Lord Howe Island Airport
+IRG Lockhart River Airport
+LSY Lismore Airport
+LHG Lightning Ridge Airport
+LRE Longreach Airport
+LER Leinster Airport
+LVO Laverton Airport
+UBB Mabuiag Island Airport
+MKR Meekatharra Airport
+MIM Merimbula Airport
+MGT Milingimbi Airport
+MNG Maningrida Airport
+MCV McArthur River Mine Airport
+MQL Mildura Airport
+MMG Mount Magnet Airport
+MRZ Moree Airport
+MOV Moranbah Airport
+MYA Moruya Airport
+MGB Mount Gambier Airport
+ONG Mornington Island Airport
+MYI Murray Island Airport
+MBH Maryborough Airport
+NRA Narrandera Airport
+NAA Narrabri Airport
+NTN Normanton Airport
+ZNE Newman Airport
+OLP Olympic Dam Airport
+PUG Port Augusta Airport
+PMK Palm Island Airport
+PBO Paraburdoo Airport
+CCK Cocos Keeling Island Airport
+GOV Gove Airport
+PKE Parkes Airport
+PLO Port Lincoln Airport
+EDR Pormpuraaw Airport
+PQQ Port Macquarie Airport
+PTJ Portland Airport
+ULP Quilpie Airport
+RAM Ramingining Airport
+RMA Roma Airport
+SGO St George Airport
+MJK Shark Bay Airport
+SBR Saibai Island Airport
+SRN Strahan Airport
+XTG Thargomindah Airport
+TCA Tennant Creek Airport
+VCD Victoria River Downs Airport
+SYU Warraber Island Airport
+WNR Windorah Airport
+WYA Whyalla Airport
+WUN Wiluna Airport
+WOL Wollongong Airport
+WIN Winton Airport
+BWT Wynyard Airport
+OKR Yorke Island Airport
+XMY Yam Island Airport
+NAY Beijing Nanyuan Airport
+CIF Chifeng Airport
+CIH Changzhi Airport
+DAT Datong Airport
+HET Baita Airport
+BAV Baotou Airport
+SJW Shijiazhuang Daguocun International Airport
+TGO Tongliao Airport
+HLH Ulanhot Airport
+XIL Xilinhot Airport
+BHY Beihai Airport
+CGD Changde Airport
+DYG Dayong Airport
+MXZ Meixian Airport
+ZUH Zhuhai Airport
+LZH Bailian Airport
+ZHA Zhanjiang Airport
+ENH Enshi Airport
+NNY Nanyang Airport
+XFN Xiangfan Airport
+YIH Yichang Airport
+AKA Ankang Airport
+GOQ Golmud Airport
+HZG Hanzhong Airport
+IQN Qingyang Airport
+XNN Xining Caojiabu Airport
+ENY Yan'an Airport
+UYN Yulin Airport
+AVK Arvaikheer Airport
+LTI Altai Airport
+BYN Bayankhongor Airport
+DLZ Dalanzadgad Airport
+HVD Khovd Airport
+MXV Muren Airport
+DIG Diqing Airport
+LUM Mangshi Airport
+SYM Simao Airport
+ZAT Zhaotong Airport
+KOW Ganzhou Airport
+JDZ Jingdezhen Airport
+JIU Jiujiang Lushan Airport
+JUZ Quzhou Airport
+LYG Lianyungang Airport
+HYN Huangyan Luqiao Airport
+LYI Shubuling Airport
+JJN Quanzhou Airport
+TXN Tunxi International Airport
+WEF Weifang Airport
+WEH Weihai Airport
+WUX Wuxi Airport
+WUS Nanping Wuyishan Airport
+WNZ Wenzhou Yongqiang Airport
+YNZ Yancheng Airport
+YIW Yiwu Airport
+HSN Zhoushan Airport
+BPX Qamdo Bangda Airport
+DAX Dachuan Airport
+GYS Guangyuan Airport
+LZO Luzhou Airport
+MIG Mianyang Airport
+NAO Nanchong Airport
+LZY Nyingchi Airport
+WXN Wanxian Airport
+AKU Aksu Airport
+IQM Qiemo Airport
+KCA Kuqa Airport
+KRL Korla Airport
+KRY Karamay Airport
+YIN Yining Airport
+HEK Heihe Airport
+JMU Jiamusi Airport
+JNZ Jinzhou Airport
+NDG Qiqihar Sanjiazi Airport
+YNJ Yanji Airport
+--- Valletta Sea Plane Terminal
+--- Gozo Sea Plane Terminal
+WME Mount Keith
+LRV Gran Roque Airport
+IOR Inishmore Airport
+NNR Connemara Regional Airport
+GTI Guettin MecklenburgVorpommern Germany
+NBB Berezovo
+EPSD Szczecin-Dabie
+ORH Worcester Regional Airport
+AQG Anqing Airport
+JGS Jing Gang Shan Airport
+SHP Shanhaiguan Airport
+YCU Zhangxiao
+LHW Lanzhou Airport
+JGN Jiayuguan Airport
+DDG Dandong
+DSN Ordos Ejin Horo
+PZI Panzhihua
+--- Grytviken
+--- South Shetland
+--- South Shetland
+--- New Rochelle Amtrak Station
+KANE Anoka County Blaine Airport
+ZVE New Haven Rail Station
+--- Chicago Union Station
+DIB Dibrugarh Airport
+XOZ Doha Free Zone Airport
+PWT Bremerton National
+SPW Spencer Muni
+JEF Jefferson City Memorial Airport
+GCW Grand Canyon West Airport
+BLD Boulder City Municipal Airport
+EDMT Tannheim
+--- Glenview Amtrak Station
+--- Baltimore Penn Station
+--- Summit Camp
+UNT Unst Airport
+WA19 Pagerungan
+PVC Provincetown Muni
+LKE Kenmore Air Harbor Seaplane Base
+WBAK Seria - Anduki
+%u0 Magas
+SBH Saint Barthelemy
+--- Morro de Sao Paulo
+--- Morro de Sao Paulo
+TZA Belize City Municipal Airport
+UUBA Kostroma - Sokerkino
+SUI Sukhumi Dranda
+TBW Tambow
+OBN Oban Airport
+--- Vilamendhoo
+--- Vilamendhoo
+--- Vilamendhoo
+--- Vilamendhoo
+--- Aaa
+--- Vilamendhoo
+--- Vilamendhoo
+--- Sharya
+FSZ Mt. Fuji Shizuoka Airport
+ERM Erechim Airport
+LSGP La Cote
+CVF Courchevel Airport
+FUL Fullerton Municipal Airport
+KJQF Concord Rgnl
+EGHN Sandown
+FWM Fort William Heliport
+NVI Navoi Airport
+JPU La Defense Heliport
+LFCD Andernos-Les-Bains
+RRA Ronda Airport
+EDOI Bienenfarm Airport
+--- Nguma Island Lodge Airstrip
+--- Champion-7
+QSF Ain Arnat Airport
+LRH La Rochelle-Ile de Re
+SUN Friedman Mem
+LSGY Yverdon-Les-Bains
+PME Portsmouth Airport
+EPBA Aleksandrowice
+MCW Mason City Municipal
+--- Salar de Uyuni
+--- Isla Pescado
+--- Toro Toro
+--- QTHRL
+--- QTHRS
+--- Helirafting Start
+--- Helirafting Landung
+--- Jomo Kenyatta
+--- DWEST
+LOGO Niederoeblarn
+LOAV Bad Voeslau
+--- Arekuna Camp
+EDHE Uetersen
+--- HLP1 HS-16
+--- HLP2 HS-16
+--- HLP HQ GT
+JNG Jining Airport
+OHE Heilongjiang Mohe Airport
+DAQ Daqing Saertu Airport
+--- Byron Airport
+IAR Tunoshna
+UIIB Belaya
+--- Borisoglebskoe
+UHKD Dzemgi
+UHHT Khabarovsk-MVL
+UIIR Irkutsk-2
+UUBW Zhukovski
+URKG Gelendzhik
+URRT Taganrog-Juzhnyi
+QNC Neuchatel Airport
+ZJI Locarno Airport
+LSZK Speck-Fehraltorf Airport
+LSGL Lausanne-la Blecherette Airport
+LSPN Triengen Airport
+RMT Rimatara
+--- Ust-Ilimsk
+UKX Ust-Kut
+--- Kavalerovo
+UIKK Kirensk
+1OH Fortman Airport
+BN1 Bellona
+BNY Bellona
+RIN Ringi Cove Airport
+ARE Antonio Juarbe Pol Airport
+EAT Pangborn Field
+YBDG Bendigo Airport
+JDR Aeroporto Prefeito Octavio de Almeida Neves
+YPEA RAAF Pearce
+AGE Wangerooge Airport
+EDXP Harle Airport
+OSH Wittman Regional Airport
+BQT Brest
+TNL Ternopol
+CEJ Chernigov
+UKC Lutsk
+BEH Southwest Michigan Regional Airport
+UES Waukesha County Airport
+--- Ronda
+--- Thurles
+--- Limerick
+NOA Nowra Airport
+YLVT RAAF Williams Laverton Base
+KTR Tindal Airport
+YAMB Amberley
+GEIR Geiranger
+LOWZ Zell am See
+10C Galt Field Airport
+X01 Everglades Airpark
+COQ Choibalsan Airport
+TRO Taree Airport
+OAG Orange Airport
+GFN Grafton Airport
+MRQ Marinduque Airport
+HDM Hamadan Airport
+YIF St Augustin Airport
+VQS Vieques Airport
+KMV Kalay Airport
+LSS Terre-de-Haut Airport
+YEI Yenisehir Airport
+TEQ Tekirdağ Çorlu Airport
+SIC Sinop Airport
+MSR Mus Airport
+CKZ Canakkale Airport
+AOE Anadolu Airport
+MPA Katima Mulilo Airport
+WVB Walvis Bay Airport
+PDP Capitan Corbeta C A Curbelo International Airport
+SKT Sialkot Airport
+YVB Bonaventure Airport
+BHG Brus Laguna Airport
+UAS Samburu South Airport
+CHG Chaoyang Airport
+WLH Walaha Airport
+TGC Tanjung Manis Airport
+LKH Long Akah Airport
+EGN Geneina Airport
+TOG Togiak Airport
+PTH Port Heiden Airport
+KVC King Cove Airport
+KNW New Stuyahok Airport
+IGG Igiugig Airport
+SLV Shimla Airport
+NDC Nanded Airport
+DHM Kangra Airport
+CQD Shahre Kord Airport
+EGM Sege Airport
+RGS Burgos Airport
+LEN Leon Airport
+DRG Deering Airport
+AFS Sugraly Airport
+MQM Mardin Airport
+TCG Tacheng Airport
+SPCH Tocache Airport
+LGQ Nueva Loja Airport
+PFQ Parsabade Moghan Airport
+IIL Ilam Airport
+GBT Gorgan Airport
+ACP Sahand Airport
+TBH Romblon Airport
+WUZ Changzhoudao Airport
+HMI Hami Airport
+SDP Sand Point Airport
+GOP Gorakhpur Airport
+ACR Araracuara Airport
+HGR Hagerstown Regional Richard A Henson Field
+QBC Bella Coola Airport
+PJA Pajala Airport
+KPC Port Clarence Coast Guard Station
+GVR Governador Valadares Airport
+KVK Kirovsk-Apatity Airport
+CYZ Cauayan Airport
+TMU Tambor Airport
+FON Arenal Airport
+QOW Imo Airport
+ARC Arctic Village Airport
+YTQ Tasiujaq Airport
+YPX Puvirnituq Airport
+OMC Ormoc Airport
+WTK Noatak Airport
+SVA Savoonga Airport
+SHH Shishmaref Airport
+RBY Ruby Airport
+PHO Point Hope Airport
+MYU Mekoryuk Airport
+KVL Kivalina Airport
+KSM St Marys Airport
+KAL Kaltag Airport
+HPB Hooper Bay Airport
+GAM Gambell Airport
+ATK Atqasuk Edward Burnell Sr Memorial Airport
+ANV Anvik Airport
+AKP Anaktuvuk Pass Airport
+AAT Altay Airport
+LQTZ Tuzla
+KNFW Fort Worth NAS
+ELA Naypyidaw
+VYXG Kyauktu
+ZXB Jan Mayensfield
+VYBP Bokepyin
+HHA Huanghua Intl
+NZH Manzhouli
+WUA Wuhai
+GYY Gary Chicago International Airport
+BRD Brainerd Lakes Rgnl
+LWB Greenbrier Valley Airport
+PGV Pitt-Greenville Airport
+CYF Chefornak Airport
+OXR Oxnard - Ventura County
+BKG Branson LLC
+TEN Tongren
+KNC Jinggangshan
+ZBP Penn Station
+ZYP Penn Station
+NIU Niau
+SCH Stratton ANGB - Schenectady County Airpor
+NBC Begishevo
+--- Bogovarovo
+GSUM Summit Camp
+QRW Warri Airport
+EHVK Volkel
+RPNS Sayak Airport
+LGO Langeoog Airport
+FNE Fane Airport
+ITK Itokama Airport
+ONB Ononge Airport
+TPI Tapini Airport
+AGL Wanigela Airport
+WTP Woitape Airport
+AWB Awaba Airport
+TFM Telefomin Airport
+LSZP Kappelen
+NLP Nelspruit Airport
+CKC Cherkassy
+--- Gotska Sandon Heliport
+--- Lauterhorn
+UST St. Augustine Airport
+NLV Mykolaiv International Airport
+RHP Ramechhap
+STS Charles M Schulz Sonoma Co
+ISM Kissimmee Gateway Airport
+LCQ Lake City Municipal Airport
+KDED DeLand Municipal Airport
+7FL4 Haller Airpark Airport
+SLPA Santa Lucia PNP Airstrip
+LGU Logan-Cache
+BMC Brigham City
+MLD Malad City
+ASE Aspen Pitkin County Sardy Field
+HHH Hilton Head
+ULV Barataevka
+UTOD Horog
+GSS Sabi Sabi Airport
+ZFV Philadelphia 30th St Station
+BWD KBWD
+LXY Mexia - Limestone County Airport
+ERV Kerrville Municipal Airport
+LSZF Birrfeld
+GED Sussex Co
+ZSW Seal Cove Seaplane Base
+GBN Great Bend Municipal
+HYS Hays Regional Airport
+SUS Spirit Of St Louis
+LYU Ely Municipal
+GPZ Grand Rapids Itasca County
+TVF Thief River Falls
+EGV Eagle River
+ARV Lakeland
+IKV Ankeny Regl Airport
+YBV Berens River
+NGP Corpus Christi NAS
+YPI Seaplane Base
+AVX Avalon
+MHV Mojave
+ZIN Air Base
+KEH Kenmore Air Harbor Inc Seaplane Base
+CZH Municipal
+INQ Inisheer
+--- Winterlandeplatz
+--- Paketzentrum
+SWT Strezhevoy
+--- Cashel
+HUT Hutchinson Municipal Airport
+BPM Bagram AFB
+OEPS Al Kharj AFB
+EGA Eagle County Airport
+--- Oak Lawn Train Station
+--- Wrigleyville
+GDZ Gelendzik
+STJ Rosecrans Mem
+ZRT Hartford Union Station
+ZTF Stamford Amtrak Station
+ZRP Newark Penn Station
+LHPA Papa Airport
+NDZ Cuxhaven Airport
+VOK Volk Fld
+BFT BFT County Airport
+UAB Adana-Incirlik Airbase
+GUC Gunnison - Crested Butte
+SIA Xi\\'An Xiguan
+TOA Zamperini Field Airport
+MBL Manistee County-Blacker Airport
+PHIK Hickam Air Force Base
+PGD Charlotte County-Punta Gorda Airport
+JGC Grand Canyon Heliport
+WFK Northern Aroostook Regional Airport
+JHW Chautauqua County-Jamestown
+YTM Riviere Rouge - Mont-Tremblant International Inc. Airport
+SME Lake Cumberland Regional Airport
+SHD Shenandoah Valley Regional Airport
+DVL Devils Lake Regional Airport
+DIK Dickinson Theodore Roosevelt Regional Airport
+SDY Sidney-Richland Municipal Airport
+CDR Chadron Municipal Airport
+AIA Alliance Municipal Airport
+MCK McCook Regional Airport
+MTH Florida Keys Marathon Airport
+GDV Dawson Community Airport
+OLF LM Clayton Airport
+WYS Yellowstone Airport
+ALS San Luis Valley Regional Airport
+CNY Canyonlands Field
+ELY Ely Airport
+VEL Vernal Regional Airport
+SRR Sierra Blanca Regional Airport
+SOW Show Low Regional Airport
+MYL McCall Municipal Airport
+SMN Lemhi County Airport
+MMH Mammoth Yosemite Airport
+FRD Friday Harbor Airport
+ESD Orcas Island Airport
+OTS Anacortes Airport
+AST Astoria Regional Airport
+ONP Newport Municipal Airport
+EMK Emmonak Airport
+UNK Unalakleet Airport
+UUK Ugnu-Kuparuk Airport
+SHX Shageluk Airport
+CHU Chuathbaluk Airport
+NUI Nuiqsut Airport
+EEK Eek Airport
+KUK Kasigluk Airport
+KWT Kwethluk Airport
+KWK Kwigillingok Airport
+MLL Marshall Don Hunter Sr. Airport
+RSH Russian Mission Airport
+WTL Tuntutuliak Airport
+KEK Ekwok Airport
+KGK Koliganek Airport
+KLL Levelock Airport
+KMO Manokotak Airport
+TWA Twin Hills Airport
+CIK Chalkyitsik Airport
+EAA Eagle Airport
+HUS Hughes Airport
+HSL Huslia Airport
+LIV Livingood Airport
+MNT Minto Airport
+NUL Nulato Airport
+RMP Rampart Airport
+TAL Tanana Airport
+VEE Venetie Airport
+WBQ Beaver Airport
+CEM Central Airport
+SHG Shungnak Airport
+KBC Birch Creek Airport
+CXF Coldfoot Airport
+IYK Inyokern Airport
+VIS Visalia Municipal Airport
+MCE Merced Municipal Airport
+CYR Laguna de Los Patos International Airport
+SULO Camelo
+CPQ Amarais Airport
+KGYR Phoenix Goodyear
+--- Park City
+TWB Toowoomba
+YLLE Ballera
+YGAT Gatton
+AYK Arkalyk Airport
+ZZ06 Hamburger Hafen
+ZZ05 Flugplatz Fehmarn-Neujellingsdorf
+EDTN Nabern Teck
+AGN Angoon Seaplane Base
+ELV Elfin Cove Seaplane Base
+TKE Tenakee Seaplane Base
+PEC Pelican Seaplane Base
+CYM Chatham Seaplane Base
+FNR Funter Bay Seaplane Base
+EXI Excursion Inlet Seaplane Base
+HNH Hoonah Airport
+AFE Kake Airport
+CGA Craig Seaplane Base
+HYL Hollis Seaplane Base
+MTM Metlakatla Seaplane Base
+KTB Thorne Bay Seaplane Base
+HYG Hydaburg Seaplane Base
+WHD Hyder Seaplane Base
+KPB Point Baker Seaplane Base
+PPV Port Protection Seaplane Base
+WWP North Whale Seaplane Base
+KCQ Chignik Lake Airport
+EGX Egegik Airport
+KCL Chignik Lagoon Airport
+KBW Chignik Bay Seaplane Base
+KPV Perryville Airport
+PIP Pilot Point Airport
+WSN South Naknek Airport
+AKK Akhiok Airport
+KYK Karuluk Airport
+KLN Larsen Bay Airport
+OLH Old Harbor Airport
+KOZ Ouzinkie Airport
+ORI Port Lions Airport
+ALZ Alitak Seaplane Base
+AOS Amook Bay Seaplane Base
+KKB Kitoi Bay Seaplane Base
+KMY Moser Bay Seaplane Base
+KOY Olga Bay Seaplane Base
+KPY Port Bailey Seaplane Base
+KPR Port Williams Seaplane Base
+SYB Seal Bay Seaplane Base
+WSJ San Juan - Uganik Seaplane Base
+KWP West Point Village Seaplane Base
+KZB Zachar Bay Seaplane Base
+ABL Ambler Airport
+BKC Buckland Airport
+IAN Bob Baker Memorial Airport
+OBU Kobuk Airport
+ORV Robert Curtis Memorial Airport
+WLK Selawik Airport
+KTS Brevig Mission Airport
+ELI Elim Airport
+GLV Golovin Airport
+TLA Teller Airport
+WAA Wales Airport
+WMO White Mountain Airport
+CIL Council Airport
+KKA Koyuk Alfred Adams Airport
+SMK St. Michael Airport
+SKK Shaktoolik Airport
+WBB Stebbins Airport
+TNC Tin City LRRS Airport
+AKB Atka Airport
+IKO Nikolski Air Station
+ICY Icy Bay Airport
+CYT Yakataga Airport
+AUK Alakanuk Airport
+SXP Sheldon Point Airport
+KPN Kipnuk Airport
+KFP False Pass Airport
+NLG Nelson Lagoon
+PML Port Moller Airport
+KLW Klawock Airport
+KWN Quinhagak Airport
+KOT Kotlik Airport
+KYU Koyukuk Airport
+SCM Scammon Bay Airport
+NNL Nondalton Airport
+PDB Pedro Bay Airport
+NUP Nunapitchuk Airport
+KKH Kongiganak Airport
+NIB Nikolai Airport
+TCT Takotna Airport
+PQS Pilot Station Airport
+AKI Akiak Airport
+TLT Tuluksak Airport
+KGX Grayling Airport
+AIN Wainwright Airport
+APZ ZAPALA
+RDS Rincon de los Sauces
+OLN Colonia Sarmiento
+--- Grytvyken
+RYO Rio Turbio
+PNT Puerto Natales
+CVI Caleta Olivia
+--- Fitz Roy
+SGV Sierra Grande
+IGB Ingeniero Jacobacci
+--- Lago Posadas
+ELX El Chalten
+NCN Chenega Bay Airport
+CZN Chisana Airport
+6K8 Tok Junction Airport
+IRC Circle City Airport
+KCC Coffman Cove Seaplane Base
+CKD Crooked Creek Airport
+RDV Red Devil Airport
+SLQ Sleetmute Airport
+SRV Stony River 2 Airport
+HKB Healy River Airport
+KAE Kake Seaplane Base
+AQC Klawock Seaplane Base
+MHM Minchumina Airport
+MLY Manley Hot Springs Airport
+STG St. George Airport
+TEK Tatitlek Airport
+WFB Ketchikan harbor Seaplane Base
+--- Fox Harbour Airport
+CNH2 Natuashish Airport
+YSO Postville Airport
+YWB Kangiqsujuaq - Wakeham Bay Airport
+YTF Alma Airport
+YGV Havre Saint-Pierre Airport
+YXK Rimouski Airport
+--- Vakarufahli Island
+--- Vakarufalhi Island
+XTL Tadoule Lake Airport
+XLB Lac Brochet Airport
+XSI South Indian Lake Airport
+YBT Brochet Airport
+ZGR Little Grand Rapids Airport
+YCR Cross Lake - Charlie Sinclair Memorial Airport
+YRS Red Sucker Lake Airport
+YOP Rainbow Lake Airport
+YBY Bonnyville Airport
+ZNA Nanaimo Harbour Water Airport
+CAX6 Ganges Water Aerodrome
+--- Bedwell Harbour Water Aerdrome
+XQU Qualicum Beach Airport
+YJM Fort St. James - Perison Airport
+YDT Boundary Bay Airport
+CYNJ Langley Regional Airport
+ZEL Bella Bella Airport
+YHS Sechelt Aerodrome
+CFJ2 Wekweeti Airport
+MM52 Campo Cuatro Milpas Airport
+MMCD Isla de Cedros Airport
+MMSL Cabo San Lucas International Airport
+--- Bahia Tortugas Airfield
+PVP Palo Verde Airport
+--- Ziyaraifushi
+ZYR Brussels Gare du Midi
+CYC Caye Chapel Airport
+BGK Big Creek Airport
+DGA Dangriga Airport
+PLJ Placencia Airport
+SJX Sartaneja Airport
+--- Huehuetenango Airport
+RNI Corn Island Airport
+BZA Bonanza Airport
+RFS Rosita Airport
+SIU Siuna Airport
+WSP Waspam Airport
+MNSC San Carols Airport
+RIK Carrillo Airport
+FUS Fussen
+--- John A. Osborne Airport
+MDJS Monte Plata Batley Juan Sanchez Field
+COZ Constanza Airport
+NEG Negril Aerodrome
+EBO Bochum Railway
+KFB Fliegerhost
+ZMU Munich Railway
+ZAQ Nuernberg Railway
+RVR Jose Aponte de la Torre Airport
+RLO Aeropuerto Internacional Valle del Conlara
+VI22 Charlotte Amalie Harbor
+SSB Christiansted Harbor Seaplane Base
+ARR Alto Rio Senguer Airport
+JSM Jose de San Martin Airport
+UYU Uyuni Airport
+ZAU Augsburg Railway
+ZMA Mannheim Railway
+ZES Essen Railway
+RBQ Rurrenabaque Airport
+--- Lancaster Amtrak Station
+--- Ardmore Amtrak Station
+ABF Abaiang Atoll Airport
+--- Metropark Amtrak Station
+CPS St. Louis Downtown Airport
+SMAF Afobaka Airstrip
+SMDU Alalapadu Airstrip
+ABN Albina Airstrip
+SMLA Lawa Anapaike Airstrip
+SMPT Apetina Airstrip
+BTO Botopassi Airstrip
+DOE Djoemoe Airstrip
+DRJ Drietabbetje Airstrip
+SMKA Kabalebo Airstrip
+SMKE Kayser Airstrip
+SMSM Kwamelasemoetoe Airstrip
+SMMO Moengo Airstrip
+ICK Majoor Henry Fernandes Airport
+OEM Vincent Fayks Airport
+SMSK Sarakreek Airstrip
+SMSI Sipaliwini Airstrip
+SMZ Stoelmans Eiland Airstrip
+TOT Totness Airstrip
+AGI Wageningen Airstrip
+KIA Kaieteur International Airport
+CSC Codela Airport
+--- Newport News Amtrak Station
+--- Portland Union Station
+ORJ Orinduik Airport
+NAI Annai Airport
+SYAP Apoteri Airport
+IMB Imbaimadai Airport
+KAR Kamarang Airport
+USI Mabaruma Airport
+MHA Mahdia Airport
+PJC Dr. Augusto Roberto Fuster International Airport
+ACD Alcides Fernandez Airport
+RVE Los Colonizadores Airport
+LCR La Chorrera Airport
+UEBB Batagay Airport
+LMC La Macarena
+VGZ Villa Garzon Airport
+EBG El Bagre Airport
+CAQ Juan H. White
+COG Mandinga Airport
+TLU Golfo de Morrosquillo Airport
+CFB Cabo Frio International Airport
+--- Westport Amtrak Station
+--- Trenton Amtrak Station
+OPS Sinop Airport
+GRP Gurupi Airport
+CMP Campo Alegre Airport
+BVS Breves Airport
+SFK Soure Airport
+PIN Julio Belem Airport
+BRA Barreiras Airport
+STZ Confresa Airport
+MQH Minacu Airport
+AUX Araguaina Airport
+NVP Novo Aripuana Airport
+LVR Bom Futuro Airport
+FRC Franca Airport
+DOU Dourados Airport
+LBR Labrea Airport
+ROO Rondonopolis Airport
+GPB Tancredo Thomaz de Faria Airport
+JCB Joacaba Airport
+--- North Philadelphia Amtrak Station
+--- Aberdeen Railway Station
+--- Glasgow Railway Station
+ZXE Edinburgh Waverly Station
+--- Newcastle Railway Station
+--- Leeds Railway Station
+--- Manchester Picadilly Station
+--- Liverpool Railway Station
+--- London Euston Railway Station
+RVD General leite de Castro Airport
+AAX Araxa Airport
+MBZ Maues Airport
+RBB Borba Airport
+CIZ Coari Airport
+BAZ Barcelos Airport
+--- Herbert Glacier
+--- Seattle Cruise Terminal
+--- Juneau Cruise Pier
+--- Skagway Cruise Pier
+--- Ketchikan Cruise Pier
+--- Victoria Cruise Pier
+DMT Diamantino Airport
+GNM Guanambi Airport
+QDJ Tsletsi Airport
+FNZG Nzagi Airport
+--- Catoca Airport
+LBZ Lucapa Airport
+KNP Kapanda Airport
+AMC Am Timan Airport
+GSQ Sharq Al-Owainat Airport
+MRB Eastern WV Regional Airport
+AWA Awasa Airport
+JIJ Jijiga Airport
+MKS Mekane Salam Airport
+DBM Debre Marqos
+DBT Debre Tabor Airport
+QHR Harar Meda Airport
+GOB Robe Airport
+MYB Mayumba Airport
+MRE Mara Serena Airport
+--- Lewa Airport
+HKMK Mulika Lodge Airport
+RBX Rumbek Airport
+HSYE Yei Airport
+CPA Cape Palmas Airport
+AMY Ambatomainty Airport
+UKY Kyoto
+LSGE Ecuvillens Airport
+--- Andermatt
+--- Wohlen Airfield
+BZB Bazaruto Island Airport
+BCW Benguera Island Airport
+FQIA Inhaca Airport
+IBL Indigo Bay Lodge Airport
+--- Gombe Lawanti International Airport
+--- Akwa Ibom International Airport
+--- Katsina Airport
+MAX Ouro Sogui Airport
+BDI Bird Island Airport
+--- K50 Airport
+--- El Daein
+WHF Wadi Halfa Airport
+NBE Enfidha - Zine El Abidine Ben Ali International Airport
+HUKD Kidepo Airport
+HUKT Kitgum Airport
+PAF Pakuba Airport
+ENSA Svea Airport
+ENAS Ny-Alesund Airport
+HTY Hatay Airport
+EEKU Kihnu Airfield
+EERU Ruhnu Airfield
+RVV Raivavae Airport
+FUO Foshan
+HUZ Huizhou
+ILD Lleida-Alguaire Airport
+WPR Aeropuerto Capitan Fuentes Martinez
+LFEC Ouessant Airport
+YMY Central Railway Station
+YBZ Union Station
+BIU Bildudalur Airport
+GJR Gjogur Airport
+SAK Saudarkrokur
+BISF Selfoss Airport
+IIA Inishmaan Aerodrome
+TDK Taldykorgan Airport
+ULG Olgii Airport
+XDB Lille
+UTDT Qurghonteppa International Airport
+VGD Vologda Airport
+UHMW Severo-Evensk Airport
+UERO Olenyok Airport
+UERS Saskylakh Airport
+--- Lensk Airport
+BVV Burevestnik Airport
+OHH Okha Airport
+LDG Leshukonskoye Airport
+UIUN Nizhneangarsk Airport
+--- Taksimo Airport
+UNIW Vanavara Airport
+UERA Aykhal Airport
+USSK Uktus Airport
+UNIB Baykit Airport
+UNBI Biysk Airport
+HSK Huesca-Pirineos Airport
+CQM Ciudad Real Central Airport
+NJF Al Najaf International Airport
+QYI Hilversum Railway Station
+CSA Colonsay Airport
+COL Coll Airport
+RKH Rock Hill York Co Bryant Airport
+AGC Allegheny County Airport
+NZC Cecil Field
+FTY Fulton County Airport Brown Field
+TSO Tresco Heliport
+TII Tarin Kowt Airport
+ZAJ Zaranj Airport
+CCN Chaghcharan Airport
+--- Four Corners
+FUG Fuyang Airport
+LCX Longyan Airport
+BSD Baoshan Airport
+ACX Xingyi Airport
+XZM Macau Ferry Pier
+HZH Liping Airport
+60J Ocean Isle Beach Airport
+UB13 Stepanakert
+OSU Ohio State University Airport
+RSI Rio Sidra
+ADS Addison
+DTS Destin
+RBN Fort Jefferson
+KHE Chernobayevka Airport
+SZS Ryans Creek Aerodrome
+FSAS Assumption Island
+HJJ Zhijiang Airport
+--- Aldabra
+YQI Yarmouth Airport
+ISO Kinston Regional Jetport
+FFA First Flight Airport
+--- Pebble Island Airstrip
+--- Sea Lion Island Landing Strip
+--- Lively Settlement Airstrip
+LNJ Lincang Airport
+WNH Wenshan Airport
+PLL Ponta Pelada Airport
+SJL Sao Gabriel da Cachoeira Airport
+SWMK Maturaca
+CKS Carajas Airport
+SNCW Centro de Lancamento de Alcantara
+ITB Cachimbo
+LTU Latur Airport
+MWK Matak Airport
+QFZ Mainz Finthen
+EDFW Wuerzburg
+QMZ Mainz
+GWW Berlin Gatow
+ZPQ Rheine Bentlage
+LPAV Sao Jacinto
+TTR Tana Toraja Airport
+ETNP Hopsten Air Base
+TJNR Jose Aponte De La Torre Airport
+PGU Persian Gulf Airport
+YES Yasuj Airport
+OSB Mosul International Airport
+TJH Tajima Airport
+AXJ Amakusa Airfield
+KKX Kikai Airport
+AGJ Aguni Airport
+--- Chongjin Airport
+HAE Haeju Airport
+LAC Layang Layang Airport
+ZMDN Donoi Airport
+UGA Bulgan Airport
+ULO Ulaangom Airport
+BPR Borongan Airport
+LBX Lubang Community Airport
+BJT Bentota Airport
+DIW Dickwella Airport
+TJU Kulob Airport
+CMJ Cimei Airport
+TAZ Dasoguz Airport
+BWB Barrow Island Airport
+MWB Morawa Airport
+EXM Exmouth Airport
+DRB Derby Airport
+WGE Walgett Airport
+BRT Bathurst Island Airport
+DKI Dunk Island Airport
+LZR Lizard Island Airport
+HLT Hamilton Airport
+HCQ Halls Creek Airport
+FIZ Fitzroy Crossing Airport
+RVT Ravensthorpe Airport
+YWKS Wilkins Runway
+PVU Provo Municipal Airport
+SBS Steamboat Springs Airport-Bob Adams Field
+DTA Delta Municipal Airport
+RIF Richfield Minicipal Airport
+PUC Carbon County Regional-Buck Davis Field
+LAM Los Alamos Airport
+BXS Borrego Valley Airport
+HII Lake Havasu City Airport
+INW Winslow-Lindbergh Regional Airport
+DGL Douglas Municipal Airport
+MZK Marakei Airport
+AEA Abemama Atoll Airport
+AAK Aranuka Airport
+KUC Kuria Airport
+AIS Arorae Island Airport
+TMN Tamana Airport
+BEZ Beru Island Airport
+NIG Nikunau Airport
+BBG Butaritari Atoll Airport
+MTK Makin Airport
+MNK Maiana Airport
+NON Nonouti Airport
+TSU Tabiteuea South Airport
+BOT Bosset Airport
+IMI Ine Airport
+TIC Tinak Airport
+--- Ebon Airport
+EAL Elenak Airport
+LML Lae Airport
+AIC Airok Airport
+EJT Enejit Airport
+WTZ Whitianga Airport
+KTF Takaka Aerodrome
+C23 Peleliu Airfield
+--- Angaur Airstrip
+AAU Asau Airport
+AFT Afutara Airport
+RNA Ulawa Airport
+CHY Choiseul Bay Airport
+NNB Santa Ana Airport
+XYA Yandina Airport
+BPF Batuna Airport
+BOW Bartow Municipal Airport
+KMW Sokerkino
+--- Yuryevets
+--- Ozerny
+--- Enkheluk
+--- Khakusy
+FTI Fitiuta Airport
+OFU Ofu Airport
+LVK Livermore Municipal
+MPI MariposaYosemite
+RKPD Jungseok
+GFY Grootfontein
+NDU Rundu
+BPU Beppu Airport
+HRN Heron Island
+LYT Lady Elliot Island
+ORS Orpheus Island
+QQP Paddington Station
+--- Liskeard Station
+--- Port du Bloscon
+AGM Tasiilaq
+--- Neets Bay
+--- Fraser Railroad Station
+--- Carcross
+TRM Jacqueline Cochran Regional Airport
+SMO Santa Monica Municipal Airport
+UDD Bermuda Dunes Airport
+ZSY Scottsdale Airport
+OLM Olympia Regional Airpor
+DWA Yolo County Airport
+RIL Garfield County Regional Airport
+SAA Shively Field Airport
+PDK Dekalb-Peachtree Airport
+BMG Monroe County Airport
+SUA Witham Field Airport
+MMU Morristown Municipal Airport
+APC Napa County Airport
+SDM Brown Field Municipal Airport
+LSPV Wangen-Lachen
+PHK Pahokee Airport
+KVNC Venice Municipal
+KPHK Pahokee
+KIE Kineshma
+NEZ Nezhitino
+--- Glasgow Buchanan Bus Station
+--- London Victoria Bus Station
+MFT Machu Pichu Airport
+ECP Panama City-NW Florida Bea.
+SBD San Bernardino International Airport
+VAL Valenca Airport
+MVF Dix Sept Rosado Airport
+CAU Caruaru Airport
+AWK Wake Island Afld
+QNV Aeroclube de Nova Iguacu
+XPG Gare du Nord
+XGB Gare Montparnasse
+XSH Saint-Pierre-des-Corps
+--- Darsena Norte
+--- Casa Central
+--- Puerto Franco
+--- Tres Cruces
+SQL San Carlos Airport
+LSZJ Courtelary
+OSZ Koszalin - Zegrze Pomorskie Airport
+FBCO Ntswi Island
+--- Dujiangyan
+--- Maiwa
+LEY Lelystad Airport
+RWI Rocky Mount Wilson Regional Airport
+PAWR Whittier Airport
+SXQ Soldotna Airport
+SEE Gillespie
+KNUC San Clemente Island Nalf
+LTX Cotopaxi International Airport
+STP London St Pancras
+ZYA Amsterdam Centraal
+JMY Mammy Yoko Heliport
+--- Shearwater Heliport
+PHA Phan Rang Airport
+SQH Na-San Airport
+TKF Truckee-Tahoe Airport
+FRJ Frejus Saint Raphael
+GEX Geelong Airport
+--- Detroit Amtrak Station
+--- Ventura Amtrak
+QPP Berlin Hauptbahnhof
+ZYA Amsterdam Centraal
+MGR Moultrie Municipal Airport
+ULAE Mezen
+ULAH Vaskovo
+RYY Cobb County Airport-Mc Collum Field
+ONH Oneonta Municipal Airport
+LOXT Tulln
+ASI Wideawake Field
+4U9 Dell Flight Strip
+LVM Mission Field Airport
+ZWR Kota Kinabalu Airport
+--- Valetta Waterfront
+6S0 Big Timber Airport
+BIV Tulip City Airport
+EGLW London Heliport
+LIPV San Nicolo Airport
+EECL Tallinn Linnahall Heliport
+HEN Hernesaari Heliport
+EDRI Linkenheim Airport
+UT25 Monument Valley Airport
+EHHV Hilversum Airport
+JRA West 30th St. Heliport
+EHTX Texel Airport
+LECD La Cerdanya
+LAL Lakeland Linder Regional Airport
+--- Valetta Grand Harbour
+--- Mgarr Seaplane Base
+--- Bangkok
+--- Jebel Ali Seaplane Base
+--- Soneva Fushi
+UUOS Stary Oskol
+--- Savona Cruise Terminal
+--- Barcelona Cruise Terminal
+--- Casablanca Harbor
+--- Lanzarote Arrecife Cruise Terminal
+--- Tenerife Cruise Terminal
+--- Funchal Cruise Terminal
+--- Malaga Cruise Terminal
+--- Ponta Delgada Cruise Terminal
+--- Vigo Cruise Terminal
+--- Fort Lauderdale Cruise Terminal
+--- Southampton Cruise Terminal
+--- Miami Cruise Terminal
+--- Nassau Cruise Terminal
+--- Lisbon Cruise Terminal
+--- Cadiz Cruise Terminal
+--- Marseille Cruise Terminal
+--- Los Angeles San Pedro Cruise Terminal
+--- Kailua Kona Harbor
+--- Kauai Cruise Terminal Nawiliwili
+--- Hilo Cruise Terminal Hawaii
+--- Honolulu Cruise Terminal Oahu
+--- Lahaina Harbor Maui Hawaii
+--- Ensenada Cruise Terminal
+--- Nanaimo Train Station
+--- Victoria Rail Station British Columbia
+--- Vancouver Cruise Terminal
+--- Seattle Cruise Terminal
+SYH Syangboche
+IDL Idlewild Intl
+UNKM Cheremshanka
+RBK French Valley Airport
+--- Anchorage Main Station
+--- Seward Train Station
+FNU Fenosu
+EGLM White Waltham Airfield
+MYQ Mysore Airport
+PCW Erie-Ottawa Regional Airport
+MGY Dayton-Wright Brothers Airport
+RID Richmond Municipal Airport
+FDY Findlay Airport
+NIAG Niagara Falls Station
+UEVD Deputatsky
+CZBA Burlington Airpark
+--- Baganara Island
+PEA Penneshaw Airport
+--- Matamanoa Helipad
+KFX Kaufbeuren BF
+MUQ Munich HBF
+NUR Nurnberg HBF
+EBE Ebenhofen BF
+AUB Augsburg HBF
+BIE Biessenhofen BF
+BUH Buchloe BF
+FUX Fussen BF
+KEX Kempten HBF
+AIE Aiome
+SIM Simbai
+AUJ Ambunti
+--- Gunns Camp
+--- Sossusvlei
+OAL Marktoberdorf BF
+MOS Marktoberdorf Schule
+ESX Essen HBF
+BOX Bochum HBF
+KOX Koln HBF
+--- Mannheim HBF
+EGTB Booker
+BBP Bembridge
+CCW3 Kings County Municipal Airport
+--- Chojna Air Base
+LES Leuterschach BF
+SPF Black Hills Airport-Clyde Ice Field
+KNO Knokke-Heist Westkapelle Heliport
+YRED Redcliffe
+QYD Gdynia
+EPMB Malbork
+EPLK Lask
+EPMI Miroslawiec
+EPKS Krzesiny
+OLV Olive Branch Muni
+SCVM Vina Del Mar
+BKKX Bangkok Intl closed
+CNC3 Brampton Airport
+ONQ Zonguldak
+BJC Rocky Mountain Metropolitan Airport
+--- Minot Train Station
+--- Havre Train Station
+--- Wishram Train Station
+SLE McNary Field
+UTM Tunica Municipal Airport
+UA30 Batken Airport
+--- Sun Island
+ZKB Kasaba Bay Airport
+LND Lindau HBF
+WPU Guardiamarina Zanartu Airport
+UDE Volkel AB
+EHHO Hoogeveen Airport
+EHTE Teuge Airport
+EHMZ Midden-Zeeland Airport
+EHAL Ameland Airport
+LFPZ Saint-Cyr-l-Ecole Airport
+MWC Lawrence J Timmerman Airport
+JVL Southern Wisconsin Regional Airport
+FXMN Mantsonyane Airport
+HTF Hatfield
+--- Burswood Park Helipad
+TRTO Toronto Coach Terminal
+MTRL Montreal Central Bus Station
+GKY Arlington Municipal
+LZU Gwinnett County Airport-Briscoe Field
+BWG Bowling Green-Warren County Regional Airport
+RVS Richard Lloyd Jones Jr Airport
+--- Emeryville Amtrak Station
+--- Bakersfield Amtrak Station
+NOI Krymsk
+NHD Minhad HB
+KGO Kirovograd
+EDAW Roitzschjora Airport
+DBB Alalamain Intl.
+BCE Bryce Canyon
+HDB Heidelberg
+BUY Burlington-Alamance Regional Airport
+CKL Chkalovsky Airport
+TCZ Tengchong Tuofeng Airport
+UKS Belbek Sevastopol International Airport
+BER Berlin Brandenburg Willy Brandt
+WZY Paradise Island Seaplane Base
+--- Selous Siswandu
+EHDP De Peel Air Base
+OAZI Camp Bastion
+JCI New Century AirCenter Airport
+ESN Easton-Newnam Field Airport
+HMR Stafsberg Airport
+ENRI Ringebu Airport
+ENSM Starmoen
+R49 Ferry County Airport
+MYV Yuba County Airport
+--- Basel SBB
+STO Stockholm Cruise Port
+JHE Helsingborg Cruise Port
+YPID Phillip Island Cruise Port
+DUC Halliburton Field Airport
+NYPA Port Authority Bus Terminal
+--- Filitheyo
+HELC Helsinki Cruise Port
+E91 Chinle Municipal Airport
+UVA Garner Field
+LOT Lewis University Airport
+C16 Frasca Field
+CCR Buchanan Field Airport
+OCA Key Largo
+--- Denver Union Station
+--- DELETE
+LFGC Polygone
+EDRN Nannhausen
+YUS Yushu Batang
+PYC Playon Chico
+UTU Ustupo
+MPU Mamitupo
+HIA Huai An Lianshui Airport
+--- Mureck
+--- Guessing
+PVE El Porvenir
+YOO Oshawa Airport
+EDLM Marl-Loemuehle Airport
+ESNF Farila Air Base
+LHA Lahr Airport
+VYMY Monywa Airport
+KUNI Ohio University Airport
+SGH Springfield-Beckly Municipal Airport
+MSI Sun Island Airport
+GMFU Fes Sefrou Airport
+HEX Herrera International Airport
+CDA Cooinda
+JAB Jabiru
+PITT Pitt Island Airport
+--- Plattling Bahnhof
+--- Osterhofen Bahnhof
+--- Passau Hbf
+EDNR Regensburg-Oberhub Airport
+RGB Regensburg HBF
+TLG Treuchtlingen BF
+--- Rivera Intl.
+MPB Miami Seaplane Base
+HGS Hastings Airport
+TOP Philip Billard Muni
+--- Grumeti Airstrip
+EMP Emporia Municipal Airport
+2XS8 Benson Airstrip
+K2I3 Rough River State Park
+KMQY Smyrna Airport
+KUOS Franklin County Airport
+NGQ Gunsa
+CSO Magdeburg-Cochstedt
+WZB Wurzburg HBF
+TKI Collin County Regional Airport at Mc Kinney
+PWK Chicago Executive
+--- Ol Kiombo Airstrip
+KLS Kelso Longview
+LKBE Letiste Benesov
+3W2 Put-in-Bay Airport
+GABG Bougouni
+--- Glenwood Springs Train Station
+--- Grand Junction Train Station
+--- Reno Amtrak Station
+--- Sacramento Amtrak Station
+ZTA Tureia Airport
+NZIR Ice Runway-McMurdo Sstation
+HKKE Keekorok
+--- Ol Kiombo
+--- Ol Kiombo
+--- Kichwa Tembo
+--- Busan
+--- Busan
+--- Gare de Marne-la-Vallee
+TWD Jefferson County Intl
+38W Lynden Airport
+0S9 Jefferson County Intl
+--- Savut
+--- Xakan
+--- Xakan
+--- Xugan
+PUE Puerto Obaldia
+KHC Kerch Intl
+--- Khao Sok National Park
+--- Khao Sok National Park
+BOST Boston South Station
+--- Tarifa
+XDS Train Station
+XVV Train Station
+XZL Train Station
+ZRD Train Station
+XKL Sentral
+XAD Train Station
+XEF Train Station
+--- Kingston VIA Station
+UKA Ukunda Airport
+--- Whitehaven Beach
+ILN Wilmington Airborne Airpark
+AVW Marana Regional
+CGZ Casa Grande Municipal Airport
+1AZ0 Mobile
+BXK Buckeye Municipal Airport
+E63 Gila Bend Municipal Airport
+MMI McMinn Co
+STK Sterling Municipal Airport
+RWL Rawlins Municipal Airport-Harvey Field
+YZY Mackenzie Airport
+--- JALOU
+--- JALOU
+CDW Caldwell Essex County Airport
+AIZ Lee C Fine Memorial Airport
+--- Yuryevets
+L35 Big Bear City
+KIP KIEV  INTERNATIONAL AIRPORT
+--- Los Angeles Union Station
+BAM Bamberg BF
+IGS Ingolstadt BF
+TVI Thomasville Regional Airport
+HSH Henderson Executive Airport
+GML Gostomel Antonov
+--- Zuoying Station
+--- Taipei Station
+--- Donghae
+--- Sakaiminato Port
+TMA Henry Tift Myers Airport
+EDML Landshut Ellermuehle
+EDHF Itzehoe-Hungriger Wolf Airport
+--- Savannah Cruise Terminal
+--- CHARLESTON CRUISE TERMINAL
+--- NEW YORK CRUISE TERMINAL PIER 92
+--- Navy Dockyard Hamilton Bermuda
+--- Tokyo Station
+--- Shin-Osaka Station
+--- Hiroshima Station
+ZRB Frankfurt-Main Hauptbahnhof
+--- Amsterdam Amstel Station
+--- Florenc Central Bus Station
+--- Wien Sudbahnhof
+XYG Praha hlavni nadrazi
+--- Wien Westbahnhof
+--- Venezia Santa Lucia
+--- Firenze Santa Maria Novella
+--- Roma Termini
+QQS St Pancras Railway Station
+--- Chitabe Airstrip
+--- Fish River Canyon Lodge Airstrip
+--- Sossusvlei Desert Lodge Airstrip
+ULX Ulusaba Airstrip
+QXR RADOM
+DVT Deer Valley Municipal Airport
+YBW Calgary Springbank Airport
+YGE Golden Airport
+YRV Revelstoke Airport
+KFRG Republic Airport
+EDBT Allstedt
+--- BWKAM
+KIPP Glindbruchkippe
+SCIC General Freire
+EDVP Peine-Eddesse Airport
+--- Seattle King Street Station
+TYA Tula
+HDO Hondo Municipal Airport
+ZHY Zhongwei Xiangshan Airport
+--- Milwaukee Airport Station
+--- Springfield IL Amtrak
+--- St. Louis Amtrak - old
+--- Camarillo Amtrak
+--- Seattle Pier 52
+--- Bremerton Terminal
+MCL McKinley National Park Airport
+LHD Lake Hood Seaplane Base
+PPC Prospect Creek Airport
+KHW Khwai River Lodge
+EDCY Spremberg-Welzow Airport
+TXG Taichung Airport
+HCC Columbia County
+--- Sasovo
+--- Hong Kong Macau Ferry Terminal
+--- Hong Kong Macau Ferry Terminal
+--- Macau Taipa Ferry Terminal
+--- Macau Taipa Ferry Terminal
+HLG Wheeling Ohio County Airport
+FZG Fitzgerald Municipal Airport
+40J Perry-Foley Airport
+70J Cairo-Grady County Airport
+--- Pacific Station
+--- Tamar Mepe Airport
+SSX Samsun
+XYE Ye
+SCFX Isla San Felix
+XEG Kingston Train Station
+XAX Dorval Railway Station
+BRKM Brockville Megabus Stop
+BRKV Brockville VIA Station
+OESB Shaybah airport
+DWC Dubai Al Maktoum
+RKP Aransas County Airport
+NDA Bandanaira Airport
+MVV Megeve Airport
+MFX Meribel Airport
+--- Oldbury
+AEB Tianyang
+OKF Okaukuejo Airport
+OKU Mokuti Lodge Airport
+EDXQ Rotenburg Wuemme Airport
+EDKN Wipperfuerth-Neye Airport
+EDWO Osnabrueck-Atterheide Airport
+EDCB Ballenstedt Airport
+EDHM Hartenholm Airport
+EDWQ Ganderkesee Atlas Airfield Airport
+EDXI Nienburg-Holzbalge Airport
+EDWC Damme Airport
+EDLB Borkenberge Airport
+EDCO Obermehler-Schlotheim Airport
+EDVH Hodenhagen Airport
+EDHB Grube Airport
+EKTD Toender Airport
+EDVC Celle-Arloh Airport
+EDVU Uelzen Airport
+EDLH Hamm-Lippewiesen Airport
+EDOJ Luesse Airport
+EDVY Porta Westfalica Airport
+EDKO Brilon Hochsauerlandkreis Airport
+EDVW Hameln Pyrmont Airport
+EDXN Nordholz Spieka Airport
+EDCK Koethen Airport
+EDXM St. Michaelisdonn Airport
+EDVS Salzgitter Druette Airport
+EDWK Karlshoefen Airport
+EDWH Oldenburg Hatten Airport
+EDVR Rinteln Airport
+EDLT Muenster-Telgte Airport
+PSH St. Peter-Ording Airport
+EDHC Luechow-Rehbeck Airport
+EDCL Klietz-Scharlibbe Airport
+EDBG Burg Airport
+CKF Crisp County Cordele Airport
+OMN Ormond Beach municipal Airport
+EDRA Bad Neuenahr-Ahrweiler Airport
+EDRF Bad Duerkheim Airport
+TTD Portland Troutdale
+HIO Portland Hillsboro
+NK39 One Police Plaza Heliport
+EDKL Leverkusen Airport
+24J Suwannee County Airport
+EDRV Wershofen Eifel
+KHT FOB Salerno
+--- TCO
+--- TCO
+NYT NAYPYITAW
+--- Maramba Aerodrome
+KBDN Bend Municipal Airport
+K62S Christmas Valley Airport
+KBNO Burns Municipal Airport
+KS39 Prineville Airport
+KRBL Red Bluff Municipal Airport
+KDVO Gnoss Field Airport
+KLKV Lake County Airport
+KTMK Tillamook Airport
+KONO Ontario Municipal Airport
+KDLS Columbia Gorge Regional - The Dalles Municipal Airport
+GAI Montgomery County Airpark
+--- Cincinnati Union Terminal
+--- FOB Sharana
+AZ3 Sharona
+YTA Pembroke Airport
+TSB Tsumeb Airport
+YSD Suffield Heliport
+--- Field 21
+--- Field 21
+BNU Aeroporto Blumenau
+LRMS Aeroclub Mures
+--- Aeroclub Sibiu
+SIB Aeroclub Sibiu
+UUDG Bolshoe Gryzlovo
+--- Aerodrom Cioca
+CIO Aeroclub Cioca
+--- Crocodile Camp Air Strip
+--- Crocodile Camp Air Strip
+CCLN Cleveland Clinic
+CVX Charlevoix Municipal Airport
+2J9 Quincy Municipal Airport
+ETSP Pferdsfeld
+EKMS Mykines Heliport
+--- V-A Waterfront
+--- Steenberg Helipad
+--- Steenberg Helipad
+RCE Roche Harbor Seaplane Base
+BYW Blakely Island Airport
+RSJ Rosario Seaplane Base
+WSX Westsound Seaplane Base
+FBS Friday Harbor Seaplane Base
+YRR Big Bay Water Aerodrome
+L06 Furnace Creek
+YCC Cornwall Regional Airport
+EHSE Seppe
+LSTS St.Stephan
+IZA Zona da Mata Regional Airport
+LRBG Aeroclub Ghimbav
+XFL Flagler County Airport
+DVA Aeroclub Deva
+DZM Aeroclub Cluj
+--- Antarctica
+--- Antarctica
+MVL Morrisville Stowe State Airport
+RBD Dallas Executive Airport
+LILY Como Water AD
+--- Superficie Cielo Blu
+6Y8 Welke Airport
+UAOL Krainiy
+MOW MOW
+WST Westerly State Airport
+BID Block Island State Airport
+--- Atmautluak Airport
+--- Atmautluak Airport
+369 Atmautluak Airport
+NME Nightmute Airport
+OOK Toksook Bay Airport
+TNK Tununak Airport
+GNU Goodnews Airport
+WWT Newtok Airport
+ACU Achutupo Airport
+TUW Tubuala Airport
+GHE Garachine Airport
+MPP Mulatupo Airport
+OBY Ittoqqortoormiit Heliport
+VIN Vinnitsa
+--- Gent Sint-Pieters
+--- Brugge
+--- Brugge
+--- Shin-yokohama-eki
+QXG Angers St Laud
+BGE Decatur County Industrial Air Park
+CTT5 La Romaine Airport
+ZKG Kegaska Airport
+YBI Black Tickle Airport
+SPZ Silver Springs Airport
+WHP Whiteman Airport
+MAE Madera Municipal Airport
+U76 Mountain Home Municipal Airport
+YZZ Trail Airport
+CAP5 Victoria Airport Water Aerodrome
+YAB Arctic Bay Airport
+CHB3 Hope Bay Aerodrome
+BCV Hector Silva Airstrip
+SOGS Grand-Santi Airport
+MPY Maripasoula Airport
+LDX Saint-Laurent-du-Maroni Airport
+AAJ Cayana Airstrip
+LDO Laduani Airstrip
+KJI Kanas Airport
+CPB Capurgana Airport
+HMB Sohag International
+RVY Rivera International Airport
+POJ Patos de Minas Airport
+JTC Bauru-Arealva
+OIA Ourilandia do Norte Airport
+RDC Redencao Airport
+SXX Sao Felix do Xingu Airport
+BYO Bonito Airport
+SXO Sao Felix do Araguaia Airport
+CFC Carlos Alberto da Costa Neves Airport
+CAF Carauari Airport
+SWUY Porto Urucu
+ERN Amaury Feitosa Tomaz Airport
+CCI Concordia Airport
+FBE Paulo Abdala Airport
+CFO Confresa Airport
+19A Jackson County Airport
+AAF Apalachicola Regional Airport
+UMU Orlando de Carvalho Airport
+DTI Diamantina Airport
+FBA Fonte Boa Airport
+OLC Senadora Eunice Micheles Airport
+HUW Humaita Airport
+IRZ Tapuruquara Airport
+ORX Oriximina Airport
+UNA Una-Comandatuba Airport
+--- Algeciras Heliport
+--- Algeciras Heliport
+--- Kai Tak International Airport
+--- Kai Tak International Airport
+TEF Telfer Airport
+GZP Gazipasa Airport
+OASH FOB Shank
+SGJ St. Augustine Airport
+LDZ Londolozi
+--- Singita Sabi Sands
+--- Singita Sabi Sands
+INY Singita Sabi Sands
+DQH Douglas Municipal Airport
+FRP St Lucie County International Airport
+ALX Alexandria
+TAN Taunton Municipal Airport - King Field
+PYM Plymouth Municipal Airport
+OQU Quonset State Airport
+1B9 Mansfield Municipal
+OWD Norwood Memorial Airport
+BAF Barnes Municipal
+IJD Windham Airport
+MGJ Orange County Airport
+CXY Capital City Airport
+GHG Marshfield Municipal Airport
+DXR Danbury Municipal Airport
+ASH Boire Field Airport
+LWM Lawrence Municipal Airport
+OXC Waterbury-Oxford Airport
+FIT Fitchburg Municipal Airport
+20GA Stockmar Airport
+VPC Cartersville Airport
+PYP Centre-Piedmont-Cherokee County Regional Airport
+RMG Richard B Russell Airport
+GAD Northeast Alabama Regional Airport
+DKX Knoxville Downtown Island Airport
+WDR Barrow County Airport
+JYL Plantation Airpark
+DNN Dalton Municipal Airport
+CTJ West Georgia Regional Airport - O V Gray Field
+4A9 Isbell Field Airport
+LGC LaGrange-Callaway Airport
+MLJ Baldwin County Airport
+4A4 Polk County Airport - Cornelius Moore Field
+PIM Harris County Airport
+FFC Atlanta Regional Airport - Falcon Field
+9A1 Covington Municipal Airport
+GVL Lee Gilmer Memorial Airport
+CNI Cherokee County Airport
+54J DeFuniak Springs Airport
+9A5 Barwick Lafayette Airport
+PHD Harry Clever Field Airport
+UDG Darlington County Jetport
+HXD Hilton Head Airport
+49A Gilmer County Airport
+0A9 Elizabethton Municipal Airport
+06A Moton Field Municipal Airport
+DNL Daniel Field Airport
+MRN Foothills Regional Airport
+PBX Pike County Airport - Hatcher Field
+GA04 Mallards Landing Airport
+TOC Toccoa RG Letourneau Field Airport
+EGHA Shaftesbury-Compton Abbas Aerodrome
+--- SCC4
+--- SCC4
+--- SCC4
+--- SCC4
+PLV Poltava
+--- Ferry Port
+--- Ferry Port
+HSAW Aweil Airport
+WUU Wau Airport
+HUE Humera Airport
+OYL Moyale Airport
+GMAZ Zagora Airport
+WYE Yengema Airport
+GBK Gbangbatok Airport
+--- Hong Kong China Ferry Terminal
+VDF Tampa Executive Airport
+UOTT UOTT
+UNIP Podkamennaya Tunguska
+AFW Fort Worth Alliance Airport
+57C East Troy Municipal Airport
+UNLL Kolpashevo Airport
+MYF Montgomery Field
+SEL Gimpo International Airpot
+OKAS Ali Al Salem Air Base
+RMK Renmark
+YLEC Leigh Creek
+YWBR Warburton
+YCUN Cunderdin
+YRTI Rottnest Island
+YFRT Forrest
+YBLT Ballarat
+KEW Keewaywin
+YSP Marathon
+YHF Rene Fontaine
+YHN Hornepayne
+YKX Kirkland Lake
+YMG Manitouwadge
+YXZ Wawa
+YEM Manitoulin East
+CKD9 Slate Falls
+CNY3 Collingwood
+YFD Brantford
+LWC Lawrence Municipal
+EGT Wellington Municipal
+--- Isla San Jose
+6A2 Griffin-Spalding County Airport
+--- Dieu Merci
+--- DEGRA
+--- Herapel
+--- Degrad des Cannes
+--- Elysee
+--- Citron
+--- Yaou
+--- Helicojyp
+NIC Nicosia International Airport
+PMP Pompano Beach Airpark
+XMC Mallacoota Airport
+ULH Prince Abdul Majeed Airport
+--- Pogapa Airstrip
+--- Pogapa Airstrip
+DCBS Greyhound Station
+--- Roma Street Railway Station
+--- Roma Street Railway Station
+--- Rockhampton Railway Station
+--- Sydney Terminal Railway Station
+--- Melbourne Southern Cross Railway Station
+--- Nambour Railway Station
+--- Bundaberg Railway Station
+--- Hung Hom Railway Station
+--- Hong Kong Railway Station
+EET Shelby County Airport
+YUE Yuendumu
+XWG Gare de Strasbourg
+18AZ Sky Ranch at Carefree
+--- St Peter and St Paul Fortress
+GZS Guangzhou South Railway Station
+--- Oddballs Camp Private Airstrip
+LOP Lombok International Airport
+OMM Marmul
+CAV3 One Hundred Mile House Airport
+ZML South Cariboo Regional Airport
+EGEG Glasgow City Heliport
+YYRM Yarram
+HDG Hebei Handan Airport
+--- Jade Mountain Helipad
+UMP Indianapolis Metropolitan Airport
+LOZ London-Corbin Airport-MaGee Field
+--- Camden Station
+FBG Fredericksburg Amtrak Station
+--- Pamalican Airstrip
+WMI Warsaw Modlin
+BBUF Buffalo Bus Terminal
+--- Twelve Apostles Heliport
+JXA Jixi Airport
+SEAT King St Station
+--- Palatka Amtrak Station
+YGM Gimli Industrial Park Airport
+--- Matheson Island Airport
+--- Matheson Island Airport
+CJT2 Matheson Island Airport
+UNIT Tura
+EYK Beloyarsky
+EHYB Ypenburg
+RAC John H. Batten Airport
+RZP Taytay Sandoval
+EDAJ Gera Leumnitz
+--- Gera Leumnitz
+--- Mira Flores
+XLLN Kasimovo
+QOT Otaru
+--- Noboribetsu
+EHTL Terlet
+--- Schaffen Diest
+--- Blomberg 3GGW
+--- Buckeburg
+RKZ Shigatse Peace Airport
+REI Redlands Municipal Airport
+49X Chemehuevi Valley
+RIR Flabob Airport
+TIW Tacoma Narrows Airport
+X39 Tampa North Aero Park
+--- Athuruga
+--- Athuruga
+--- Athuruga
+--- STROE KAZERNE
+--- \\'t Harde
+--- WERL KAZERNE
+--- SZEGED
+--- LAKE WANNSEE
+--- Tenkiller Lake Airpark
+--- HOEVENEN
+--- GRAS
+EDLO Muenster-Telgte
+JKA Jack Edwards Airport
+SEII General Villamil Airport
+LSXB Balzers Heliport
+VIF Vieste Heliport
+--- Alpha
+--- Gogld
+--- HIBER
+LOGG Punitz-Guessing
+HMJ Khmeinitskiy
+HIW Hiroshima-Nishi
+ANNA Annapolis
+--- High River Regional Airport
+YYTA Yalata
+HZL Hazleton Municipal
+CBE Greater Cumberland Rgnl.
+7FA1 Sugar Loaf Shores Airport
+YWYM Wyndham
+YBO Bob Quinn Lake
+--- Songo Songo
+--- Jongomero Camp
+--- Msembe Airstrip
+FGL Fox Glacier Airstrip
+KLF Grabtsevo
+--- Reykjahlid
+XEV Central Station
+QYX Central Station
+QRH Centraal
+XYJ Holesovice
+BNJ Hauptbahnhof
+ZGH Central
+ZSB Hauptbahnhof
+ZWE Centraal
+ELL Ellisras
+LNR Tri-County Regional Airport
+KPBH Price County Airport
+KEFT Municipal
+JOT Regional Airport
+VYS Illinois Valley Regional
+YDHD Dirk Hartog Island
+JXN Reynolds Field
+EDAL Flugplatz
+EDAV Flugplatz Finow
+KVVS Joseph A. Hardy Airport
+KHMZ Bedford County
+BBX Wings Field
+OBE County
+SEF Regional - Hendricks AAF
+AVO Executive
+GIF Gilbert Airport
+ZPH Municipal Airport
+OCF International Airport
+JES Jesup-Wayne County Airport
+52A Madison GA Municipal Airport
+CCO Coweta County Airport
+HQU McDuffie County Airport
+AIK Municipal Airport
+CDN Woodward Field
+LBT Municipal Airport
+3J1 Ridgeland Airport
+SOP Moore County Airport
+RCZ Richmond County Airport
+99N Bamberg County Airport
+93C Richland Airport
+Y51 Municipal Airport
+DLL Baraboo Wisconsin Dells Airport
+7A4 Foster Field
+SVH Regional Airport
+C89 Sylvania Airport
+BUU Municipal Airport
+N53 Stroudsburg-Pocono Airport
+70N Spring Hill Airport
+06N Randall Airport
+LHV William T. Piper Mem.
+29D Grove City Airport
+04G Lansdowne Airport
+3G3 Wadsworth Municipal
+3G4 Ashland County Airport
+4G0 Pittsburgh-Monroeville Airport
+KPJC Zelienople Municipal Airport
+2G9 Somerset County Airport
+4G4 Youngstown Elser Metro Airport
+41N Braceville Airport
+LPR Lorain County Regional Airport
+7D9 Germack Airport
+BKL Burke Lakefront Airport
+DKK Chautauqua County-Dunkirk Airport
+4G2 Hamburg Inc Airport
+N87 Trenton-Robbinsville Airport
+VAY South Jersey Regional Airport
+7N7 Spitfire Aerodrome
+LDJ Linden Airport
+O03 Morgantown Airport
+0W3 Harford County Airport
+ANQ Tri-State Steuben County Airport
+C65 Plymouth Municipal Airport
+KASW Warsaw Municipal Airport
+VNW Van Wert County Airport
+17G Port Bucyrus-Crawford County Airport
+X07 Lake Wales Municipal Airport
+RMY Brooks Field Airport
+GVQ Genesee County Airport
+0G7 Finger Lakes Regional Airport
+N69 Stormville Airport
+4B8 Robertson Field
+0G6 Williams County Airport
+CLW Clearwater Air Park
+X49 South Lakeland Airport
+SCS Scatsta Airport
+--- North Sea
+--- North Sea
+CLAA North Sea
+ANAS North Sea
+BRU1 North Sea
+BUCA North Sea
+BUZZ North Sea
+CLY1 North Sea
+COA1 North Sea
+FA08 North Sea
+FC08 North Sea
+FUA1 North Sea
+GAA1 North Sea
+MOA1 North Sea
+TEA1 North Sea
+XKSO Atlantic Ocean
+QWC Zoo
+ZFR Frankfurt Oder Hbf
+PLY Gare de Lyon
+XHP Gare de LEst
+PAR All Airports
+BHF Ostbahnhof
+LON All Airports
+NYC All Airports
+CHI All Airports
+CGX Meigs Field
+TYO All Airports
+BJS All Airports
+MIL All Airports
+WAS All Airports
+YMQ All Airports
+YTO All Airports
+ZSSL Longhua Airport
+JZP Pickens County Airport
+BGS Gesundbrunnen
+EDCS Saarmund Airport
+CRE Grand Strand Airport
+SMT Sun Moon Lake Airport
+IGQ Lansing Municipal
+Y72 Bloyer Field
+RNM Ramona Airport
+LFGO Dole-Pont Sur Yonne Airport
+LFGP Dole-St Florentin Cheu Airport
+LFEW Guiscriff-Saulieu Liernais Airport
+LSPO Olten Airport
+BXO Buochs Airport
+LSPM Ambri Airport
+LSML Lodrino Airport
+LKRO Roudnice Airport
+LKUL Usti Nad Labem Airport
+LOSM Mauterndorf Airport
+LOKN Notsch Im Gailtal Airport
+EDTK Forchheim Airport
+EDGZ Bergstrasse Airport
+LFPE Creil-Meaux Esbly Airport
+LFFH Belleau Airport
+OEB Branch County Memorial Airport
+WBW Wilkes-Barre Wyoming Valley Airport
+LNN Lost Nation Municipal Airport
+RCGM Taoyuan Air Base
+UMD Uummannaq Heliport
+--- Civitavecchia
+RLK Bayannur
+FFT Capital City Airport
+LEW Lewiston Maine
+EPIR Inowroclaw Inowr Airport
+EPPR Pruszcz Gdansk Airport
+6S2 Florence
+1A3 Martin Campbell Field Airport
+BPAP Sudkreuz
+NBU Naval Air Station
+KY72 Bloyer Field
+CN-0 Yongning Air Base
+MRK Marco Islands
+--- Boipeba
+--- Boipeba
+DRM Drummond Island Airport
+8M8 Garland Airport
+GDW Gladwin Zettel Memorial Airport
+24C Lowell City Airport
+LWA South Haven Area Regional Airport
+06C Schaumburg Regional
+--- Khulna Seaplane Landing Site
+--- Khulna Seaplane Landing Site
+--- Khulna Seaplane Landing Site
+MFI Marshfield Municipal Airport
+ISW Alexander Field South Wood County Airport
+CWI Clinton Municipal
+--- Wiescheid
+--- Wadi Rum
+BVY Beverly Municipal Airport
+--- Priob\\'e
+VI73 Nagaur Airport
+UUMO Ostafyevo International Airport
+O27 Oakdale Airport
+YRQ Trois Rivieres Airport
+POF Poplar Bluff Municipal Airport
+KSMQ Somerset Airport
+EPM Eastport Municipal Airport
+EOK Keokuk Municipal Airport
+ME5 Banks Airport
+PSL Perth Scone Airport
+EGCK Caernarfon Airport
+EDLF Grefrath-Niershorst Airport
+--- Offenburg
+--- Oberwolfach
+--- Karlsruhe Hbf
+--- Lichtenwalde
+--- Karlsruhe
+--- Holzhau
+--- Porto
+--- Lisboa-Oriente
+--- Bad Herrenalb
+KSTP St. Paul Downtown Airport - Holman Field
+SOO Soderhamn Airport
+EINC Newcastle Airfield
+VNA Saravane Airport
+--- Lisboa-Oriente
+--- Lisboa-Oriente
+--- Zurich
+E51 Bagdad Airport
+EDAI Segeletz Airport
+LEFM Fuentemilanos Airport
+RJOE Akeno Aero
+UHPK Ust Kamchatsk Airport
+0WI8 Oconomowoc Airport
+UHPO Kozyrevsk Airport
+DKS Dikson Airport
+YBEE Beverley Airport
+XBG Bogande Airport
+BYT Bantry Aerodrome
+CHE Reeroe Airport
+FAAN Aliwal North
+FACO Alkantpan Airport
+ADY Alldays Airport
+FABR Barberton Airport
+E55 Ocean Ridge Airport
+1G3 Kent State Airport
+KHAO Bulter County Regional Airport
+HKBU Bungoma Airport
+HKBR Bura East
+HKBA Busia
+HKEM Embu
+HKGT Garba Tula
+GAS Garissa
+HOA Hola
+HKHB Homa Bay
+HKIS Isiolo
+KLK Kalokol
+KEY Kericho
+ILU Kilaguni
+KRV Kerio Valley
+DVD Andavadoaka
+ATJ Antsirabe
+OVA Bekily
+UUYX Ust-Tsylma
+ZRA Atlantic City Rail Terminal
+ZSF Springfield Amtrak Station
+XZK Amherst Amtrak Station AMM
+--- Cape May Ferry Terminal
+--- Lewes Ferry Terminal
+--- Bar Harbor Yarmouth Ferry Terminal
+--- Yarmouth Ferry Terminal
+--- Gare de Montreux Railway Station
+QQK London - Kings Cross
+XVJ Stevenage Railway Station
+XVH Peterborough Railway Station
+PUM Pomalaa
+--- St. Ignace Ferry Dock
+--- Mackinac Island Dock
+UUIC YUR'EVETS
+WLF Whittlesford Parkway Rail Station
+RGK Gorno-Altaysk Airport
+EPGR Gryzliny - Lansk
+FLD Fond Du Lac County Airport
+PCZ Waupaca Municipal Airport
+STE Stevens Point Municipal Airport
+UHMI Mys Shmidta Airport
+UEMA Moma Airport
+ERY Luce County Airport
+25D Forest Lake Airport
+ZVM Hannover Messe-Heliport
+PEF Peenemunde Airfield
+EPGO Goraszka
+WI1A Pangandaran-Java Island-Nusawiru Airport
+--- Pom Pom Camp
+--- Moremi Crossing
+--- New Delhi Train Station
+--- Agra Cantonment Railway Station
+--- Urumqi Railway Station
+--- Turpan Railway Station
+GQQ Galion Municipal Airport
+HKMZ Musiara Airstrip
+TPN Tiputini
+PTZ Shell Mera
+CKV Clarksville-Montgomery County Regional Airport
+--- Oban Rail Station
+--- Memmingen Rail Station
+--- Ulm Railway Station
+--- Aachen HBF
+XHN Liege-Guillemins Railway Station
+FBCL Bruxelles-Central
+OHR Wyk auf Foehr
+LPC Lompoc Airport
+CTH Chester County G O Carlson Airport
+BST Bost Airport
+LLK Lankaran International Airport
+GBB Qabala Airport
+ZTU Zaqatala International Airport
+LKP Lake Placid Airport
+NY9 Long Lake
+UEMH Tyopliy Klyuch
+UEMM Magan
+JIQ Zhoubai
+DEE Mendeleevo
+WIH Wishram Amtrak Station
+AOH Lima Allen County Airport
+DSO Sondok Airport
+YJS Samjiyon Airport
+--- Geiranger
+--- Gangtok Helipad
+SSI McKinnon Airport
+BFP Beaver Falls
+F57 Seaplane Base
+GGE Georgetown County Airport
+HDI Hardwick Field Airport
+2A0 Mark Anton Airport
+2G2 Jefferson County Airpark
+RNT Renton
+SCE University Park Airport
+POC Brackett Field
+09J Jekyll Island Airport
+CDK CedarKey
+CTY Cross City
+CEU Clemson
+36U Heber City Municipal Airport
+BEC Beech Factory Airport
+47A Cherokee County Airport
+55J Fernandina Beach Municipal Airport
+WIMG Padang Tabing
+KCZL Tom B. David Field Airport
+KAJR Habersham County Airport
+ZMB Hamburg Hbf
+GTU Georgetown Municipal Airport
+NY94 Old Rhinebeck Airport
+QFO Duxford Aerodrome
+--- BLABU
+SNY Sidney Muni Airport
+GA46 Manantali Bengassi Airport
+--- Schofields Aerodrome
+KLUA Luray Caverns Airport
+W13 Eagle's Nest Airport
+GKL Great Keppel Island
+RPB Roper Bar
+YMRT Mount Garnet
+IFL Innisfail
+PHJR Kalaeloa
+BIN Bamyan Airport
+NBS Changbaishan Airport
+--- SFO Helicopter
+--- Lewa Airport
+--- Huaorani Ecolodge
+RGO Chongjin Airport
+MOO Moomba
+LUZ Lublin
+KMDQ Madison County Executive Airport
+JYO Leesburg Executive Airport
+--- CNC4
+--- CNC4
+SCIR Robinson Crusoe Airport
+VAM Maamigili Airport
+IRU Hilton Iru fushi
+DHG Dhigurah Centara Grand Maldives
+--- Beijing Railway Station
+--- Chengde Railway Station
+
+Cogent codes: gka mag hgu lae pom wwk uak goh sfj thu aey egs hfn hzk ifj kef pfj rkv sij vey yam yav yaw yay yaz ybb ybc ybg ybk ybl ybr ycb ycd ycg ych ycl yco yct ycw ycy yzs yda ydb ydc ydf ydl ydn ydq yeg yek yen yet yeu yev yfb yfc cyfe yfo yfr yfs ygk ygl ygp ygq ygr yhb yhd yhi yhk yhm yhu yhy yhz yib yio yjn yjt yka ykf ykl yky ykz yld ylj yll ylt ylw yma ymj ymm ymo ymw ymx yna ynd ynm yoc yod yoj yow ypa ype ypg cypk ypl ypn ypq ypr ypy yqa yqb yqf yqg yqh yqk yql yqm yqq yqr yqt yqu yqv yqw yqx yqy yqz yrb yri yrj yrm yrt ysb ysc ysj ysm ysr ysu ysy yte yth ytr yts ytz yub yul yut yux yuy yvc yvg yvm yvo yvp yvq yvr yvt yvv ywa ywg ywk ywl ywy yxc yxd yxe yxh yxj yxl yxp yxr yxs yxt yxu yxx yxy yyb yyc yyd yye yyf yyg yyh yyj yyl yyn yyq yyr yyt yyu yyw yyy yyz yzd yze yzf yzh yzp yzr yzt yzu yzv yzw yzx zfa zfm daab daad bja alg djg qfd daan vvz daaq tmr gjl daay daaz aae czl tee hrm tid daoe tin qas taf tlm orn daos muw azr bsk elg gha hme inz tgr loo tmx ogx iam coo oua boy acc tml dglw nyi tkd abj byk djo hgo mjc spy ask abv akr bni cbq enu qus iba ilr jos kad kan miu mdi los mxj phc sko yol zar mfq nim thz ajy drzd drzf znd mir tun dttb dttd gaf gae dtti dje ebm sfa toe lrl lfw anr ebbe ebbl bru ebbx crl ebcv ebfn ebfs qkt lgg ost ebsl ebst ebsu ebul ebwe ebzr bbj aoc edad edae 4i7 edak edam edaq edau edax eday edaz bbh edbj edbk edbm edbr edca edcd edcm sxf drs erf fra fmo ham thf cgn dus muc nue lej scn str txl haj bre edfe hhn mhg edfq edfv edfz edge edgs xfw kel lbc edkv edkz zca ess edli mgl pad edls dtm agb edmb edme edmn obf edms edmv ednl fdh szw zsn edpa byu edqe hoq edqt znv zqf zqc edrz zql edtf edtm edty edus bwe ksf edvm brv eme edwf wvn bmk nrd flf edxr gwt eeei kdl ure epu tll tay enf efeu kev hem hel efhm efhn hyv efik efim efit ivl joe jyv kau kem kaj efkj kok efkm kao ktt kuo efla lpp mhq efme mik efnu oul efpi por efpu efpy efrh efrn rvn efry svl efse sot tmp efts tku qvy vaa vrk efyl bfs enk bhd ldy bhx cvt egbg glo egbo egbp egbt egbw man egcd egdc nqy lye egdm egdr egdx yeo egfe cwl sws brs lpl ltn plh boh sou qla aci gci jer esh bqh lgw lcy fab eglj bbs lhr sen lyx mse egnb cax egne blk huy bwf lba egno ceg iom ncl mme ema egod egoe egos egow koi lsi wic abz inv gla edi ily pik beb sdz dnd syy tre adx lmo cbg egsf nwi stn egsx egsy egtc ext fzo oxf egub egul mhz eguw eguy ffd bzz odh egwc nht qcy egxd egxe egxg beq egxj egxp egxt egxu wtn egxz egyd egye knf mpn ams ehbd mst ehdl ehdr ein grq ehgr dhr ehle lwr rtm utc ens lid woe ork gwy dub noc kir eime snn sxl wat aar bll cph ebj ekgh krp ekls ekmb ode ekpb rke rnn sgd sks eksv ted ekvd fae ekvh sta aal lux aes anx alf enbm bnn boo bgo bjf krs endi bdu eve vdb fro osl hau haa ksu enkj kkn fan mol mjf lkl ntb ola rrs ryg lyr ske srp ssj tos trf trd svg epbc gdn krk epkm ktw epml poz rze szz osp epsn waw wro ieg escf esck escm rnb esfr got jkg esgk ldk gse kvb thn esia esib eskb ksk mxx nyo eskv esma esmg kid jld osk esmp klr mmx had esmv vxo esna esnc evg gev huv esnj krf lyc esnm sdl oer esnp krn esnr sft esnt ume vhm ajr orb vst lla espe esqo arn bma ble hlf gvx lpi nrk essu vby esuk spm rms etej ghf ethb zcn ethe ethf ethl ethm ethn ethr eths etic znf etih etin etmn etnd gke etnh etnj rlg etnn etns etnt etnu etnw etoi etor etou etsa etsb etse fel etsh etsi etsl etsn gut alj agz fabb biy bfn fabm fabo cpt facv dur els faeo fafb gcj grj fagr fagt fagy faha fahr hds fahv jnb fakd kim fakr faks faku klz hla fali falm falw lay famb mgh fami famj famn mez famu ncs fany faob duh plz fapg phw ptg fapj pzb nty fapp faps fapy utw rcb farg fars sbu fasc fasd fasi fask sis fasx szk fatf fatp fatt lta uld utn utt vru vir favr favv pry fawi fawk wel fayp fazr frw jwa bbk mub gbe pkw bzv ftx oue pnr mts bgf bbt bsg ssg fhaw mru rrg fjdg tkc dla mvr fom nge gou bfx bpc yao flke lvi lun mfu flmg nla kiw hah nwa ajn dza run zse tnr zva sms tmm moq die wmr zwa amb anm hva mjn nos bpy wmn svb voh wai fmnz ftu wfi rva wvk mnj mxm tle ssy bug cab cpx nov svp fnlb lad meg spp gxg pbn vhc sza sdd luo ugo xgn oye okn lbq bmm pog omb mku lbv mvb pcp tms bew inh vxc fqlu mpm fqmd mzb fqmr mnc apl pol uel fqsg tet fqug vnx fsal des fsfa sez pri fssc aeh mqq ndj fyt buq fvcp bfo vfa hre kab fvmt fvmu mvz fvsh gwe wkm blz kgj fwkg llw zzu msu fxmu fih nlo mnb fzai fdu kkw mdk bdt gma fzfp liq fki irp bux fzkj bky gom knd fbm kwz fmi kmn kga mjm bko gaq kys mzi tom gats bjl fue vde spc lpa ace tfs tfn mln fna ggcf mlw rob aga tta fez gmfi erh mek oud gmmb rba cmn rak nna ozz ahu ttu tng zig csk klc dkr xls bxe kgg tud ieo tiy kfa emn ked nkc sey atr ndb gqpt fig faa lek sid bvc mmo sne vxe add haal amh axu bjr dir gmb gdq aria jim lli mqx aso bjm hga bbo kmu c91 aly abs cai hecw hrg egr lxr muh psd skv asw elt edl hkkg kis ktl cdi lok lau mba hknv wil hkre wjr hlfl hlgl ght akf ben seb tip hlmb hlnf hlon hlra ltd hlza gyi kgl kme dog hsdz elf ksl hsli ebd jub mak krt ark dar dod iri jro lky myw mwz pma tgt znz ebb qdu srt tia boj goz pdv sof lbsz var lca pfo akt dbv ldoc osi puy ldrg rjk spu ldva zag zad ldzu leab alc lei ovd odb bio bcn bjz lcg lega gro grx legt ibz xry mjv pkh mad agp mah ozp leoc pna leri reu lert slm lesb lesj lesl eas scq leu toj vlc vll levs vit vgo sdr zaz svq cqf lfag lfai lfao lfaq ltq lfav lfay agf lfbc bod egc lfbf cng pis lfbk lig lfbm nit tls puf lfbr lde ang bve pgx biq lfcc lfcg xac lbi dcm lfcl lfcm lfcq rdz lfcu lfcw ryn lfcz lfda lfdb lfdh lfdi lfdj lfdm rco lfed lfeh lfes lffi lffn cmr lfgf dle lfgk lfgw obs lpy lfhq xbk xvf xmu lfif lfig etz bia cly fsc aja lfko soz lfkt auf cmf cfe bou lfle xcd qnj lys qnx lfln rne ncy gnb mcu vaf vhy aur chr lyn qxb lfmc ceq ebu lfmi ccf mrs nce lfmo pgf ctt lfms mpl bzr avn lfmy lfmz men lfnh lfoa bva lfoc lfod lfoe leh lfoi ore xcr uro tuf cet lva lfoz lbg csf cdg lfpk lfpm tnf ory pox lfpv lfqa qyr lfqc lfqe lfqf nvs lfqi lfqj lfqm lfqp lil lfqt lfqv lfqw bes cer dnr lfre gfr dol lrt edm lfrj cfr lfrl lme rns lai uip nte sbk mxn vne snr mlh lfsc dij mzm epl lfsh lfsi lfsm enc lfso lfsp rhe sxb lfsx lftf tln fni mqc fsp lfxa lfyd pyr agq axd lgax vol lgel jkh ioa her kso kit efl klx lgkm kgs aok cfu ksj kva kzi lrs lxs lra lgmg jmk mjt pvk lgrd rho gpa chq jsi smi lym lgsp jtr jsh lgsv sku lgtg lgtl lgtp skg lgtt zth bud deb lhke lhny lhoy sue lhsa lhsn liba crv bri fog tar lcc psr bds libv suf cta lmp pnl pmo licp reg tps nsy aho dci cag olb ttb lima limb mxp bgy trn all goa lin limn pmf qpz 0p2 cuf avb bzo lipc blq tsf lipi frl lipl lipn vbs trs rmi lips vic qpa vrn vce say cia lire fco lirg eba qlt lirm nap psa flr grs liru lirv peg ljce lju mbx pow ljsg lkcs lkcv lkhk lkhv lkkb lkku klv lkln lkmh osr lkna ped lkpm prv prg brq lkvo tlv bev llek lles eth lley hfa llhs rpn llmg llmz llnv vda llrd llrm sdv mla loan lolw grz inn lnz szg vie loxk loxz lpar sma bgc lpbj lpbr lpco lpcs lpcv lpev flw fao grw hor ter lpmr lpmt lpov pdl pix lppm opo pxo lis sjz lpst lptn vrl lpvz pdt omo sjj arw bcm bay bbu cnd clj csb cra ias omr otp sbz suj scv tce tgm tsr lsgc gva lsgk sir lsma lsmd lsme lsmf lsmm lsmp lsmu lug brn lszg zrh ach smv ltab esb ank ltae ada ltag afy ayt gzt ltak kya ltao mzh vas mlx asr ltav ltaw dnz ist bzi bdm tye esk adb ltbk igl ltbm ltbn ltbp ltbq dlm ltbt riw bxn ltbx ezs diy erc erz tzx mtj van bal ltcl ltfa ltfb lubl kiv ohd skp gib beg ini tgd prn tiv lyvr bts ksc lzmc pzy sld lztn tat 1cs nca pls xsc eps brx mdcr lrm puj pop sdq mdsi sti mgbn cbv gua mgrt mgsj lce sap gja rtb tea tgu mhtj ocj kin mbj pot ktp aca ntr agu hux cvj mmcc cme mmcg mmch cul ctm cen cpe cjs cuu cvm enw czm dgo tpq ese gdl gym tcn hmo clq isj slw mmit lzc lmm bjx lap lto mam mid mxl mlm mtt lov mex mty mzt nog nld oax paz pbc pca ppe pds upn pvr pxm qro rex sjd mmsf slp txa mmtb trc tgz tij tam tsl tlc tap cun vsa ver zcl zih zmm zlo mmzp bef mnbr mnln mga puz boc chx dav how pac mpsa pty mrba vgt otr mrch kgeo mrec mrfi glf mrgp lir mrlc lio nob sjo mrpd pmz xqp mrsg mrsv sal msss mtca cap mtja pap bca bym avi mucc cfg cyo cmw scu mufl mugm gao hav hog lcl moa mzo ger mupb mupr musa snu musl musn muss c02 vra vtu cyb gcm myab asd mhh saq axp myas tcb ccz mybg bim dkb ggt myeg elh ghb myen rsd myes fpo iga lgi sml myg nas myrd myrp zsa bze ait rar nan suv tbu vav trw tbf mtl wls apw ppg rur tub aaa ntgb tih rea fav xmh gmr kkr mkp pkp tkp axr mvt tkx nhv laf bob rgi huh moz hoi mau rfp vli knq koc lif gea mee tou uve nou akl tuo amz chc cht dud gis mon hkk hlz nzhs kke kat alr gtn teu mro npl nsn ivc nzoh oam pmr ppq zqn rot nzru nzsp trg tiu nzuk bhe nzwd wka nzwg whk wlg nzwo nzwp wre wsz wag hea jaa kbl kdh mmz mzr oasd oasg und bah obbs ahb hof abt bhh oebq dmm dha giz elq ury has oejb oejf jed hbt med eam aqi oepc oepf oepj oerb rah ruh oerm rae oert shw dge slf tuu tif oeth oetn tui oxd ejh ynb abd oiad oiag oiah qmj oiaj mrx awz oiba buz oibh oibi kih bdh oibq oibs oibv ksh sdg oife oifh oifk oifm oifp ras mie oihr oiia oiic oiid oiie oiig thr oiik oiim bnd oikj ker oikp oikq oiky xbj oimc oimj wsy oimt oine rzr raf oisf oisj oisr syz oitk qsa tbz oitz azd oizb zbr zah oizi oizs amm adj aqj ojhf ojjr omf kwi bey olka auh azi omah omaj mva omam omar omas omaz dxb fjr rkt shj khs msh mct sll tth opbg fvsv xyd lyp gwd gil opja khi lhe oplh opma mfg opmi mjd opmr mux wns opok pjg psi pew opqs uet ryk isb oprs raz 1rl skz sdt sul bdn opwn pzh bsr alp dam dez ltk pms doh cis rop spn uam gum tiq nso maj pkro kwa cxi mdy tkk pni ror ksa yap knh pif rcdi ttt gni khh cyi kyd rmq ces tnn rcpo mzg rcqs rcsq tsa tpe wot hun nrt mmj ibr rjam iwo shm rjbk obo cts hkd spk mmb shb rjct wkj iki ubj tsj mbe akj oir ris rjfa kum fuj fuk tne koj kmi rjfn oit kkj kmj ngs rjfy rjfz asj rjkb tkn rjnf rjng rjnh kmq oki toy rjny hij okj izo rjof ygj rjoi kcz myj itm ttj tks tak rjoy rjoz aoj gaj rjsd rjsh hna axt msj sdj rjst lks rjta rjte hac rjtj rjtk rjtl oim rjtr hnd oko kwj rkju rsu sho kag mqb cju rkpe pus ybuu usn rksg ssn osn gmp rksw kpo tae yec oka rode dna isg ueo mmd mmy ktd shi rort rnj rotm ogn mnl myp cbo cgy pag rpmr zam bag rpud rpuf rpug rpuh rpul rpum rpuq rpur ekkl rpuz tac bcd gen dgt rpve rpvg ilo klo rpvm auw pps sji coc ghu saaj pra ros sfn aep cor sact sadf sadj lpg sadm sadp sahc sahr mdz lgs afa ctc sde sani irj sano tuc uaq rcu vdr saol saom saor luq cnq res fma igr aol sarm pss sars sla juj ora sasq c47 satd satg sato satr satu ehl crd eqs rel vdm pmy sawb pud rga rgl ush ula pmq rza bhi sazc sazf sazg sazh sazi iwd mdq nqn mcd sazp rsa brc tdl vlg sazw cpc cdj sbaf sbam aqa aju sbas afl aru bel bgx plu bfh sbbq bsb bau bvb sbbw cac sbcc cnf cgr xap cln ccm sbco caw cmg cwb crq cxj cgb czs ppb mao sbek sbes igu fln fen sbft sbfu for gig sbgm gyn sbgp gru sbgw atm sbic sbih ios ipn sbit imp sbjc jdf jpa joi cpv vcp sblj lip ldb laz sbls mab sbmd mgf moc grm sbmn mcz mcp sbms sbmt mnx nvt gel nat sboi poa sbpb poo pfb pet pnz pnb pmg pvh npz rbr rec rig sdu rao stu sjk slz cgh sjp ssz ssa tmt the tff sbtk sbtl sbts tbt tur sbua pav urg udi sbup uba vag bvh vix sbya qps ari bba scbq cch cjc scch puq gxq iqq scl anf scfm scft lsq scgz ccp ipc zos scll scrg scrm lsc sctb zco pmc wch zal atf secm occ cue gps gye segz seib sekk selj selt sema xms mch semo mec semx seps pvo seqe uio serb sero snc sesd seta sete tpc tua asu sgay sgco sgib sgme sgpi axm puu skbc bga bog baq bsc bun cuc ctg clo tco czu eja fla skgi mxy gpi skgy ibe ipi sklc sklm let eoh mgn mtr mvp mzl nva ocv otu skpb pcr pei skpi ppn pso pva skqu mde rch sje smr adz svi tme auc uib ulq vup vvc bjo cbb slch cij lpb slor poi psz slsa sre tja tdd slvm vvi byc pbm cay soog spab spas spay swd spbr pcl chm spep speq cix ayp ans ata lim jji spjj jul mgc splo splp tbp yms spol chh iqt aqp sprm tru pio tpp tcq pem piu tyl rjan cuz suaa sudu mvd sty agv aao svat bla bns svbl brm cbl svcd svcj svcl caj svco cup cze svcs cum svcz sved svez svgd gui guq svhg svie lsp svjm lfr svlo mar mrd pmv ccs mun pyh pbl svpm pzo svpt svz svsb svse std sfh sfd som stb tuv svtm vln edvi vlv vdp syld ltm anu bgi dcf dom fdf sfg ptp gnd stt stx bqn faj sig maz pse sju skb edld slu uvf aua bon cur eux sxm axa tab pos eis aet ciw mqs svd ala uaah tse dmb fru oss cit yak ura pwq plx uate akx gyd yks mjz bqs khv mqt pvs gdx pwe pkc uus vvo hta btk ikt uud kbp dok dnk sip iev lwo imt ods led mmk gme vtb kgd mhp msq aba bax kej oms krr mcx mrv stw rov aer asf vog cek mqf gbz njc pee sgc svx asb krw utav dyu bhk skd iud tas bzk svo kld voz vko scw kzn ren ufa kby amd akd ixu bom pab bhj ixg bdq bho bhu nmb vads vagn goi idr jlr jga ixy hjr klh ixk nag isk pnq pbd raj rpr sse stv udr cmb vcca vccb rml goy jaf trr kik vdkh pnh rep vdst vean ixa ajl ixb vebk bbi ccu coh dbd esc gay vehk imf vejh ixw jrh ixh ixs ixi moh vemz venp veph pat vepu ixr rrk veuk vtz vezo cxb cgp ird jsr rjh spd zyl vgtj dac hkg vhsk agr ixd atq vibk vibl vns kuu vibt vibw viby ixc vicx vidd ded del gwl vihr vijn jdh jai jsa ixj knu ktu luh ixl lko ixp vipl pgh virb visp sxr tni bxh lpq pkz vlpv zvk vlsn vte mfm bwa vnjp ktm pkr sif bir agx blr bep vobr vga cjb cok ccj cdp vocx vodg hyd ixm ixe maa vons ixz vopc rja vosm votj tir trz trv votx pbh mle dmk vtbk vtbl nah utp vtbw lpt prh hhq vtpi vtpl vtpn phs vtpy vtsa naw kbv vtsh pan usm vtsn hkt vtsr hdy tst uth sno vtuj loe vtun vtur edas okb dad vvgl vvkp han nha vvpb vvpq sgn vyan vyas vybg bmq vyci heh vyhl ket mwa kyp lszt lsh vyly mdl mgz myt vymo mog vynp vyns vypa lspa pbu vypy vyst aky snw thl vyto rgn upg bik nbx tim djj wmx mkq gto icn plw mdc psj oti tte luw amq fkq kng bxb mkw soq btu kch lmn mur myy sbw ldu bki lbu twu bwn pku dum cgk gns wime pdg mes wims wiog ktg pnk ummb edwm djb bks plm rgt witl bzy btj wmap aor wmkb kbr kua kte wmkf iph jhb kul lgk mkz tgg pen wpdb dil wpec wsag qpg wsat xsp sin ybaf abm asp bne ool cns ctl isa mcy mky ppp rok tsv wei avv abx meb ymes hba lst mbw mel ympc adl yped jad kta kgi knx lea phe yppf per umr xch bwu cbr cfs cdu dbo nlk rcm syd tmw wga pek hld tsn tyn can csx kwl nng szx cgo wuh fnj zgc xiy uln zpjh kmg xmn khn foc hgh ngb nkg hfe tao sha ynt ckg kwe ctu xic khg htn urc hrb hoj zymd dlc pvg tod szb ntq hbe bti k03 lur piz ito orl btt z84 uto fyu svw frn tlj czf bed snp ehm pbv ili ptu bmx osc oar mhr bys nxp fsm mri gnt pnc svn gfk pbf nse hnm prc ttn bos suu rme env bfm oak oma now ogg ict mci msn dlg hro phx bgr fxe ggg and geg hwo sfo ctb ara gnv mem dug big cnw ann car lrf hua pob dht dlf lax anb cle dov cvg fme nid hon jnu lft ewr boi ins gck mot hhi mxf rbm dal fcs hln nkx luf hrt hhr hul end ntd edw lch koa myr nlc ack faf hop dca nhk psx byh acy tik ecg pub pqi ikr grf adq upp fll mko inl slc cds bix lsf nqi fri mdt lnk lan mue mss hky spg fmy iah mlt adw int vcv cew gtb phn bfl elp hrl cae dma npa pns rdr hou bkf ort paq pit brw efd nuw ali vad mia sea cha bdr jan gls lgb hdh ipt ind szl akc gwo hpn fok jbr tnx lna nzy bif yum cnm dlh bet lou fhu lih huf hvr mwh mpv knsi ric shv cdv orf bpt sav hif ome spb pie mnm cxo scc sat roc cof teb rca rdu day ena mlc iag cfd klhw phf esf lts tus mib bab ikk gsb pvd sby riu bur dtw tpa pmb poe eil hib lfk maf grb adm wri nkt sbo ags isn lit swf bde sac hom tbn mge ska htl pam dfw mlb tcm aus lck ksaw tys hlr stl miv sps luk atl mer mcc grr ink fat vrb ipl bna lrd edf otz aoo dys eld lga tlh dpa act aug inj nip mkl mkk ftk knca sjt cxl cic btv jax dro iad cll sff mke abi cou pdx tnt pbi ftw ogs fmh bfi skf hnl dsm ewn san mlu ssc ont gvt row det bro dhn wwd nfl mtc fmn crp syr nqx mdw sjc hob pne den phl sux mcn tcs pmd rnd njk cmh fyv fsi pnm ffo gal kchd mwl iab nbg bft txk pbg apg tcc anc grk zun bli nqa ekn hfd sfz mob nuq saf bkh dri bsf ols mcf blv opf drt rsw akn mui jhm jfk hst ral flv wal hmn nxx cys sck chs rno ktn yip vbg bhm nel sya lsv riv mod smf ugn cos buf sky pae muo cdc bdl mfe ngu cef lbb ord bct fai nyg cvs ngf off gkn art psp ama fod bad foe cot ilm btr nmm tyr bwi hbr lny aex wsd cdb tul sit isp msp ilg dut msy pwm okc alb vdz lfi sna cbm tmb ntu gus cpr vps sem eyw clt las mco flo gtf yng fbk mmv wrb bkk wawm waws wawt kdi sbg wicm wari mlg wicb bdo cbn jog cxp pcb srg bth tjq pgk tnj siq bdj waoc pkn pky mof ene rtg koe lbj bpn trk sri walt ami bmu loag wgp sub soc cnx cei nst dps nak kop ubp kkc ths ath ngo ukb puw lws elm ith mry sba dab lpx rix sqq hlj kun eyks plq vno pnv udye udls evn lwn asa asm msw gza riy bus kut tbs tai hod ade axk aay sah fmm bhn sct oyba nav eze ebl emd lgat kix jrb tag jav jch jeg pmi drw urt nyu mph nsb tka gzm hvn avl gso fsd ayq mht apf rdn sdf cho roa lex evv abq bzn bil btm tvc frs bhb rkd jac rfd dme syx mfn tss ljg gsp qkl zws bmi gpt azo tol fwa dec cid lse cwa pia atw rst cmi mhk kgc hvb bsl dlu jhg mzv ssh fkl nbo seu fte arm gjt sgu dwh s46 srq vny bda x21 mli pfn hir ppt inu fun ovb dws ekss xkh hui bis tex inc hgn rap cld fnt dvo fnc stm kos yoa npe lev lxa rdd eug ida mfr kbz rdm pcn wdh ywh cxh tna czx ybp tjm cak hsv pkb mgm tri pah kuf jib hak mfa fca pga uii snv mbs bgm bgw nnt roi bfv unn tdx blh oraa orat orbd crk sdk lxg ody she doy mni psg lya xuz ifn mwq khm dli vdh vkg cah vcl tbb pyy bwk nsi cky aah fkb sfb pqc jst lua bhp ldn jmo ngx ppl tmk rum dnp ruk jum hrj tpj tmi skh imk dop bjh dhi mwx jty jik jkl mlo jnx pas kzs rmf nrn usu bxu dpl lao lgp ozc zqw ceb noe jui bps gda snig pmw clv mso bkq bdb gcn sgr his apa cvn fst lvs iws lhx lru bkd tpl oza vhxx hew wkl kdm lak ywj zfn ygh tah ypc yucx srz kus sab ege skn cgf mfd csg law fnl flg tvl twf mcm mvy uuu vsf con sfm gon stc bpe gtr goj hqm eri hya spr sdx mgw crw avp bji bak thg fgi bnk far mkc aza rbe gcc tof nzj phy cjm jzh swa lffe geo agt ogl kai dnh aoi zz04 eca cpo tcp lyb bjv tbj saw sce bme ntl biba klu cgu hft hvg meh vds mucx ika mhd qef uik mdg mei spi hkv cez hdn gup lbl laa gld cod hov egyr isc sgf nvk bvg fbu nsk aaq jln abe xna guw kzo sbn bka fwcc arh rtw nux noj zwu sco uct usk pex nnm pkv kgp kja kgf uncc urj crz iwa cgq kij jon smd acv att oaj tcl dbq fde vhst pyj naj kvd ukk ppk gbj sfc bbq jpr myc nza cja gta bxx mvs org rey pur eyp esm zpc tow ria lec gul jdo sst ggs oes lhs ttg mbt crm jol cgm cyu cjj hin wju mpk kuv mye syo onj fks iwj nkm hsg okd kuh mfk hcn lzn ent lup eni wpm vmu uku tfi skc opu obx lsa lnv lmy kuy kkd kdr jaq iis ihu gmi atp wrg vak ani mou mcg klg hns hcr sgy gst adk sax otd ele bfq gxf kac isu tuk syw kdu paj orw kdd hdd jiw dsk dea dba cjl bhv bnp aan omh adu lrr sry nsh afz bjb rjn bxr khd ewd ajf dwd xau fbd ilp bmy tgj ipa fta dly awd auy olz swj vls ulb tgh son rcl zgu nus lne mwf lnb lpm pbj ssr lod ccv eae toh slh mtv uah uap auq ahe apk mxs mwp fut iue vbv ntt nfo hpa eua svu rta kxf tvu lbs lkb ngi mfj mnf kdv ptf ici pye moi muk mhx mgs aiu pid cri cat atc cox lbp scx tnd ccc pax jee pld syq pjm pbp tno bcl ttq plp jqe onx ctd jal gub cua cyw mij peu ahs wto wte wja uit rnp ndk mje mjb mav lik kbt jej jat bii aul aim utk aaz pbr jbq azs slx mds gdt ilz qub mra szf edo ise adf aji kcm sfq ksy usq bnx cvu qsr aot sob qgy pev jsy ltt eap nztl ane idy rjl ecn ykm kwy wrl vld vct uin tup smx sln slk shr sbp rut rks rhi rdg psm pln pir pih pib owb oth msl mls mkg lyh lwt lns lmt leb lbf lbe lar jms irk kio hts hot gri ggw fay ewb eko eau duj ddc cmx clm ckb ciu cgi cec brl bqk bkw bff bfd aty apn alw alo alm ahn aby abr tqr gsm diu ulu rua tbo shy muz ldi tkq bkz pzu uyl atb laq mji tob srx nyk myd lkg asv atz aac buo glk mgq bsa alu tie mtf abk gor gde dem dse bei bco sfl rai ndr eun esu vil smw qfi qcu jgr oxb ken kbs bte jcu cru gmz psv ouk foa gax pfr lja tsh bsu krz nio ino mat boa ers swp omd ond lud cmk srh jca vpy tch mjl kou msz vpe due cbt mja wma tts wmp dwb iva wpb wam wts wta tva mxt bmd jva waq yva sli cip dis tld swx orp gnz mbd aam mqp qra vts shc hil hmv sqo agh tyf ksd hfs osd lcj bzg vry vaw soj svj sog sdn ret rvk mqn osy lkn cnl eiwt cfn lsta brr hly pze leq wry lwk ndy soy ppw nrl fie eoi cal dsa nqt sjy hgl hei hdf kms elu bmw cbh blj zwl zum ztm zsj zrj zpb zmt msa zke zjn zgi zfd zem zbf ilf zac yzg yxn ywp yvz ytl yst ysk ysf yrl yra yqn yqd ypw ypo ypm yph yoh ynl yne ync yud ymt ymh xgr ysg ylh ylc ypj ykq akv yiv yik yhr yho yns yhc yqc ygz ygx ygw ygt ygo ygb ymn yfh yfa yer ydp ycs yrf ybx ybe cyax yat ykg xks yag yac tcd apo ntg zlt ztb yku yhp yog kif xbe yno wnn yax sur yle yck yrg yha yfx ywm yaa yws pnd cuk vpn tho drk gry jqa juv jhs naq jns jnn jsu jju jgo jfr cnp llu wbm vai rab tbg tiz mis mxh mas mdu kvg kma kri ung hkn pnp gur dau cmu bua rbv kge vao rus rnl mny gzo mua scz ira mbu fre bas aks atd kxk oyg iks cyx ckh cnn ksn dzn kov uni bqu vij nev bbr dsd vig mdo sra huu lhc srj rib gya pda nqu lpd lqm glj crc psy loh scy sod esr vdc mii mea nec ing rxs cyp vrc tug sfe bso wnp tdg sug sgs ges sfs yny dyr oho uje mpw vsg ozh kwg hrk ifo cwc rwn udj csh cee amv ksz pes gna mvq eie kyz noz htg iaa grv nal ogz esl wkk bkx blf ear glh ifp igm psc kqa svc lps sly hma nya ovs ijk kvx nym rat nfg kro lbd azn feg nma ncu ugc ksq tmj ryb ego urs lpk vkt uua jok csy uly osw pez skx bwo hbx kct wrz bbm shl gau dmu tez bzl oui kon bhr bdp mey kep gan haq kdo maq bmv hph cxr vcs vca din uih pxu vii bmo tvy kaw liw mnu bsx pkk swq tmc bui seh tjs dtd bej tjg smq luv ard blg lgl odn mkm bkm lwy bbn tmg kud tkg hlp ntx psu sqg pdo lsw pkg kbu lbw nnx lpu alh gyl auu bci bdd bvi bhq hti beu brk buc gic oky bql bhs blt cvq caz cpd cnc cnj ced ctn cma cnb cuq oom dmd nlf dpo elc epr fls get glt gte gff hid hok mhu hgd jck kax kns kfg krb kwm kug lno lel ldh irg lsy lhg lre ler lvo ubb mkr mim mgt mng mcv mql mmg mrz mov mya mgb ong myi mbh nra naa ntn zne olp pug pmk pbo cck gov pke plo edr pqq ptj ulp ram rma sgo mjk sbr srn xtg tca vcd syu wnr wya wun wol win bwt okr xmy nay cif cih dat het bav sjw tgo hlh xil bhy cgd dyg mxz zuh lzh zha enh nny xfn yih aka goq hzg iqn xnn eny uyn avk lti byn dlz hvd mxv dig lum sym zat kow jdz jiu juz lyg hyn lyi jjn txn wef weh wux wus wnz ynz yiw hsn bpx dax gys lzo mig nao lzy wxn aku iqm kca krl kry yin hek jmu jnz ndg ynj wme lrv ior nnr gti nbb epsd orh aqg jgs shp ycu lhw jgn ddg dsn pzi kane zve dib xoz pwt spw jef gcw bld edmt unt wa19 pvc lke wbak %u0 sbh tza uuba sui tbw obn fsz erm lsgp cvf ful kjqf eghn fwm nvi jpu lfcd rra edoi qsf lrh sun lsgy pme epba mcw logo loav edhe jng ohe daq iar uiib uhkd uhht uiir uubw urkg urrt qnc zji lszk lsgl lspn rmt ukx uikk 1oh bn1 bny rin are eat ybdg jdr ypea age edxp osh bqt tnl cej ukc beh ues noa ylvt ktr yamb geir lowz 10c x01 coq tro oag gfn mrq hdm yif vqs kmv lss yei teq sic msr ckz aoe mpa wvb pdp skt yvb bhg uas chg wlh tgc lkh egn tog pth kvc knw igg slv ndc dhm cqd egm rgs len drg afs mqm tcg spch lgq pfq iil gbt acp tbh wuz hmi sdp gop acr hgr qbc pja kpc gvr kvk cyz tmu fon qow arc ytq ypx omc wtk sva shh rby pho myu kvl ksm kal hpb gam atk anv akp aat lqtz knfw ela vyxg zxb vybp hha nzh wua gyy brd lwb pgv cyf oxr bkg ten knc zbp zyp niu sch nbc gsum qrw ehvk rpns lgo fne itk onb tpi agl wtp awb tfm lszp nlp ckc ust nlv rhp sts ism lcq kded 7fl4 slpa lgu bmc mld ase hhh ulv utod gss zfv bwd lxy erv lszf ged zsw gbn hys sus lyu gpz tvf egv arv ikv ybv ngp ypi avx mhv zin keh czh inq swt hut bpm oeps ega gdz stj zrt ztf zrp lhpa ndz vok bft uab guc sia toa mbl phik pgd jgc wfk jhw ytm sme shd dvl dik sdy cdr aia mck mth gdv olf wys als cny ely vel srr sow myl smn mmh frd esd ots ast onp emk unk uuk shx chu nui eek kuk kwt kwk mll rsh wtl kek kgk kll kmo twa cik eaa hus hsl liv mnt nul rmp tal vee wbq cem shg kbc cxf iyk vis mce cyr sulo cpq kgyr twb ylle ygat ayk zz06 zz05 edtn agn elv tke pec cym fnr exi hnh afe cga hyl mtm ktb hyg whd kpb ppv wwp kcq egx kcl kbw kpv pip wsn akk kyk kln olh koz ori alz aos kkb kmy koy kpy kpr syb wsj kwp kzb abl bkc ian obu orv wlk kts eli glv tla waa wmo cil kka smk skk wbb tnc akb iko icy cyt auk sxp kpn kfp nlg pml klw kwn kot kyu scm nnl pdb nup kkh nib tct pqs aki tlt kgx ain apz rds oln ryo pnt cvi sgv igb elx ncn czn 6k8 irc kcc ckd rdv slq srv hkb kae aqc mhm mly stg tek wfb cnh2 yso ywb ytf ygv yxk xtl xlb xsi ybt zgr ycr yrs yop yby zna cax6 xqu yjm ydt cynj zel yhs cfj2 mm52 mmcd mmsl pvp zyr cyc bgk dga plj sjx rni bza rfs siu wsp mnsc rik fus mdjs coz neg ebo kfb zmu zaq rvr rlo vi22 ssb arr jsm uyu zau zma zes rbq abf cps smaf smdu abn smla smpt bto doe drj smka smke smsm smmo ick oem smsk smsi smz tot agi kia csc orj nai syap imb kar usi mha pjc acd rve lcr uebb lmc vgz ebg caq cog tlu cfb ops grp cmp bvs sfk pin bra stz mqh aux nvp lvr frc dou lbr roo gpb jcb zxe rvd aax mbz rbb ciz baz dmt gnm qdj fnzg lbz knp amc gsq mrb awa jij mks dbm dbt qhr gob myb mre hkmk rbx hsye cpa amy uky lsge bzb bcw fqia ibl max bdi whf nbe hukd hukt paf ensa enas hty eeku eeru rvv fuo huz ild wpr lfec ymy ybz biu gjr sak bisf iia tdk ulg xdb utdt vgd uhmw uero uers bvv ohh ldg uiun uniw uera ussk unib unbi hsk cqm njf qyi csa col rkh agc nzc fty tso tii zaj ccn fug lcx bsd acx xzm hzh 60j ub13 osu rsi ads dts rbn khe szs fsas hjj yqi iso ffa lnj wnh pll sjl swmk cks sncw itb ltu mwk qfz edfw qmz gww zpq lpav ttr etnp tjnr pgu yes osb tjh axj kkx agj hae lac zmdn uga ulo bpr lbx bjt diw tju cmj taz bwb mwb exm drb wge brt dki lzr hlt hcq fiz rvt ywks pvu sbs dta rif puc lam bxs hii inw dgl mzk aea aak kuc ais tmn bez nig bbg mtk mnk non tsu bot imi tic eal lml aic ejt wtz ktf c23 aau aft rna chy nnb xya bpf bow kmw fti ofu lvk mpi rkpd gfy ndu bpu hrn lyt ors qqp agm trm smo udd zsy olm dwa ril saa pdk bmg sua mmu apc sdm lspv phk kvnc kphk kie nez mft ecp sbd val mvf cau awk qnv xpg xgb xsh sql lszj osz fbco ley rwi pawr sxq see knuc ltx stp zya jmy pha sqh tkf frj gex qpp zya mgr ulae ulah ryy onh loxt asi 4u9 lvm zwr 6s0 biv eglw lipv eecl hen edri ut25 ehhv jra ehtx lecd lal uuos syh idl unkm rbk fnu eglm myq pcw mgy rid fdy niag uevd czba pea kfx muq nur ebe aub bie buh fux kex aie sim auj oal mos esx box kox egtb bbp ccw3 les spf kno yred qyd epmb eplk epmi epks olv scvm bkkx cnc3 onq bjc sle utm ua30 zkb lnd wpu ude ehho ehte ehmz ehal lfpz mwc jvl fxmn htf trto mtrl gky lzu bwg rvs noi nhd kgo edaw dbb bce hdb buy ckl tcz uks ber wzy ehdp oazi jci esn hmr enri ensm r49 myv sto jhe ypid duc nypa helc e91 uva lot c16 ccr oca lfgc edrn yus pyc utu mpu hia pve yoo edlm esnf lha vymy kuni sgh msi gmfu hex cda jab pitt ednr rgb tlg mpb hgs top emp 2xs8 k2i3 kmqy kuos ngq cso wzb tki pwk kls lkbe 3w2 gabg zta nzir hkke twd 38w 0s9 pue khc bost xds xvv xzl zrd xkl xad xef uka iln avw cgz 1az0 bxk e63 mmi stk rwl yzy cdw aiz l35 kip bam igs tvi hsh gml tma edml edhf zrb xyg qqs ulx qxr dvt ybw yge yrv kfrg edbt kipp scic edvp tya hdo zhy mcl lhd ppc khw edcy txg hcc hlg fzg 40j 70j ssx xye scfx xeg xax brkm brkv oesb dwc rkp nda mvv mfx aeb okf oku edxq edkn edwo edcb edhm edwq edxi edwc edlb edco edvh edhb ektd edvc edvu edlh edoj edvy edko edvw edxn edck edxm edvs edwk edwh edvr edlt psh edhc edcl edbg ckf omn edra edrf ttd hio nk39 edkl 24j edrv kht nyt kbdn k62s kbno ks39 krbl kdvo klkv ktmk kono kdls gai az3 yta tsb ysd bnu lrms sib uudg cio ccln cvx 2j9 etsp ekms rce byw rsj wsx fbs yrr l06 ycc ehse lsts iza lrbg xfl dva dzm mvl rbd lily 6y8 uaol mow wst bid 369 nme ook tnk gnu wwt acu tuw ghe mpp oby vin qxg bge ctt5 zkg ybi spz whp mae u76 yzz cap5 yab chb3 bcv sogs mpy ldx aaj ldo kji cpb hmb rvy poj jtc oia rdc sxx byo sxo cfc caf swuy ern cci fbe cfo 19a aaf umu dti fba olc huw irz orx una tef gzp oash sgj ldz iny dqh frp alx tan pym oqu 1b9 owd baf ijd mgj cxy ghg dxr ash lwm oxc fit 20ga vpc pyp rmg gad dkx wdr jyl dnn ctj 4a9 lgc mlj 4a4 pim ffc 9a1 gvl cni 54j 9a5 phd udg hxd 49a 0a9 06a dnl mrn pbx ga04 toc egha plv hsaw wuu hue oyl gmaz wye gbk vdf uott unip afw 57c unll myf sel okas rmk ylec ywbr ycun yrti yfrt yblt kew ysp yhf yhn ykx ymg yxz yem ckd9 cny3 yfd lwc egt 6a2 nic pmp xmc ulh dcbs eet yue xwg 18az gzs lop omm cav3 zml egeg yyrm hdg ump loz fbg wmi bbuf jxa seat ygm cjt2 unit eyk ehyb rac rzp edaj xlln qot ehtl rkz rei 49x rir tiw x39 edlo jka seii lsxb vif logg hmj hiw anna yyta hzl cbe 7fa1 ywym ybo fgl klf xev qyx qrh xyj bnj zgh zsb zwe ell lnr kpbh keft jot vys ydhd jxn edal edav kvvs khmz bbx obe sef avo gif zph ocf jes 52a cco hqu aik cdn lbt 3j1 sop rcz 99n 93c y51 dll 7a4 svh c89 buu n53 70n 06n lhv 29d 04g 3g3 3g4 4g0 kpjc 2g9 4g4 41n lpr 7d9 bkl dkk 4g2 n87 vay 7n7 ldj o03 0w3 anq c65 kasw vnw 17g x07 rmy gvq 0g7 n69 4b8 0g6 clw x49 scs claa anas bru1 buca buzz cly1 coa1 fa08 fc08 fua1 gaa1 moa1 tea1 xkso qwc zfr ply xhp par bhf lon nyc chi cgx tyo bjs mil was ymq yto zssl jzp bgs edcs cre smt igq y72 rnm lfgo lfgp lfew lspo bxo lspm lsml lkro lkul losm lokn edtk edgz lfpe lffh oeb wbw lnn rcgm umd rlk fft lew epir eppr 6s2 1a3 bpap nbu ky72 cn-0 mrk drm 8m8 gdw 24c lwa 06c mfi isw cwi bvy vi73 uumo o27 yrq pof ksmq epm eok me5 psl egck edlf kstp soo einc vna e51 edai lefm rjoe uhpk 0wi8 uhpo dks ybee xbg byt che faan faco ady fabr e55 1g3 khao hkbu hkbr hkba hkem hkgt gas hoa hkhb hkis klk key ilu krv dvd atj ova uuyx zra zsf xzk qqk xvj xvh pum uuic wlf rgk epgr fld pcz ste uhmi uema ery 25d zvm pef epgo wi1a gqq hkmz tpn ptz ckv xhn fbcl ohr lpc cth bst llk gbb ztu lkp ny9 uemh uemm jiq dee wih aoh dso yjs ssi bfp f57 gge hdi 2a0 2g2 rnt sce poc 09j cdk cty ceu 36u bec 47a 55j wimg kczl kajr zmb gtu ny94 qfo sny ga46 klua w13 gkl rpb ymrt ifl phjr bin nbs rgo moo luz kmdq jyo scir vam iru dhg
+Airport codes: jfk ord lax yyz dca bos dfw iah iad atl sfo sjc phl lon par mia ymq den fra sea ewr ams mad mci san dtw phx msp pit stl pdx hpn tpa ham mco oak mrs aus sto smf mil zrh dev slc dub cle cmh muc kbp bru mke dus ind man sat vie bts las lys lhr bwi buh clt buf tol jax cph bcn bud dsm sbn hel sof mfe bct gva prg ber alb osl rom tul zag sna lrd pvd bod abq mex lis day orh sxb vlc nce elp boi edi nue oma str cos gnb lju lil cvg qro rns tll tsr cbp drs jan mmx rhe bio gdl goa mty bhm hq0 rjl bre ftw qzo sxf flr msy anr bsl cbg gla okc opo rtm brn dtm krk abc dem fmo lpl vgo zav ilg lng waw yhm b01 bed brq cat ccr eas erf fev fix f-p frf f-t hkv hrk jfk lux moo na0 ovd pro ref roc vce 
+
+Cogent codes not found in the airports.csv:
+dev rom cbp hq0 qzo abc zav lng b01 fev fix f-p frf f-t na0 pro ref 
