@@ -94,7 +94,14 @@ for entry in parsed:
 
 
 #TODO: What additional sanity checks do we need?
+#	-Use pl_archives to cross-reference IPs with dns records for determining interface type and location
+#	-Use pl_bin/sort-atlas.py as inspiration to split router interfaces into physical and non-physical
 #	-Reverse DNS record similarities
+#	-Cross-reference week by week to build more complete graph, use DNS records to ensure it was just returned
+#	ip that changed and not 
+#	-Find situations where DNS and iffinder do not agree, these are situations where a new router was installed
+#	and DNS were not kept up to date.
+#	- We're more interested in statistics
 
 #TODO: Graph edge analysis?
 #	-/30 blocks should be connected by a link
@@ -106,7 +113,7 @@ for router in routerToIPs:
 	for ip in routerToIPs[router]:
 		if ip in allIPs:
 			sys.stderr.write("IP " + ip + " already found!\n")
-		else:
+		else::w
 			allIPs.add(ip)
 
 
@@ -122,4 +129,3 @@ sys.stderr.write("Number of addrs to aliases:\n\tAvg: " + str(avgInterfaces) + "
 # print router information to stdout
 for router in routerToIPs:
 	print "Router " + str(router) + " -> " + str(sorted(routerToIPs[router]))
-
