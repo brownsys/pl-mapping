@@ -30,7 +30,25 @@ NOTE: There are about 17 codes that do not correspond to an airport, as far as w
 
 TODO
 
+---
+
+# less interesting / less relevant
 
 ## cogent.com provides datacenter locations
+To download all the webpages with locations, run the following.
+TODO: rewrite the script!
+
+```sh
+for pages 1-3 of SMALL_DATACENTER_LIST
+  curl URL?page=$N > $N.txt
+
+for pages 1-32 of BIG_DATACENTER_LIST
+  curl URL?page=$N > $N-of32.txt
+```
+
 `node read-cogent.js` scrapes cogent's site and pulls down the locations of all
 their datacenters into `datacenters.json`
+
+## airports.csv provides a list of mappings from airport code to location
+`airports.js` counts how many of cogent's codes valid. The results of this are
+written to `output-codes-not-in-airports.csv` and `output-cogent-codes`.
