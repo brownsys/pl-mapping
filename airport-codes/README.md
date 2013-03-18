@@ -1,10 +1,20 @@
 # airport-codes scripts
 
+To set up the environment, install <http://nodejs.org>, and then run
+
+```
+cd this-project/
+
+ls # you should see the package.json file
+
+npm install # this installs dependencies
+```
+
 # the flow
 
 `atlas-faa.txt` contains all the airport codes seen in DNS entries
 
-`atlas-to-latlong.js` takes the DNS codes and looks them up on
+`node atlas-to-latlong.js` takes the DNS codes and looks them up on
 world-airport-codes.com. The lat and long for each code are then put into
 `output-atlas-with-latlong.json`.
 
