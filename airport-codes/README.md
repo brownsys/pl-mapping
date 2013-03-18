@@ -39,6 +39,7 @@ To download all the webpages with locations, run the following.
 TODO: rewrite the script!
 
 ```sh
+cd airport-codes/
 for pages 1-3 of SMALL_DATACENTER_LIST
   curl URL?page=$N > $N.txt
 
