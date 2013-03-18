@@ -1,0 +1,23 @@
+{
+  "name": "cogent",
+  "version": "0.0.0",
+  "description": "pl-mapping ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brownsys/pl-mapping.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "a03bcf8a7b38fd0c3f06d7feb85659349d33c501",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "csv": "~0.2.7",
+    "async": "~0.2.6",
+    "request": "~2.16.4"
+  }
+}
