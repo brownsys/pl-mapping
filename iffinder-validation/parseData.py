@@ -207,12 +207,14 @@ def combineIPDictionaries(ipToRouter, ipToName):
 """
 # parse command line options
 if len(sys.argv) != 3:
-	print "Usage: ./" + sys.argv[0] + "iffinderResults dnsRecords"
+	print "Usage: " + sys.argv[0] + " iffinderResults dnsRecords"
+	sys.exit(1)
 try:
 	iffinderResults = open(sys.argv[1], "r")
 	dnsRecords = open(sys.argv[2], "r")
 except:
 	print "Error: Could not open one or more of the specified files."
+	sys.exit(1)
 
 # do analysis
 routerToIPs, ipToRouter = parseIffinderResults(iffinderResults)
