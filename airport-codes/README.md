@@ -10,7 +10,7 @@ ls # you should see the package.json file
 npm install # this installs dependencies
 ```
 
-# the flow
+## converting `atlas-faa.txt` airport codes into lat and long
 
 `atlas-faa.txt` contains all the airport codes seen in DNS entries
 
@@ -29,3 +29,8 @@ Next we map them...
 NOTE: There are about 17 codes that do not correspond to an airport, as far as we know.
 
 TODO
+
+
+## cogent.com provides datacenter locations
+`node read-cogent.js` scrapes cogent's site and pulls down the locations of all
+their datacenters into `datacenters.json`
