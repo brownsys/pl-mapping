@@ -1,11 +1,13 @@
 #!/usr/bin/python
 
 #TODO: What additional sanity checks do we need?
+#	-Use voting algorithm: iffinder results vote for a name to use, those who dont vote with majority are of interest.
 #	-Use pl_bin/sort-atlas.py as inspiration to split router interfaces into physical and non-physical
 #	-Reverse DNS record similarities
 #	-Cross-reference week by week to build more complete graph, use DNS records to ensure it was just returned
 #	ip that changed and not 
 #	- We're more interested in statistics
+#	-Airports folder, output.txt, cogent_airport_codes
 
 #TODO: Graph edge analysis?
 #	-/30 blocks should be connected by a link
@@ -13,6 +15,7 @@
 
 import sys
 import re
+import operator
 
 
 """
@@ -104,7 +107,8 @@ def parseIffinderResults(source):
 	routerToIPs = {}
 	# { interface IP -> router ID }
 	ipToRouter = {}
-
+	# set of unsuccessful IPs 
+	unsuccessfulIPs = set()
 
 	# load candidates based on aliases responses
 	for entry in parsed:
@@ -114,6 +118,7 @@ def parseIffinderResults(source):
 
 		# only use this parsed entry if it successfully elicited a response
 		if result != "D" and result != "S":
+			unsuccessfulIPs.add(addr)
 			continue
 
 		# we've seen both these IPs before
@@ -159,17 +164,100 @@ def parseIffinderResults(source):
 			ipToRouter[addr] = newRouter
 			ipToRouter[alias] = newRouter
 
-	return (routerToIPs, ipToRouter)
+	return (routerToIPs, ipToRouter, unsuccessfulIPs)
 
+"""
+Returns a dictionary of names to numbers of votes
+"""
+def getVotes(routerIPs, ipToName):
+	votes = {}
+	for ip in routerIPs:
+		name = ipToName[ip]
+		if name in votes:
+			votes[name] += 1
+		else:
+			votes[name] = 1
+	return votes
 
+"""
+Returns the name of the most popular router as voted by you, the DNS records,
+and returns a list of the other names voted for.
+"""
+def analyzeVotes(votes):
+	analysis = sorted(votes.items(), key=operator.itemgetter(1))[0][0]
+	return analysis[0][0], map(lambda x:x[0], analysis[1:])
+
+"""
+Returns True if all IPs voted for the same name
+"""
+def isUnanimous(votes):
+	if len(votes.keys()) != 1:
+		return False
+	return True
+
+def getMajorityAndMinority(routerIPs, ipToName, votedName):
+	minorityIPs = {}
+	majorityIPs = set()
+	for ip in routerIPs:
+		name = ipToName[ip]
+		if name == votedName:
+			majorityIPs.add(ip)
+		else:
+			if name in minorityIPs:
+				minorityIPs[name].add(ip)
+			else:
+				minorityIPs[name] = set(ip)
+	return (majorityIPs, minorityIPs)
 """
 Given the iffinder results and DNS results, find named routers and their corresponding IPs
 """
-def combineIPDictionaries(ipToRouter, ipToName):
+def combineIPDictionaries(routerToIPs, ipToName):
 	# dictionary to hold a name with all the ips associated with that name
+	# the IPs in here are all confirmed by iffinder
 	namedRouterToIPs = {}
-	# dictionary of router IDs from iffinder to names, used to check accuracy of data
-	nameToRouter = {}
+	# IPs that didn't vote with the majority are kept in a dictionary
+	# of tuple keys (DNS name, iffinder majority name) to IPs
+	outlierToIPs = {}
+	# counter of how many times we find votes aren't unanimous
+	notUnanimous = 0
+	
+	# iterate over iffinder defined router
+	for routerID in routerToIPs:
+		routerIPs = routerToIPs[routerID] & set(ipToName.keys())
+		if len(routerIPs) == 0:
+			continue
+		"""
+		for ip in routerIPs:
+			if ip not in ipToName:
+				sys.stderr.write("IP " + ip + " not found in ipToName?\n")
+		"""
+		
+		# check if the votes are unanimous
+		votes = getVotes(routerIPs, ipToName)
+		votedName, outliers = analyzeVotes(votes)
+		if isUnanimous(votes):
+			if votedName in namedRouterToIPs:
+				namedRouterToIPs[votedName].update(routerIPs)
+			else:
+				namedRouterToIPs[votedName] = set(routerIPs)
+		else:
+			notUnanimous += 1
+			# add majority IPs to router
+			majorityIPs, minorityIPs = getMajorityAndMinority(routerIPs, ipToName, votedName)
+			if votedName in namedRouterToIPs:
+				namedRouterToIPs[votedName].update(majorityIPs)
+			else:
+				namedRouterToIPs[votedName] = set(majorityIPs)
+			# add outlier IPs
+			for name in minorityIPs:
+				key = (name, votedName)
+				if key in outlierToIPs:
+					outlierToIPs[key].update(minorityIPs[name])
+				else:
+					outlierToIPs[key] = set(minorityIPs[name])
+
+	return (namedRouterToIPs, outlierToIPs, notUnanimous)
+"""
 	# counter of how many times we find analysis disagreements
 	disagreements = 0
 	for ip in ipToRouter:
@@ -195,7 +283,7 @@ def combineIPDictionaries(ipToRouter, ipToName):
 			else:
 				namedRouterToIPs[name] = set([ip])
 	return (namedRouterToIPs, disagreements)
-
+"""
 
 """
                _       _         _             _         _                   
@@ -217,18 +305,18 @@ except:
 	sys.exit(1)
 
 # do analysis
-routerToIPs, ipToRouter = parseIffinderResults(iffinderResults)
+routerToIPs, ipToRouter, unsuccessfulIPs = parseIffinderResults(iffinderResults)
 ipToName, nameToIPs = parseDNSRecords(dnsRecords)
 
 # sanity check data
 iffinderIPs = set(ipToRouter.keys())
 dnsRecordIPs = set(ipToName.keys())
-ipDifference = iffinderIPs ^ dnsRecordIPs
+ipDifference = iffinderIPs ^ dnsRecordIPs ^ unsuccessfulIPs
 for ip in ipDifference:
 	sys.stderr.write("Found IP " + ip + " in either iffinder or dns records but not in both.\n")
 
 # combine data
-namedRouterToIPs, disagreements = combineIPDictionaries(ipToRouter, ipToName)
+namedRouterToIPs, outlierToIPs, notUnanimous = combineIPDictionaries(routerToIPs, ipToName)
 
 # begin stats
 sys.stderr.write("-----------------\n")
@@ -250,7 +338,7 @@ sys.stderr.write("\tNumber of names found: " + str(numNames) + "\n")
 sys.stderr.write("\tNumber of IPs to names:\n\t\tAvg: " + str(avgInterfaces) + "\n\t\tMax: " + str(max(numInterfaces)) + "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
 
 # print combined output
-sys.stderr.write("Disagreements between iffinder and dns records: " + str(disagreements) + " (" + str(int(disagreements/(1.0 * len(ipToName)) * 100.0)) + "% of total)\n")
+sys.stderr.write("Non-unanimous agreement in iffinder and dns record analysis: " + str(notUnanimous) + " (" + str(int(notUnanimous/(1.0 * len(routerToIPs)) * 100.0)) + "% of total)\n")
 
 # end stats
 sys.stderr.write("-----------------\n")
