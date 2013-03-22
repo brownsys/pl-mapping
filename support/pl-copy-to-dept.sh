@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Add to sputnik's crontab:
+# 0 20 * * Wed /home/adf/RouterPeek/pl-mapping/support/pl-copy-to-dept.sh
+
 archive_src="rest:/home/adf/pl_archives"
 archive_dst=/research/cogent_map/pl_archives
 
