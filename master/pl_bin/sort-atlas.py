@@ -59,6 +59,9 @@ for line in sys.stdin.readlines():
 	
 	if host_side[0:3] == "isc":
 		model = "(unknown)"
+
+	if host_side[0:3] == "att":
+		model = "(unknown)"
 	
 	tmp = host_side[:-2].split(".")[:-3]
 	tmp.reverse()
