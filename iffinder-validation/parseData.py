@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #TODO: What additional sanity checks do we need?
-#	-Use voting algorithm: iffinder results vote for a name to use, those who dont vote with majority are of interest.
+#	-Track IPs only appearing in iffinder or DNS and spit out count stats
 #	-Use pl_bin/sort-atlas.py as inspiration to split router interfaces into physical and non-physical
 #	-Reverse DNS record similarities
 #	-Cross-reference week by week to build more complete graph, use DNS records to ensure it was just returned
@@ -13,10 +13,14 @@
 #	-/30 blocks should be connected by a link
 #	-Traceroute shows connections
 
+#TODO: Questions about the data?
+#	-Certain IPs were discovered by iffinder, why weren't they in the original list of IPs?
+#		-They have no reverse DNS records, print a count of the IPs which have this
+#	-Why are the multiple DNS records per IP? Ex: In week 1, 66.250.250.122 has two reverse DNS records
+
 import sys
 import re
 import operator
-
 
 """
 Constructs a name from a list of subdomains gathered from DNS queries.
@@ -35,8 +39,11 @@ Read reverse DNS records and parse it into tuples structured as follows:
 
 	(domain, IP, type of interface, [subdomains])
 
-Then, these tuples are loaded into an IP -> ([subdomains], type of interface)
+DEPRECATED COMMENT: Then, these tuples are loaded into an IP -> ([subdomains], type of interface)
 dictionary and a location-subdomain -> IP dictionary
+
+Then these tuples are loaded into an IP -> name dictionary and a reverse
+dictionary.
 
 Subdomains are ususally of the form:
 	
@@ -52,6 +59,7 @@ def parseDNSRecords(source):
 	# build dictionaries
 	ipToName = {}
 	nameToIPs = {}
+	duplicateIPs = set()
 	
 	for entry in parsed:
 		ip = entry[1]
@@ -59,22 +67,26 @@ def parseDNSRecords(source):
 		name = constructName(entry[3])
 		# construct IP lookup
 		if ip in ipToName:
-			sys.stderr.write("IP " + ip + " found twice!\n")
+			duplicateIPs.add(ip)
 		else:
-			ipToName[ip] = (name, typeOfInterface)
+			#ipToName[ip] = (name, typeOfInterface)
+			ipToName[ip] = name
 		#construct name lookup
 		if name in nameToIPs:
-			nameToIPs[name].add((ip, typeOfInterface))
+			#nameToIPs[name].add((ip, typeOfInterface))
+			nameToIPs[name].add(ip)
 		else:
-			nameToIPs[name] = set([(ip, typeOfInterface)])
+			#nameToIPs[name] = set([(ip, typeOfInterface)])
+			nameToIPs[name] = set([ip])
 
-	return ipToName, nameToIPs
+
+	return (ipToName, nameToIPs, duplicateIPs)
 		
 
 """
 Reads iffinder content and parse it into tuples structured as follows:
 
-	(addr, alias, o-TTL-r, RTT, result)
+	(addr, alias, o-TTL-r, RTT, result, discover)
 
 Then, these tuples are checked for similarity and lists of addrs are
 calculated such that each list contains IPs which are believed to belong
@@ -85,7 +97,7 @@ def parseIffinderResults(source):
 	parsed = []
 	for line in source.readlines():
 		# check if line is a comment
-		if line[0] == "#":
+		if line[0] == "#" or line.find("skipping") != -1:
 			continue
 
 		# try and parse line
@@ -96,7 +108,8 @@ def parseIffinderResults(source):
 			oTTLr = (splitLine[2], splitLine[3])
 			RTT = splitLine[4]
 			iffResult = splitLine[5]
-			theTuple = (addr, alias, oTTLr, RTT, iffResult)
+			discover = splitLine[6]
+			theTuple = (addr, alias, oTTLr, RTT, iffResult, discover)
 			parsed.append(theTuple)
 		else:
 			continue
@@ -109,16 +122,29 @@ def parseIffinderResults(source):
 	ipToRouter = {}
 	# set of unsuccessful IPs 
 	unsuccessfulIPs = set()
+	# set of discovered IPs
+	discoveredIPs = set()
 
 	# load candidates based on aliases responses
 	for entry in parsed:
 		addr = entry[0]
 		alias = entry[1]
 		result = entry[4]
+		discover = entry[5]
+
+		shouldContinue = False
 
 		# only use this parsed entry if it successfully elicited a response
 		if result != "D" and result != "S":
 			unsuccessfulIPs.add(addr)
+			shouldContinue = True
+
+		# check if this ip was discovered
+		if discover != "-":
+			discoveredIPs.add(addr)
+			shouldContinue = True
+
+		if shouldContinue:
 			continue
 
 		# we've seen both these IPs before
@@ -164,7 +190,7 @@ def parseIffinderResults(source):
 			ipToRouter[addr] = newRouter
 			ipToRouter[alias] = newRouter
 
-	return (routerToIPs, ipToRouter, unsuccessfulIPs)
+	return (routerToIPs, ipToRouter, unsuccessfulIPs, discoveredIPs)
 
 """
 Returns a dictionary of names to numbers of votes
@@ -180,34 +206,33 @@ def getVotes(routerIPs, ipToName):
 	return votes
 
 """
-Returns the name of the most popular router as voted by you, the DNS records,
-and returns a list of the other names voted for.
+Returns a sorted list of the most popular router as voted by you, the DNS records,
 """
 def analyzeVotes(votes):
-	analysis = sorted(votes.items(), key=operator.itemgetter(1))[0][0]
-	return analysis[0][0], map(lambda x:x[0], analysis[1:])
+	analysis = sorted(votes.items(), key=operator.itemgetter(1), reverse=True)
+	analyzed = map(lambda x:x[0], analysis)
+	#sys.stderr.write("analyzed: " + str(analyzed) + "\n")
+	return analyzed 
+
 
 """
-Returns True if all IPs voted for the same name
+Returns IPs whose names match voted names in set and
+a dictionary of names to all other IPs
 """
-def isUnanimous(votes):
-	if len(votes.keys()) != 1:
-		return False
-	return True
-
-def getMajorityAndMinority(routerIPs, ipToName, votedName):
+def getMajorityAndMinority(routerIPs, ipToName, mostPopularName):
 	minorityIPs = {}
 	majorityIPs = set()
 	for ip in routerIPs:
 		name = ipToName[ip]
-		if name == votedName:
+		if name == mostPopularName:
 			majorityIPs.add(ip)
 		else:
 			if name in minorityIPs:
 				minorityIPs[name].add(ip)
 			else:
-				minorityIPs[name] = set(ip)
+				minorityIPs[name] = set([ip])
 	return (majorityIPs, minorityIPs)
+
 """
 Given the iffinder results and DNS results, find named routers and their corresponding IPs
 """
@@ -234,56 +259,30 @@ def combineIPDictionaries(routerToIPs, ipToName):
 		
 		# check if the votes are unanimous
 		votes = getVotes(routerIPs, ipToName)
-		votedName, outliers = analyzeVotes(votes)
-		if isUnanimous(votes):
-			if votedName in namedRouterToIPs:
-				namedRouterToIPs[votedName].update(routerIPs)
+		votedNames = analyzeVotes(votes)
+		mostPopularName = votedNames[0]
+		if len(votes.keys()) == 1:
+			if mostPopularName in namedRouterToIPs:
+				namedRouterToIPs[mostPopularName].update(routerIPs)
 			else:
-				namedRouterToIPs[votedName] = set(routerIPs)
+				namedRouterToIPs[mostPopularName] = set(routerIPs)
 		else:
 			notUnanimous += 1
+			majorityIPs, minorityIPs = getMajorityAndMinority(routerIPs, ipToName, mostPopularName)
 			# add majority IPs to router
-			majorityIPs, minorityIPs = getMajorityAndMinority(routerIPs, ipToName, votedName)
-			if votedName in namedRouterToIPs:
-				namedRouterToIPs[votedName].update(majorityIPs)
+			if mostPopularName in namedRouterToIPs:
+				namedRouterToIPs[mostPopularName].update(majorityIPs)
 			else:
-				namedRouterToIPs[votedName] = set(majorityIPs)
-			# add outlier IPs
+				namedRouterToIPs[mostPopularName] = set(majorityIPs)
+			# add minority IPS to outlier
 			for name in minorityIPs:
-				key = (name, votedName)
+				key = (name, mostPopularName)
 				if key in outlierToIPs:
 					outlierToIPs[key].update(minorityIPs[name])
 				else:
 					outlierToIPs[key] = set(minorityIPs[name])
 
 	return (namedRouterToIPs, outlierToIPs, notUnanimous)
-"""
-	# counter of how many times we find analysis disagreements
-	disagreements = 0
-	for ip in ipToRouter:
-		if ip in ipToName:
-			router = ipToRouter[ip]
-			name = ipToName[ip]
-			# check if we've seen this name before
-			if name in nameToRouter:
-				# check if iffinder and dns records agree
-				previousRouter = nameToRouter[name]
-				if router != previousRouter:
-					sys.stderr.write("iffinder found IP " + ip + \
-							" in router " + str(router) + \
-							" but DNS records say it should belong to router " \
-							+ str(previousRouter) + "\n")
-					disagreements += 1
-			else:
-				nameToRouter[name] = router
-			# combine data into named routers
-			# TODO: How should we do this? Right now I am essentially copying the nameToIPs dictionary
-			if name in namedRouterToIPs:
-				namedRouterToIPs[name].add(ip)
-			else:
-				namedRouterToIPs[name] = set([ip])
-	return (namedRouterToIPs, disagreements)
-"""
 
 """
                _       _         _             _         _                   
@@ -305,15 +304,21 @@ except:
 	sys.exit(1)
 
 # do analysis
-routerToIPs, ipToRouter, unsuccessfulIPs = parseIffinderResults(iffinderResults)
-ipToName, nameToIPs = parseDNSRecords(dnsRecords)
+routerToIPs, ipToRouter, unsuccessfulIPs, discoveredIPs = parseIffinderResults(iffinderResults)
+ipToName, nameToIPs, duplicateIPs = parseDNSRecords(dnsRecords)	
 
-# sanity check data
-iffinderIPs = set(ipToRouter.keys())
-dnsRecordIPs = set(ipToName.keys())
-ipDifference = iffinderIPs ^ dnsRecordIPs ^ unsuccessfulIPs
-for ip in ipDifference:
-	sys.stderr.write("Found IP " + ip + " in either iffinder or dns records but not in both.\n")
+"""
+print "---------------------routerToIPs----------------------------"
+print routerToIPs
+print "---------------------ipToRouter----------------------------"
+print ipToRouter
+print "---------------------unsuccessfulIPs-------------------------"
+print unsuccessfulIPs
+print "---------------------ipToName-------------------------------"
+print ipToName
+print "-----------------------nameToIPs---------------------------"
+print nameToIPs
+"""
 
 # combine data
 namedRouterToIPs, outlierToIPs, notUnanimous = combineIPDictionaries(routerToIPs, ipToName)
@@ -323,18 +328,24 @@ sys.stderr.write("-----------------\n")
 
 # print iffinder statistic to stderr
 numRouters = len(routerToIPs.keys())
+numUnsuccessful = len(unsuccessfulIPs)
+numDiscovered = len(discoveredIPs)
 numInterfaces = map(len, routerToIPs.values())
 avgInterfaces = sum(numInterfaces)/numRouters
 sys.stderr.write("iffinder results:\n")
 sys.stderr.write("\tNumber of routers found: " + str(numRouters) + "\n")
+sys.stderr.write("\tNumber of non-responsive IPs: " + str(numUnsuccessful) + "\n")
+sys.stderr.write("\tNumber of discover IPs: " + str(numDiscovered) + "\n")
 sys.stderr.write("\tNumber of addrs to aliases:\n\t\tAvg: " + str(avgInterfaces) + "\n\t\tMax: " + str(max(numInterfaces)) + "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
 
 # print dns record statistics to stderr
 numNames = len(nameToIPs.keys())
+numDuplicateIPs= len(duplicateIPs)
 numInterfaces = map(len, nameToIPs.values())
 avgInterfaces = sum(numInterfaces)/numNames
 sys.stderr.write("dns record results:\n")
 sys.stderr.write("\tNumber of names found: " + str(numNames) + "\n")
+sys.stderr.write("\tNumber of ips with multiple reverse DNS records: " + str(numDuplicateIPs) + "\n")
 sys.stderr.write("\tNumber of IPs to names:\n\t\tAvg: " + str(avgInterfaces) + "\n\t\tMax: " + str(max(numInterfaces)) + "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
 
 # print combined output
@@ -344,5 +355,11 @@ sys.stderr.write("Non-unanimous agreement in iffinder and dns record analysis: "
 sys.stderr.write("-----------------\n")
 
 # print router information to stdout
+print "# Named routers as determined by iffinder and reverse DNS records"
+print "# Name\tIPs"
 for name in namedRouterToIPs:
-	print str(name) + " -> " + str(sorted(namedRouterToIPs[name]))
+	print str(name) + "\t" + str(sorted(namedRouterToIPs[name]))
+print "# Iffinder/DNS Disagreements"
+print "# DNS Name\tiffinder Name\tIPs"
+for outlier in outlierToIPs:
+	print str(outlier[0]) + "\t" + str(outlier[1]) + "\t" + str(sorted(outlierToIPs[outlier]))
