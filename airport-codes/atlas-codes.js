@@ -20,6 +20,9 @@ _.uniq(
     var first = line.split(' ')[0].toLowerCase()
     var code = first.substring(0, 3)
     if (~invalid.indexOf(code)) return
+
+    // rome is not in world-airport-codes
+    if (code === 'rom') code = 'fco'
     return code
   })
   .filter(identity)
