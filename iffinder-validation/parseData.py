@@ -28,14 +28,18 @@ nonStrictNames = False
 Constructs a name from a list of subdomains gathered from DNS queries.
 """
 def constructName(nameList):
+	if nonStrictNames:
+		# remove purely numeric entries from list
+		newList = []
+		for item in nameList:
+			if not item.isdigit():
+				newList.append(item)
+		nameList = newList 
 	if len(nameList) >= 3:
 		typeOfInterface = nameList[0]
 		location = nameList[1]
 		routerIdentifier = nameList[2]
-		if nonStrictNames:
-			return routerIdentifier
-		else:
-			return ".".join([location, routerIdentifier])
+		return ".".join([location, routerIdentifier])
 	else:
 		return ".".join(nameList)
 
@@ -357,7 +361,6 @@ sys.stderr.write("\tNumber of ips with multiple reverse DNS records: " + str(num
 sys.stderr.write("\tNumber of IPs to names:\n\t\tAvg: " + str(avgInterfaces) + "\n\t\tMax: " + str(max(numInterfaces)) + "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
 
 # print combined output
-sys.stderr.write("Number of IPs analyzed without DNS records: " + str(len(ipToRouter) - len(ipToName)) + "\n")
 sys.stderr.write("Non-unanimous agreement in iffinder and dns record analysis: " + str(notUnanimous) + " (" + str(int(notUnanimous/(1.0 * len(routerToIPs)) * 100.0)) + "% of total)\n")
 
 # end stats
