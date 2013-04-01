@@ -10,7 +10,10 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlTPUg7Sk4BNeB5rRrReIfHUXiYct5x44&sensor=false"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
+      var noop = function(){};
+
       function initialize() {
+
         $.getJSON('datacenters.json', function (data) {
           datacenters = data
 
@@ -82,10 +85,9 @@
             , 'addresses!, should take that many seconds. or...'
             , datacenters.length/60, 'minutes');
           ;(function persec() {
-            geocode(datacenters.shift(), function () {
-              if (datacenters.length > 0) setTimeout(persec, 1000)
-              else console.log('done geocoding!')
-            })
+            geocode(datacenters.shift(), noop)
+            if (datacenters.length > 0) setTimeout(persec, 1001)
+            else console.log('done geocoding!')
           })()
         }
       }
