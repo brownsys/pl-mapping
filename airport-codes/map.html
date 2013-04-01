@@ -7,7 +7,7 @@
       body { height: 100%; margin: 0; padding: 0 }
       #map-canvas { height: 100% }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlTPUg7Sk4BNeB5rRrReIfHUXiYct5x44&sensor=false"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
       function initialize() {
@@ -43,18 +43,51 @@
             event.addListener(m, 'click', function() {
               window.open(loc.url)
             })
-            console.log(Object.keys(map))
+            // console.log(Object.keys(map))
           })
 
-          // now geocode all the datacenter addresses and plot those too
-          // datacenters.forEach(function(dc) {
-          //   var addr = [ dc.address, dc.citystate, dc.country ].join(', ')
-          //   GeocoderRequest({ address: addr })
-          // })
 
+          // now geocode all the datacenter addresses and plot those too
+          var blueIcon =
+           "http://mapicons.nicolasmollet.com/wp-content/uploads/mapicons/shape-default/color-265cb2/shapecolor-color/shadow-1/border-dark/symbolstyle-white/symbolshadowstyle-dark/gradient-no/database.png";
+
+          var geocode = function (dc, cb) {
+            var addr = [ dc.address, dc.citystate, dc.country ].join(', ')
+            new Geocoder()
+            .geocode({ address: addr }, function(georesults, status) {
+              if (status !== GeocoderStatus.OK) {
+                console.log('geocoder:', status, addr)
+                return cb()
+              }
+
+              var georesult = georesults[0]
+              if (!georesult.geometry) {
+                console.log('no geometry', addr)
+                return cb()
+              }
+
+              var latlng = georesult.geometry.location
+              new Marker({
+                position: latlng
+              , title: addr
+              , map: map
+              , icon: blueIcon
+              })
+              return cb()
+            })
+          }
+
+          // can only geocode 1 req/seq. sucks!
+          console.log('geocoding', datacenters.length
+            , 'addresses!, should take that many seconds. or...'
+            , datacenters.length/60, 'minutes');
+          ;(function persec() {
+            geocode(datacenters.shift(), function () {
+              if (datacenters.length > 0) setTimeout(persec, 1000)
+              else console.log('done geocoding!')
+            })
+          })()
         }
-        // var m = new Marker({ position: new LatLng(a,b) })
-        // geocoder request
       }
     </script>
   </head>
