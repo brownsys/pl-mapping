@@ -10,15 +10,7 @@ var identity = function (s) { return s };
 var url = "http://www.world-airport-codes.com/search/?Submit=1&criteria="
 
 // these are the airport codes seen in DNS data
-var cogentcodes =
-  fs.readFileSync('./atlas-faa.txt', 'utf8')
-  .trim()
-  .split('\n')
-  .map(function(line) {
-    line = line.trim()
-    return line.split(' ')[0].toLowerCase()
-  })
-  .filter(identity)
+var cogentcodes = require('./atlas-codes')
 
 // for testing
 // cogentcodes = [
