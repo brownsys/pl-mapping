@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 #TODO: What additional sanity checks do we need?
-#	-Track IPs only appearing in iffinder or DNS and spit out count stats
 #	-Use pl_bin/sort-atlas.py as inspiration to split router interfaces into physical and non-physical
 #	-Reverse DNS record similarities
 #	-Cross-reference week by week to build more complete graph, use DNS records to ensure it was just returned
@@ -22,6 +21,9 @@ import sys
 import re
 import operator
 
+# determines how strict we should be about the DNS record names.
+nonStrictNames = False
+
 """
 Constructs a name from a list of subdomains gathered from DNS queries.
 """
@@ -30,7 +32,10 @@ def constructName(nameList):
 		typeOfInterface = nameList[0]
 		location = nameList[1]
 		routerIdentifier = nameList[2]
-		return ".".join([location, routerIdentifier])
+		if nonStrictNames:
+			return routerIdentifier
+		else:
+			return ".".join([location, routerIdentifier])
 	else:
 		return ".".join(nameList)
 
@@ -293,12 +298,15 @@ def combineIPDictionaries(routerToIPs, ipToName):
                 |_|                                                          
 """
 # parse command line options
-if len(sys.argv) != 3:
-	print "Usage: " + sys.argv[0] + " iffinderResults dnsRecords"
+if len(sys.argv) != 3 and len(sys.argv) != 4:
+	print "Usage: " + sys.argv[0] + " iffinderResults dnsRecords [nonStrictNames]"
 	sys.exit(1)
 try:
 	iffinderResults = open(sys.argv[1], "r")
 	dnsRecords = open(sys.argv[2], "r")
+	nonStrictNames = False
+	if len(sys.argv) == 4:
+		nonStrictNames = True
 except:
 	print "Error: Could not open one or more of the specified files."
 	sys.exit(1)
@@ -349,6 +357,7 @@ sys.stderr.write("\tNumber of ips with multiple reverse DNS records: " + str(num
 sys.stderr.write("\tNumber of IPs to names:\n\t\tAvg: " + str(avgInterfaces) + "\n\t\tMax: " + str(max(numInterfaces)) + "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
 
 # print combined output
+sys.stderr.write("Number of IPs analyzed without DNS records: " + str(len(ipToRouter) - len(ipToName)) + "\n")
 sys.stderr.write("Non-unanimous agreement in iffinder and dns record analysis: " + str(notUnanimous) + " (" + str(int(notUnanimous/(1.0 * len(routerToIPs)) * 100.0)) + "% of total)\n")
 
 # end stats
