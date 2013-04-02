@@ -52,12 +52,12 @@ pushd $archive_dir/$new_archive/
 
 # split into different parts of Cogent IP space
 $bin_dir/pl-partition.sh
-cat rev-*.*.*.*-??.txt | grep "is an alias for" > rev-all_alias.txt
-cat rev-*.*.*.*-??.txt | grep "has no PTR" > rev-all_no_ptr.txt
-cat rev-*.*.*.*-??.txt | grep -v NXDOMAIN | grep -v SERVFAIL | grep -v REFUSED | grep -v "connection timed out" | grep -v "is an alias for" | grep -v "domain name pointer" | grep -v "retrying in TCP" | grep -v "has no PTR" > rev-all_anomoly.txt
+cat rev-*.*.*.*-??.txt | grep "is an alias for" > all_alias.txt
+cat rev-*.*.*.*-??.txt | grep "has no PTR" > all_no_ptr.txt
+cat rev-*.*.*.*-??.txt | grep -v NXDOMAIN | grep -v SERVFAIL | grep -v REFUSED | grep -v "connection timed out" | grep -v "is an alias for" | grep -v "domain name pointer" | grep -v "retrying in TCP" | grep -v "has no PTR" > all_anomaly.txt
 
 # categorize the *.atlas.cogentco.com addresses
-cat *-atlas.txt | $bin_dir/sort-atlas.py | sort > COGENT-MASTER-ATLAS.txt
+cat cogent-atlas.txt | $bin_dir/sort-atlas.py | sort > COGENT-MASTER-ATLAS.txt
 
 # find the /30 address pairs
 cat COGENT-MASTER-ATLAS.txt | $bin_dir/collect-pairs.py > cogent_pairs.txt
@@ -69,22 +69,25 @@ cat cogent_pairs_non-matching_hw.txt | grep "(unknown)" > cogent_pairs_non-match
 cat cogent_pairs_non-matching_hw.txt | grep IntegratedServicesModule > cogent_pairs_non-matching_hw-IntegratedServicesModule.txt
 cat cogent_pairs_non-matching_hw.txt | grep -v Vlan | grep -v oob | grep -v "(unknown)" | grep -v IntegratedServicesModule > cogent_pairs_non-matching_hw-others.txt
 
-num_exist=`wc *-exists.txt | tail -1 | awk '{ print $1 }'`
-num_atlas=`wc *-cogent-atlas.txt | tail -1 | awk '{ print $1 }'`
-num_demarc=`wc *-cogent-demarc.txt | tail -1 | awk '{ print $1 }'`
-num_cogent_other=`wc *-cogent-other.txt | tail -1 | awk '{ print $1 }'`
-num_non_cogent=$(( $num_exist - $num_atlas - $num_demarc - $num_cogent_other ))
+num_exist=`wc all_exists.txt | awk '{ print $1 }'`
+num_atlas=`wc cogent-atlas.txt | awk '{ print $1 }'`
+num_demarc=`wc cogent-demarc.txt | awk '{ print $1 }'`
+num_dial=`wc cogent-dial.txt | awk '{ print $1 }'`
+num_cogent_other=`wc cogent-other.txt | awk '{ print $1 }'`
+num_non_cogent=$(( $num_exist - $num_atlas - $num_demarc - $num_dial - $num_cogent_other ))
+
 num_nxdomain=`cat rev-*.*.*.*-??.txt | grep NXDOMAIN | wc -l`
 num_servfail=`cat rev-*.*.*.*-??.txt | grep SERVFAIL | wc -l`
 num_refused=`cat rev-*.*.*.*-??.txt | grep REFUSED | wc -l`
 num_timeout=`cat rev-*.*.*.*-??.txt | grep "connection timed out" | wc -l`
-num_alias=`wc -l rev-all_alias.txt`
-num_no_ptr=`wc -l rev-all_no_ptr.txt`
-num_anomoly_lines=`wc -l rev-all_anomoly.txt`
+num_alias=`wc -l all_alias.txt`
+num_no_ptr=`wc -l all_no_ptr.txt`
+num_anomaly_lines=`wc -l all_anomaly.txt`
 
 echo "Num exist: $num_exist" >> SUMMARY.txt
 echo "Num atlas: $num_atlas" >> SUMMARY.txt
 echo "Num demarc: $num_demarc" >> SUMMARY.txt
+echo "Num dial: $num_dial" >> SUMMARY.txt
 echo "Num cogent other: $num_cogent_other" >> SUMMARY.txt
 echo "Num non-cogent: $num_non_cogent" >> SUMMARY.txt
 echo "Num NXDOMAIN: $num_nxdomain" >> SUMMARY.txt
@@ -93,7 +96,7 @@ echo "Num REFUSED: $num_refused" >> SUMMARY.txt
 echo "Num timeout: $num_timeout" >> SUMMARY.txt
 echo "Num alias: $num_alias" >> SUMMARY.txt
 echo "Num no PTR: $num_no_ptr" >> SUMMARY.txt
-echo "Num anomoly lines: $num_anomoly_lines" >> SUMMARY.txt
+echo "Num anomaly lines: $num_anomaly_lines" >> SUMMARY.txt
 
 # ? maybe more like http://trace.cs.brown.edu/wiki/Internal/Cogent_Atlas
 # ... note, those tables get mixed-up by "JFK" vs "jfk"
@@ -113,6 +116,12 @@ rm cogent-all-ips.random-order.txt
 for i in `ls -1 rev-*.*.*.*-??.txt`; do
 	gzip $i
 done
+
+# and also compress some of the bigger outputs
+
+gzip all_exists.txt
+gzip cogent-atlas.txt
+gzip cogent-dial.txt
 
 popd
 
