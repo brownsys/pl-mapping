@@ -7,7 +7,7 @@ var identity = function(i) { return i }
 
 // codes that should be ignored, b/c not actually for airports
 
-var invalid = 'dev cat fev moo pro ref dem f-p f-t lng fix'.split(' ')
+var invalid = 'dev cat fev moo pro ref dem f-p f-t lng fix b01 hq0 na0 not pai'.split(' ')
 
 module.exports =
 _.uniq(
@@ -21,8 +21,14 @@ _.uniq(
     var code = first.substring(0, 3)
     if (~invalid.indexOf(code)) return
 
-    // rome is not in world-airport-codes
-    if (code === 'rom') code = 'fco'
+    // For several major cities, Cogent uses the
+    // metropolitan airport code, rather than the specific code
+    // NOTE: London is there as 'lon' but Heathrow is actually being used for Slough, England
+    if (code === 'rom') code = 'fco' // Rome
+    if (code === 'mil') code = 'mxp' // Milan
+    if (code === 'par') code = 'cdg' // Paris
+    if (code === 'tyo') code = 'nrt' // Tokyo
+    if (code === 'sto') code = 'arn' // Stockholm
     return code
   })
   .filter(identity)

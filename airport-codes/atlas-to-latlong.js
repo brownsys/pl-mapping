@@ -32,6 +32,20 @@ async.each(cogentcodes, function(code, cb) {
     }
     console.log(error, response.statusCode)
     console.log('Error caused by utf8 redirect error in their website.')
+    if (code === 'lon') {
+      airport2latlong[code] = {
+        lat: 51.507222,
+        lon: -0.1275,
+        url: "London special case"
+      }
+    }
+    if (code === 'qzo') {
+      airport2latlong[code] = {
+        lat: 43.45589828491211,
+        lon: 11.84700012207031,
+        url: "http://airportdatabase.net/italy/arezzo-airport_29439.html"
+      }
+    }
     if (code === 'zag') {
       console.log("Fixed the problem for zag!")
       // let's fix it.
