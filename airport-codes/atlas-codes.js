@@ -33,7 +33,8 @@ _.uniq(
     if (code === 'tyo') code = 'nrt' // Tokyo
     if (code === 'sto') code = 'arn' // Stockholm
     if (code === 'pai') code = 'dca' // PAIX: Same as Washington DC
-    if (code === 'zav') code = 'slm' // Avila's nearest airporn is Matacan (SLM)
+    if (code === 'zav') code = 'slm' // Avila's nearest airport is Matacan (SLM)
+    if (code === 'bed') code = 'ber' // Berlin, they made a typo
     return code
   })
   .filter(identity)
