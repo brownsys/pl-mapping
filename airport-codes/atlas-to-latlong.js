@@ -24,31 +24,34 @@ var airport2latlong = {}
 async.each(cogentcodes, function(code, cb) {
   var uri = url + code
   console.log('Reading', uri)
-  request(uri, function(error, response, body) {
+  if (code === 'lon') {
+    console.log("Fixed the problem for lon!")
+    airport2latlong[code] = {
+      lat: 51.507222,
+      lon: -0.1275,
+      url: "London special case"
+    }
+    return cb()
+  }
+  if (code === 'qzo') {
+    console.log("Fixed the problem for qzo!")
+    airport2latlong[code] = {
+      lat: 43.45589828491211,
+      lon: 11.84700012207031,
+      url: "http://airportdatabase.net/italy/arezzo-airport_29439.html"
+    }
+    return cb()
+  }
+  return request(uri, function(error, response, body) {
     if (!error && response.statusCode == 200) {
       airport2latlong[code] = parse(body)
       airport2latlong[code].url = uri
       return cb()
     }
     console.log(error, response.statusCode)
-    console.log('Error caused by utf8 redirect error in their website.')
-    if (code === 'lon') {
-      airport2latlong[code] = {
-        lat: 51.507222,
-        lon: -0.1275,
-        url: "London special case"
-      }
-    }
-    if (code === 'qzo') {
-      airport2latlong[code] = {
-        lat: 43.45589828491211,
-        lon: 11.84700012207031,
-        url: "http://airportdatabase.net/italy/arezzo-airport_29439.html"
-      }
-    }
     if (code === 'zag') {
       console.log("Fixed the problem for zag!")
-      // let's fix it.
+      console.log('Error caused by utf8 redirect error in their website.')
       airport2latlong[code] = {
         lat: 45.743055555556,
         lon: 16.068888888889,

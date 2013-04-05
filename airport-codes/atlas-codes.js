@@ -7,7 +7,9 @@ var identity = function(i) { return i }
 
 // codes that should be ignored, b/c not actually for airports
 
-var invalid = 'dev cat fev moo pro ref dem f-p f-t lng fix b01 hq0 na0 not pai'.split(' ')
+var invalid =
+  'dev cat fev moo pro ref dem f-p f-t lng fix b01 hq0 na0 not'
+  .split(' ')
 
 module.exports =
 _.uniq(
@@ -23,12 +25,15 @@ _.uniq(
 
     // For several major cities, Cogent uses the
     // metropolitan airport code, rather than the specific code
-    // NOTE: London is there as 'lon' but Heathrow is actually being used for Slough, England
+    // NOTE: London is there as 'lon' but Heathrow is actually being used for
+    // Slough, England
     if (code === 'rom') code = 'fco' // Rome
     if (code === 'mil') code = 'mxp' // Milan
     if (code === 'par') code = 'cdg' // Paris
     if (code === 'tyo') code = 'nrt' // Tokyo
     if (code === 'sto') code = 'arn' // Stockholm
+    if (code === 'pai') code = 'dca' // PAIX: Same as Washington DC
+    if (code === 'zav') code = 'slm' // Avila's nearest airporn is Matacan (SLM)
     return code
   })
   .filter(identity)
