@@ -306,98 +306,84 @@ def combineIPDictionaries(routerToIPs, ipToName):
 
 	return (namedRouterToIPs, outlierToIPs, notUnanimous)
 
-"""
-               _       _         _             _         _                   
- ___  ___ _ __(_)_ __ | |_   ___| |_ __ _ _ __| |_ ___  | |__   ___ _ __ ___ 
-/ __|/ __| '__| | '_ \| __| / __| __/ _` | '__| __/ __| | '_ \ / _ \ '__/ _ \
-\__ \ (__| |  | | |_) | |_  \__ \ || (_| | |  | |_\__ \ | | | |  __/ | |  __/
-|___/\___|_|  |_| .__/ \__| |___/\__\__,_|_|   \__|___/ |_| |_|\___|_|  \___|
-                |_|                                                          
-"""
-# parse command line options
-if len(sys.argv) != 3 and len(sys.argv) != 4:
-	print "Usage: " + sys.argv[0] + " iffinderResults dnsRecords"
-	sys.exit(1)
-try:
-	iffinderResults = open(sys.argv[1], "r")
-	dnsRecords = open(sys.argv[2], "r")
-except:
-	print "Error: Could not open one or more of the specified files."
-	sys.exit(1)
+def main():
+	global nonStrictNames
 
-# do analysis
-routerToIPs, ipToRouter, unsuccessfulIPs, discoveredIPs = parseIffinderResults(iffinderResults)
-ipToName, nameToIPs, duplicateIPs = parseDNSRecords(dnsRecords)	
+	# parse command line options
+	if len(sys.argv) != 3 and len(sys.argv) != 4:
+		print "Usage: " + sys.argv[0] + " iffinderResults dnsRecords"
+		sys.exit(1)
+	try:
+		iffinderResults = open(sys.argv[1], "r")
+		dnsRecords = open(sys.argv[2], "r")
+	except:
+		print "Error: Could not open one or more of the specified files."
+		sys.exit(1)
 
-"""
-print "---------------------routerToIPs----------------------------"
-print routerToIPs
-print "---------------------ipToRouter----------------------------"
-print ipToRouter
-print "---------------------unsuccessfulIPs-------------------------"
-print unsuccessfulIPs
-print "---------------------ipToName-------------------------------"
-print ipToName
-print "-----------------------nameToIPs---------------------------"
-print nameToIPs
-"""
+	# do analysis
+	routerToIPs, ipToRouter, unsuccessfulIPs, discoveredIPs = parseIffinderResults(iffinderResults)
+	ipToName, nameToIPs, duplicateIPs = parseDNSRecords(dnsRecords)	
 
-# combine data
-namedRouterToIPs, outlierToIPs, notUnanimous = combineIPDictionaries(routerToIPs, ipToName)
+	# combine data
+	namedRouterToIPs, outlierToIPs, notUnanimous = combineIPDictionaries(routerToIPs, ipToName)
 
-# begin stats
-sys.stderr.write("-----------------\n")
+	# begin stats
+	sys.stderr.write("-----------------\n")
 
-# print iffinder statistic to stderr
-numRouters = len(routerToIPs.keys())
-numUnsuccessful = len(unsuccessfulIPs)
-numDiscovered = len(discoveredIPs)
-numInterfaces = map(len, routerToIPs.values())
-avgInterfaces = float(sum(numInterfaces))/float(numRouters)
-MoreThanOne = filter(lambda x: x > 1, numInterfaces)
-avgInterfacesMoreThanOne = float(sum(MoreThanOne))/float(len(MoreThanOne))
-sys.stderr.write("iffinder results:\n")
-sys.stderr.write("\tNumber of routers found: " + str(numRouters) + "\n")
-sys.stderr.write("\tNumber of non-responsive IPs: " + str(numUnsuccessful) + "\n")
-sys.stderr.write("\tNumber of discovered IPs: " + str(numDiscovered) + "\n")
-sys.stderr.write("\tNumber of addrs to aliases:" +
-                 "\n\t\tAvg: " + str(avgInterfaces) +
-                 "\n\t\tAvg more-than one: " + str(avgInterfacesMoreThanOne) +
-                 "\n\t\tMax: " + str(max(numInterfaces)) +
-                 "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
+	# print iffinder statistic to stderr
+	numRouters = len(routerToIPs.keys())
+	numUnsuccessful = len(unsuccessfulIPs)
+	numDiscovered = len(discoveredIPs)
+	numInterfaces = map(len, routerToIPs.values())
+	avgInterfaces = float(sum(numInterfaces))/float(numRouters)
+	MoreThanOne = filter(lambda x: x > 1, numInterfaces)
+	avgInterfacesMoreThanOne = float(sum(MoreThanOne))/float(len(MoreThanOne))
+	sys.stderr.write("iffinder results:\n")
+	sys.stderr.write("\tNumber of routers found: " + str(numRouters) + "\n")
+	sys.stderr.write("\tNumber of non-responsive IPs: " + str(numUnsuccessful) + "\n")
+	sys.stderr.write("\tNumber of discovered IPs: " + str(numDiscovered) + "\n")
+	sys.stderr.write("\tNumber of addrs to aliases:" +
+			 "\n\t\tAvg: " + str(avgInterfaces) +
+			 "\n\t\tAvg more-than one: " + str(avgInterfacesMoreThanOne) +
+			 "\n\t\tMax: " + str(max(numInterfaces)) +
+			 "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
 
-# print dns record statistics to stderr
-numNames = len(nameToIPs.keys())
-numDuplicateIPs= len(duplicateIPs)
-numInterfaces = map(len, nameToIPs.values())
-avgInterfaces = float(sum(numInterfaces))/float(numNames)
-MoreThanOne = filter(lambda x: x > 1, numInterfaces)
-avgInterfacesMoreThanOne = float(sum(MoreThanOne))/float(len(MoreThanOne))
-sys.stderr.write("dns record results:\n")
-sys.stderr.write("\tNumber of names found: " + str(numNames) + "\n")
-sys.stderr.write("\tNumber of ips with multiple reverse DNS records: " + str(numDuplicateIPs) + "\n")
-sys.stderr.write("\tNumber of IPs to names:" +
-                 "\n\t\tAvg: " + str(avgInterfaces) +
-                 "\n\t\tAvg more-than one: " + str(avgInterfacesMoreThanOne) +
-                 "\n\t\tMax: " + str(max(numInterfaces)) +
-                 "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
+	# print dns record statistics to stderr
+	numNames = len(nameToIPs.keys())
+	numDuplicateIPs= len(duplicateIPs)
+	numInterfaces = map(len, nameToIPs.values())
+	avgInterfaces = float(sum(numInterfaces))/float(numNames)
+	MoreThanOne = filter(lambda x: x > 1, numInterfaces)
+	avgInterfacesMoreThanOne = float(sum(MoreThanOne))/float(len(MoreThanOne))
+	sys.stderr.write("dns record results:\n")
+	sys.stderr.write("\tNumber of names found: " + str(numNames) + "\n")
+	sys.stderr.write("\tNumber of ips with multiple reverse DNS records: " + str(numDuplicateIPs) + "\n")
+	sys.stderr.write("\tNumber of IPs to names:" +
+			 "\n\t\tAvg: " + str(avgInterfaces) +
+			 "\n\t\tAvg more-than one: " + str(avgInterfacesMoreThanOne) +
+			 "\n\t\tMax: " + str(max(numInterfaces)) +
+			 "\n\t\tMin: " + str(min(numInterfaces)) + "\n")
 
-# print combined output
-sys.stderr.write("Non-unanimous agreement in iffinder and dns record analysis: " + str(notUnanimous) + " (" + str(int(notUnanimous/(1.0 * len(routerToIPs)) * 100.0)) + "% of total)\n")
+	# print combined output
+	sys.stderr.write("Non-unanimous agreement in iffinder and dns record analysis: " + str(notUnanimous) + " (" + str(int(notUnanimous/(1.0 * len(routerToIPs)) * 100.0)) + "% of total)\n")
 
-# end stats
-sys.stderr.write("-----------------\n")
+	# end stats
+	sys.stderr.write("-----------------\n")
 
-# print router information to stdout
-print "# Named routers as determined by iffinder and reverse DNS records"
-print "# Name\tIPs"
-for name in sorted(namedRouterToIPs):
-	print str(name) + "\t" + str(sorted(namedRouterToIPs[name]))
-print "# Iffinder/DNS Disagreements"
-print "# DNS Name\tiffinder Name\tIPs"
-for outlier in outlierToIPs:
-	print str(outlier[0]) + "\t" + str(outlier[1]) + "\t" + str(sorted(outlierToIPs[outlier]))
-print "# IPs with multiple reverse reverse DNS records"
-print "# Name\tIPs"
-for ip in duplicateIPs:
-	print str(ip)
+	# print router information to stdout
+	print "# Named routers as determined by iffinder and reverse DNS records"
+	print "# Name\tIPs"
+	for name in sorted(namedRouterToIPs):
+		print str(name) + "\t" + str(sorted(namedRouterToIPs[name]))
+	print "# Iffinder/DNS Disagreements"
+	print "# DNS Name\tiffinder Name\tIPs"
+	for outlier in outlierToIPs:
+		print str(outlier[0]) + "\t" + str(outlier[1]) + "\t" + str(sorted(outlierToIPs[outlier]))
+	print "# IPs with multiple reverse reverse DNS records"
+	print "# Name\tIPs"
+	for ip in duplicateIPs:
+		print str(ip)
+
+
+if __name__ == "__main__":
+	main()

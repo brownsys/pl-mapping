@@ -26,37 +26,37 @@ normalized = False
 def getInterfaceType(intr_abbr):
 	abbreviations = {
 		# Physical Interfaces
-		'fa': ('FastEthernet', "Physical"),
-		'gi': ('GigabitEthernet', "Physical"),
-		'te': ('TenGigabitEthernet', "Physical"),
-		'et': ('Ethernet', "Physical"),
-		'fd': ('Fddi', "Physical"),
-		'mu': ('Multilink', "Physical"),
-		'at': ('ATM', "Physical"),
-		'po': ('POS', "Physical"),
-		'se': ('Serial', "Physical"),
-		'Se': ('Serial', "Physical"),
+		'FastEthernet': "Physical",
+		'GigabitEthernet': "Physical",
+		'TenGigabitEthernet': "Physical",
+		'Ethernet': "Physical",
+		'Fddi': "Physical",
+		'ATM': "Physical",
+		'POS': "Physical",
+		'Serial': "Physical",
+		'Serial': "Physical",
+		'IntegratedServicesModule': "Physical",
+		'Pos-channel': "Physical",
 
 		# Virtual Interfaces
-		'vl': ('Vlan', "Virtual"),
-		'is': ('IntegratedServicesModule', "Virtual"),
-		'tu': ('Tunnel', "Virtual"),
-		'lo': ('Loopback', "Virtual"),
-		'vi': ('Virtual-Access', "Virtual"),
-		'vt': ('Virtual-Template', "Virtual"),
+		'Vlan': "Virtual",
+		'Multilink': "Virtual",
+		'Tunnel': "Virtual",
+		'Loopback': "Virtual",
+		'Virtual-Access': "Virtual",
+		'Virtual-Template': "Virtual",
 
 		# Unknown Interfaces
-		'eo' : ('EOBC', "Unknown"),
-		'posch': ('Pos-channel', "Unknown"),
-		'async': ('Async', "Unknown"),
-		'group-async': ('Group-Async', "Unknown"),
-		'mfr': ('MFR', "Unknown")
+		'EOBC': "Unknown",
+		'Async': "Unknown",
+		'Group-Async': "Unknown",
+		'MFR': "Unknown"
 	}
 
 	try:
 		return abbreviations[intr_abbr]
 	except KeyError:
-		return ("(unknown)", "Unknown")
+		return "Unknown"
 
 """
 Takes in a COGENT-MASTER-ATLAS.txt file for a week and
@@ -78,7 +78,8 @@ def getBreakdown(masterAtlas):
 			continue
 
 		# only interested in first two chars
-		interfaceString, interfaceType = getInterfaceType(splitLine[2][:2])
+		interfaceString = splitLine[5]
+		interfaceType = getInterfaceType(interfaceString)
 
 		# increment dictionary counts
 		if interfaceType == "Physical":
@@ -111,23 +112,32 @@ def trunc(f):
 """
 Prints GNUPlot friendly version of a list of dictionaries
 """
-def printGNUPlotData(alist):
+def printGNUPlotData(alist, firstColumnKey):
 	if len(alist) == 0:
 		return
+
+	firstdict = alist[0]
+	if len(firstdict.keys()) == 0:
+		return
+	if firstColumnKey == None:
+		firstColumnKey =  firstdict.keys()[0]
 	
 	# print header
-	firstdict = alist[0]
 	header = "# "
+	header += (str(firstColumnKey) + headerTabSeparator)
 	for column in firstdict.keys():
-		header += (str(column) + headerTabSeparator)
+		if column != firstColumnKey:
+			header += (str(column) + headerTabSeparator)
 	header.strip(headerTabSeparator)
 	print header
 
 	# print data
 	for adict in alist:
 		row = ""
+		row += (trunc(adict[firstColumnKey]) + valueTabSeparator)
 		for column in adict:
-			row += (trunc(adict[column]) + valueTabSeparator)
+			if column != firstColumnKey:
+				row += (trunc(adict[column]) + valueTabSeparator)
 		row.strip(valueTabSeparator)
 		print row
 
@@ -154,64 +164,65 @@ def analyzeOneFile(masterAtlas):
 			selectedDict[item] = float(selectedDict[item]/selectedDictSum)
 	return selectedDict
 
+def main():
 
-"""
-               _       _         _             _         _                   
- ___  ___ _ __(_)_ __ | |_   ___| |_ __ _ _ __| |_ ___  | |__   ___ _ __ ___ 
-/ __|/ __| '__| | '_ \| __| / __| __/ _` | '__| __/ __| | '_ \ / _ \ '__/ _ \
-\__ \ (__| |  | | |_) | |_  \__ \ || (_| | |  | |_\__ \ | | | |  __/ | |  __/
-|___/\___|_|  |_| .__/ \__| |___/\__\__,_|_|   \__|___/ |_| |_|\___|_|  \___|
-                |_|                                                          
-"""
-# parse command line options
-if len(sys.argv) < 2:
-	print "Usage: " + sys.argv[0] + "file [options]"
-	print "Options:"
-	print "\t--allWeeks\tInterpret \"file\" argument as directory containing subdirectories of weeks with files"
-	print "\t--physical\tGet breakdown of physical interfaces"
-	print "\t--virtual\tGet breakdown of virtual interfaces"
-	print "\t--normalized\tNormalize results"
-	print "\tNOTE: When neither the physical or virtual flags are present, the ratio of physical to virtual are reported"
-	sys.exit(1)
+	global allWeeks
+	global physicalOnly
+	global virtualOnly
+	global normalized
 
-options = set(sys.argv[2:])
-if "--allWeeks" in options:
-	allWeeks = True
-if "--physical" in options:
-	physicalOnly = True
-if "--virtual" in options:
-	virtualOnly = True
-if "--normalized" in options:
-	normalized = True
-
-# analyze a single file or all the files
-if allWeeks:
-	try:
-		pl_archives = sys.argv[1]
-		selectedDictList = []
-		for weekdir in os.listdir(pl_archives):
-			try:
-				masterAtlas = open(pl_archives + "/" + weekdir + "/" + "COGENT-MASTER-ATLAS.txt", "r")
-				selectedDict = analyzeOneFile(masterAtlas)
-				selectedDict["Week"] = int(weekdir)
-				selectedDictList.append(selectedDict)
-				masterAtlas.close()
-			except:
-				raise
-				sys.stderr.write("Skipping directory " + weekdir + "\n")
-		selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
-		printGNUPlotData(selectedDictList)
-	except:
-		raise
-		sys.stderr.write("Could not open directory " + dirname + "\n")
+	# parse command line options
+	if len(sys.argv) < 2:
+		print "Usage: " + sys.argv[0] + "file [options]"
+		print "Options:"
+		print "\t--allWeeks\tInterpret \"file\" argument as directory containing subdirectories of weeks with files"
+		print "\t--physical\tGet breakdown of physical interfaces"
+		print "\t--virtual\tGet breakdown of virtual interfaces"
+		print "\t--normalized\tNormalize results"
+		print "\tNOTE: When neither the physical or virtual flags are present, the ratio of physical to virtual are reported"
 		sys.exit(1)
-else:
-	try:
-		filename = sys.argv[1]
-		masterAtlas = open(filename, "r")
-		selectedDict = analyzeOneFile(masterAtlas)
-		masterAtlas.close()
-		printGNUPlotData([selectedDict])
-	except:
-		sys.stderr.write("Could not open file " + filename + "\n")
-		sys.exit(1)
+
+	options = set(sys.argv[2:])
+	if "--allWeeks" in options:
+		allWeeks = True
+	if "--physical" in options:
+		physicalOnly = True
+	if "--virtual" in options:
+		virtualOnly = True
+	if "--normalized" in options:
+		normalized = True
+
+	# analyze a single file or all the files
+	if allWeeks:
+		try:
+			pl_archives = sys.argv[1]
+			selectedDictList = []
+			for weekdir in os.listdir(pl_archives):
+				try:
+					masterAtlas = open(pl_archives + "/" + weekdir + "/" + "COGENT-MASTER-ATLAS.txt", "r")
+					selectedDict = analyzeOneFile(masterAtlas)
+					selectedDict["Week"] = int(weekdir)
+					selectedDictList.append(selectedDict)
+					masterAtlas.close()
+				except:
+					raise
+					sys.stderr.write("Skipping directory " + weekdir + "\n")
+			selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
+			printGNUPlotData(selectedDictList, "Week")
+		except:
+			raise
+			sys.stderr.write("Could not open directory " + dirname + "\n")
+			sys.exit(1)
+	else:
+		try:
+			filename = sys.argv[1]
+			masterAtlas = open(filename, "r")
+			selectedDict = analyzeOneFile(masterAtlas)
+			masterAtlas.close()
+			printGNUPlotData([selectedDict], None)
+		except:
+			sys.stderr.write("Could not open file " + filename + "\n")
+			sys.exit(1)
+
+if __name__ == "__main__":
+	main()

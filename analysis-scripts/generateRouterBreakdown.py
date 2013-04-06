@@ -49,19 +49,33 @@ dns record results:
 Non-unanimous agreement in iffinder and dns record analysis: %d (%d%% of total)
 -----------------"
 
+stdoutFormat = \
+"# Named routers as determined by iffinder and reverse DNS records
+# Name\tIPs
+%s
+# Iffinder/DNS Disagreements
+# DNS Name\tiffinder Name\tIPs
+%s
+# IPs with multiple reverse reverse DNS records
+# Name\tIPs
+%s"
+
 """
-Takes in a iffinder-analysis stderr dump for a week and
+Takes in a iffinder-analysis stdout and stderr dump for a week and
 reads it to get interesting informating.
 """
-def getIffinderInfo(stderrFile):
+def getIffinderInfo(stdoutFile, stderrFile):
 	# extract data from file
 	stderrContent = stderrFile.read()
-	data = scanf.sscanf(stderrContent, stderrFormat)
+	stderrData = scanf.sscanf(stderrContent, stderrFormat)
+	stdoutContent = stdoutFile.read()
+	stdoutData = scanf.sscanf(stdoutContent, stdoutFormat)
+
+	print stderrData
+	print stdoutData
 
 	# reduce to relevant data
 	relevant = []
-
-
 
 
 """
@@ -97,85 +111,74 @@ def printGNUPlotData(alist):
 		print row
 
 """
-Analyze one COGENT-MASTER-ATLAS.txt file and returns the analysis in a dictionary.
+Analyze one week's files and returns the analysis in a dictionary.
 """
-def analyzeOneFile(masterAtlas):			
-	# get breakdown
-	physicalInterfaces, virtualInterfaces, unknownInterfaces = getBreakdown(masterAtlas)
+def analyzeOneFile(weekNumber):			
+	# open the week's file for reading
+	stdoutFilename = weekNumber + ".stdout.txt"
+	stdoutFile = open(stdoutFilename, "r")
+	stderrFilename = weekNumber + ".stderr.txt"
+	stderrFile = open(stderrFilename, "r")
+	
+	getIffinderInfo(stdoutFile, stderrFile)
 
-	# extract relevant information
-	selectedDict = {}
-	if physicalOnly:
-		selectedDict = physicalInterfaces
-	elif virtualOnly:
-		selectedDict = virtualInterfaces
+
+def main():
+	global allWeeks
+	global numRouters
+	global averageDegree
+	global disagreement
+
+	# parse command line options
+	if len(sys.argv) < 2:
+		print "Usage: " + sys.argv[0] + "file [options]"
+		print "Options:"
+		print "\t--allWeeks\tInterpret \"file\" argument as directory containing iffinder-analysis files"
+		print "\t--num-routers\tGet number of routers"
+		print "\t--average-degree\tGet ratio of interface/routers"
+		print "\t--disagreement\tGet number of disagreements between DNS and iffinder"
+		sys.exit(1)
+
+	options = set(sys.argv[2:])
+	if "--allWeeks" in options:
+		allWeeks = True
+	if "--num-routers" in options:
+		numRouters = True
+	if "--average-degree" in options:
+		averageDegree = True
+	if "--disagreement" in options:
+		disagreement = True
+
+	# analyze a single file or all the files
+	if allWeeks:
+		try:
+			iffinder_analysis = sys.argv[1]
+			for weekfiles in os.listdir(iffinder_analysis):
+				try:
+					masterAtlas = open(pl_archives + "/" + weekdir + "/" + "COGENT-MASTER-ATLAS.txt", "r")
+					selectedDict = analyzeOneFile(masterAtlas)
+					selectedDict["Week"] = int(weekdir)
+					selectedDictList.append(selectedDict)
+					masterAtlas.close()
+				except:
+					raise
+					sys.stderr.write("Skipping directory " + weekdir + "\n")
+			selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
+			printGNUPlotData(selectedDictList)
+		except:
+			raise
+			sys.stderr.write("Could not open directory " + dirname + "\n")
+			sys.exit(1)
 	else:
-		selectedDict = {"Physical" : sum(physicalInterfaces.values()), "Virtual" : sum(virtualInterfaces.values()) }
+		try:
+			filename = sys.argv[1]
+			masterAtlas = open(filename, "r")
+			selectedDict = analyzeOneFile(masterAtlas)
+			masterAtlas.close()
+			printGNUPlotData([selectedDict])
+		except:
+			sys.stderr.write("Could not open file " + filename + "\n")
+			sys.exit(1)
 
-	# normalize if necessary
-	if normalized:
-		selectedDictSum = float(sum(selectedDict.values()))
-		for item in selectedDict:
-			selectedDict[item] = float(selectedDict[item]/selectedDictSum)
-	return selectedDict
-
-
-"""
-               _       _         _             _         _                   
- ___  ___ _ __(_)_ __ | |_   ___| |_ __ _ _ __| |_ ___  | |__   ___ _ __ ___ 
-/ __|/ __| '__| | '_ \| __| / __| __/ _` | '__| __/ __| | '_ \ / _ \ '__/ _ \
-\__ \ (__| |  | | |_) | |_  \__ \ || (_| | |  | |_\__ \ | | | |  __/ | |  __/
-|___/\___|_|  |_| .__/ \__| |___/\__\__,_|_|   \__|___/ |_| |_|\___|_|  \___|
-                |_|                                                          
-"""
-# parse command line options
-if len(sys.argv) < 2:
-	print "Usage: " + sys.argv[0] + "file [options]"
-	print "Options:"
-	print "\t--allWeeks\tInterpret \"file\" argument as directory containing iffinder-analysis files"
-	print "\t--num-routers\tGet number of routers"
-	print "\t--average-degree\tGet ratio of interface/routers"
-	print "\t--disagreement\tGet number of disagreements between DNS and iffinder"
-	sys.exit(1)
-
-options = set(sys.argv[2:])
-if "--allWeeks" in options:
-	allWeeks = True
-if "--num-routers" in options:
-	numRouters = True
-if "--average-degree" in options:
-	averageDegree = True
-if "--disagreement" in options:
-	disagreement = True
-
-# analyze a single file or all the files
-if allWeeks:
-	try:
-		pl_archives = sys.argv[1]
-		selectedDictList = []
-		for weekdir in os.listdir(pl_archives):
-			try:
-				masterAtlas = open(pl_archives + "/" + weekdir + "/" + "COGENT-MASTER-ATLAS.txt", "r")
-				selectedDict = analyzeOneFile(masterAtlas)
-				selectedDict["Week"] = int(weekdir)
-				selectedDictList.append(selectedDict)
-				masterAtlas.close()
-			except:
-				raise
-				sys.stderr.write("Skipping directory " + weekdir + "\n")
-		selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
-		printGNUPlotData(selectedDictList)
-	except:
-		raise
-		sys.stderr.write("Could not open directory " + dirname + "\n")
-		sys.exit(1)
-else:
-	try:
-		filename = sys.argv[1]
-		masterAtlas = open(filename, "r")
-		selectedDict = analyzeOneFile(masterAtlas)
-		masterAtlas.close()
-		printGNUPlotData([selectedDict])
-	except:
-		sys.stderr.write("Could not open file " + filename + "\n")
-		sys.exit(1)
+if __name__ == "__main__":
+	main()
