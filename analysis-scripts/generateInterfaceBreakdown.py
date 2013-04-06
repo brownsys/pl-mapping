@@ -205,12 +205,10 @@ def main():
 					selectedDictList.append(selectedDict)
 					masterAtlas.close()
 				except:
-					raise
 					sys.stderr.write("Skipping directory " + weekdir + "\n")
 			selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
 			printGNUPlotData(selectedDictList, "Week")
 		except:
-			raise
 			sys.stderr.write("Could not open directory " + dirname + "\n")
 			sys.exit(1)
 	else:
