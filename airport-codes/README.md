@@ -1,3 +1,5 @@
+TODO: steps you need to take to view the map, etc.
+
 # airport-codes scripts
 
 To set up the environment, install <http://nodejs.org>, and then run
@@ -10,9 +12,9 @@ ls # you should see the package.json file
 npm install # this installs dependencies
 ```
 
-## converting `atlas-faa.txt` airport codes into lat and long
+## converting `COGENT-MASTER-ATLAS.txt` airport codes into lat and long
 
-`atlas-faa.txt` contains all the airport codes seen in DNS entries
+`COGENT-MASTER-ATLAS.txt` contains all the airport codes seen in DNS entries
 
 `node atlas-to-latlong.js` takes the DNS codes and looks them up on
 world-airport-codes.com. The lat and long for each code are then put into
