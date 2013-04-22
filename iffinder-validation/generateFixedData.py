@@ -11,6 +11,9 @@ import sys
 import re
 import operator
 import os
+import shutil
+
+fixedFilename = "COGENT-MASTER-ATLAS-FIXED.txt"
 
 # determines how strict we should be about the DNS record names.
 #
@@ -112,10 +115,10 @@ def main():
 		sys.exit(1)
 
 
-
-
-
-
+	# check that output dir exists
+	if not os.path.exists(outputDirFilename):
+		os.makedirs(outputDirFilename)
+	
 	try:
 		# get weeks
 		weeks = []
@@ -182,7 +185,24 @@ def main():
 							# case 3
 							case3IPs.append((ip, prevDNS, nextDNS))
 
+				# get directory create fixed file in
+				outputWeekDirFilename = outputDirFilename + "/" + str(currWeek)
+				if not os.path.exists(outputWeekDirFilename):
+					os.makedirs(outputDirFilename)
+				
+				# delete any old versions of this file
+				outputFilename = outputWeekDirFilename + "/" + fixedFilename
+				if os.path.exists(outputFilename):
+					os.remove(outputFilename)
+
+				# copy the original file to start appending to
+				shutil.copy(currWeekFilename, outputFilename)
+
+
+
+
 				# print Case 1 results
+				"""
 				if raw:
 					print "# Case 1"
 					print "# IP\tWeek\tDNS Record"
@@ -192,6 +212,7 @@ def main():
 					else:
 						print "IP " + entry[0] + " has record " + entry[1] + " in weeks " + str(prevWeek) + " and " + str(nextWeek) + \
 								" but does not appear in week " + str(currWeek)
+				"""
 
 			except:
 				raise
