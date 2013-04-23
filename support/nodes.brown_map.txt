@@ -73,7 +73,6 @@ planetlab1.utdallas.edu
 roam1.cs.ou.edu
 planetlab2.citadel.edu
 pl-node-0.csl.sri.com
-planetlab-4.eecs.cwru.edu
 server2.planetlab.iit-tech.net
 planetlab1.cs.purdue.edu
 planetlab2.poly.edu
