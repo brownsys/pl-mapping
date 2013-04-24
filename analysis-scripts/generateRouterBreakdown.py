@@ -132,7 +132,7 @@ def main():
 
 	# parse command line options
 	if len(sys.argv) < 2:
-		print "Usage: " + sys.argv[0] + "iffinder_analysis [options]"
+		print "Usage: " + sys.argv[0] + " iffinder_analysis [options]"
 		print "Options:"
 		print "\t--num-routers\tGet number of routers"
 		print "\t--average-degree\tGet ratio of interface/routers"
