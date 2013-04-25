@@ -173,7 +173,7 @@ def main():
 
 	# parse command line options
 	if len(sys.argv) < 2:
-		print "Usage: " + sys.argv[0] + "file [options]"
+		print "Usage: " + sys.argv[0] + " file [options]"
 		print "Options:"
 		print "\t--allWeeks\tInterpret \"file\" argument as directory containing subdirectories of weeks with files"
 		print "\t--physical\tGet breakdown of physical interfaces"
