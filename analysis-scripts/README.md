@@ -29,10 +29,23 @@ Example
 ./generateInterfaceBreakdown.py pl_archives/5/COGENT-MASTER-ATLAS.txt --physical
 
 
+# POS	GigabitEthernet	TenGigabitEthernet	FastEthernet	Ethernet	Serial	
+137	2830	5784	156	52	2336	
 
 ### Get the physical vs virtual interface breakdown for all weeks
 ./generateInterfaceBreakdown.py pl_archives --allWeeks
 
+# Week	Virtual	Physical	
+1	6263	11165	
+2	6295	11175	
+3	6365	11208	
+4	6394	11262	
+5	6390	11295	
+6	6397	11303	
+7	6382	11285	
+8	6473	11300	
+9	6625	10231	
+10	3924	7069	
 
 generateRouterBreakdown.py
 =============================
@@ -62,8 +75,17 @@ Example
 ### Get all information about routers collected
 ./generateRouterBreakdown.py iffinder-analysis --num-routers --average-degree --disagreement
 
-
-
+# Week	DisagreementCount	AverageDegree	RouterCount	
+1	38	10.70	2904	
+2	44	10.67	2915	
+3	28	10.73	2895	
+4	28	10.80	2906	
+5	27	10.79	2916	
+6	36	10.81	2908	
+7	38	10.69	2926	
+8	38	10.75	2926	
+9	22	9.99	2962	
+10	17	6.23	1989	
 
 generateRouterHistogram.py
 =============================
@@ -83,5 +105,29 @@ Example
 ### Get histogram for a single week
 ./generateRouterHistogram.py iffinder-analysis/5.stdout.txt
 
+# Degree	Count	
+1	535	
+2	126	
+3	327	
+4	238	
+5	174	
+6	121	
+7	117	
+8	127	
+9	114	
+10	112	
+
 ### Get histogram for all weeks
 ./generateRouterHistogram.py iffinder-analysis
+
+# Week	<5	5-10	10-20	20-100	100-300	>300	
+1	1230	644	666	349	15	0	
+2	1235	644	675	346	15	0	
+3	1211	651	667	352	14	0	
+4	1218	649	670	354	15	0	
+5	1226	653	669	353	14	1	
+6	1221	653	663	356	14	1	
+7	1241	657	658	355	14	1	
+8	1230	659	666	356	15	0	
+9	1336	743	576	292	14	1	
+10	1304	365	159	157	4	0	
