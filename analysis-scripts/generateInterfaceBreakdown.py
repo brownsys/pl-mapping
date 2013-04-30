@@ -59,7 +59,7 @@ def getInterfaceType(intr_abbr):
 		return "Unknown"
 
 """
-Takes in a COGENT-MASTER-ATLAS.txt file for a week and
+Takes in a COGENT-MASTER-ATLAS-FIXED.txt file for a week and
 reads it to get the interface breakdown. Returns three
 dictionaries one with physical interfaces -> count,
 another for virtual interfaces -> count, and another
