@@ -17,77 +17,11 @@ import scanf
 import os
 import sys
 import re
+from routerInterfaces import getBreakdown
 
 # options
 valueTabSeparator = "\t"
 headerTabSeparator = "\t"
-
-def getInterfaceType(intr_abbr):
-	abbreviations = {
-		# Physical Interfaces
-		'FastEthernet': "Physical",
-		'GigabitEthernet': "Physical",
-		'TenGigabitEthernet': "Physical",
-		'Ethernet': "Physical",
-		'Fddi': "Physical",
-		'ATM': "Physical",
-		'POS': "Physical",
-		'Serial': "Physical",
-		'Serial': "Physical",
-		'IntegratedServicesModule': "Physical",
-		'Pos-channel': "Physical",
-
-		# Virtual Interfaces
-		'Vlan': "Virtual",
-		'Multilink': "Virtual",
-		'Tunnel': "Virtual",
-		'Loopback': "Virtual",
-		'Virtual-Access': "Virtual",
-		'Virtual-Template': "Virtual",
-
-		# Unknown Interfaces
-		'EOBC': "Unknown",
-		'Async': "Unknown",
-		'Group-Async': "Unknown",
-		'MFR': "Unknown"
-	}
-
-	try:
-		return abbreviations[intr_abbr]
-	except KeyError:
-		return "Unknown"
-
-"""
-Takes in a COGENT-MASTER-ATLAS-FIXED.txt file for a week and
-reads it to get the interface breakdown. Returns three
-set of IPs, physical interfaces, virtual interfaces and unknown,
-"""
-def getBreakdown(masterAtlas):
-	physicalInterfaces = set()
-	virtualInterfaces = set()
-	unknownInterfaces = set()
-
-	# iterate through entries in file
-	for line in masterAtlas.readlines():
-		# split line into usuable chunks
-		splitLine = re.split("\s+", line.strip());
-		if len(splitLine) != 6: 
-			continue
-
-		# only interested in first two chars
-		ip = splitLine[4]
-		interfaceString = splitLine[5]
-		interfaceType = getInterfaceType(interfaceString)
-
-		# build up sets
-		if interfaceType == "Physical":
-			physicalInterfaces.add(ip)
-		elif interfaceType == "Virtual":
-			virtualInterfaces.add(ip)
-		else:
-			unknownInterfaces.add(ip)
-	
-	return physicalInterfaces, virtualInterfaces, unknownInterfaces
 
 
 """
@@ -168,7 +102,9 @@ def getDegrees(stdoutFile, physicalInterfaces):
 			continue
 		# read router info
 		splitLine = line.split("\t")
-		ipListLengths.append(len(filter(lambda x: x in physicalInterfaces, getList(splitLine[1]))))
+		listLen = len(filter(lambda x: x in physicalInterfaces, getList(splitLine[1])))
+		if listLen > 0:
+			ipListLengths.append(listLen)
 
 	return ipListLengths
 
@@ -230,7 +166,7 @@ def main():
 		pl_archives = sys.argv[2]
 		if os.path.isfile(filename):
 			# get physical interface IPs
-			weekNumber= filename.split(".")[0]
+			weekNumber = re.findall(r'\d+', filename)[0]
 			masterAtlas = open(pl_archives + "/" + weekNumber + "/" + "COGENT-MASTER-ATLAS-FIXED.txt", "r")
 			physicalInterfaces, virtualInterfaces, unknownInterfaces = getBreakdown(masterAtlas)
 			masterAtlas.close()

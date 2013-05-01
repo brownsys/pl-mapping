@@ -8,6 +8,7 @@ import sys
 import re
 import operator
 import os
+from routerInterfaces import getBreakdown
 
 # determines how strict we should be about the DNS record names.
 #
@@ -17,73 +18,6 @@ import os
 # by dropping "3504" and "3501" respectively from each interface name
 
 nonStrictNames = True
-
-def getInterfaceType(intr_abbr):
-	abbreviations = {
-		# Physical Interfaces
-		'FastEthernet': "Physical",
-		'GigabitEthernet': "Physical",
-		'TenGigabitEthernet': "Physical",
-		'Ethernet': "Physical",
-		'Fddi': "Physical",
-		'ATM': "Physical",
-		'POS': "Physical",
-		'Serial': "Physical",
-		'Serial': "Physical",
-		'IntegratedServicesModule': "Physical",
-		'Pos-channel': "Physical",
-
-		# Virtual Interfaces
-		'Vlan': "Virtual",
-		'Multilink': "Virtual",
-		'Tunnel': "Virtual",
-		'Loopback': "Virtual",
-		'Virtual-Access': "Virtual",
-		'Virtual-Template': "Virtual",
-
-		# Unknown Interfaces
-		'EOBC': "Unknown",
-		'Async': "Unknown",
-		'Group-Async': "Unknown",
-		'MFR': "Unknown"
-	}
-
-	try:
-		return abbreviations[intr_abbr]
-	except KeyError:
-		return "Unknown"
-
-"""
-Takes in a COGENT-MASTER-ATLAS-FIXED.txt file for a week and
-reads it to get the interface breakdown. Returns three
-set of IPs, physical interfaces, virtual interfaces and unknown,
-"""
-def getBreakdown(masterAtlas):
-	physicalInterfaces = set()
-	virtualInterfaces = set()
-	unknownInterfaces = set()
-
-	# iterate through entries in file
-	for line in masterAtlas.readlines():
-		# split line into usuable chunks
-		splitLine = re.split("\s+", line.strip());
-		if len(splitLine) != 6: 
-			continue
-
-		# only interested in first two chars
-		ip = splitLine[4]
-		interfaceString = splitLine[5]
-		interfaceType = getInterfaceType(interfaceString)
-
-		# build up sets
-		if interfaceType == "Physical":
-			physicalInterfaces.add(ip)
-		elif interfaceType == "Virtual":
-			virtualInterfaces.add(ip)
-		else:
-			unknownInterfaces.add(ip)
-	
-	return physicalInterfaces, virtualInterfaces, unknownInterfaces
 
 """
 Constructs a name from a list of subdomains gathered from DNS queries.
@@ -201,18 +135,22 @@ def main():
 				prevWeekFilename = dnsRecordsFilename + "/" + str(prevWeek) + "/COGENT-MASTER-ATLAS.txt"
 				prevWeekFile = open(prevWeekFilename, "r")
 				prevWeekResults = parseDNSRecords(prevWeekFile)
+				prevWeekFile.close()	
+				prevWeekFile = open(prevWeekFilename, "r")
 				prevPhysicalInterfaces, _, _ = getBreakdown(prevWeekFile)
 
 				currWeek = weekN
 				currWeekFilename = dnsRecordsFilename + "/" + str(currWeek) + "/COGENT-MASTER-ATLAS.txt"
 				currWeekFile = open(currWeekFilename, "r")
 				currWeekResults = parseDNSRecords(currWeekFile)
+				currWeekFile.close()	
+				currWeekFile = open(currWeekFilename, "r")
 				currPhysicalInterfaces, _, _ = getBreakdown(currWeekFile)
 
 				# find new IPs
 				prevIPs = set(filter(lambda x: x in prevPhysicalInterfaces, prevWeekResults[0].keys()))
 				currIPs = set(filter(lambda x: x in currPhysicalInterfaces, currWeekResults[0].keys()))
-				newIPS = currIPs - prevIPs
+				newIPs = currIPs - prevIPs
 
 				# print count
 				print str(currWeek) + "\t" + str(len(newIPs))
@@ -225,10 +163,6 @@ def main():
 		print "Error: Could not open \"" + dnsRecordsFilename + "\""
 		sys.exit(1)
 
-	# print stats
-	sys.stderr.write("Number of case 1s: " + str(numCase1) + "\n")
-	sys.stderr.write("Number of case 2s: " + str(numCase2) + "\n")
-	sys.stderr.write("Number of case 3s: " + str(numCase3) + "\n")
 
 if __name__ == "__main__":
 	main()

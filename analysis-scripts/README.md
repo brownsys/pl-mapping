@@ -156,3 +156,41 @@ Example
     8	1230	659	666	356	15	0	
     9	1336	743	576	292	14	1	
     10	1304	365	159	157	4	0	
+
+getNewPhysicalInterfaces.py
+=============================
+
+Description
+------------
+Prints out GNUPlot compatible data about the number of new physical interfaces found in a week. 
+A new interface is one that did not appear in the week before as a physical interface or at all.
+This number is trustworthy because we have already smoothed the data to remove DNS errors.
+
+Usage
+------
+
+    ./getNewPhysicalInterfaces.py pl_archives [weekNumbers]
+
+    pl_archives - The "pl_archives/" directory
+    weekNumbers - a set of weeks you are interested in
+
+Example
+--------
+
+### Get new interface count
+
+    $ ./getNewPhysicalInterfaces.py pl_archives
+    # Week	NumNewPhyInterfaces
+    2	106
+    3	201
+    4	199
+    5	108
+    6	109
+    7	79
+    8	199
+    9	1356
+    10	1472
+    11	16787
+    12	76
+    13	116
+
