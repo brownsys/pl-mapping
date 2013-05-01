@@ -59,7 +59,7 @@ def getInterfaceType(intr_abbr):
 		return "Unknown"
 
 """
-Takes in a COGENT-MASTER-ATLAS.txt file for a week and
+Takes in a COGENT-MASTER-ATLAS-FIXED.txt file for a week and
 reads it to get the interface breakdown. Returns three
 dictionaries one with physical interfaces -> count,
 another for virtual interfaces -> count, and another
@@ -142,7 +142,7 @@ def printGNUPlotData(alist, firstColumnKey):
 		print row
 
 """
-Analyze one COGENT-MASTER-ATLAS.txt file and returns the analysis in a dictionary.
+Analyze one COGENT-MASTER-ATLAS-FIXED.txt file and returns the analysis in a dictionary.
 """
 def analyzeOneFile(masterAtlas):			
 	# get breakdown
@@ -199,7 +199,7 @@ def main():
 			selectedDictList = []
 			for weekdir in os.listdir(pl_archives):
 				try:
-					masterAtlas = open(pl_archives + "/" + weekdir + "/" + "COGENT-MASTER-ATLAS.txt", "r")
+					masterAtlas = open(pl_archives + "/" + weekdir + "/" + "COGENT-MASTER-ATLAS-FIXED.txt", "r")
 					selectedDict = analyzeOneFile(masterAtlas)
 					selectedDict["Week"] = int(weekdir)
 					selectedDictList.append(selectedDict)

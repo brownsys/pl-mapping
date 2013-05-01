@@ -16,7 +16,7 @@ i=$start_week
 while [ $i -lt $((last_week + 1)) ]; do
 	echo "Processing week: $i ..."
 
-	$parse_script $iffinder_in_dir/$i-*-iffinder.txt $dns_in_dir/$i/COGENT-MASTER-ATLAS.txt 2>$i.stderr.txt 1>$i.stdout.txt
+	$parse_script $iffinder_in_dir/$i-*-iffinder.txt $dns_in_dir/$i/COGENT-MASTER-ATLAS-FIXED.txt 2>$i.stderr.txt 1>$i.stdout.txt
 
 	i=$((i+1))
 done

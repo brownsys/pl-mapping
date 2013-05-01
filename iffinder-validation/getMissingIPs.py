@@ -155,17 +155,17 @@ def main():
 				# get weeks
 				#NOTE: Results are a tuple (ipToName, nameToIPs, duplicateIPs)
 				prevWeek = weekN - 1
-				prevWeekFilename = dnsRecordsFilename + "/" + str(prevWeek) + "/COGENT-MASTER-ATLAS.txt"
+				prevWeekFilename = dnsRecordsFilename + "/" + str(prevWeek) + "/COGENT-MASTER-ATLAS-FIXED.txt"
 				prevWeekFile = open(prevWeekFilename, "r")
 				prevWeekResults = parseDNSRecords(prevWeekFile)
 
 				currWeek = weekN
-				currWeekFilename = dnsRecordsFilename + "/" + str(currWeek) + "/COGENT-MASTER-ATLAS.txt"
+				currWeekFilename = dnsRecordsFilename + "/" + str(currWeek) + "/COGENT-MASTER-ATLAS-FIXED.txt"
 				currWeekFile = open(currWeekFilename, "r")
 				currWeekResults = parseDNSRecords(currWeekFile)
 
 				nextWeek = weekN + 1
-				nextWeekFilename = dnsRecordsFilename + "/" + str(nextWeek) + "/COGENT-MASTER-ATLAS.txt"
+				nextWeekFilename = dnsRecordsFilename + "/" + str(nextWeek) + "/COGENT-MASTER-ATLAS-FIXED.txt"
 				nextWeekFile = open(nextWeekFilename, "r")
 				nextWeekResults = parseDNSRecords(nextWeekFile)
 
