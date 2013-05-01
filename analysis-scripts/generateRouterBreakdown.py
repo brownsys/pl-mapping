@@ -47,6 +47,73 @@ stderrFormat = \
 "Non-unanimous agreement in iffinder and dns record analysis: %d (%d%% of total)\n" \
 "-----------------"
 
+def getInterfaceType(intr_abbr):
+	abbreviations = {
+		# Physical Interfaces
+		'FastEthernet': "Physical",
+		'GigabitEthernet': "Physical",
+		'TenGigabitEthernet': "Physical",
+		'Ethernet': "Physical",
+		'Fddi': "Physical",
+		'ATM': "Physical",
+		'POS': "Physical",
+		'Serial': "Physical",
+		'Serial': "Physical",
+		'IntegratedServicesModule': "Physical",
+		'Pos-channel': "Physical",
+
+		# Virtual Interfaces
+		'Vlan': "Virtual",
+		'Multilink': "Virtual",
+		'Tunnel': "Virtual",
+		'Loopback': "Virtual",
+		'Virtual-Access': "Virtual",
+		'Virtual-Template': "Virtual",
+
+		# Unknown Interfaces
+		'EOBC': "Unknown",
+		'Async': "Unknown",
+		'Group-Async': "Unknown",
+		'MFR': "Unknown"
+	}
+
+	try:
+		return abbreviations[intr_abbr]
+	except KeyError:
+		return "Unknown"
+
+"""
+Takes in a COGENT-MASTER-ATLAS-FIXED.txt file for a week and
+reads it to get the interface breakdown. Returns three
+set of IPs, physical interfaces, virtual interfaces and unknown,
+"""
+def getBreakdown(masterAtlas):
+	physicalInterfaces = set()
+	virtualInterfaces = set()
+	unknownInterfaces = set()
+
+	# iterate through entries in file
+	for line in masterAtlas.readlines():
+		# split line into usuable chunks
+		splitLine = re.split("\s+", line.strip());
+		if len(splitLine) != 6: 
+			continue
+
+		# only interested in first two chars
+		ip = splitLine[4]
+		interfaceString = splitLine[5]
+		interfaceType = getInterfaceType(interfaceString)
+
+		# build up sets
+		if interfaceType == "Physical":
+			physicalInterfaces.add(ip)
+		elif interfaceType == "Virtual":
+			virtualInterfaces.add(ip)
+		else:
+			unknownInterfaces.add(ip)
+	
+	return physicalInterfaces, virtualInterfaces, unknownInterfaces
+
 """
 Takes in the printed version of a python list
 and returns the list
@@ -58,7 +125,7 @@ def getList(string):
 Takes in a iffinder-analysis stdout and stderr dump for a week and
 reads it to get interesting informating.
 """
-def getIffinderInfo(stdoutFile, stderrFile):
+def getIffinderInfo(stdoutFile, stderrFile, physicalInterfaces):
 	# extract data from stderr file
 	stderrContent = stderrFile.read()
 	stderrData = scanf.sscanf(stderrContent, stderrFormat)
@@ -75,7 +142,7 @@ def getIffinderInfo(stdoutFile, stderrFile):
 			continue
 		# read router info
 		splitLine = line.split("\t")
-		routerNameToIPs[splitLine[0]] = getList(splitLine[1])
+		routerNameToIPs[splitLine[0]] = filter(lambda x: x in physicalInterfaces, getList(splitLine[1]))
 
 	# reduce to relevant data
 	disagreements = stderrData[13]
@@ -131,8 +198,8 @@ def main():
 	global disagreement
 
 	# parse command line options
-	if len(sys.argv) < 2:
-		print "Usage: " + sys.argv[0] + " iffinder_analysis [options]"
+	if len(sys.argv) < 3:
+		print "Usage: " + sys.argv[0] + " iffinder_analysis pl_archives [options]"
 		print "Options:"
 		print "\t--num-routers\tGet number of routers"
 		print "\t--average-degree\tGet ratio of interface/routers"
@@ -140,7 +207,7 @@ def main():
 		sys.exit(1)
 
 	# parse options
-	options = set(sys.argv[2:])
+	options = set(sys.argv[3:])
 	if "--num-routers" in options:
 		numRouters = True
 	if "--average-degree" in options:
@@ -151,6 +218,7 @@ def main():
 	# perform analysis
 	try:
 		iffinder_analysis = sys.argv[1]
+		pl_archives = sys.argv[2]
 
 		# get weeks available in directory
 		weeks = set()
@@ -166,9 +234,15 @@ def main():
 				stdoutFile = open(stdoutFilename, "r")
 				stderrFilename = iffinder_analysis + "/" + week + ".stderr.txt"
 				stderrFile = open(stderrFilename, "r")
+
+				# get physical interface IPs
+				masterAtlas = open(pl_archives + "/" + week + "/" + "COGENT-MASTER-ATLAS-FIXED.txt", "r")
+				physicalInterfaces, virtualInterfaces, unknownInterfaces = getBreakdown(masterAtlas)
+				masterAtlas.close()
 				
+				# get information and organize it according to options
 				selectedDict = { "Week" : int(week) }
-				disagreements, routerNameToIPs = getIffinderInfo(stdoutFile, stderrFile)
+				disagreements, routerNameToIPs = getIffinderInfo(stdoutFile, stderrFile, physicalInterfaces)
 				if numRouters:
 					selectedDict["RouterCount"] = len(routerNameToIPs)
 				if averageDegree:

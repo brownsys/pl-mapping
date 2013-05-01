@@ -65,21 +65,23 @@ Description
 ------------
 Prints out GNUPlot compatible data about the average degree of routers,
 disagreement, and router count. The script takes in a directory of data
-"iffinder-analysis/" and options specifying what data you want.
+"iffinder-analysis/", a directory of DNS records "pl_archives/",  and
+options specifying what data you want.
 
 Usage
 ------
 
-    ./generateRouterBreakdown.py iffinder_analysis [options]
+    ./generateRouterBreakdown.py iffinder_analysis pl_archives [options]
 
     iffinder_analysis - the path to the iffinder-analysis directory
+    pl_archives - the path to the pl_archives directory
 
 Options
 --------
 
     --num-routers - print out the number of routers found that week
 
-    --average-degree - print out the average degree of routers that week
+    --average-degree - print out the average degree of routers that week (only takes into account physical interfaces)
 
     --disagreement - print out the number of disagreements between iffinder and DNS records that week
 
@@ -90,7 +92,7 @@ Example
 
 ### Get all information about routers collected
 
-    $ ./generateRouterBreakdown.py iffinder-analysis --num-routers --average-degree --disagreement
+    $ ./generateRouterBreakdown.py iffinder-analysis pl_archives --num-routers --average-degree --disagreement
     # Week	DisagreementCount	AverageDegree	RouterCount	
     1	38	10.70	2904	
     2	44	10.67	2915	
@@ -112,21 +114,22 @@ Prints out GNUPlot compatible data about the degrees of routers. A single file
 being analyzed will not bin results for the histogram, but analyzing all weeks
 will bin the degrees.  The script takes in either a stdout file created by the
 analyze-iffinder.sh or a directory containing these files such as
-"iffinder-analysis/".
+"iffinder-analysis/" and the "pl_archives/" directory for DNS record lookup.
 
 Usage
 ------
 
-    ./generateRouterHistogram.py file
+    ./generateRouterHistogram.py file pl_archives
 
     file - the path to the iffinder-analysis directory or a stdout dump in that directory
+    pl_archives - the path to the pl_archives directory containing DNS records
 
 Example
 --------
 
 ### Get histogram for a single week
 
-    $ ./generateRouterHistogram.py iffinder-analysis/5.stdout.txt
+    $ ./generateRouterHistogram.py iffinder-analysis/5.stdout.txt pl_archives
     # Degree	Count	
     1	535	
     2	126	
@@ -141,7 +144,7 @@ Example
 
 ### Get histogram for all weeks
 
-    $ ./generateRouterHistogram.py iffinder-analysis
+    $ ./generateRouterHistogram.py iffinder-analysis pl_archives
     # Week	<5	5-10	10-20	20-100	100-300	>300	
     1	1230	644	666	349	15	0	
     2	1235	644	675	346	15	0	

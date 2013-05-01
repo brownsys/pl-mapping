@@ -22,6 +22,74 @@ import re
 valueTabSeparator = "\t"
 headerTabSeparator = "\t"
 
+def getInterfaceType(intr_abbr):
+	abbreviations = {
+		# Physical Interfaces
+		'FastEthernet': "Physical",
+		'GigabitEthernet': "Physical",
+		'TenGigabitEthernet': "Physical",
+		'Ethernet': "Physical",
+		'Fddi': "Physical",
+		'ATM': "Physical",
+		'POS': "Physical",
+		'Serial': "Physical",
+		'Serial': "Physical",
+		'IntegratedServicesModule': "Physical",
+		'Pos-channel': "Physical",
+
+		# Virtual Interfaces
+		'Vlan': "Virtual",
+		'Multilink': "Virtual",
+		'Tunnel': "Virtual",
+		'Loopback': "Virtual",
+		'Virtual-Access': "Virtual",
+		'Virtual-Template': "Virtual",
+
+		# Unknown Interfaces
+		'EOBC': "Unknown",
+		'Async': "Unknown",
+		'Group-Async': "Unknown",
+		'MFR': "Unknown"
+	}
+
+	try:
+		return abbreviations[intr_abbr]
+	except KeyError:
+		return "Unknown"
+
+"""
+Takes in a COGENT-MASTER-ATLAS-FIXED.txt file for a week and
+reads it to get the interface breakdown. Returns three
+set of IPs, physical interfaces, virtual interfaces and unknown,
+"""
+def getBreakdown(masterAtlas):
+	physicalInterfaces = set()
+	virtualInterfaces = set()
+	unknownInterfaces = set()
+
+	# iterate through entries in file
+	for line in masterAtlas.readlines():
+		# split line into usuable chunks
+		splitLine = re.split("\s+", line.strip());
+		if len(splitLine) != 6: 
+			continue
+
+		# only interested in first two chars
+		ip = splitLine[4]
+		interfaceString = splitLine[5]
+		interfaceType = getInterfaceType(interfaceString)
+
+		# build up sets
+		if interfaceType == "Physical":
+			physicalInterfaces.add(ip)
+		elif interfaceType == "Virtual":
+			virtualInterfaces.add(ip)
+		else:
+			unknownInterfaces.add(ip)
+	
+	return physicalInterfaces, virtualInterfaces, unknownInterfaces
+
+
 """
 Set of bins as defined by a tuple
 
@@ -84,9 +152,10 @@ def getList(string):
 
 """
 Takes in a iffinder-analysis stdout dump for a week and
-returns a list of the number of IPs on each router.
+a set of physical interface IPs for that week.
+Returns a list of the number of physical IPs on each router.
 """
-def getDegrees(stdoutFile):
+def getDegrees(stdoutFile, physicalInterfaces):
 	# extract data from stdout file
 	commentCounter = 0
 	ipListLengths = []
@@ -99,7 +168,7 @@ def getDegrees(stdoutFile):
 			continue
 		# read router info
 		splitLine = line.split("\t")
-		ipListLengths.append(len(getList(splitLine[1])))
+		ipListLengths.append(len(filter(lambda x: x in physicalInterfaces, getList(splitLine[1]))))
 
 	return ipListLengths
 
@@ -112,6 +181,7 @@ def trunc(f):
 		return str(f)
 	slen = len('%.*f' % (2,f))
 	return str(f)[:slen]
+
 
 """
 Prints GNUPlot friendly version of a list of dictionaries
@@ -149,18 +219,25 @@ def printGNUPlotData(alist, columnKeyList):
 def main():
 
 	# parse command line options
-	if len(sys.argv) < 2:
-		print "Usage: " + sys.argv[0] + " <stdout dump OR dir containing stdout dumps>"
+	if len(sys.argv) < 3:
+		print "Usage: " + sys.argv[0] + " <stdout dump OR dir containing stdout dumps> <pl_archives>"
 		sys.exit(1)
 
 	# perform analysis
 	try:
-		filename = sys.argv[1]
-		
+		# process stdout dump
+		filename = sys.argv[1]	
+		pl_archives = sys.argv[2]
 		if os.path.isfile(filename):
+			# get physical interface IPs
+			weekNumber= filename.split(".")[0]
+			masterAtlas = open(pl_archives + "/" + weekNumber + "/" + "COGENT-MASTER-ATLAS-FIXED.txt", "r")
+			physicalInterfaces, virtualInterfaces, unknownInterfaces = getBreakdown(masterAtlas)
+			masterAtlas.close()
+
 			# process single file without binning
 			stdoutFile = open(filename, "r")
-			listOfDegrees = getDegrees(stdoutFile)
+			listOfDegrees = getDegrees(stdoutFile, physicalInterfaces)
 			histogramDict = generateHistogram(listOfDegrees)
 
 			# make printable for GNUPlot
@@ -185,8 +262,13 @@ def main():
 					stdoutFilename = filename + "/" + week + ".stdout.txt"
 					stdoutFile = open(stdoutFilename, "r")
 					
+					# get physical interface IPs
+					masterAtlas = open(pl_archives + "/" + week + "/" + "COGENT-MASTER-ATLAS-FIXED.txt", "r")
+					physicalInterfaces, virtualInterfaces, unknownInterfaces = getBreakdown(masterAtlas)
+					masterAtlas.close()
+
 					# get degree information from file
-					listOfDegrees = getDegrees(stdoutFile)
+					listOfDegrees = getDegrees(stdoutFile, physicalInterfaces)
 					histogramDict = generateHistogram(listOfDegrees)
 
 					# bin the information from file
