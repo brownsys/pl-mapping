@@ -74,11 +74,9 @@ def getBreakdown(masterAtlas):
 	for line in masterAtlas.readlines():
 		# split line into usuable chunks
 		splitLine = re.split("\s+", line.strip());
-		if len(splitLine) != 6: 
-			continue
 
 		# only interested in first two chars
-		interfaceString = splitLine[5]
+		interfaceString = splitLine[-1]
 		interfaceType = getInterfaceType(interfaceString)
 
 		# increment dictionary counts
@@ -125,7 +123,7 @@ def printGNUPlotData(alist, firstColumnKey):
 	# print header
 	header = "# "
 	header += (str(firstColumnKey) + headerTabSeparator)
-	for column in firstdict.keys():
+	for column in sorted(firstdict.keys()):
 		if column != firstColumnKey:
 			header += (str(column) + headerTabSeparator)
 	header.strip(headerTabSeparator)
@@ -135,7 +133,7 @@ def printGNUPlotData(alist, firstColumnKey):
 	for adict in alist:
 		row = ""
 		row += (trunc(adict[firstColumnKey]) + valueTabSeparator)
-		for column in adict:
+		for column in sorted(adict):
 			if column != firstColumnKey:
 				row += (trunc(adict[column]) + valueTabSeparator)
 		row.strip(valueTabSeparator)
