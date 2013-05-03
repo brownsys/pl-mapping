@@ -208,7 +208,7 @@ def main():
 			# open week files
 			#selectedDictList = []
 			print "# Degree\tWeek"
-			for week in weeks:
+			for week in sorted(weeks, key=lambda x: int(x)):
 				try:
 					# open stdout dump file
 					stdoutFilename = filename + "/" + week + ".stdout.txt"
@@ -224,8 +224,8 @@ def main():
 					#histogramDict = generateHistogram(listOfDegrees)
 
 					# print columns of data
-					for degree in listOfDegrees:
-						print degree + "\t" + week
+					for degree in sorted(listOfDegrees):
+						print str(degree) + "\t" + str(week)
 
 					# bin the information from file
 					#selectedDict = createBinDict(int(week))
