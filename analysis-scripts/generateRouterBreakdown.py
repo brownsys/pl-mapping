@@ -59,7 +59,7 @@ def getList(string):
 Takes in a iffinder-analysis stdout and stderr dump for a week and
 reads it to get interesting informating.
 """
-def getIffinderInfo(stdoutFile, stderrFile, physicalInterfaces):
+def getIffinderInfo(stdoutFile, stderrFile):
 	# extract data from stderr file
 	stderrContent = stderrFile.read()
 	stderrData = scanf.sscanf(stderrContent, stderrFormat)
@@ -76,7 +76,8 @@ def getIffinderInfo(stdoutFile, stderrFile, physicalInterfaces):
 			continue
 		# read router info
 		splitLine = line.split("\t")
-		routerNameToIPs[splitLine[0]] = filter(lambda x: x in physicalInterfaces, getList(splitLine[1]))
+		ipList = getList(splitLine[1])
+		routerNameToIPs[splitLine[0]] = ipList
 
 	# reduce to relevant data
 	disagreements = stderrData[13]
@@ -176,16 +177,39 @@ def main():
 				
 				# get information and organize it according to options
 				selectedDict = { "Week" : int(week) }
-				disagreements, routerNameToIPs = getIffinderInfo(stdoutFile, stderrFile, physicalInterfaces)
+				disagreements, routerNameToIPs = getIffinderInfo(stdoutFile, stderrFile)
+				
+				# divide information into physical, virtual, and all
+				physRouterToIPs = {}
+				virtRouterToIPs = {}
+				for key, value in routerNameToIPs.items():
+					phys = []
+					virt = []
+					for ip in value:
+						if ip in physicalInterfaces:
+							phys.append(ip)
+						elif ip in virtualInterfaces:
+							virt.append(ip)
+					if len(phys) != 0:
+						physRouterToIPs[key] = phys
+					if len(virt) != 0:
+						virtRouterToIPs[key] = virt
+
+				# print out specified information
 				if numRouters:
+					selectedDict["RouterPhyCount"] = len(physRouterToIPs)
+					selectedDict["RouterVirtCount"] = len(virtRouterToIPs)
 					selectedDict["RouterCount"] = len(routerNameToIPs)
 				if averageDegree:
-					selectedDict["AverageDegree"] = float(sum(map(len, routerNameToIPs.values())))/float(len(routerNameToIPs))
+					selectedDict["AvgPhyDegree"] = float(sum(map(len, physRouterToIPs.values())))/float(len(physRouterToIPs))
+					selectedDict["AvgVirtDegree"] = float(sum(map(len, virtRouterToIPs.values())))/float(len(virtRouterToIPs))
+					selectedDict["AvgDegree"] = float(sum(map(len, routerNameToIPs.values())))/float(len(routerNameToIPs))
 				if disagreement:
 					selectedDict["DisagreementCount"] = disagreements
 				selectedDictList.append(selectedDict)
 			except:
 				sys.stderr.write("Skipping week " + week + "\n")
+
 		selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
 		printGNUPlotData(selectedDictList, "Week")
 	except:
