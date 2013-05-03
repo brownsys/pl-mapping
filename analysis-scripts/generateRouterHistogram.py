@@ -86,13 +86,18 @@ def getList(string):
 
 """
 Takes in a iffinder-analysis stdout dump for a week and
-a set of physical interface IPs for that week.
+a tuple containing sets of physical, virtual, and all IPs for that week.
 Returns a list of the number of physical IPs on each router.
 """
-def getDegrees(stdoutFile, physicalInterfaces):
+def getDegrees(stdoutFile, interfaceBreakdown):
+	# get interface sets
+	physicalInterfaces = interfaceBreakdown[0]
+	virtualInterfaces = interfaceBreakdown[1]
+
 	# extract data from stdout file
 	commentCounter = 0
-	ipListLengths = []
+	physIPListLengths = []
+	virtIPListLengths = []
 	for line in stdoutFile.readlines():
 		# look for commment lines
 		if commentCounter > 2:
@@ -102,11 +107,21 @@ def getDegrees(stdoutFile, physicalInterfaces):
 			continue
 		# read router info
 		splitLine = line.split("\t")
-		listLen = len(filter(lambda x: x in physicalInterfaces, getList(splitLine[1])))
-		if listLen > 0:
-			ipListLengths.append(listLen)
+		physIPs = []
+		virtIPs = []
+		for ip in getList(splitLine[1]):
+			if ip in physicalInterfaces:
+				physIPs.append(ip)
+			elif ip in virtualInterfaces:
+				virtIPs.append(ip)
+		physListLen = len(physIPs)
+		virtListLen = len(virtIPs)
+		if physListLen > 0:
+			physIPListLengths.append(physListLen)
+		if virtListLen > 0:
+			virtIPListLengths.append(virtListLen)
 
-	return ipListLengths
+	return physIPListLengths
 
 
 """
@@ -168,12 +183,12 @@ def main():
 			# get physical interface IPs
 			weekNumber = re.findall(r'\d+', filename)[0]
 			masterAtlas = open(pl_archives + "/" + weekNumber + "/" + "COGENT-MASTER-ATLAS-FIXED.txt", "r")
-			physicalInterfaces, virtualInterfaces, unknownInterfaces = getBreakdown(masterAtlas)
+			interfaceBreakdown = getBreakdown(masterAtlas)
 			masterAtlas.close()
 
 			# process single file without binning
 			stdoutFile = open(filename, "r")
-			listOfDegrees = getDegrees(stdoutFile, physicalInterfaces)
+			listOfDegrees = getDegrees(stdoutFile, interfaceBreakdown)
 			histogramDict = generateHistogram(listOfDegrees)
 
 			# make printable for GNUPlot
@@ -191,7 +206,8 @@ def main():
 				weeks.add(weekNumber[0])
 
 			# open week files
-			selectedDictList = []
+			#selectedDictList = []
+			print "# Degree\tWeek"
 			for week in weeks:
 				try:
 					# open stdout dump file
@@ -200,29 +216,33 @@ def main():
 					
 					# get physical interface IPs
 					masterAtlas = open(pl_archives + "/" + week + "/" + "COGENT-MASTER-ATLAS-FIXED.txt", "r")
-					physicalInterfaces, virtualInterfaces, unknownInterfaces = getBreakdown(masterAtlas)
+					interfaceBreakdown = getBreakdown(masterAtlas)
 					masterAtlas.close()
 
 					# get degree information from file
-					listOfDegrees = getDegrees(stdoutFile, physicalInterfaces)
-					histogramDict = generateHistogram(listOfDegrees)
+					listOfDegrees = getDegrees(stdoutFile, interfaceBreakdown)
+					#histogramDict = generateHistogram(listOfDegrees)
+
+					# print columns of data
+					for degree in listOfDegrees:
+						print degree + "\t" + week
 
 					# bin the information from file
-					selectedDict = createBinDict(int(week))
-					for key, value in histogramDict.items():
-						binTag = getBin(key)
-						selectedDict[binTag] += value
-					selectedDictList.append(selectedDict)
+					#selectedDict = createBinDict(int(week))
+					#for key, value in histogramDict.items():
+					#	binTag = getBin(key)
+					#	selectedDict[binTag] += value
+					#selectedDictList.append(selectedDict)
 
 				except:
 					raise
 					sys.stderr.write("Skipping week " + week + "\n")
 
 			# print GNUPlot compatible data
-			selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
-			columnKeyList = ["Week"]
-			columnKeyList.extend([item[0] for item in bins])
-			printGNUPlotData(selectedDictList, columnKeyList)
+			#selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
+			#columnKeyList = ["Week"]
+			#columnKeyList.extend([item[0] for item in bins])
+			#printGNUPlotData(selectedDictList, columnKeyList)
 	except:
 		raise
 		sys.stderr.write("Could not open file/directory " +	iffinder_analysis + "\n")
