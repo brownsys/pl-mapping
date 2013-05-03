@@ -97,32 +97,32 @@ def trunc(f):
 """
 Prints GNUPlot friendly version of a list of dictionaries
 """
-def printGNUPlotData(alist, firstColumnKey):
+def printGNUPlotData(alist, columnKeyList):
+	# can't print an empty list
 	if len(alist) == 0:
 		return
 
+	# get first dict, can't print list of empty dicts
 	firstdict = alist[0]
 	if len(firstdict.keys()) == 0:
 		return
-	if firstColumnKey == None:
-		firstColumnKey =  firstdict.keys()[0]
+
+	# set default values for non-set options
+	if columnKeyList == None:
+		columnKeyList = firstdict.keys()
 	
 	# print header
 	header = "# "
-	header += (str(firstColumnKey) + headerTabSeparator)
-	for column in firstdict.keys():
-		if column != firstColumnKey:
-			header += (str(column) + headerTabSeparator)
+	for column in columnKeyList:
+		header += (str(column) + headerTabSeparator)
 	header.strip(headerTabSeparator)
 	print header
 
 	# print data
 	for adict in alist:
 		row = ""
-		row += (trunc(adict[firstColumnKey]) + valueTabSeparator)
-		for column in adict:
-			if column != firstColumnKey:
-				row += (trunc(adict[column]) + valueTabSeparator)
+		for column in columnKeyList:
+			row += (trunc(adict[column]) + valueTabSeparator)
 		row.strip(valueTabSeparator)
 		print row
 
@@ -196,22 +196,30 @@ def main():
 						virtRouterToIPs[key] = virt
 
 				# print out specified information
+				printOrder = ["Week"]
 				if numRouters:
-					selectedDict["RouterPhyCount"] = len(physRouterToIPs)
+					selectedDict["RouterPhysCount"] = len(physRouterToIPs)
+					printOrder.append("RouterPhysCount")
 					selectedDict["RouterVirtCount"] = len(virtRouterToIPs)
+					printOrder.append("RouterVirtCount")
 					selectedDict["RouterCount"] = len(routerNameToIPs)
+					printOrder.append("RouterCount")
 				if averageDegree:
-					selectedDict["AvgPhyDegree"] = float(sum(map(len, physRouterToIPs.values())))/float(len(physRouterToIPs))
+					selectedDict["AvgPhysDegree"] = float(sum(map(len, physRouterToIPs.values())))/float(len(physRouterToIPs))
+					printOrder.append("AvgPhysDegree")
 					selectedDict["AvgVirtDegree"] = float(sum(map(len, virtRouterToIPs.values())))/float(len(virtRouterToIPs))
+					printOrder.append("AvgVirtDegree")
 					selectedDict["AvgDegree"] = float(sum(map(len, routerNameToIPs.values())))/float(len(routerNameToIPs))
+					printOrder.append("AvgDegree")
 				if disagreement:
 					selectedDict["DisagreementCount"] = disagreements
+					printOrder.append("DisagreementCount")
 				selectedDictList.append(selectedDict)
 			except:
 				sys.stderr.write("Skipping week " + week + "\n")
 
 		selectedDictList = sorted(selectedDictList, key=lambda x:x["Week"])
-		printGNUPlotData(selectedDictList, "Week")
+		printGNUPlotData(selectedDictList, printOrder)
 	except:
 		sys.stderr.write("Could not open directory " +	iffinder_analysis + "\n")
 		sys.exit(1)
