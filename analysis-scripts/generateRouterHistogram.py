@@ -20,6 +20,8 @@ import re
 from routerInterfaces import getBreakdown
 
 # options
+physicalOnly = False
+virtualOnly = False
 valueTabSeparator = "\t"
 headerTabSeparator = "\t"
 
@@ -98,30 +100,48 @@ def getDegrees(stdoutFile, interfaceBreakdown):
 	commentCounter = 0
 	physIPListLengths = []
 	virtIPListLengths = []
+	allIPListLengths = []
 	for line in stdoutFile.readlines():
+
 		# look for commment lines
 		if commentCounter > 2:
 			break
 		if line[0] == "#":
 			commentCounter += 1
 			continue
+
 		# read router info
 		splitLine = line.split("\t")
+
+		# categorize IPs by interface type
 		physIPs = []
 		virtIPs = []
+		allIPs = []
 		for ip in getList(splitLine[1]):
 			if ip in physicalInterfaces:
 				physIPs.append(ip)
 			elif ip in virtualInterfaces:
 				virtIPs.append(ip)
+			allIPs.append(ip)
+
+		# build degree lists
 		physListLen = len(physIPs)
 		virtListLen = len(virtIPs)
+		allListLen = len(allIPs)
 		if physListLen > 0:
 			physIPListLengths.append(physListLen)
 		if virtListLen > 0:
 			virtIPListLengths.append(virtListLen)
+		if allListLen > 0:
+			allIPListLengths.append(allListLen)
 
-	return physIPListLengths
+	# return based on command line options
+	if physicalOnly:
+		return physIPListLengths
+	elif virtualOnly:
+		return virtIPListLengths
+	else:
+		return allIPListLengths
 
 
 """
@@ -168,11 +188,22 @@ def printGNUPlotData(alist, columnKeyList):
 
 
 def main():
+	global physicalOnly
+	global virtualOnly
 
 	# parse command line options
 	if len(sys.argv) < 3:
-		print "Usage: " + sys.argv[0] + " <stdout dump OR dir containing stdout dumps> <pl_archives>"
+		print "Usage: " + sys.argv[0] + " <iffinder_analysis> <pl_archives> [OPTIONS]"
+		print "Options:"
+		print "\t--physical - print degree information in terms of physical interfaces"
+		print "\t--virtual - print degree information in terms of virtual interfaces"
+		print "\tNOTE: without options, degree information includes all interfaces"
 		sys.exit(1)
+	if "--physical" in sys.argv[3:]:
+		physicalOnly = True
+	elif "--virtual" in sys.argv[3:]:
+		virtualOnly = True
+	
 
 	# perform analysis
 	try:

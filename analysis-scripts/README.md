@@ -110,19 +110,25 @@ generateRouterHistogram.py
 
 Description
 ------------
-Prints out GNUPlot compatible data about the degrees of routers. A single file
-being analyzed will not bin results for the histogram, but analyzing all weeks
-will bin the degrees.  The script takes in either a stdout file created by the
+Prints out GNUPlot compatible data about the degrees of routers.
+The script takes in either a stdout file created by the
 analyze-iffinder.sh or a directory containing these files such as
 "iffinder-analysis/" and the "pl_archives/" directory for DNS record lookup.
 
 Usage
 ------
 
-    ./generateRouterHistogram.py file pl_archives
+    ./generateRouterHistogram.py file pl_archives [OPTIONS]
 
     file - the path to the iffinder-analysis directory or a stdout dump in that directory
     pl_archives - the path to the pl_archives directory containing DNS records
+
+Options
+--------
+
+    --physical - print numbers only in terms of physical interfaces
+
+    --virtual - print numbers only in terms of virtual interfaces
 
 Example
 --------
@@ -145,17 +151,10 @@ Example
 ### Get histogram for all weeks
 
     $ ./generateRouterHistogram.py iffinder-analysis pl_archives
-    # Week	<5	5-10	10-20	20-100	100-300	>300	
-    1	1230	644	666	349	15	0	
-    2	1235	644	675	346	15	0	
-    3	1211	651	667	352	14	0	
-    4	1218	649	670	354	15	0	
-    5	1226	653	669	353	14	1	
-    6	1221	653	663	356	14	1	
-    7	1241	657	658	355	14	1	
-    8	1230	659	666	356	15	0	
-    9	1336	743	576	292	14	1	
-    10	1304	365	159	157	4	0	
+    # Degree    Week
+    1    1
+    1    1
+    192    2
 
 getNewPhysicalInterfaces.py
 =============================
