@@ -258,6 +258,8 @@ def main():
 					for degree in sorted(listOfDegrees):
 						print str(degree) + "\t" + str(week)
 
+					print
+					print
 					# bin the information from file
 					#selectedDict = createBinDict(int(week))
 					#for key, value in histogramDict.items():
