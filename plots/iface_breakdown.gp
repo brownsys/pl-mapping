@@ -28,7 +28,7 @@ set style histogram rowstacked gap 2
 set boxwidth 1 relative
 set style data histograms
 set style fill solid 1.0 border lt -1
-plot [0.5:] 'iface_breakdown.allweeks.dat' u ($2/($2+$3)):xtic(int($1)%5==0?stringcolumn(1):"") ls 2 t 'Physical', '' u ($3/($2+$3)) ls 5 t 'Virtual'
+plot [0.5:] 'iface_breakdown.allweeks.dat' u ($3/($2+$3)):xtic(int($1)%5==0?stringcolumn(1):"") ls 2 t 'Physical', '' u ($2/($2+$3)) ls 5 t 'Virtual'
 
 !epstopdf iface_breakdown.allweeks.rel.eps
 
@@ -41,7 +41,7 @@ set style histogram rowstacked gap 2
 set boxwidth 1 relative
 set style data histograms
 set style fill solid 1.0 border lt -1
-plot [0.5:] 'iface_breakdown.allweeks.dat' u ($2/1000):xtic(int($1)%5==0?stringcolumn(1):"") ls 2 t 'Physical', '' u ($3/1000) ls 5 t 'Virtual'
+plot [0.5:] 'iface_breakdown.allweeks.dat' u ($3/1000):xtic(int($1)%5==0?stringcolumn(1):"") ls 2 t 'Physical', '' u ($2/1000) ls 5 t 'Virtual'
 
 !epstopdf iface_breakdown.allweeks.abs.eps
 
