@@ -70,7 +70,7 @@ plot [0.5:] 'iface_breakdown.allweeks.physical.dat' u (($7)/1000):xtic(int($1)%5
 !epstopdf iface_breakdown.allweeks.phys-subtypes.abs.eps
 
 #set logscale y
-set term postscript eps color solid 22 size 5,2.5
+set term postscript eps color 22 size 5,2.5 dashed
 set output 'iface_breakdown.allweeks.phys-subtypes.steps.eps'
 plot [0.5:] 'iface_breakdown.allweeks.physical.dat' u (($3)/1000):xtic(int($1)%5==0?stringcolumn(1):"") w steps lw 4 t 'FastEth',\
             '' u ($8/1000) w steps lw 4 t '10GigE',\
