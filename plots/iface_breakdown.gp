@@ -59,17 +59,33 @@ set style fill solid 1.0 border lt -1
 
 # Week	Ethernet	FastEthernet	GigabitEthernet	IntegratedServicesModule	POS	Serial	TenGigabitEthernet	
 # 1     2           3               4               5                           6   7       8
-plot [0.5:] 'iface_breakdown.allweeks.physical.dat' u (($6)/1000):xtic(int($1)%5==0?stringcolumn(1):"") ls 1 t 'POS',\
-            '' u ($7/1000) ls 2 t 'Serial',\
-            '' u ($2/1000) ls 3 t 'Eth',\
+#       *                                           *                           * 
+# Add '*' to others
+plot [0.5:] 'iface_breakdown.allweeks.physical.dat' u (($7)/1000):xtic(int($1)%5==0?stringcolumn(1):"") ls 1 t 'Serial',\
             '' u ($3/1000) ls 4 t 'FastEth',\
             '' u ($4/1000) ls 5 t '1GigE',\
             '' u ($8/1000) ls 6 t '10GigE',\
-            '' u ($5/1000) ls 7 t 'IntServ'
+            '' u (($6+$2+$5)/1000) ls 7 t 'Others'
 
 !epstopdf iface_breakdown.allweeks.phys-subtypes.abs.eps
 
+#set logscale y
+set term postscript eps color solid 22 size 5,2.5
+set output 'iface_breakdown.allweeks.phys-subtypes.steps.eps'
+plot [0.5:] 'iface_breakdown.allweeks.physical.dat' u (($3)/1000):xtic(int($1)%5==0?stringcolumn(1):"") w steps lw 4 t 'FastEth',\
+            '' u ($8/1000) w steps lw 4 t '10GigE',\
+            '' u ($4/1000) w steps lw 4 t '1GigE',\
+            '' u ($7/1000) w steps lw 4 t 'Serial',\
+            '' u ($2/1000) w steps lw 4 t 'Eth',\
+            '' u ($5/1000) w steps lw 4 t 'IntServ',\
+            '' u ($6/1000) w steps lw 4 t 'POS'
+
+!epstopdf iface_breakdown.allweeks.phys-subtypes.steps.eps
+unset logscale y
+
+
 # virtual iface by types breakdown
+set term postscript eps color solid 22 size 5,2.5
 set output 'iface_breakdown.allweeks.virt-subtypes.abs.eps'
 set ylabel 'Count (x1000)'
 
