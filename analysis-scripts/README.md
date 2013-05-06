@@ -193,3 +193,28 @@ Example
     12	76
     13	116
 
+generatePortAnalysis.py
+=============================
+
+Description
+------------
+Get a summary of how many modules are used per router and how many ports are used per module.
+
+Usage
+------
+
+    ./generatePortAnalysis.py cogent_master_atlas
+
+    cogent_master_atlas - a COGENT-MASTER-ATLAS-FIXED.txt file from pl_archives
+
+Example
+--------
+
+### Get module/port density for week 25
+
+    $ ./generatePortAnalysis.py pl_archives/25/COGENT-MASTER-ATLAS-FIXED.txt
+    DNS Records Skipped: 17407 (36.3782654127% of total)
+    Avg Modules/Router: 1.57308657465
+    Max Modules/Router: 9
+    Avg Port Density/Module: 4.47759828524
+
