@@ -125,12 +125,14 @@ def main():
 		maxModules = max(moduleCounts) # largest number of modules in one router
 		avgPortDensities = [sum(map(len, router.values()))/(1.0 * len(router.keys())) for router in modulesAndPorts]
 		avgPortDensity = sum(avgPortDensities)/(1.0 * len(avgPortDensities)) # average of the port densities for each module
+		maxPorts = max([max(map(len, router.values())) for router in modulesAndPorts])
 		
 		# print statistics
 		print "DNS Records Skipped: " + str(skipCount) + " (" + str((100.0 * skipCount / totalCount)) + "% of total)"
 		print "Avg Modules/Router: " + str(avgModules) 
 		print "Max Modules/Router: " + str(maxModules)
 		print "Avg Port Density/Module: " + str(avgPortDensity)
+		print "Max Ports/Module: " + str(maxPorts)
 
 
 

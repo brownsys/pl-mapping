@@ -217,4 +217,5 @@ Example
     Avg Modules/Router: 1.57308657465
     Max Modules/Router: 9
     Avg Port Density/Module: 4.47759828524
+    Max Ports/Module: 40
 
