@@ -77,7 +77,7 @@ plot [0.5:] 'iface_breakdown.allweeks.physical.dat' u (($3)/1000):xtic(int($1)%5
             '' u ($4/1000) w steps lw 4 t '1GigE',\
             '' u ($7/1000) w steps lw 4 t 'Serial',\
             '' u ($2/1000) w steps lw 4 t 'Eth',\
-            '' u ($5/1000) w steps lw 4 t 'IntServ',\
+            '' u ($5/1000) w steps lw 4 t 'ISM',\
             '' u ($6/1000) w steps lw 4 t 'POS'
 
 !epstopdf iface_breakdown.allweeks.phys-subtypes.steps.eps
