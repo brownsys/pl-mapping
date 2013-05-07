@@ -75,7 +75,7 @@ def getRouters(masterAtlas):
 		else:
 			routerToDNS[routerName] = [portSubstring[2:]]
 
-	return routerToDNS.values(), totalCount, skipCount
+	return routerToDNS, totalCount, skipCount
 
 
 """
@@ -117,22 +117,47 @@ def main():
 		routers, totalCount, skipCount = getRouters(masterAtlas)
 		
 		# calculate number of modules and ports per router
-		modulesAndPorts = [getModules(router) for router in routers]
+		modulesAndPorts = {}
+		for routerName, moduleStrings in routers.items():
+			modulesAndPorts[routerName] = getModules(moduleStrings)
 
-		# calculate statistics
-		moduleCounts = map(lambda x: len(x.keys()), modulesAndPorts)
-		avgModules = sum(moduleCounts)/(1.0 * len(modulesAndPorts)) # total number of modules / number of routers
-		maxModules = max(moduleCounts) # largest number of modules in one router
-		avgPortDensities = [sum(map(len, router.values()))/(1.0 * len(router.keys())) for router in modulesAndPorts]
-		avgPortDensity = sum(avgPortDensities)/(1.0 * len(avgPortDensities)) # average of the port densities for each module
-		maxPorts = max([max(map(len, router.values())) for router in modulesAndPorts])
+		# calculate  number of modules on each router
+		moduleCounts = {}
+		for routerName, moduleToPorts in modulesAndPorts.items():
+			moduleCounts[routerName] = len(moduleToPorts.keys())
+
+		# calculate number of ports on each module
+		portCounts = {}
+		numPortsPerModule = []
+		for routerName, moduleToPorts in modulesAndPorts.items():
+			numPorts = map(len, moduleToPorts.values())
+			portCounts[routerName] = sum(numPorts)
+			numPortsPerModule.extend(numPorts)
+
+		# calculate avg module count in all routers
+		avgModules = sum(moduleCounts.values())/(1.0 * len(modulesAndPorts)) # total number of modules / number of routers
+
+		# calculate avg port density in all routers
+		avgPortDensity = sum(numPortsPerModule)/(1.0 * len(numPortsPerModule)) # average of the port densities for each module
+
+		# find routers with most modules
+		routersWithManyModules = sorted(moduleCounts.keys(), key=lambda x: moduleCounts[x], reverse=True)
+
+		# find routers with most ports
+		routersWithManyPorts = sorted(modulesAndPorts.keys(), key=lambda x:  sum(map(len, modulesAndPorts[x].values())), reverse=True)
 		
 		# print statistics
 		print "DNS Records Skipped: " + str(skipCount) + " (" + str((100.0 * skipCount / totalCount)) + "% of total)"
 		print "Avg Modules/Router: " + str(avgModules) 
-		print "Max Modules/Router: " + str(maxModules)
 		print "Avg Port Density/Module: " + str(avgPortDensity)
-		print "Max Ports/Module: " + str(maxPorts)
+		print "Routers With Most Modules:"
+		for i in range(0,5):
+			routerName = routersWithManyModules[i]
+			print "\t" + routerName + " : " + str(moduleCounts[routerName])
+		print "Routers With Most Ports:"
+		for i in range(0,5):
+			routerName = routersWithManyPorts[i]
+			print "\t" + routerName + " : " + str(portCounts[routerName])
 
 
 

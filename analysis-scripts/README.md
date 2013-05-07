@@ -215,7 +215,16 @@ Example
     $ ./generatePortAnalysis.py pl_archives/25/COGENT-MASTER-ATLAS-FIXED.txt
     DNS Records Skipped: 17407 (36.3782654127% of total)
     Avg Modules/Router: 1.57308657465
-    Max Modules/Router: 9
-    Avg Port Density/Module: 4.47759828524
-    Max Ports/Module: 40
-
+    Avg Port Density/Module: 4.13499501496
+    Routers With Most Modules:
+	ams04.ccr01 : 9
+	zrh01.ccr01 : 9
+	ams05.ccr01 : 9
+	jfk05.ca01 : 8
+	man01.ccr01 : 8
+    Routers With Most Ports:
+        iad01.mpd01 : 85
+	lax04.ccr01 : 73
+    	lon01.mag01 : 71
+	yyz02.mag01 : 68
+	iad03.ccr01 : 66
