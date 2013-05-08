@@ -228,3 +228,24 @@ Example
     	lon01.mag01 : 71
 	yyz02.mag01 : 68
 	iad03.ccr01 : 66
+
+getDisagreementSim.py
+=============================
+
+Description
+------------
+Figure out how many disagreements between iffinder and the DNS data last more than one week.
+
+Usage
+------
+
+    ./getDisagreementSim.py iffinder_analysis
+
+    iffinder_analysis - the "iffinder-analysis/" directory
+
+Example
+--------
+
+### Get similarities between weeks
+
+    $ ./getDisagreementSim.py iffinder-analysis-fixed
