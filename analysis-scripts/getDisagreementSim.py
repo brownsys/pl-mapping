@@ -32,10 +32,6 @@ def getDisagreements(iffinderFile):
 	
 	return disagreements
 
-
-	
-
-
 def main():
 
 	# parse command line options
@@ -49,29 +45,56 @@ def main():
 		weeks = set()
 		for weekfile in os.listdir(iffinder_analysis):
 			weekNumber= weekfile.split(".")
-			weeks.add(int(weekNumber[0]))
-		weeks = sorted(weeks)[1:-1] # sort and chop off ends
+			if weekNumber[0].isdigit():
+				weeks.add(int(weekNumber[0]))
+		weeks = sorted(weeks)
 
 		# open week files
-		print "# PrevWeek\tCurrWeek\tDiffCount\tPercentDiff"
+		disagreementHistogram = {} # disagreement to number of continuous weeks it appears
+		inDisagreement = set() # set of persistent disagreements
 		for week in weeks:
 			try:
-				# open relevant files
-				prevWeekFilename = iffinder_analysis + "/" + str(week) + ".stdout.txt"
-				prevWeekFile = open(prevWeekFilename, "r")
-				currWeekFilename = iffinder_analysis + "/" + str(week - 1) + ".stdout.txt"
+				# open relevant file
+				currWeekFilename = iffinder_analysis + "/" + str(week) + ".stdout.txt"
 				currWeekFile = open(currWeekFilename, "r")
 
 				# get sets of DNS/iffinder disagreements
-				prevWeekDisagreements = getDisagreements(prevWeekFile)
 				currWeekDisagreements = getDisagreements(currWeekFile)
 				
-				# get similarity between disagreement sets
-				disagreementSimilarity = prevWeekDisagreements & currWeekDisagreements
-				numSame = len(disagreementSimilarity)
-				print str(week-1) + "\t" + str(week) + "\t" + str(numSame) + "\t" + str((100.0 * numSame)/len(currWeekDisagreements))
+				# update disagreementHistogram
+				for disagreement in currWeekDisagreements:
+					if disagreement not in disagreementHistogram:
+						disagreementHistogram[disagreement] = 1
+					else:
+						if disagreement in inDisagreement:
+							disagreementHistogram[disagreement] += 1
+						else:
+							# this branch represents the unexpected case
+							# where a disagreement reappears in the data
+							# after not being in disagreement for at least
+							# one week. FIXME
+							sys.stderr.write("Unexpected case! : " + disagreement + "\n")
+
+				# update inDisagreement
+				inDisagreement = currWeekDisagreements
+
 			except:
 				raise
+		
+		# generate histogram
+		weeksToCount = {} 
+		for disagreement, numWeeks in disagreementHistogram.items():
+			if numWeeks in weeksToCount:
+				weeksToCount[numWeeks] += 1
+			else:
+				weeksToCount[numWeeks] = 0
+
+
+
+		print "# WeeksOfDisagreement\tCount"
+		for numWeeks in sorted(weeksToCount.keys()):
+			print str(numWeeks) + "\t" + str(weeksToCount[numWeeks])
+
 
 	except:
 		raise
