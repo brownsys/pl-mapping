@@ -4,10 +4,8 @@ Polls Cogent's website to check whether IPs are on the same subnet.
 """
 
 import sys
-#import httplib, urllib
-import requests
+import requests # to install this, use "easy_install --user requests"
 import time
-import scanf
 
 
 def main():
