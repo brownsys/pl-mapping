@@ -19,7 +19,8 @@ set style line 15 lc rgbcolor "#FEEBE2"
 
 #border
 set border 3
-set tics nomirror
+set tics nomirror scale 0,0
+
 
 # iface by type relative
 set output 'iface_breakdown.allweeks.rel.eps'

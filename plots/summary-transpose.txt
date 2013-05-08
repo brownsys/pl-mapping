@@ -1,4 +1,4 @@
-0 # week exist atlas demarc dial cogent-other non-cogent NXDOMAIN SERVFAIL REFUSED timeout alias no-PTR anomaly-lines-of-text
+# week exist atlas demarc dial cogent-other non-cogent NXDOMAIN SERVFAIL REFUSED timeout alias no-PTR anomaly-lines-of-text
 1 554980 41447 6311 0 630 506592 16280775 683250 7016 300728 9794 8815 1747
 2 445485 41426 6253 0 630 397176 16269699 638910 12703 316731 8985 16610 714
 3 449316 41679 6307 0 633 400697 16273502 642828 14485 317023 9755 8475 1102
