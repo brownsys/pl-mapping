@@ -39,7 +39,7 @@ function do_lookups {
 		addr="$a.$b.$c.$d"
 		
 		host $addr >> $output
-		sleep 1.25
+		sleep 1
 
 		if [ $d -eq 255 ]; then
 			curl -s "$worker_ping_url?start_addr=$start_addr&mask=$mask&last_addr=$addr&hostname=$HOSTNAME"
