@@ -33,6 +33,7 @@ i=$next_archive
 cd /research/cogent_map/data_release/
 
 cp -a $archive_dst/$i .
+cp -a $iffinder_dst/$i-*-iffinder.txt iffinder/
 
 times=`(cat $i/pl_mapping.sql | grep -v LOCK | sed "s/) ENGINE.*/);/" | sed "s/),(/);\nINSERT INTO pl_mapping VALUES(/g"; echo "SELECT MIN(work_started), MAX(last_contact) FROM pl_mapping;") | sqlite3 | tr "|" ","`
 echo "$i,$times" >> interval-timestamps.csv.txt
@@ -45,11 +46,16 @@ rm -rf $i
 mv $i-processed.zpaq processed/$i.zpaq
 mv $i-raw.zpaq raw/$i.zpaq
 
+gzip iffinder/$i-*-iffinder.txt
+
 openssl sha1 processed/$i.zpaq >> processed.sha1.txt
 openssl sha1 raw/$i.zpaq >> raw.sha1.txt
+openssl sha1 iffinder/$i-*-iffinder.txt.gz >> iffinder.sha1.txt
 
 $scp_cmd processed/$i.zpaq systems:/vol/web/html/cogent/processed/
 $scp_cmd raw/$i.zpaq systems:/vol/web/html/cogent/raw/
+$scp_cmd iffinder/$i-*-iffinder.txt.gz systems:/vol/web/html/cogent/iffinder/
 $scp_cmd processed.sha1.txt systems:/vol/web/html/cogent/
 $scp_cmd raw.sha1.txt systems:/vol/web/html/cogent/
+$scp_cmd iffinder.sha1.txt systems:/vol/web/html/cogent/
 $scp_cmd interval-timestamps.csv.txt systems:/vol/web/html/cogent/
