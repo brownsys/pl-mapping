@@ -32,6 +32,9 @@ cd /research/cogent_map/data_release/
 
 cp -a $archive_dst/$i .
 
+times=`(cat $i/pl_mapping.sql | grep -v LOCK | sed "s/) ENGINE.*/);/" | sed "s/),(/);\nINSERT INTO pl_mapping VALUES(/g"; echo "SELECT MIN(work_started), MAX(last_contact) FROM pl_mapping;") | sqlite3 | tr "|" ","`
+echo "$i,$times" >> interval-timestamps.csv.txt
+
 zpaq a $i-raw.zpaq $i/rev-*
 rm $i/rev-*
 zpaq a $i-processed.zpaq $i/
@@ -47,3 +50,4 @@ scp processed/$i.zpaq systems:/vol/web/html/cogent/processed/
 scp raw/$i.zpaq systems:/vol/web/html/cogent/raw/
 scp processed.sha1.txt systems:/vol/web/html/cogent/
 scp raw.sha1.txt systems:/vol/web/html/cogent/
+scp interval-timestamps.csv.txt systems:/vol/web/html/cogent/
