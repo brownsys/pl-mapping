@@ -4,6 +4,7 @@
 # 0 20 * * Wed /home/adf/RouterPeek/pl-mapping/support/pl-copy-to-dept.sh
 
 scp_cmd="scp -p -q"
+zpaq_cmd="/home/adf/bin/zpaq"
 
 archive_src="rest:/home/adf/pl_archives"
 archive_dst=/research/cogent_map/pl_archives
@@ -38,9 +39,9 @@ cp -a $iffinder_dst/$i-*-iffinder.txt iffinder/
 times=`(cat $i/pl_mapping.sql | grep -v LOCK | sed "s/) ENGINE.*/);/" | sed "s/),(/);\nINSERT INTO pl_mapping VALUES(/g"; echo "SELECT MIN(work_started), MAX(last_contact) FROM pl_mapping;") | sqlite3 | tr "|" ","`
 echo "$i,$times" >> interval-timestamps.csv.txt
 
-zpaq a $i-raw.zpaq $i/rev-* -quiet 2>&1 | grep -v "No such file"
+$zpaq_cmd a $i-raw.zpaq $i/rev-* -quiet 2>&1 | grep -v "No such file"
 rm $i/rev-*
-zpaq a $i-processed.zpaq $i/ -quiet 2>&1 | grep -v "No such file"
+$zpaq_cmd a $i-processed.zpaq $i/ -quiet 2>&1 | grep -v "No such file"
 rm -rf $i
 
 mv $i-processed.zpaq processed/$i.zpaq
