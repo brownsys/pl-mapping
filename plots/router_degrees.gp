@@ -4,7 +4,7 @@ set border 2 front linetype -1 linewidth 1.000
 set boxwidth 0.8 absolute
 set bars 0.5
 set style fill solid 0.25 border lt -1
-set style boxplot fraction 0.99
+set style boxplot fraction 1
 
 unset key
 set pointsize 0.2
@@ -41,3 +41,11 @@ set ylabel 'Virtual Interfaces per Router'
 plot for [i=0:52] 'router_degrees.virtual.dat' u 2:1:(0) index i  w boxplot lc 3,\
      'router_degrees.virtual.avg.dat' u 1:2:2:2:2 w candlesticks lw 4 lc 1
 !epstopdf router_degrees.virtual.eps
+
+reset
+set term postscript eps color dashed size 5,3 22
+set output 'router_degrees.dist.eps'
+
+set logscale x
+plot for [i=0:52] 'router_degrees.all.dat' u 1:0 index i w steps title "".(i+1)
+!epstopdf router_degrees.dist.eps

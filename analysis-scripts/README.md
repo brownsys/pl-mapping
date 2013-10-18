@@ -193,3 +193,59 @@ Example
     12	76
     13	116
 
+generatePortAnalysis.py
+=============================
+
+Description
+------------
+Get a summary of how many modules are used per router and how many ports are used per module.
+
+Usage
+------
+
+    ./generatePortAnalysis.py cogent_master_atlas
+
+    cogent_master_atlas - a COGENT-MASTER-ATLAS-FIXED.txt file from pl_archives
+
+Example
+--------
+
+### Get module/port density for week 25
+
+    $ ./generatePortAnalysis.py pl_archives/25/COGENT-MASTER-ATLAS-FIXED.txt
+    DNS Records Skipped: 17407 (36.3782654127% of total)
+    Avg Modules/Router: 1.57308657465
+    Avg Port Density/Module: 4.13499501496
+    Routers With Most Modules:
+	ams04.ccr01 : 9
+	zrh01.ccr01 : 9
+	ams05.ccr01 : 9
+	jfk05.ca01 : 8
+	man01.ccr01 : 8
+    Routers With Most Ports:
+        iad01.mpd01 : 85
+	lax04.ccr01 : 73
+    	lon01.mag01 : 71
+	yyz02.mag01 : 68
+	iad03.ccr01 : 66
+
+getDisagreementSim.py
+=============================
+
+Description
+------------
+Figure out how many disagreements between iffinder and the DNS data last more than one week.
+
+Usage
+------
+
+    ./getDisagreementSim.py iffinder_analysis
+
+    iffinder_analysis - the "iffinder-analysis/" directory
+
+Example
+--------
+
+### Get similarities between weeks
+
+    $ ./getDisagreementSim.py iffinder-analysis-fixed

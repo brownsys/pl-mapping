@@ -129,7 +129,6 @@ planetlab01.uncc.edu
 planetlab4.eecs.umich.edu
 plab2.nec-labs.com
 planetlab1.utep.edu
-planetlab3.cs.columbia.edu
 planetlab7.millennium.berkeley.edu
 planetlab04.cs.washington.edu
 planetlab1.ifi.uio.no
