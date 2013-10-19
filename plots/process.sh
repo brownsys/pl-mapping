@@ -11,7 +11,11 @@ if [ $status -ne 0 ]; then
     exit 1
 fi
 
+#File required by dns-results.gp
+./transpose-summaries.pl $PL_DATA > summary-transpose.txt
+
 #Files needed by iface_breakdown.gp
+#Requires 
 $PL_BIN/generateInterfaceBreakdown.py $PL_DATA --allWeeks > iface_breakdown.allweeks.dat
 $PL_BIN/generateInterfaceBreakdown.py $PL_DATA --physical --allWeeks > iface_breakdown.allweeks.physical.dat
 $PL_BIN/generateInterfaceBreakdown.py $PL_DATA --virtual --allWeeks > iface_breakdown.allweeks.virtual.dat
