@@ -236,6 +236,8 @@ def main():
 				weekNumber= weekfile.split(".")
 				weeks.add(weekNumber[0])
 
+			print >> sys.stderr, "Found ",len(weeks)," week files"	
+
 			# open week files
 			#selectedDictList = []
 			print "# Degree\tWeek"

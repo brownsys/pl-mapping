@@ -1,7 +1,7 @@
 #!/bin/bash
 
 start_week=2
-last_week=53
+last_week=81
 
 output_dir=/research/cogent_map/iffinder-analysis
 dns_in_dir=/research/cogent_map/pl_archives
