@@ -2,10 +2,13 @@
 
 # Remap weeks in router_degree*.dat files
 # Skip weeks 9 and 10
+# Shift weeks after 20 by 7
 
 sub remap_week {
     my $week = shift;
-    return ($week <= 20)?$week:$week+7;
+    return $week if ($week <= 20);
+    return $week+7 if ($week <= 22);
+    return $week+8;
 }
 
 while(<>) {

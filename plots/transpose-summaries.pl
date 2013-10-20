@@ -11,7 +11,9 @@ use strict;
 
 sub remap_week {
 	my $week = shift;
-    	return ($week <= 20)?$week:$week+7;
+    	return $week if ($week <= 20);
+    	return $week+7 if ($week <= 22);
+    	return $week+8;
 }
 
 my $usage = "$0 <pl_archives directory>\n";
