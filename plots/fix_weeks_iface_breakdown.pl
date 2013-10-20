@@ -32,8 +32,8 @@ while(<>) {
 		}
 		$week = $fields[0];
 		if ($week == 1) {
-			print "$_\n";
 			&printzeros(0, $nf);
+			print "$_\n";
 		} elsif ($week == 9 || $week == 10) {
 			print "#". $_ . "\n";
 			&printzeros($week, $nf);
