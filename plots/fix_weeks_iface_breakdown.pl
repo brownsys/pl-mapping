@@ -31,7 +31,10 @@ while(<>) {
 			die "Couldn't read number of fields before data.\n";
 		}
 		$week = $fields[0];
-		if ($week == 9 || $week == 10) {
+		if ($week == 1) {
+			print "$_\n";
+			&printzeros(0, $nf);
+		} elsif ($week == 9 || $week == 10) {
 			print "#". $_ . "\n";
 			&printzeros($week, $nf);
 		} elsif ($week == 20) {
