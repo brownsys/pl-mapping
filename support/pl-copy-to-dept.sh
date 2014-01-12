@@ -19,6 +19,11 @@ next_archive=$((last_archive + 1))
 
 $scp_cmd -r "$archive_src/$next_archive" .
 
+if [ ! -d "$next_archive" ]; then
+  echo "FAIL. Week $next_archive is not available to copy and release!"
+  exit
+fi
+
 cd $iffinder_dst
 
 $scp_cmd "$iffinder_src/$next_archive-*" .
