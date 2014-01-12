@@ -27,6 +27,8 @@ fi
 if [ -f "$marker_file" ]; then
     rm "$marker_file"
 else
+    echo "FAIL. $marker_file does not exist!!"
+    echo "Mapping results are not finished."
     exit
 fi
 
@@ -42,13 +44,13 @@ mkdir $archive_dir/$new_archive/
 mv $output_dir/* $archive_dir/$new_archive/
 
 # generate new IP listings
-pushd $pl_web_dir
+pushd $pl_web_dir >/dev/null
 php pl-generate-ips.php
-popd
+popd >/dev/null
 
 # apply the processing scripts
 
-pushd $archive_dir/$new_archive/
+pushd $archive_dir/$new_archive/ >/dev/null
 
 # split into different parts of Cogent IP space
 $bin_dir/pl-partition.sh
@@ -123,6 +125,6 @@ gzip all_exists.txt
 gzip cogent-atlas.txt
 gzip cogent-dial.txt
 
-popd
+popd >/dev/null
 
 chown -R adf.adf $archive_dir/$new_archive/
